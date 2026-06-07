@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap');
+
+:root {
+  --bg-primary: #f5f5f5;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f0f0f0;
+  --bg-hover: #e8e8e8;
+  --border: #e0e0e0;
+  --border-light: #d0d0d0;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666;
+  --text-muted: #999;
+  --accent: #e85d75;
+  --accent-hover: #d04e66;
+  --accent-dim: rgba(232, 93, 117, 0.1);
+  --canvas-bg: #fafafa;
+  --grid-color: rgba(0, 0, 0, 0.05);
+  --shadow: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0f0f0f;
+  --bg-secondary: #1a1a1a;
+  --bg-tertiary: #242424;
+  --bg-hover: #2a2a2a;
+  --border: #2e2e2e;
+  --border-light: #3a3a3a;
+  --text-primary: #e8e8e8;
+  --text-secondary: #999;
+  --text-muted: #666;
+  --accent: #e85d75;
+  --accent-hover: #f06e84;
+  --accent-dim: rgba(232, 93, 117, 0.15);
+  --canvas-bg: #1e1e1e;
+  --grid-color: rgba(255, 255, 255, 0.04);
+  --shadow: rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* 左侧面板折叠动画 — 用 clip-path 实现折叠,保留 outline/box-shadow 可见 */
+.sidebar-section-content {
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+}
+.sidebar-section-content.collapsed {
+  max-height: 0 !important;
+  opacity: 0;
+  pointer-events: none;
+}
+.sidebar-section-content.expanded {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* 模板缩略图 hover — 用 outline 模拟高亮，不会被父级 overflow:hidden 裁切 */
+.template-thumb {
+  transition: all 0.2s ease;
+  border: 1px solid var(--border);
+  outline: 1px solid transparent;
+  outline-offset: 1px;
+}
+.template-thumb:hover {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+  outline-color: var(--accent);
+}
+.template-thumb.active {
+  border-color: var(--accent);
+  outline-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+/* 颜色色块 — outline 描边替代缩放 */
+.color-swatch {
+  transition: all 0.15s ease;
+  border: 2px solid transparent;
+  outline: 1px solid transparent;
+  outline-offset: 1px;
+}
+.color-swatch:hover {
+  outline-color: var(--accent);
+  z-index: 1;
+}
+.color-swatch.active {
+  border-color: var(--accent);
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  z-index: 1;
+}
+
+/* 面料卡片 — outline + 背景变色 */
+.fabric-card {
+  transition: all 0.2s ease;
+  border: 1px solid var(--border);
+  outline: 1px solid transparent;
+  outline-offset: 1px;
+}
+.fabric-card:hover {
+  border-color: var(--border-light);
+  background: var(--bg-hover);
+}
+.fabric-card.active {
+  border-color: var(--accent);
+  outline-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+/* V2: 参数滑块 thumb 样式 */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  border: 2px solid var(--bg-primary);
+  box-shadow: 0 1px 3px var(--shadow);
+  transition: transform 0.15s;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  border: 2px solid var(--bg-primary);
+  box-shadow: 0 1px 3px var(--shadow);
+}
+
+/* 视图切换按钮 */
+.view-toggle {
+  transition: all 0.2s ease;
+  border: 1px solid var(--border);
+  background: var(--bg-tertiary);
+}
+.view-toggle:hover {
+  border-color: var(--border-light);
+}
+.view-toggle.active {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* 画布区域 */
+.canvas-area {
+  background: var(--canvas-bg);
+  position: relative;
+}
+.canvas-area::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--grid-color) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+  background-size: 24px 24px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* 主题切换按钮 */
+.theme-toggle-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+.theme-toggle-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-dim);
+}
+
+/* 顶部导航 */
+.top-nav {
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+/* 左侧面板 */
+.left-panel {
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border);
+}
+
+/* 分隔线 */
+.divider-v {
+  width: 1px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+/* 折叠箭头 */
+.collapse-arrow {
+  transition: transform 0.3s ease;
+}
+.collapse-arrow.collapsed {
+  transform: rotate(-90deg);
+}
