@@ -1,258 +1,83 @@
 /**
- * V2 参数化基因库
- * 男女款分离 + 品类模板位置对应关系
+ * V2 参数化基因库 — 聚合入口
+ * 男女款预设已拆分至 presets/ 目录:
+ * - presets/male.ts
+ * - presets/female.ts
  */
 
 import type { Gene, GeneParameter, GenderType } from '@/types/gene';
+import { ALL_MALE_PRESETS, MALE_BODY_PRESETS, MALE_COLLAR_PRESETS, MALE_SLEEVE_PRESETS, MALE_POCKET_PRESETS, MALE_PLACKET_PRESETS, MALE_CUFF_PRESETS } from './presets/male';
+import { ALL_FEMALE_PRESETS, FEMALE_BODY_PRESETS } from './presets/female';
 
 // ─── 通用参数定义 ───
 
 const BODY_PARAMS: GeneParameter[] = [
-  { id: 'neckFrontY', name: 'neckFrontY', label: '前颈点Y', type: 'number', unit: 'mm', defaultValue: 34, min: 28, max: 42, step: 1 },
-  { id: 'shoulderY', name: 'shoulderY', label: '肩线Y', type: 'number', unit: 'mm', defaultValue: 48, min: 42, max: 56, step: 1 },
-  { id: 'shoulderWidth', name: 'shoulderWidth', label: '肩宽(半)', type: 'number', unit: 'mm', defaultValue: 32, min: 20, max: 44, step: 1 },
-  { id: 'armholeDepth', name: 'armholeDepth', label: '袖窿深', type: 'number', unit: 'mm', defaultValue: 96, min: 80, max: 110, step: 1 },
-  { id: 'waistY', name: 'waistY', label: '腰线Y', type: 'number', unit: 'mm', defaultValue: 140, min: 120, max: 160, step: 1 },
-  { id: 'waistSuppression', name: 'waistSuppression', label: '腰收量', type: 'number', unit: 'mm', defaultValue: 8, min: 0, max: 20, step: 1 },
-  { id: 'hipY', name: 'hipY', label: '臀线Y', type: 'number', unit: 'mm', defaultValue: 172, min: 155, max: 190, step: 1 },
-  { id: 'hemLength', name: 'hemLength', label: '衣长', type: 'number', unit: 'mm', defaultValue: 224, min: 140, max: 260, step: 2 },
-  { id: 'hemWidth', name: 'hemWidth', label: '下摆宽(半)', type: 'number', unit: 'mm', defaultValue: 42, min: 28, max: 60, step: 1 },
+  { id: 'neckFrontY', name: '前领深', label: '前领深', type: 'number', defaultValue: 34, min: 20, max: 60, unit: 'mm', step: 1 },
+  { id: 'shoulderY', name: '肩线Y', label: '肩线Y', type: 'number', defaultValue: 48, min: 30, max: 70, unit: 'mm', step: 1 },
+  { id: 'shoulderWidth', name: '肩宽', label: '肩宽', type: 'number', defaultValue: 40, min: 20, max: 60, unit: 'mm', step: 1 },
+  { id: 'armholeDepth', name: '袖窿深', label: '袖窿深', type: 'number', defaultValue: 96, min: 60, max: 140, unit: 'mm', step: 1 },
+  { id: 'waistY', name: '腰线Y', label: '腰线Y', type: 'number', defaultValue: 142, min: 80, max: 200, unit: 'mm', step: 1 },
+  { id: 'waistSuppression', name: '腰收量', label: '腰收量', type: 'number', defaultValue: 4, min: 0, max: 20, unit: 'mm', step: 1 },
+  { id: 'hipY', name: '臀线Y', label: '臀线Y', type: 'number', defaultValue: 174, min: 100, max: 240, unit: 'mm', step: 1 },
+  { id: 'hemLength', name: '衣长', label: '衣长', type: 'number', defaultValue: 228, min: 100, max: 300, unit: 'mm', step: 1 },
+  { id: 'hemWidth', name: '下摆宽', label: '下摆宽', type: 'number', defaultValue: 44, min: 20, max: 80, unit: 'mm', step: 1 },
 ];
 
 const COLLAR_PARAMS: GeneParameter[] = [
-  { id: 'collarType', name: 'collarType', label: '领型', type: 'select', defaultValue: 'round', options: [
-    { value: 'round', label: '圆领' },
-    { value: 'v', label: 'V领' },
-    { value: 'square', label: '方领' },
-    { value: 'mandarin', label: '立领' },
-  ]},
-  { id: 'collarHeight', name: 'collarHeight', label: '领高', type: 'number', unit: 'mm', defaultValue: 14, min: 4, max: 40, step: 1 },
-  { id: 'collarSpread', name: 'collarSpread', label: '领口宽(半)', type: 'number', unit: 'mm', defaultValue: 28, min: 16, max: 44, step: 1 },
+  { id: 'collarType', name: '领型', label: '领型', type: 'select', defaultValue: 'round', options: [{ value: 'round', label: '圆领' }, { value: 'v', label: 'V领' }, { value: 'square', label: '方领' }, { value: 'mandarin', label: '立领' }, { value: 'lapel', label: '翻领' }, { value: 'turtle', label: '高领' }, { value: 'boat', label: '船领' }, { value: 'halter', label: '挂脖' }] },
+  { id: 'collarHeight', name: '领高', label: '领高', type: 'number', defaultValue: 12, min: 4, max: 40, unit: 'mm', step: 1 },
+  { id: 'collarSpread', name: '领口宽', label: '领口宽', type: 'number', defaultValue: 28, min: 16, max: 50, unit: 'mm', step: 1 },
 ];
 
 const SLEEVE_PARAMS: GeneParameter[] = [
-  { id: 'sleeveType', name: 'sleeveType', label: '袖型', type: 'select', defaultValue: 'long', options: [
-    { value: 'sleeveless', label: '无袖' },
-    { value: 'short', label: '短袖' },
-    { value: 'elbow', label: '七分袖' },
-    { value: 'long', label: '长袖' },
-    { value: 'flare', label: '喇叭袖' },
-    { value: 'puff', label: '泡泡袖' },
-  ]},
-  { id: 'sleeveLength', name: 'sleeveLength', label: '袖长', type: 'number', unit: 'mm', defaultValue: 160, min: 40, max: 200, step: 2 },
-  { id: 'cuffWidth', name: 'cuffWidth', label: '袖口宽(半)', type: 'number', unit: 'mm', defaultValue: 14, min: 6, max: 30, step: 1 },
+  { id: 'sleeveType', name: '袖型', label: '袖型', type: 'select', defaultValue: 'long', options: [{ value: 'sleeveless', label: '无袖' }, { value: 'cap', label: '盖袖' }, { value: 'short', label: '短袖' }, { value: 'elbow', label: '七分袖' }, { value: 'long', label: '长袖' }, { value: 'flutter', label: '飞飞袖' }, { value: 'puff', label: '泡泡袖' }, { value: 'bell', label: '喇叭袖' }] },
+  { id: 'sleeveLength', name: '袖长', label: '袖长', type: 'number', defaultValue: 160, min: 0, max: 200, unit: 'mm', step: 1 },
+  { id: 'cuffWidth', name: '袖口宽', label: '袖口宽', type: 'number', defaultValue: 14, min: 4, max: 40, unit: 'mm', step: 1 },
 ];
 
 const POCKET_PARAMS: GeneParameter[] = [
-  { id: 'pocketType', name: 'pocketType', label: '口袋类型', type: 'select', defaultValue: 'none', options: [
-    { value: 'none', label: '无' },
-    { value: 'patch', label: '贴袋' },
-    { value: 'welt', label: '嵌线袋' },
-    { value: 'breast', label: '胸袋' },
-  ]},
-  { id: 'pocketWidth', name: 'pocketWidth', label: '袋宽', type: 'number', unit: 'mm', defaultValue: 26, min: 14, max: 40, step: 1 },
-  { id: 'pocketHeight', name: 'pocketHeight', label: '袋高', type: 'number', unit: 'mm', defaultValue: 36, min: 16, max: 56, step: 1 },
-  { id: 'pocketY', name: 'pocketY', label: '袋位Y', type: 'number', unit: 'mm', defaultValue: 132, min: 90, max: 170, step: 2 },
+  { id: 'pocketType', name: '口袋型', label: '口袋型', type: 'select', defaultValue: 'none', options: [{ value: 'none', label: '无' }, { value: 'patch', label: '贴袋' }, { value: 'welt', label: '嵌线袋' }, { value: 'slash', label: '斜插袋' }, { value: 'breast', label: '胸袋' }, { value: 'kangaroo', label: '袋鼠袋' }] },
+  { id: 'pocketWidth', name: '口袋宽', label: '口袋宽', type: 'number', defaultValue: 28, min: 10, max: 60, unit: 'mm', step: 1 },
+  { id: 'pocketHeight', name: '口袋高', label: '口袋高', type: 'number', defaultValue: 36, min: 10, max: 60, unit: 'mm', step: 1 },
+  { id: 'pocketY', name: '口袋Y位置', label: '口袋Y位置', type: 'number', defaultValue: 136, min: 80, max: 200, unit: 'mm', step: 1 },
 ];
 
 const PLACKET_PARAMS: GeneParameter[] = [
-  { id: 'placketType', name: 'placketType', label: '门襟类型', type: 'select', defaultValue: 'none', options: [
-    { value: 'none', label: '无门襟' },
-    { value: 'center', label: '中开襟' },
-    { value: 'hidden', label: '暗门襟' },
-    { value: 'double', label: '双排扣' },
-  ]},
-  { id: 'placketWidth', name: 'placketWidth', label: '门襟宽', type: 'number', unit: 'mm', defaultValue: 6, min: 3, max: 14, step: 1 },
-  { id: 'buttonCount', name: 'buttonCount', label: '扣数', type: 'number', unit: '粒', defaultValue: 5, min: 3, max: 8, step: 1 },
+  { id: 'placketType', name: '门襟型', label: '门襟型', type: 'select', defaultValue: 'none', options: [{ value: 'none', label: '无门襟' }, { value: 'center', label: '中开襟' }, { value: 'half', label: '半开襟' }, { value: 'hidden', label: '暗门襟' }, { value: 'wrap', label: '裹式' }, { value: 'double', label: '双排扣' }] },
+  { id: 'placketWidth', name: '门襟宽', label: '门襟宽', type: 'number', defaultValue: 5, min: 2, max: 12, unit: 'mm', step: 1 },
+  { id: 'buttonCount', name: '纽扣数', label: '纽扣数', type: 'number', defaultValue: 5, min: 0, max: 10, step: 1 },
 ];
 
 const CUFF_PARAMS: GeneParameter[] = [
-  { id: 'cuffType', name: 'cuffType', label: '袖口类型', type: 'select', defaultValue: 'plain', options: [
-    { value: 'plain', label: '平袖口' },
-    { value: 'button', label: '扣袖口' },
-    { value: 'turnback', label: '翻袖口' },
-  ]},
-  { id: 'cuffHeight', name: 'cuffHeight', label: '袖口高', type: 'number', unit: 'mm', defaultValue: 14, min: 6, max: 24, step: 1 },
+  { id: 'cuffType', name: '袖口型', label: '袖口型', type: 'select', defaultValue: 'plain', options: [{ value: 'none', label: '无袖口' }, { value: 'plain', label: '平袖口' }, { value: 'button', label: '纽扣袖口' }, { value: 'turnup', label: '翻袖口' }, { value: 'elastic', label: '松紧袖口' }] },
+  { id: 'cuffHeight', name: '袖口高', label: '袖口高', type: 'number', defaultValue: 14, min: 4, max: 30, unit: 'mm', step: 1 },
 ];
 
 // ─── 男女款锚点体系 ───
-// 所有部件的锚点坐标与衣身锚点严格对应，确保拼接位置不混乱
 
-/** 男款衣身锚点 (基准) */
 const MALE_BODY_ANCHORS = {
-  shoulderWidth: 36,   // 男性肩宽更大
-  shoulderY: 48,
-  neckSideY: 42,
-  armholeDepth: 98,
-  neckFrontY: 34,
+  neckFrontY: 34, shoulderY: 48, shoulderWidth: 40,
+  armholeDepth: 96, waistY: 142, hipY: 174, hemLength: 228,
 };
 
-/** 女款衣身锚点 (基准) */
 const FEMALE_BODY_ANCHORS = {
-  shoulderWidth: 30,   // 女性肩宽更窄
-  shoulderY: 46,
-  neckSideY: 40,
-  armholeDepth: 92,
-  neckFrontY: 32,
+  neckFrontY: 32, shoulderY: 46, shoulderWidth: 30,
+  armholeDepth: 92, waistY: 138, hipY: 170, hemLength: 222,
 };
 
-/** 获取性别对应的基准锚点 */
 export function getGenderAnchors(gender: GenderType) {
   return gender === 'female' ? FEMALE_BODY_ANCHORS : MALE_BODY_ANCHORS;
 }
 
-// ─── 男女款预设 ───
+// ─── 预设接口 ───
 
 export interface GenePreset {
   id: string;
   name: string;
-  category: Gene['category'];
-  gender: GenderType;
+  category: string;
+  gender: 'male' | 'female' | 'unisex';
   parameterValues: Record<string, number | string | boolean>;
 }
-
-// ─── 男款预设 ───
-
-const MALE_BODY_PRESETS: GenePreset[] = [
-  {
-    id: 'male-body-slim',
-    name: '修身',
-    category: 'body',
-    gender: 'male',
-    parameterValues: { neckFrontY: 34, shoulderY: 48, shoulderWidth: 36, armholeDepth: 98, waistY: 142, waistSuppression: 10, hipY: 174, hemLength: 230, hemWidth: 44 },
-  },
-  {
-    id: 'male-body-regular',
-    name: '合身',
-    category: 'body',
-    gender: 'male',
-    parameterValues: { neckFrontY: 34, shoulderY: 48, shoulderWidth: 36, armholeDepth: 98, waistY: 144, waistSuppression: 4, hipY: 176, hemLength: 234, hemWidth: 46 },
-  },
-  {
-    id: 'male-body-loose',
-    name: '宽松',
-    category: 'body',
-    gender: 'male',
-    parameterValues: { neckFrontY: 34, shoulderY: 48, shoulderWidth: 40, armholeDepth: 100, waistY: 150, waistSuppression: 0, hipY: 182, hemLength: 250, hemWidth: 56 },
-  },
-  {
-    id: 'male-body-crop',
-    name: '短款',
-    category: 'body',
-    gender: 'male',
-    parameterValues: { neckFrontY: 34, shoulderY: 48, shoulderWidth: 36, armholeDepth: 98, waistY: 142, waistSuppression: 4, hipY: 174, hemLength: 158, hemWidth: 38 },
-  },
-];
-
-const MALE_COLLAR_PRESETS: GenePreset[] = [
-  { id: 'male-collar-round', name: '圆领', category: 'collar', gender: 'male', parameterValues: { collarType: 'round', collarHeight: 14, collarSpread: 30 } },
-  { id: 'male-collar-v', name: 'V领', category: 'collar', gender: 'male', parameterValues: { collarType: 'v', collarHeight: 16, collarSpread: 30 } },
-  { id: 'male-collar-square', name: '方领', category: 'collar', gender: 'male', parameterValues: { collarType: 'square', collarHeight: 14, collarSpread: 30 } },
-  { id: 'male-collar-mandarin', name: '立领', category: 'collar', gender: 'male', parameterValues: { collarType: 'mandarin', collarHeight: 16, collarSpread: 28 } },
-];
-
-const MALE_SLEEVE_PRESETS: GenePreset[] = [
-  { id: 'male-sleeve-short', name: '短袖', category: 'sleeve', gender: 'male', parameterValues: { sleeveType: 'short', sleeveLength: 60, cuffWidth: 16 } },
-  { id: 'male-sleeve-elbow', name: '七分袖', category: 'sleeve', gender: 'male', parameterValues: { sleeveType: 'elbow', sleeveLength: 110, cuffWidth: 15 } },
-  { id: 'male-sleeve-long', name: '长袖', category: 'sleeve', gender: 'male', parameterValues: { sleeveType: 'long', sleeveLength: 164, cuffWidth: 14 } },
-  { id: 'male-sleeve-sleeveless', name: '无袖', category: 'sleeve', gender: 'male', parameterValues: { sleeveType: 'sleeveless', sleeveLength: 0, cuffWidth: 0 } },
-];
-
-const MALE_POCKET_PRESETS: GenePreset[] = [
-  { id: 'male-pocket-none', name: '无', category: 'pocket', gender: 'male', parameterValues: { pocketType: 'none', pocketWidth: 26, pocketHeight: 36, pocketY: 134 } },
-  { id: 'male-pocket-patch', name: '贴袋', category: 'pocket', gender: 'male', parameterValues: { pocketType: 'patch', pocketWidth: 28, pocketHeight: 38, pocketY: 134 } },
-  { id: 'male-pocket-welt', name: '嵌线袋', category: 'pocket', gender: 'male', parameterValues: { pocketType: 'welt', pocketWidth: 26, pocketHeight: 36, pocketY: 150 } },
-  { id: 'male-pocket-breast', name: '胸袋', category: 'pocket', gender: 'male', parameterValues: { pocketType: 'breast', pocketWidth: 22, pocketHeight: 22, pocketY: 134 } },
-];
-
-const MALE_PLACKET_PRESETS: GenePreset[] = [
-  { id: 'male-placket-none', name: '无门襟', category: 'placket', gender: 'male', parameterValues: { placketType: 'none', placketWidth: 6, buttonCount: 5 } },
-  { id: 'male-placket-center', name: '中开襟', category: 'placket', gender: 'male', parameterValues: { placketType: 'center', placketWidth: 6, buttonCount: 5 } },
-  { id: 'male-placket-hidden', name: '暗门襟', category: 'placket', gender: 'male', parameterValues: { placketType: 'hidden', placketWidth: 4, buttonCount: 5 } },
-  { id: 'male-placket-double', name: '双排扣', category: 'placket', gender: 'male', parameterValues: { placketType: 'double', placketWidth: 8, buttonCount: 6 } },
-];
-
-const MALE_CUFF_PRESETS: GenePreset[] = [
-  { id: 'male-cuff-plain', name: '平袖口', category: 'cuff', gender: 'male', parameterValues: { cuffType: 'plain', cuffHeight: 14 } },
-  { id: 'male-cuff-button', name: '扣袖口', category: 'cuff', gender: 'male', parameterValues: { cuffType: 'button', cuffHeight: 14 } },
-  { id: 'male-cuff-turnback', name: '翻袖口', category: 'cuff', gender: 'male', parameterValues: { cuffType: 'turnback', cuffHeight: 16 } },
-];
-
-// ─── 女款预设 ───
-
-const FEMALE_BODY_PRESETS: GenePreset[] = [
-  {
-    id: 'female-body-slim',
-    name: '修身',
-    category: 'body',
-    gender: 'female',
-    parameterValues: { neckFrontY: 32, shoulderY: 46, shoulderWidth: 30, armholeDepth: 92, waistY: 136, waistSuppression: 14, hipY: 168, hemLength: 218, hemWidth: 40 },
-  },
-  {
-    id: 'female-body-regular',
-    name: '合身',
-    category: 'body',
-    gender: 'female',
-    parameterValues: { neckFrontY: 32, shoulderY: 46, shoulderWidth: 30, armholeDepth: 92, waistY: 138, waistSuppression: 8, hipY: 170, hemLength: 222, hemWidth: 42 },
-  },
-  {
-    id: 'female-body-loose',
-    name: '宽松',
-    category: 'body',
-    gender: 'female',
-    parameterValues: { neckFrontY: 32, shoulderY: 46, shoulderWidth: 34, armholeDepth: 94, waistY: 144, waistSuppression: 0, hipY: 176, hemLength: 238, hemWidth: 52 },
-  },
-  {
-    id: 'female-body-crop',
-    name: '短款',
-    category: 'body',
-    gender: 'female',
-    parameterValues: { neckFrontY: 32, shoulderY: 46, shoulderWidth: 30, armholeDepth: 92, waistY: 136, waistSuppression: 8, hipY: 168, hemLength: 148, hemWidth: 34 },
-  },
-  {
-    id: 'female-body-peplum',
-    name: '裙摆',
-    category: 'body',
-    gender: 'female',
-    parameterValues: { neckFrontY: 32, shoulderY: 46, shoulderWidth: 30, armholeDepth: 92, waistY: 136, waistSuppression: 0, hipY: 144, hemLength: 226, hemWidth: 80 },
-  },
-];
-
-const FEMALE_COLLAR_PRESETS: GenePreset[] = [
-  { id: 'female-collar-round', name: '圆领', category: 'collar', gender: 'female', parameterValues: { collarType: 'round', collarHeight: 12, collarSpread: 26 } },
-  { id: 'female-collar-v', name: 'V领', category: 'collar', gender: 'female', parameterValues: { collarType: 'v', collarHeight: 14, collarSpread: 26 } },
-  { id: 'female-collar-square', name: '方领', category: 'collar', gender: 'female', parameterValues: { collarType: 'square', collarHeight: 12, collarSpread: 28 } },
-  { id: 'female-collar-mandarin', name: '立领', category: 'collar', gender: 'female', parameterValues: { collarType: 'mandarin', collarHeight: 14, collarSpread: 24 } },
-];
-
-const FEMALE_SLEEVE_PRESETS: GenePreset[] = [
-  { id: 'female-sleeve-short', name: '短袖', category: 'sleeve', gender: 'female', parameterValues: { sleeveType: 'short', sleeveLength: 54, cuffWidth: 14 } },
-  { id: 'female-sleeve-elbow', name: '七分袖', category: 'sleeve', gender: 'female', parameterValues: { sleeveType: 'elbow', sleeveLength: 100, cuffWidth: 13 } },
-  { id: 'female-sleeve-long', name: '长袖', category: 'sleeve', gender: 'female', parameterValues: { sleeveType: 'long', sleeveLength: 154, cuffWidth: 12 } },
-  { id: 'female-sleeve-sleeveless', name: '无袖', category: 'sleeve', gender: 'female', parameterValues: { sleeveType: 'sleeveless', sleeveLength: 0, cuffWidth: 0 } },
-  { id: 'female-sleeve-flare', name: '喇叭袖', category: 'sleeve', gender: 'female', parameterValues: { sleeveType: 'flare', sleeveLength: 154, cuffWidth: 26 } },
-  { id: 'female-sleeve-puff', name: '泡泡袖', category: 'sleeve', gender: 'female', parameterValues: { sleeveType: 'puff', sleeveLength: 58, cuffWidth: 10 } },
-];
-
-const FEMALE_POCKET_PRESETS: GenePreset[] = [
-  { id: 'female-pocket-none', name: '无', category: 'pocket', gender: 'female', parameterValues: { pocketType: 'none', pocketWidth: 24, pocketHeight: 32, pocketY: 130 } },
-  { id: 'female-pocket-patch', name: '贴袋', category: 'pocket', gender: 'female', parameterValues: { pocketType: 'patch', pocketWidth: 24, pocketHeight: 34, pocketY: 130 } },
-  { id: 'female-pocket-welt', name: '嵌线袋', category: 'pocket', gender: 'female', parameterValues: { pocketType: 'welt', pocketWidth: 24, pocketHeight: 32, pocketY: 146 } },
-  { id: 'female-pocket-breast', name: '胸袋', category: 'pocket', gender: 'female', parameterValues: { pocketType: 'breast', pocketWidth: 20, pocketHeight: 20, pocketY: 130 } },
-];
-
-const FEMALE_PLACKET_PRESETS: GenePreset[] = [
-  { id: 'female-placket-none', name: '无门襟', category: 'placket', gender: 'female', parameterValues: { placketType: 'none', placketWidth: 5, buttonCount: 4 } },
-  { id: 'female-placket-center', name: '中开襟', category: 'placket', gender: 'female', parameterValues: { placketType: 'center', placketWidth: 5, buttonCount: 4 } },
-  { id: 'female-placket-hidden', name: '暗门襟', category: 'placket', gender: 'female', parameterValues: { placketType: 'hidden', placketWidth: 3, buttonCount: 4 } },
-  { id: 'female-placket-double', name: '双排扣', category: 'placket', gender: 'female', parameterValues: { placketType: 'double', placketWidth: 7, buttonCount: 5 } },
-];
-
-const FEMALE_CUFF_PRESETS: GenePreset[] = [
-  { id: 'female-cuff-plain', name: '平袖口', category: 'cuff', gender: 'female', parameterValues: { cuffType: 'plain', cuffHeight: 12 } },
-  { id: 'female-cuff-button', name: '扣袖口', category: 'cuff', gender: 'female', parameterValues: { cuffType: 'button', cuffHeight: 12 } },
-  { id: 'female-cuff-turnback', name: '翻袖口', category: 'cuff', gender: 'female', parameterValues: { cuffType: 'turnback', cuffHeight: 14 } },
-];
 
 // ─── 基因定义 (男女通用参数, 预设区分男女) ───
 
@@ -367,12 +192,7 @@ export const GENE_DEFINITIONS: Gene[] = [
 
 // ─── 按性别分组的预设 ───
 
-const ALL_PRESETS: GenePreset[] = [
-  ...MALE_BODY_PRESETS, ...MALE_COLLAR_PRESETS, ...MALE_SLEEVE_PRESETS,
-  ...MALE_POCKET_PRESETS, ...MALE_PLACKET_PRESETS, ...MALE_CUFF_PRESETS,
-  ...FEMALE_BODY_PRESETS, ...FEMALE_COLLAR_PRESETS, ...FEMALE_SLEEVE_PRESETS,
-  ...FEMALE_POCKET_PRESETS, ...FEMALE_PLACKET_PRESETS, ...FEMALE_CUFF_PRESETS,
-];
+const ALL_PRESETS: GenePreset[] = [...ALL_MALE_PRESETS, ...ALL_FEMALE_PRESETS];
 
 /** 获取指定性别+品类的预设 */
 export function getPresetsByGender(category: string, gender: GenderType): GenePreset[] {
@@ -405,7 +225,6 @@ export function getPresetValues(
 /** 获取性别的默认衣身参数 */
 export function getGenderDefaultParams(gender: GenderType): Record<string, number | string | boolean> {
   const presets = gender === 'female' ? FEMALE_BODY_PRESETS : MALE_BODY_PRESETS;
-  // 使用合身预设作为默认
   const regular = presets.find((p) => p.id.includes('regular')) || presets[0];
   return { ...regular.parameterValues };
 }

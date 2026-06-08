@@ -1,3 +1,4 @@
+import { useRef, useCallback } from 'react';
 import { useParametricStore } from '@/store/parametricStore';
 import { GENE_DEFINITIONS, getPresetsByGender } from '@/data/geneLibrary';
 import type { GeneParameter } from '@/types/gene';
@@ -5,7 +6,7 @@ import type { GeneParameter } from '@/types/gene';
 /**
  * 参数化滑块面板
  * - 预设快捷切换
- * - 数字参数滑块
+ * - 数字参数滑块 (拖动中实时渲染, 松开时存快照)
  * - Select 类型参数按钮组
  * - 约束违规提示
  */
@@ -122,7 +123,7 @@ export function ParamSliders() {
   );
 }
 
-/** 单个参数滑块 */
+/** 单个参数滑块 - 拖动中实时渲染, 松开时存快照 */
 function ParamSlider({ param, value, onChange }: {
   param: GeneParameter;
   value: number;
@@ -132,6 +133,18 @@ function ParamSlider({ param, value, onChange }: {
   const max = (param.max ?? 100);
   const step = (param.step ?? 1);
   const pct = ((value - min) / (max - min)) * 100;
+
+  // 拖动中: 直接更新参数 (不存快照), 拖动结束: 存快照
+  const isDragging = useRef(false);
+  const snapshot = useParametricStore((s) => s._snapshot);
+
+  const handleCommit = useCallback(() => {
+    if (isDragging.current) {
+      isDragging.current = false;
+      // 松开时存快照
+      snapshot();
+    }
+  }, [snapshot]);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
@@ -149,6 +162,8 @@ function ParamSlider({ param, value, onChange }: {
           step={step}
           value={value}
           onChange={(e) => onChange(Number(e.target.value))}
+          onMouseUp={handleCommit}
+          onTouchEnd={handleCommit}
           style={{
             width: '100%',
             height: 4,

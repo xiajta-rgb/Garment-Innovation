@@ -52,6 +52,8 @@ export interface ComposeOptions {
   strictness?: CompositionStrictness;
   /** 自定义 registry (修复 Issue 8, 默认全局单例) */
   registry?: AnchorRegistryImpl;
+  /** 用户手动覆盖参数 (来自滑块), 优先级高于 defaultParams 但低于 ref.params */
+  userOverrides?: Record<string, number | string | boolean>;
 }
 
 const CRITICAL_ANCHORS: AnchorName[] = ['sp-left', 'sp-right', 'ap-left', 'ap-right'];
@@ -84,14 +86,18 @@ export function composePattern(
       throw new CompositionError(`Block not found: ${ref.blockId}`, ref.blockId);
     }
 
-    // 合并参数: block default < pattern default < ref override < runtime extra
-    // 修复 Issue 10: 加上 "block default" 层 (虽然当前 Block 类型无 inputs.params 默认值,
-    // 但保留位置以备未来扩展 - 旧顺序实际只剩 3 层, 注释对齐)
+    // 合并参数: block default < runtime derived < pattern default < user overrides < ref override
+    // 优先级说明:
+    //  - extraParams (运行时推导值) 最低, 仅补充默认值
+    //  - pattern.defaultParams 模板定义的合理坐标值, 覆盖推导值
+    //  - userOverrides 用户通过滑块手动调整的参数, 覆盖模板默认值
+    //  - ref.params 模板结构覆盖 (如 collarType/sleeveType), 优先级最高
     const mergedParams: Record<string, number | string | boolean> = {
       ...(block.inputs.params ? {} : {}), // block default 占位 (目前为空)
-      ...(pattern.defaultParams ?? {}),
-      ...(ref.params ?? {}),
       ...(extraParams ?? {}),
+      ...(pattern.defaultParams ?? {}),
+      ...(options.userOverrides ?? {}),
+      ...(ref.params ?? {}),
     };
 
     // 取出声明的输入锚点 (view-aware)

@@ -63,6 +63,7 @@ export const BodiceBlock: BlockDefinition = {
     const hemY = Number(p.hemLength ?? 224);
     const hemW = Number(p.hemWidth ?? 42);
     const neckFrontY = Number(p.neckFrontY ?? 34);
+    const hipY = Number(p.hipY ?? 172);
     const cx = 100;
     const waistSuppression = Number(p.waistSuppression ?? 0);
     const waistOffset = Math.max(0, waistSuppression);
@@ -82,6 +83,8 @@ export const BodiceBlock: BlockDefinition = {
         'side-waist-right': { x: cx + shoulderW - waistOffset, y: waistY },
         'side-hem-left':    { x: cx - hemW, y: hemY },
         'side-hem-right':   { x: cx + hemW, y: hemY },
+        'hip-left':         { x: cx - hemW, y: hipY },
+        'hip-right':        { x: cx + hemW, y: hipY },
         'sleeve-cap-left':  { x: cx - shoulderW, y: shoulderY },
         'sleeve-cap-right': { x: cx + shoulderW, y: shoulderY },
         // 视图特定: cf- (front) / cb- (back)

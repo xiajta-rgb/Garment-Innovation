@@ -22,9 +22,9 @@ export const PocketBlock: BlockDefinition = {
     const partCtx: PartCtx = {
       parameters: {
         pocketType: String(p.pocketType ?? 'none'),
-        pocketWidth: Number(p.pocketWidth ?? 130),
-        pocketHeight: Number(p.pocketHeight ?? 150),
-        pocketY: Number(p.pocketY ?? 600),
+        pocketWidth: Number(p.pocketWidth ?? 26),
+        pocketHeight: Number(p.pocketHeight ?? 36),
+        pocketY: Number(p.pocketY ?? 0),  // 0 表示使用默认位置 (腰线下方)
       },
       anchors: ctx.anchors as any,
     };

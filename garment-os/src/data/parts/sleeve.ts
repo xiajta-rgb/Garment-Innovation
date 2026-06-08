@@ -1,0 +1,68 @@
+import type { PartVariant } from '../garmentParts';
+
+export const SLEEVE_VARIANTS: PartVariant[] = [
+  {
+    id: 'sleeve-none',
+    name: '无袖',
+    frontPath: '',
+    backPath: '',
+    zIndex: 2,
+    filled: true,
+  },
+  {
+    id: 'sleeve-cap',
+    name: '盖袖',
+    frontPath: 'M32,48 L18,62 L22,72 L36,64 Z',
+    backPath: 'M32,48 L18,62 L22,72 L36,64 Z',
+    zIndex: 2,
+    filled: true,
+  },
+  {
+    id: 'sleeve-short',
+    name: '短袖',
+    frontPath: 'M32,48 L14,72 L18,92 L36,82 Z',
+    backPath: 'M32,48 L14,72 L18,92 L36,82 Z',
+    zIndex: 2,
+    filled: true,
+  },
+  {
+    id: 'sleeve-elbow',
+    name: '七分袖',
+    frontPath: 'M32,48 L10,80 L14,130 L36,118 Z',
+    backPath: 'M32,48 L10,80 L14,130 L36,118 Z',
+    zIndex: 2,
+    filled: true,
+  },
+  {
+    id: 'sleeve-long',
+    name: '长袖',
+    frontPath: 'M32,48 L8,82 L12,170 L36,158 Z',
+    backPath: 'M32,48 L8,82 L12,170 L36,158 Z',
+    zIndex: 2,
+    filled: true,
+  },
+  {
+    id: 'sleeve-flutter',
+    name: '飞飞袖',
+    frontPath: 'M32,48 L8,68 C4,78 6,90 14,96 L36,82 Z',
+    backPath: 'M32,48 L8,68 C4,78 6,90 14,96 L36,82 Z',
+    zIndex: 2,
+    filled: true,
+  },
+  {
+    id: 'sleeve-puff',
+    name: '泡泡袖',
+    frontPath: 'M32,48 C24,52 10,62 8,76 C6,88 12,96 20,96 L36,82 Z',
+    backPath: 'M32,48 C24,52 10,62 8,76 C6,88 12,96 20,96 L36,82 Z',
+    zIndex: 2,
+    filled: true,
+  },
+  {
+    id: 'sleeve-bell',
+    name: '喇叭袖',
+    frontPath: 'M32,48 L18,72 L6,140 L36,120 Z',
+    backPath: 'M32,48 L18,72 L6,140 L36,120 Z',
+    zIndex: 2,
+    filled: true,
+  },
+];

@@ -62,11 +62,11 @@ export const SleeveBlock: BlockDefinition = {
     return {
       paths,
       anchors: {
-        // 袖口是 all 视图 (前后共用)
-        'sleeve-cuff-top-left':     { x: spL.x, y: spL.y + sleeveLength * 0.95 },
-        'sleeve-cuff-top-right':    { x: spR.x, y: spR.y + sleeveLength * 0.95 },
-        'sleeve-cuff-bottom-left':  { x: spL.x - cuffWidth * 0.3, y: cuffY },
-        'sleeve-cuff-bottom-right': { x: spR.x + cuffWidth * 0.3, y: cuffY },
+        // 袖口锚点 (cuff-block 通过 cuff-top-left/right 消费)
+        'cuff-top-left':     { x: spL.x, y: spL.y + sleeveLength * 0.95 },
+        'cuff-top-right':    { x: spR.x, y: spR.y + sleeveLength * 0.95 },
+        'cuff-bottom-left':  { x: spL.x - cuffWidth * 0.3, y: cuffY },
+        'cuff-bottom-right': { x: spR.x + cuffWidth * 0.3, y: cuffY },
       },
     };
   },

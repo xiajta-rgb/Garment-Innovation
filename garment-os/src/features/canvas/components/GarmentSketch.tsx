@@ -1,8 +1,9 @@
+import { useRef, useEffect, useState, useMemo } from 'react';
 import { useParametricStore } from '@/store/parametricStore';
 import type { GenePathData } from '@/types/gene';
 import type { PartType } from '@/data/garmentParts';
 import { catDataHasFill, splitPaths } from './GarmentSketch.utils';
-import { measurementsToAllParams } from '@/lib/parametric/measurement-formulas';
+import { getFabricSvgPattern } from '@/data/fabrics';
 
 interface GarmentSketchProps {
   view: 'front' | 'back';
@@ -35,9 +36,32 @@ export function GarmentSketch({ view, garmentColor }: GarmentSketchProps) {
   const instances = useParametricStore((s) => s.instances);
   const patternPaths = useParametricStore((s) => s.patternPaths);
   const viewMode = useParametricStore((s) => s.viewMode);
+  const activePart = useParametricStore((s) => s.activePart);
   const fillColor = garmentColor === '#FFFFFF' ? 'var(--bg-hover)' : garmentColor;
   // Block+Pattern 模式: 优先使用 patternPaths (来自 composePattern)
   const usePatternMode = patternPaths.length > 0;
+
+  // 面料纹理: 从 store 读取 fabricId, 生成 SVG pattern defs
+  const fabricId = useParametricStore((s) => s.fabricId);
+  const fabricSvgPattern = useMemo(() => getFabricSvgPattern(fabricId), [fabricId]);
+  const hasFabricPattern = fabricId !== 'solid' && fabricSvgPattern;
+
+  // 动态 viewBox: 根据实际渲染内容自动适配
+  const svgRef = useRef<SVGSVGElement>(null);
+  const contentRef = useRef<SVGGElement>(null);
+  const [viewBox, setViewBox] = useState('-20 -5 240 290');
+
+  useEffect(() => {
+    if (!contentRef.current) return;
+    try {
+      const bbox = contentRef.current.getBBox();
+      if (bbox.width === 0 || bbox.height === 0) return;
+      const pad = 15;
+      setViewBox(`${bbox.x - pad} ${bbox.y - pad} ${bbox.width + pad * 2} ${bbox.height + pad * 2}`);
+    } catch {
+      // getBBox 可能在元素未渲染时失败，保持默认 viewBox
+    }
+  }, [patternPaths, instances, viewMode, view, garmentColor]);
 
   // 收集所有路径并按层级分组 (从 LAYER_ORDER 动态初始化, 避免遗漏新 layer 类型)
   const layeredPaths = Object.fromEntries(
@@ -87,18 +111,38 @@ export function GarmentSketch({ view, garmentColor }: GarmentSketchProps) {
   }
 
   return (
-    <svg viewBox="-20 -5 240 290" style={{ width: '85%', height: 'auto' }}>
+    <svg id="garment-sketch" ref={svgRef} viewBox={viewBox} style={{ width: '85%', height: 'auto' }}>
+      {/* 面料纹理 SVG pattern 定义 */}
+      <defs>
+        {hasFabricPattern && (
+          <g dangerouslySetInnerHTML={{ __html: fabricSvgPattern }} />
+        )}
+      </defs>
+      <g ref={contentRef}>
       {/* 中心前/后线 - 只在 industrial 模式下显示 (因为 industrial 模式下 fold-line 会替代此线) */}
-      {viewMode === 'industrial' && (
-        <>
-          {/* 水平参考线: 胸围/腰围/臀围 - industrial 模式专属辅助线 */}
+      {viewMode === 'industrial' && (() => {
+        // 从 patternAnchors 读取实际坐标, 使参考线跟随服装几何变化
+        const anchors = useParametricStore.getState().patternAnchors;
+        const spL = anchors['sp-left'];
+        const spR = anchors['sp-right'];
+        const apL = anchors['ap-left'];
+        const swL = anchors['side-waist-left'];
+        const hipL = anchors['hip-left'];
+        if (!spL || !spR) return null;
+        // 参考线 Y 坐标: 袖窿底(胸围)、腰线、臀围
+        const bustY = apL ? apL.y : 96;
+        const waistY = swL ? swL.y : 140;
+        const hipY = hipL ? hipL.y : 172;
+        const leftX = Math.min(spL.x, spR.x) - 20;
+        const rightX = Math.max(spL.x, spR.x) + 20;
+        return (
           <g stroke="var(--text-muted)" strokeWidth="0.3" strokeDasharray="2,4" opacity="0.15">
-            <line x1="20" y1="96" x2="180" y2="96" />
-            <line x1="20" y1="140" x2="180" y2="140" />
-            <line x1="20" y1="172" x2="180" y2="172" />
+            <line x1={leftX} y1={bustY} x2={rightX} y2={bustY} />
+            <line x1={leftX} y1={waistY} x2={rightX} y2={waistY} />
+            <line x1={leftX} y1={hipY} x2={rightX} y2={hipY} />
           </g>
-        </>
-      )}
+        );
+      })()}
 
       {/* 分层渲染: 根据 viewMode 过滤 layer */}
       {LAYER_ORDER.map((layer) => {
@@ -110,18 +154,39 @@ export function GarmentSketch({ view, garmentColor }: GarmentSketchProps) {
           <g key={layer}>
             {paths.map(({ cat, pathData, subPath, key }) => {
               const isFilled = pathData.fill !== 'none' && (cat === 'body' || cat === 'sleeve' || catDataHasFill(cat, pathData));
+              const isActivePart = cat === activePart;
+              // 面料纹理: 有纹理时用纯色底 + 纹理叠加, 否则用纯色
+              const pathFill = isFilled
+                ? fillColor
+                : (pathData.fill !== 'none' ? fillColor : 'none');
               return (
-                <path
-                  key={key}
-                  d={subPath}
-                  fill={isFilled ? fillColor : (pathData.fill !== 'none' ? fillColor : 'none')}
-                  stroke={pathData.stroke || '#000000'}
-                  strokeWidth={pathData.strokeWidth || 0.8}
-                  strokeDasharray={pathData.strokeDasharray}
-                  strokeLinecap={pathData.strokeLinecap}
-                  // 修复 Issue 1+2+3: 应用 transform 属性 (mirror/rotate/translate)
-                  transform={pathData.transform}
-                />
+                <g key={key}>
+                  {/* 底色层 */}
+                  <path
+                    d={subPath}
+                    fill={pathFill}
+                    stroke={pathData.stroke || '#000000'}
+                    strokeWidth={isActivePart ? (pathData.strokeWidth || 0.8) + 0.4 : (pathData.strokeWidth || 0.8)}
+                    strokeDasharray={pathData.strokeDasharray}
+                    strokeLinecap={pathData.strokeLinecap}
+                    transform={pathData.transform}
+                    style={isActivePart
+                      ? { filter: 'drop-shadow(0 0 2px var(--accent))', transition: 'filter 0.2s', color: garmentColor }
+                      : { transition: 'filter 0.2s', color: garmentColor }
+                    }
+                  />
+                  {/* 面料纹理叠加层 */}
+                  {isFilled && hasFabricPattern && (
+                    <path
+                      d={subPath}
+                      fill={`url(#fabric-${fabricId})`}
+                      stroke="none"
+                      transform={pathData.transform}
+                      opacity={0.6}
+                      style={{ color: garmentColor }}
+                    />
+                  )}
+                </g>
               );
             })}
           </g>
@@ -134,32 +199,22 @@ export function GarmentSketch({ view, garmentColor }: GarmentSketchProps) {
           - 坐标从 body 锚点读取, 切换 size/fit 时自动跟随
           - 仅 industrial 模式显示 */}
       {viewMode === 'industrial' && (() => {
-        // 动态计算剪口坐标 - 从 patternPaths 中查找 sp-left/sp-right 等锚点 (后兼容)
-        // 实际坐标用 body 几何关键点估算 (工业级: 跟随 size 变化)
-        const sp = useParametricStore.getState().measurements;
-        const sw = Number(sp?.shoulderWidth ?? 32);
-        const ad = Number(sp?.armholeDepth ?? 96);
-        // BodyMeasurements 只有围度+长度, 腰线 y 坐标从 derived.body.waistY 推
-        const gender = useParametricStore.getState().gender;
-        const fit = useParametricStore.getState().fit;
-        const fallbackMeasurements = {
-          neckCirc: 360, bust: 880, waist: 720, hip: 920,
-          bicep: 280, wristCirc: 160, shoulderWidth: 32,
-          acrossBack: 360, acrossFront: 340,
-          backLength: 420, frontLength: 400, armholeDepth: 200, sleeveLength: 560,
-          waistDepth: 380, hipDepth: 200, totalLength: 700,
-          height: 1700, weight: 70000,
-        };
-        const derived = measurementsToAllParams(sp ?? fallbackMeasurements, gender, fit);
-        const wy = Number(derived.body?.waistY ?? 140);
-        const cx = 100;
-        const xLeft = cx - sw;
-        const xRight = cx + sw;
+        // 从 patternAnchors 读取实际渲染坐标 (与 composePattern 数据源一致)
+        const anchors = useParametricStore.getState().patternAnchors;
+        const spL = anchors['sp-left'];
+        const spR = anchors['sp-right'];
+        const apL = anchors['ap-left'];
+        const apR = anchors['ap-right'];
+        const swL = anchors['side-waist-left'];
+        const swR = anchors['side-waist-right'];
+        if (!spL || !spR) return null;
         const notches: [number, number][] = [
-          [xLeft - 2, 48 - 2], [xRight + 2, 48 - 2],   // 肩点
-          [xLeft + 4, ad - 2],  [xRight - 4, ad - 2],   // 袖窿底
-          [xLeft + 2, wy - 2],  [xRight - 2, wy - 2],   // 腰线
+          [spL.x, spL.y], [spR.x, spR.y],       // 肩点
         ];
+        if (apL) notches.push([apL.x, apL.y]);
+        if (apR) notches.push([apR.x, apR.y]);
+        if (swL) notches.push([swL.x, swL.y]);
+        if (swR) notches.push([swR.x, swR.y]);
         return (
           <g stroke="var(--text-muted)" strokeWidth="0.4" fill="none" opacity="0.4">
             {notches.map(([x, y], i) => (
@@ -172,51 +227,60 @@ export function GarmentSketch({ view, garmentColor }: GarmentSketchProps) {
       {/* 尺寸标注线 - 修复 #5: 从 store 读 active measurements (与 patternPaths 数据源一致) */}
       <DimensionAnnotations view={view} />
 
-      {/* 视图标签 */}
-      <text x="100" y="268" textAnchor="middle" fontSize="7" fill="var(--text-muted)" letterSpacing="1.5" opacity="0.6">
-        {view === 'front' ? 'FRONT VIEW' : 'BACK VIEW'}
-      </text>
+      {/* 视图标签 - 动态跟随服装底部 */}
+      {(() => {
+        const anchors = useParametricStore.getState().patternAnchors;
+        const cfHem = anchors['cf-hem'];
+        const labelY = cfHem ? cfHem.y + 30 : 268;
+        const cx = anchors['sp-left'] ? (anchors['sp-left'].x + anchors['sp-right'].x) / 2 : 100;
+        return (
+          <text x={cx} y={labelY} textAnchor="middle" fontSize="7" fill="var(--text-muted)" letterSpacing="1.5" opacity="0.6">
+            {view === 'front' ? 'FRONT VIEW' : 'BACK VIEW'}
+          </text>
+        );
+      })()}
+      </g>
     </svg>
   );
 }
 
 /**
- * 尺寸标注: 从 store 读 active measurements + 推导参数
- * 修复 #5: 数据源与 patternPaths 一致 (都来自 measurementsToAllParams)
+ * 尺寸标注: 从 patternAnchors 读取实际渲染坐标
+ * 数据源与 composePattern 一致, 避免与路径坐标不匹配
  */
 function DimensionAnnotations({ view }: { view: 'front' | 'back' }) {
-  const measurements = useParametricStore((s) => s.measurements);
-  const gender = useParametricStore((s) => s.gender);
-  const fit = useParametricStore((s) => s.fit);
-  if (!measurements) return null;
+  const anchors = useParametricStore((s) => s.patternAnchors);
 
-  // 修复 #5: 直接从 store 推导 (与 composePattern 数据源一致)
-  const derived = measurementsToAllParams(measurements, gender, fit);
-  const bodyParams = derived.body ?? {};
-  const sleeveParams = derived.sleeve ?? {};
+  // 从锚点读取坐标
+  const spL = anchors['sp-left'];
+  const spR = anchors['sp-right'];
+  const apL = anchors['ap-left'];
+  const cfNeck = anchors['cf-neck'];
+  const cfHem = anchors['cf-hem'];
+  const shL = anchors['side-hem-left'];
+  const shR = anchors['side-hem-right'];
 
-  const shoulderW = Number(bodyParams.shoulderWidth ?? 32);
-  const shoulderY = Number(bodyParams.shoulderY ?? 48);
-  const armholeDepth = Number(bodyParams.armholeDepth ?? 96);
-  const hemY = Number(bodyParams.hemLength ?? 224);
-  const hemW = Number(bodyParams.hemWidth ?? 42);
-  const neckFrontY = Number(bodyParams.neckFrontY ?? 34);
-  const sleeveLength = Number(sleeveParams.sleeveLength ?? 160);
+  if (!spL || !spR || !cfNeck || !cfHem) return null;
+
+  const shoulderW = (spR.x - spL.x) / 2;
+  const shoulderY = spL.y;
+  const neckFrontY = cfNeck.y;
+  const hemY = cfHem.y;
+  const hemW = shR ? shR.x - 100 : shoulderW;
+  const armholeDepth = apL ? apL.y : shoulderY + 48;
 
   const cx = 100;
   const annColor = 'var(--text-muted)';
   const annOpacity = 0.5;
 
-  // 标注项: [x1, y1, x2, y2, label, offset]
   const dims: [number, number, number, number, string, number][] = [];
 
   if (view === 'front') {
-    dims.push([cx, shoulderY, cx + shoulderW, shoulderY, `${shoulderW * 2}cm`, 12]);
-    dims.push([cx - shoulderW - 8, neckFrontY, cx - shoulderW - 8, hemY, `${((hemY - neckFrontY) * 0.5).toFixed(0)}cm`, -14]);
-    dims.push([cx + shoulderW + 8, shoulderY, cx + shoulderW + 8, armholeDepth, `${((armholeDepth - shoulderY) * 0.5).toFixed(0)}cm`, 14]);
-    dims.push([cx, hemY, cx + hemW, hemY, `${hemW * 2}cm`, 10]);
-    if (sleeveParams && String(sleeveParams.sleeveType) !== 'sleeveless') {
-      dims.push([cx + shoulderW + 16, shoulderY, cx + shoulderW + 16, shoulderY + sleeveLength, `${(sleeveLength * 0.5).toFixed(0)}cm`, 22]);
+    dims.push([cx, shoulderY, cx + shoulderW, shoulderY, `${(shoulderW * 2).toFixed(0)}`, 12]);
+    dims.push([cx - shoulderW - 8, neckFrontY, cx - shoulderW - 8, hemY, `${((hemY - neckFrontY) * 0.5).toFixed(0)}`, -14]);
+    dims.push([cx + shoulderW + 8, shoulderY, cx + shoulderW + 8, armholeDepth, `${((armholeDepth - shoulderY) * 0.5).toFixed(0)}`, 14]);
+    if (shL && shR) {
+      dims.push([cx, hemY, cx + hemW, hemY, `${(hemW * 2).toFixed(0)}`, 10]);
     }
   }
 

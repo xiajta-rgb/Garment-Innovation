@@ -11,6 +11,7 @@ export const CuffBlock: BlockDefinition = {
   name: '普通袖口 (Plain Cuff)',
   category: 'cuff',
   inputs: {
+    anchors: ['cuff-top-left', 'cuff-top-right'],
     params: ['cuffType', 'cuffHeight'],
   },
   solve: (ctx) => {

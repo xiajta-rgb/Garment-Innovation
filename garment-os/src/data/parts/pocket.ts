@@ -1,0 +1,56 @@
+import type { PartVariant } from '../garmentParts';
+
+export const POCKET_VARIANTS: PartVariant[] = [
+  {
+    id: 'pocket-none',
+    name: '无口袋',
+    frontPath: '',
+    backPath: '',
+    zIndex: 5,
+    filled: false,
+  },
+  {
+    id: 'pocket-patch',
+    name: '贴袋',
+    frontPath: 'M52,130 L52,160 L78,160 L78,130 Z',
+    backPath: '',
+    zIndex: 5,
+    filled: false,
+    details: 'M52,130 L78,130',
+  },
+  {
+    id: 'pocket-welt',
+    name: '嵌线袋',
+    frontPath: 'M52,140 L78,140 M52,142 L78,142',
+    backPath: '',
+    zIndex: 5,
+    filled: false,
+  },
+  {
+    id: 'pocket-slash',
+    name: '斜插袋',
+    frontPath: 'M44,138 L68,130 L70,160 L46,168 Z',
+    backPath: '',
+    zIndex: 5,
+    filled: false,
+    details: 'M44,138 L68,130',
+  },
+  {
+    id: 'pocket-breast',
+    name: '胸袋',
+    frontPath: 'M110,90 L110,110 L132,110 L132,90 Z',
+    backPath: '',
+    zIndex: 5,
+    filled: false,
+    details: 'M110,90 L132,90',
+  },
+  {
+    id: 'pocket-kangaroo',
+    name: '袋鼠袋',
+    frontPath: 'M52,130 L52,170 L100,180 L148,170 L148,130 L100,140 Z',
+    backPath: '',
+    zIndex: 5,
+    filled: false,
+    details: 'M52,130 L100,140 L148,130',
+  },
+];

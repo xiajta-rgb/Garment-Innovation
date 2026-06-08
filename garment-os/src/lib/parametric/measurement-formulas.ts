@@ -46,49 +46,58 @@ function neckEase(gender: GenderType): number {
 /**
  * 核心公式: 从测量值推导所有 body 部件参数
  * 输出: 用于 body gene instance 的 parameterValues
+ *
+ * 坐标系说明:
+ * 渲染坐标系是独立的坐标系统, 与毫米测量值不是 1:1 映射。
+ * 使用基准尺码 (M 码男性) 的测量值与渲染默认值建立缩放关系,
+ * 其他尺码按比例缩放。
  */
 export function measurementsToBodyParams(
   m: BodyMeasurements,
   gender: GenderType,
   fit: keyof typeof FIT_PRESETS = 'regular'
 ): Record<string, number> {
-  const ease = FIT_PRESETS[fit];
+  // ease 配置保留参数签名兼容, 实际缩放由基准值比例计算
+  void FIT_PRESETS[fit];
+
+  // ─── 基准值 (M 码男性测量值 → 渲染坐标映射) ───
+  // 基准测量值 (mm)
+  const REF = gender === 'female'
+    ? { shoulderWidth: 360, armholeDepth: 190, waistDepth: 370, hipDepth: 195, totalLength: 590, bust: 840, waist: 660, hip: 920 }
+    : { shoulderWidth: 390, armholeDepth: 205, waistDepth: 400, hipDepth: 210, totalLength: 640, bust: 880, waist: 720, hip: 960 };
+  // 基准渲染坐标
+  const REF_RENDER = gender === 'female'
+    ? { shoulderWidth: 35, armholeDepth: 88, waistY: 132, hipY: 168, hemLength: 200, hemWidth: 40, waistSuppression: 8 }
+    : { shoulderWidth: 38, armholeDepth: 96, waistY: 140, hipY: 172, hemLength: 224, hemWidth: 42, waistSuppression: 4 };
 
   // ─── 颈部和领口 (Neck & Neckline) ───
-  // 前领口深 = 颈围 / 5 + 1.5cm (基础领)
-  const neckFrontY = 34; // 前颈点 y 坐标 (相对位置, 不会随身高变化)
+  const neckFrontY = gender === 'female' ? 32 : 34;
 
   // ─── 肩部 (Shoulder) ───
-  // 半肩宽 = 总肩宽 / 2 - 1cm (肩部松量)
-  const halfShoulder = m.shoulderWidth / 2 - 10;
-  // 肩线 Y = 锁骨水平位置 (固定 48mm 相对原点)
-  const shoulderY = 48;
+  // 半肩宽: 按比例缩放, 基准是总肩宽的一半减去松量
+  const halfShoulder = (m.shoulderWidth / REF.shoulderWidth) * REF_RENDER.shoulderWidth;
+  const shoulderY = gender === 'female' ? 46 : 48;
 
   // ─── 袖窿 (Armhole) ───
-  // 袖窿深 = 标准袖窿深 + 0.5cm (前后差)
-  const armholeDepth = m.armholeDepth + 5;
-
-  // ─── 胸围到袖窿距离 ───
-  // bust line Y (胸围水平线) = 肩线 Y + 袖窿深
-  const bustLineY = shoulderY + armholeDepth;
+  const armholeDepth = (m.armholeDepth / REF.armholeDepth) * REF_RENDER.armholeDepth;
 
   // ─── 腰线 (Waist) ───
-  // 腰线 Y = 腰深 + 肩线 Y
-  const waistY = m.waistDepth + shoulderY;
-  // 腰收量 = (胸围 - 腰围)/4 + 1cm 放松余量
-  const waistSuppression = Math.max(0, (m.bust - m.waist) / 4 - ease.waist * 10);
+  const waistY = (m.waistDepth / REF.waistDepth) * REF_RENDER.waistY;
+  // 腰收量: 按围度差比例缩放
+  const refWaistDiff = REF.bust - REF.waist;
+  const curWaistDiff = m.bust - m.waist;
+  const waistSuppression = refWaistDiff > 0
+    ? Math.max(0, (curWaistDiff / refWaistDiff) * REF_RENDER.waistSuppression)
+    : REF_RENDER.waistSuppression;
 
   // ─── 臀线 (Hip) ───
-  // 臀线 Y = 腰线 Y + 臀深
-  const hipY = waistY + m.hipDepth;
+  const hipY = waistY + (m.hipDepth / REF.hipDepth) * (REF_RENDER.hipY - REF_RENDER.waistY);
 
   // ─── 衣长 (Total Length) ───
-  // 衣长 = 总长 - 肩部到衣领的距离
-  const hemLength = m.totalLength - 30; // 减去领口到肩线距离
+  const hemLength = (m.totalLength / REF.totalLength) * REF_RENDER.hemLength;
 
   // ─── 下摆宽 ───
-  // 下摆宽 (半) = (臀围 + 放松) / 4
-  const hemWidth = (m.hip + ease.hip * 10) / 4;
+  const hemWidth = (m.hip / REF.hip) * REF_RENDER.hemWidth;
 
   return {
     neckFrontY,
@@ -101,7 +110,7 @@ export function measurementsToBodyParams(
     hemLength,
     hemWidth,
     // 暴露给其他公式使用的内部值
-    _bustLineY: bustLineY,
+    _bustLineY: shoulderY + armholeDepth,
     _halfShoulder: halfShoulder,
     _easeNeck: neckEase(gender),
   };
@@ -109,43 +118,57 @@ export function measurementsToBodyParams(
 
 /**
  * 从测量值推导 collar 部件参数
+ * 输出渲染坐标系值
  */
-export function measurementsToCollarParams(m: BodyMeasurements, _gender: GenderType): Record<string, number | string> {
+export function measurementsToCollarParams(m: BodyMeasurements, gender: GenderType): Record<string, number | string> {
+  // 领口宽按颈围比例缩放, 基准: 男性颈围 360mm → collarSpread 28
+  const refNeckCirc = gender === 'female' ? 340 : 360;
+  const refCollarSpread = gender === 'female' ? 26 : 28;
+  const collarSpread = (m.neckCirc / refNeckCirc) * refCollarSpread;
   return {
-    collarType: 'round', // 默认圆领
-    collarHeight: 14,    // 基础领高 14mm
-    // 领口宽 (半) = 颈围 / 5 + 1cm
-    collarSpread: m.neckCirc / 5 + 10,
+    // collarType 由模板定义决定, 不在此硬编码
+    collarHeight: gender === 'female' ? 2.5 : 3,
+    collarSpread,
   };
 }
 
 /**
  * 从测量值推导 sleeve 部件参数
+ * 输出渲染坐标系值
  */
 export function measurementsToSleeveParams(
   m: BodyMeasurements,
-  _gender: GenderType,
-  fit: keyof typeof FIT_PRESETS = 'regular'
+  gender: GenderType,
+  _fit: keyof typeof FIT_PRESETS = 'regular'
 ): Record<string, number | string> {
-  const ease = FIT_PRESETS[fit];
+  // 袖长: 按比例缩放, 基准: 男性袖长 580mm → 渲染 60 (短袖默认)
+  // 注意: sleeveLength 在渲染坐标系中表示袖子从肩点下垂的距离
+  // 短袖约 60, 长袖约 180 (与 hemLength 224 协调)
+  const refSleeveLength = gender === 'female' ? 560 : 580;
+  const refRenderSleeve = gender === 'female' ? 55 : 60;
+  const sleeveLength = (m.sleeveLength / refSleeveLength) * refRenderSleeve;
+
+  // 袖口宽: 按腕围比例缩放, 基准: 男性腕围 160mm → cuffWidth 14
+  const refWristCirc = gender === 'female' ? 150 : 160;
+  const refCuffWidth = gender === 'female' ? 12 : 14;
+  const cuffWidth = (m.wristCirc / refWristCirc) * refCuffWidth;
+
   return {
-    sleeveType: 'long',
-    // 袖长 = 测量袖长
-    sleeveLength: m.sleeveLength,
-    // 袖口宽 (半) = (腕围 + 放松) / 2
-    cuffWidth: (m.wristCirc + ease.wrist * 10) / 2,
-    // 袖长比例 = 1.0 (用绝对长度, 不依赖大身)
+    // sleeveType 由模板定义决定, 不在此硬编码
+    sleeveLength,
+    cuffWidth,
     sleeveLengthRatio: m.totalLength > 0 ? m.sleeveLength / m.totalLength : 0.7,
   };
 }
 
 /**
  * 从测量值推导 cuff 部件参数
+ * 输出渲染坐标系值
  */
-export function measurementsToCuffParams(_m: BodyMeasurements): Record<string, number | string> {
+export function measurementsToCuffParams(gender: GenderType): Record<string, number | string> {
   return {
     cuffType: 'plain',
-    cuffHeight: 14, // 基础袖口高
+    cuffHeight: gender === 'female' ? 2 : 3,
   };
 }
 
@@ -163,17 +186,17 @@ export function measurementsToAllParams(
     collar: measurementsToCollarParams(m, gender),
     sleeve: measurementsToSleeveParams(m, gender, fit),
     pocket: {
-      pocketType: 'none', // 默认无口袋
-      pocketWidth: 130,   // 袋宽 13cm
-      pocketHeight: 150,  // 袋高 15cm
-      pocketY: 600,       // 袋位 (后续由 anchor 推导)
+      // pocketType 由模板定义决定, 不在此硬编码
+      pocketWidth: 26,    // 袋宽 (渲染坐标)
+      pocketHeight: 36,   // 袋高 (渲染坐标)
+      pocketY: 0,         // 0 = 使用默认位置 (腰线下方)
     },
     placket: {
-      placketType: 'center', // 默认中开襟
-      placketWidth: 30,      // 门襟宽 3cm
+      // placketType 由模板定义决定, 不在此硬编码
+      placketWidth: 6,       // 门襟宽 (渲染坐标)
       buttonCount: 5,        // 5 粒扣
     },
-    cuff: measurementsToCuffParams(m),
+    cuff: measurementsToCuffParams(gender),
   };
 }
 

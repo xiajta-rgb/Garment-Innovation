@@ -21,6 +21,9 @@ export const CollarBlock: BlockDefinition = {
         collarHeight: Number(p.collarHeight ?? 14),
         collarSpread: Number(p.collarSpread ?? 36),
         neckFrontY: Number(p.neckFrontY ?? 34),
+        shoulderY: Number(p.shoulderY ?? 48),
+        shoulderWidth: Number(p.shoulderWidth ?? 38),
+        gender: String(p.gender ?? 'male'),
       },
       anchors: ctx.anchors as any,
     };

@@ -22,7 +22,7 @@ export const PlacketBlock: BlockDefinition = {
     const partCtx: PartCtx = {
       parameters: {
         placketType: String(p.placketType ?? 'center'),
-        placketWidth: Number(p.placketWidth ?? 30),
+        placketWidth: Number(p.placketWidth ?? 6),
         buttonCount: Number(p.buttonCount ?? 5),
         neckFrontY: Number(p.neckFrontY ?? 34),
         hemLength: Number(p.hemLength ?? 224),

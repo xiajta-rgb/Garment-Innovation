@@ -36,7 +36,7 @@ export function VariantThumb({ variant, partType }: VariantThumbProps) {
           fill={variant.filled ? 'var(--bg-hover)' : 'none'}
           stroke="var(--text-muted)"
           strokeWidth={partType === 'body' ? '0.8' : '1'}
-          strokeDasharray={variant.strokeDash}
+          strokeDasharray={undefined}
         />
       ))}
       {/* 缩略图也渲染细节线 */}

@@ -14,6 +14,7 @@ import {
 import { useCanvasStore } from '@/store/canvasStore';
 import { useWorkspaceStore } from '@/store/workspaceStore';
 import { useBomStore } from '@/store/bomStore';
+import { exportPNG } from '@/features/canvas/components/canvas-export';
 
 export default function CanvasToolbar() {
   const {
@@ -69,23 +70,40 @@ export default function CanvasToolbar() {
   };
 
   const handleExportImage = () => {
-    const stage = useCanvasStore.getState().getStageRef();
-    if (!stage) return;
-
-    // 临时隐藏 Transformer
-    const trs = stage.find('Transformer');
-    trs.forEach((tr) => tr.hide());
-    stage.draw();
-
-    const dataUrl = stage.toDataURL({ pixelRatio: 2, mimeType: 'image/png' });
-    trs.forEach((tr) => tr.show());
-    stage.draw();
-
-    const link = document.createElement('a');
-    link.download = `设计稿-${Date.now()}.png`;
-    link.href = dataUrl;
-    link.click();
+    // 优先使用 SVG → PNG 导出 (参数化设计稿)
+    exportPNG('garment-sketch');
     message.success('图片已导出');
+  };
+
+  const handleExportBom = () => {
+    const items = useBomStore.getState().items;
+    if (items.length === 0) return;
+
+    // 生成 CSV 格式的 BOM 报表
+    const headers = ['部件', '面料', '用量(m)', '单价(元/m)', '损耗率', '成本(元)'];
+    const rows = items.map((item) => [
+      item.componentName,
+      item.material.name,
+      item.usage.toFixed(2),
+      item.material.pricePerMeter.toFixed(2),
+      `${(item.material.lossRate * 100).toFixed(0)}%`,
+      item.cost.toFixed(2),
+    ]);
+
+    const totalCost = items.reduce((sum, i) => sum + i.cost, 0);
+    rows.push(['合计', '', '', '', '', totalCost.toFixed(2)]);
+
+    const csv = [headers.join(','), ...rows.map((r) => r.join(','))].join('\n');
+    const BOM_CSV = '\uFEFF' + csv; // BOM for Excel UTF-8
+
+    const blob = new Blob([BOM_CSV], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.download = `BOM-${Date.now()}.csv`;
+    link.href = url;
+    link.click();
+    URL.revokeObjectURL(url);
+    message.success(`BOM 已导出 (${items.length} 项)`);
   };
 
   return (
@@ -136,7 +154,7 @@ export default function CanvasToolbar() {
         <Button type="text" size="small" icon={<FileImageOutlined />} disabled={components.length === 0} onClick={handleExportImage} />
       </Tooltip>
       <Tooltip title="导出 BOM">
-        <Button type="text" size="small" icon={<ExportOutlined />} disabled={bomItems.length === 0} />
+        <Button type="text" size="small" icon={<ExportOutlined />} disabled={bomItems.length === 0} onClick={handleExportBom} />
       </Tooltip>
 
       <div style={{ width: 1, height: 20, background: 'var(--color-border-secondary)', margin: '0 6px' }} />
