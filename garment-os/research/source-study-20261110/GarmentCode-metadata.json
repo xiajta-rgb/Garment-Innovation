@@ -1,0 +1,9 @@
+{
+  "retrievedAt": "2026-11-10T16:02:32.4983416Z",
+  "commit": "d449629979028123a5c4dc9e732a2ec19b7fce31",
+  "license": "MIT",
+  "archived": false,
+  "branch": "main",
+  "description": "A modular programming framework for designing parametric sewing patterns",
+  "repository": "https://github.com/maria-korosteleva/GarmentCode"
+}

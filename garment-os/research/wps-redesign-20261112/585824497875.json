@@ -1,0 +1,3504 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "爆款 =（流行元素 × 实穿性）÷（成本 × 生产难度）｜市场服装设计完整工作流",
+                  "type": "text"
+                }
+              ],
+              "id": "nGUzbaKbgFRFxQbB",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/x0j8zefdMXALt7MqI7TXlA"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "wmAhTTGiBqQnGtOF",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    }
+                  },
+                  "content": "点 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#102270"
+                    }
+                  },
+                  "content": "卡片",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    }
+                  },
+                  "content": "关注，并 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#FFA900"
+                    }
+                  },
+                  "content": "星标",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    }
+                  },
+                  "content": "，不错过每期精华推送",
+                  "type": "text"
+                }
+              ],
+              "id": "COUIqlCJBrhSDkWd",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 500,
+                "renderHeight": 342.59,
+                "renderWidth": 740,
+                "sourceKey": "cabec048e6d4dfaf6a9165c38ba0f1bdcda749a4",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "hLrcuQDcVpaJfNzF",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ihkQamSToEQdbsxp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "市场款的胜负，不在灵感，而在",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "可以重复使用的开发逻辑。",
+                  "type": "text"
+                }
+              ],
+              "id": "wbTpFbomfXHKNkfQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "VSvViqkVwCMRbjuE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "本文从爆款公式出发，系统梳理扒竞品、拆版型、定价格、秀场转化、成本控制与套版落地六个环节，给你提供一套可直接执行的市场设计工作流。",
+                  "type": "text"
+                }
+              ],
+              "id": "dCrVlbeDEBpFgWws",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "DrZoAxgkqjLwBayb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "文末附《出款改款四大公式》。",
+                  "type": "text"
+                }
+              ],
+              "id": "IonAPaUGCTyjlNPb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#D92142"
+                    }
+                  },
+                  "content": "-F先生原创分享-",
+                  "type": "text"
+                }
+              ],
+              "id": "wYmaOPlDVbOVhVuq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 80,
+                "renderHeight": 79.55,
+                "renderWidth": 636.4,
+                "sourceKey": "8921716de66d531801d2e1ac35da157862f042f2",
+                "version": 2,
+                "width": 640
+              },
+              "id": "eCtTvqwTxCMkuTXF",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "kaSOafsuTLXJiySl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1.市场设计的核心公式",
+                  "type": "text"
+                }
+              ],
+              "id": "JWBUzGrcmslTuqDh",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这个公式是：",
+                  "type": "text"
+                }
+              ],
+              "id": "debnropIMUPVmGXv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "爆款 = （流行元素 × 实穿性） ÷ （成本 × 生产难度）",
+                  "type": "text"
+                }
+              ],
+              "id": "wTJLDtXFMawjWQNa",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "YtvpJNzYzfMjxiiC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "或者更直白一点：",
+                  "type": "text"
+                }
+              ],
+              "id": "PmhZgkIaXFtfrzGe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "设计稿的价值 = （预估销量 × 毛利率） - （改版次数 × 时间成本）",
+                  "type": "text"
+                }
+              ],
+              "id": "oSaMVxIBtEpwJrKv",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "QCyByMblKXJpUgmB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "你的每一个出款考量，最终都要能回答一个问题：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这件衣服为什么能卖出去？",
+                  "type": "text"
+                }
+              ],
+              "id": "eQOvuJWTiTXUoopg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "wKOlyCLiwKfUWslG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 市场设计工作流",
+                  "type": "text"
+                }
+              ],
+              "id": "TXkMWIxqDawmkKRY",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 3
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一. 设计开发前的准备工作",
+                  "type": "text"
+                }
+              ],
+              "id": "GPEkyfGkWiYaFUqR",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "在做任何设计之前，先做三件事：",
+                  "type": "text"
+                }
+              ],
+              "id": "PNSmwNjtmFSaNkDH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "1. 分析竞品（找方向）",
+                  "type": "text"
+                }
+              ],
+              "id": "ClXuONFxwxtmaJIz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "如果是电商：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "看品类Top100的共性。不是看爆款长什么样，而是看",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "爆款的共性元素",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "。",
+                  "type": "text"
+                }
+              ],
+              "id": "EzUvJBBbnSkEImud",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "svlkBZIcZkXOocAc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "如果是档口：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "蹲点看什么款在补单、什么款在甩货。",
+                  "type": "text"
+                }
+              ],
+              "id": "TjgnicAuOXjKUcZg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "oaWmPgWmjenJOacJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "具体操作",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "建立一个Excel表，记录竞品的“品类+面料+颜色+核心细节+价格带+销量”。连续记录你会发现规律的：",
+                  "type": "text"
+                }
+              ],
+              "id": "XGufXGiJwZBQMoQd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 171,
+                "renderHeight": 170.09,
+                "renderWidth": 673.4,
+                "sourceKey": "f2186aabd2bf95bd2a45f4196cc1e35be3a992b5",
+                "version": 2,
+                "width": 677
+              },
+              "id": "BGYNwvowqtgiXwZY",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "IMVqCLYMlrMWUcTO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "2. 拆爆款（找规律）",
+                  "type": "text"
+                }
+              ],
+              "id": "FJANZDJOueMjuRHw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "nibPtXcwSsRsahKM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "找到3-5个同品类爆款，拆解款式找出爆款规律：它为什么好卖？是版型显瘦？面料舒服？颜色应季？还是细节有记忆点？",
+                  "type": "text"
+                }
+              ],
+              "id": "nJmRNLoymnhqhlrQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "OWwHXIpoYzGsiWxJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "以版型为例，把爆款的版型结构拆出来。",
+                  "type": "text"
+                }
+              ],
+              "id": "zGhUEbQuZWjeHLGX",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "YySXCmQxxwbVYXcS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "比如一条爆款裤子的直裆、横档、大腿围数据是多少？侧边弧度是多少？也许这些才是隐藏的爆点。",
+                  "type": "text"
+                }
+              ],
+              "id": "FrkHmqyplriPerrr",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 491,
+                "renderHeight": 490.09,
+                "renderWidth": 643.8,
+                "sourceKey": "cbfc9b7f8fe57eadae35995f58946930b35b0e87",
+                "version": 2,
+                "width": 645
+              },
+              "id": "qxJJrwbRVnuhYYiw",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "hSuInfzXEPTtdDiI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "3. 定价格（卡成本）",
+                  "type": "text"
+                }
+              ],
+              "id": "VbgzYZjblYURCvKY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "sXQUXZScXIFEBZxu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "市场类设计是",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "价格决定设计",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "，而不是设计决定价格。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "明确目标价格带后，倒推面料成本、加工费、辅料费。",
+                  "type": "text"
+                }
+              ],
+              "id": "JokmmoZwncHAnPOq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 533,
+                "renderHeight": 493.03,
+                "renderWidth": 740,
+                "sourceKey": "eb5820cdcb2c5ea8feb75be5ceefe20d4958cb25",
+                "version": 2,
+                "width": 800
+              },
+              "id": "PcrcIUgaajrLwaae",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "wKJKaaMzOQtveHjS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这里有个关键认知",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "很多时候，一个设计能不能做，不取决于好不好看，而取决于这个价格带能不能买到这个面料、能不能用这个工艺。",
+                  "type": "text"
+                }
+              ],
+              "id": "oimDThEhkpyKAgLY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "TCfDYOrrQQDVEXNt",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这句话非常非常重要！",
+                  "type": "text"
+                }
+              ],
+              "id": "NrgFxFvkEzSDJJqW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "二：把T台流行转化为接地气的设计",
+                  "type": "text"
+                }
+              ],
+              "id": "AqDuCoFSHWENivjN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "秀场趋势不是直接给你抄的，要做平民化的转化。",
+                  "type": "text"
+                }
+              ],
+              "id": "lQyJrZoCBvfbFEXD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "我写过一篇文章，里面有详细解读：",
+                  "type": "text"
+                }
+              ],
+              "id": "pSdGYXwWhUCJolgI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#var(--weui-LINK)"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247532880&idx=1&sn=54eee62e84142c981e20df75e111c714&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "ZARA对国际秀场元素“时装平民化”7大机制",
+                  "type": "text"
+                }
+              ],
+              "id": "ErRYtmaFakUEkyMh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "转化公式：",
+                  "type": "text"
+                }
+              ],
+              "id": "MrKBpaiVCsBLcfLa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "秀场元素 × 目标客群生活习惯 = 可售款",
+                  "type": "text"
+                }
+              ],
+              "id": "lXhKMavwOLhLvnbA",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "TuMPfDrKIFXkqCFB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "举例1：秀场上的解构主义西装",
+                  "type": "text"
+                }
+              ],
+              "id": "IrhEvzbcrhafuyoO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "不能直接抄的地方是：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "不对称、挖洞、结构外露 ",
+                  "type": "text"
+                }
+              ],
+              "id": "ifkBxXOcvyrCMxLc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "为什么呢，因为",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "成本高，受众也看不懂，设计感太过了。",
+                  "type": "text"
+                }
+              ],
+              "id": "GaxOEndIDSDCvgdM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "wkpJlHZarQTrKyGU",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "所以可以转化为：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "保留一点结构感（比如前面的活片，下摆的袢头），左右长度有点落差，面料用有挺度但好打理的，颜色可以是基础色+一个流行色。",
+                  "type": "text"
+                }
+              ],
+              "id": "FWmWhnIPLVvsVZbM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ZjZpLPLsDcfpVIlD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "需要注意的是不要钻到原来那个款式里了，参考的只是一种思路。",
+                  "type": "text"
+                }
+              ],
+              "id": "fIfNoNavtZMifgob",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这样最终的成品是：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一件“有点设计感但不奇怪”的日常西装：",
+                  "type": "text"
+                }
+              ],
+              "id": "NEKlDKvHfIhcIvkf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 395,
+                "renderHeight": 392.9,
+                "renderWidth": 673.4,
+                "sourceKey": "5ba342c2ce427fa25d115970d08a152f65a5fc58",
+                "version": 2,
+                "width": 677
+              },
+              "id": "WlJZZxQmVqrSQmGa",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "poahtRlYKMNcSktL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "举例2：秀场上的“极繁印花”",
+                  "type": "text"
+                }
+              ],
+              "id": "dCqZwkKCYyveSqXH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "不能直接抄的地方是：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "满印、撞色、复杂图案",
+                  "type": "text"
+                }
+              ],
+              "id": "bwOoIHUCemXnWJVN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "为什么呢，因为",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "穿着者难以驾驭，风险高，容易压货。",
+                  "type": "text"
+                }
+              ],
+              "id": "HICFxVsyLdfjiTqn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "wVmLDBtyHlKGHJev",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "所以可以转化为：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "提取一个主花型，做小面积定位印花（比如只在袖子或下摆），其他部分用净色，搭配基础款内搭。",
+                  "type": "text"
+                }
+              ],
+              "id": "ahOUXMUhrYPNoxyQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "LHBelVYNgzejeTKe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这样最终的成品是：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一件“好搭配、有点睛效果”的单品。",
+                  "type": "text"
+                }
+              ],
+              "id": "gcWwLyLnJNcKeOWx",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "okpEhumDFXhrdOKk",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 3
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "三：对单品进行成本控制",
+                  "type": "text"
+                }
+              ],
+              "id": "rgEeefjNlMiYuRAh",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "市场类设计的核心能力之一，是",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "“知道哪里该花钱，哪里该省钱”",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "。",
+                  "type": "text"
+                }
+              ],
+              "id": "UXHUeEzENrnpSmGa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 533,
+                "renderHeight": 493.03,
+                "renderWidth": 740,
+                "sourceKey": "0ae516c46e044b915b962b74cbefddeba5c62936",
+                "version": 2,
+                "width": 800
+              },
+              "id": "KOAgBbNkRLmqOtUE",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "iQMljhcgqiqTjzwm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "分享一份成本控制清单：",
+                  "type": "text"
+                }
+              ],
+              "id": "qDGVQIlzvMucGOJE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 面料",
+                  "type": "text"
+                }
+              ],
+              "id": "BTrBEEUhMWCWVVIq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "选常规门幅（145cm或150cm），避免特殊门幅导致损耗增加。",
+                  "type": "text"
+                }
+              ],
+              "id": "gnmJdqFAAwhaEAGZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "能用常规面料，不开发定织定染。除非量级够大。",
+                  "type": "text"
+                }
+              ],
+              "id": "ZaBpgDAqvzoQWAVR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "sKKZGwXGFpJMkoHf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 工艺",
+                  "type": "text"
+                }
+              ],
+              "id": "wBIsRVasbAmqxDVG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "能用平车，不用特种机。除非这个工艺是卖点。",
+                  "type": "text"
+                }
+              ],
+              "id": "fLUCERnQAlztyamA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "能用常规压线，不做复杂嵌线、滚边。",
+                  "type": "text"
+                }
+              ],
+              "id": "EwUkULLchCSwjMIJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "把复杂的结构“简化但不失效果”。",
+                  "type": "text"
+                }
+              ],
+              "id": "BesLzbnPkMGasAMk",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "zmgLPpFPDiSlXKFT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 辅料",
+                  "type": "text"
+                }
+              ],
+              "id": "evpcBEPeKGxaqLVW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "能用通用辅料，不开私模。除非能大批量分摊。",
+                  "type": "text"
+                }
+              ],
+              "id": "MLeXIJrKvWyHUlJl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "拉链、纽扣、织带，尽量选供应商常备库存。",
+                  "type": "text"
+                }
+              ],
+              "id": "fUdwxslQPIBzTZyf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "mTVgqjgPqGEZnFcA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "4. 配色",
+                  "type": "text"
+                }
+              ],
+              "id": "KdayJqMQVnyxhYYh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一个款最多做3个色，且至少1个是基础色（黑白灰米卡其）。",
+                  "type": "text"
+                }
+              ],
+              "id": "AzojKvmABnzUzcGw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "流行色做1个，用来测款。卖得好再翻单。",
+                  "type": "text"
+                }
+              ],
+              "id": "vXeanGglkfczYLbz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "zGgjreaOrKtCBWWn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 3
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "四：合理运用套版思维",
+                  "type": "text"
+                }
+              ],
+              "id": "VzmqXLoZODHpQfrr",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "电商和档口的核心是“快”，所以你不可能每个款都从零开始设计。",
+                  "type": "text"
+                }
+              ],
+              "id": "hXXCIYUiTnOvykHf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 400,
+                "renderHeight": 399.1,
+                "renderWidth": 710.4,
+                "sourceKey": "b4d37008cad40b05f3ed86ffe5683e6418e8237a",
+                "version": 2,
+                "width": 712
+              },
+              "id": "zQDvSSafCbGeeXrG",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "uCtiDtKTzPQkSHtR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "套版公式：",
+                  "type": "text"
+                }
+              ],
+              "id": "zYNsJKwERFqAGeFz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "基础版型 + 可变元素 = 系列款",
+                  "type": "text"
+                }
+              ],
+              "id": "VQUBnsvIWWawRhns",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "RdoKhQLhGTsalRZW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "具体操作：",
+                  "type": "text"
+                }
+              ],
+              "id": "RpnlOAitzdqLRtuH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "建立版型库",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "比如3个基础裤型（直筒、弯刀、束脚）、5个基础上衣型（T恤、衬衫、西装、外套、卫衣）。",
+                  "type": "text"
+                }
+              ],
+              "id": "pdDSuCRCsHPKyYJo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "oJZQxrukIyddzifm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "每个版型确定好",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "胸围、腰围、臀围、衣长等核心数据（经过市场验证的）。",
+                  "type": "text"
+                }
+              ],
+              "id": "KlEaGiqoCwEtCxgE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "然后套版变化",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "：",
+                  "type": "text"
+                }
+              ],
+              "id": "XdQHzsTdRYlwzqXe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "换面料：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "同款不同面料（比如同款裤子做牛仔版、工装版、西装料版）。",
+                  "type": "text"
+                }
+              ],
+              "id": "OMTPOBmeORZBeUSO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "换细节：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "口袋位置、门襟样式、袖口设计。",
+                  "type": "text"
+                }
+              ],
+              "id": "oxzncCnhVuawwZTu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "换辅料：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "纽扣、拉链、织带、印花图案。",
+                  "type": "text"
+                }
+              ],
+              "id": "ngHKslHAjkQWrphf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "QqdRneGekYLGikuy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这样出来的款，版型有保障（改款不改版），生产快（因为不用重新大量开发纸样），风险低（市场验证过的版型）。",
+                  "type": "text"
+                }
+              ],
+              "id": "eTSfiJfKfWosclEO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "JQZkBlIiyGJpDEQM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "五：沟通和落地",
+                  "type": "text"
+                }
+              ],
+              "id": "bMGUaTXHHvcPbvDo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "市场类设计，你的图纸不需要美，但需要准。",
+                  "type": "text"
+                }
+              ],
+              "id": "FReMmmpfQaUDAkmC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 360,
+                "renderHeight": 359.43,
+                "renderWidth": 629,
+                "sourceKey": "5b7f2b981dae71ffb802dd9105b6e1f56646a512",
+                "version": 2,
+                "width": 630
+              },
+              "id": "aiQsPXcmmqZqhTEo",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "pJRKAxNBENfQmzUb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "你的图纸要回答：",
+                  "type": "text"
+                }
+              ],
+              "id": "QVDwQnQRnIvzxnGh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "id": "WYcxW",
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 4,
+                  "type": 2
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这是什么品类？",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "（连衣裙/裤子/外套）",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "kMinIDKnAgqwVAgC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "id": "WYcxW",
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 4,
+                  "type": 2
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "目标价格带？",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "（决定用什么档次的料和工）",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "xRVAKxjvQiUavZQt",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "id": "WYcxW",
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 4,
+                  "type": 2
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "核心卖点是什么？",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "（一句话说清楚：显瘦？舒服？设计感？）",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "bJFgLGhOPMeLzDhP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "id": "WYcxW",
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 4,
+                  "type": 2
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "工艺要求？",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "（哪里是重点，哪里可以简化）",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "aiQCDFGtIkyZjbeW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "id": "WYcxW",
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 4,
+                  "type": 2
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "配什么卖？",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "（搭配什么内搭、下装、鞋子）",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "LOKxzsxDqvLrlJxy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "GKlEUrqAgaVnEGlo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "爆款延伸电子版参考学习合集",
+                  "type": "text"
+                }
+              ],
+              "id": "FZCntJFxDSeUPOqR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 1528,
+                "renderHeight": 1046.96,
+                "renderWidth": 740,
+                "sourceKey": "7046df70df00eb064d4a0785f8ef4d4d8942773a",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "gKGOLiyyzxcpURLV",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "pweHTBwURtZOvbvq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 16
+                    }
+                  },
+                  "content": "附：出款改款四大公式",
+                  "type": "text"
+                }
+              ],
+              "id": "HweTvRousviRHxwn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "gJoBrNSzkAvZgXqk",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "➡️新款公式",
+                  "type": "text"
+                }
+              ],
+              "id": "QooNqIYawiXDKXBs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "新款 = 版型库 × （元素A + 元素B + 元素C）",
+                  "type": "text"
+                }
+              ],
+              "id": "GbPjnjiTlaMRBMsf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "版型库（已市场验证的3-5个基础版型）：例如：H型连衣裙、A型半裙、微喇裤、落肩T恤、廓形西装",
+                  "type": "text"
+                }
+              ],
+              "id": "YXXpUXrvtNnXbddZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "RgwXJomCGPWlQmTs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "组合公式示例：",
+                  "type": "text"
+                }
+              ],
+              "id": "VGcKgdaanOOUEBCZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "新款A= 版型①（H型连衣裙） × （V领 + 泡泡袖 + 腰省压线）",
+                  "type": "text"
+                }
+              ],
+              "id": "aqnXFqpsGFuqCOFy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "优势：改款不改版，效率高，风险低",
+                  "type": "text"
+                }
+              ],
+              "id": "RIewIFJrjhklTELH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "GkpzeoaHTqQtETmP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "➡️改款公式（快速迭",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "代",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "）",
+                  "type": "text"
+                }
+              ],
+              "id": "ObvKCYxTXzeIOcEl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "改款 = 原款 × （换面料 / 改细节 / 调比例 / 加元素）",
+                  "type": "text"
+                }
+              ],
+              "id": "YlHxlPFcfiQYKpHn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "公式应用：",
+                  "type": "text"
+                }
+              ],
+              "id": "CKVLaKaUZAUOUYrA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "原款A（已售罄率80%以上）→ 改款A1、A2、A3，形成系列",
+                  "type": "text"
+                }
+              ],
+              "id": "bRrLnPCaEsvbvFkB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "每次只改1-2处，保持核心基因",
+                  "type": "text"
+                }
+              ],
+              "id": "smrfEQHUBfuhvllX",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "PquJqzhOiOiGSOHA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "➡️系列延展公式（从单品到系列）",
+                  "type": "text"
+                }
+              ],
+              "id": "QuloxPCJgwnRqqXd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "系列 = 核心款 × （配色延展 + 面料延展 + 细节延展 + 品类延展）",
+                  "type": "text"
+                }
+              ],
+              "id": "kPcSOdSbLGDxWIjV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "nJrKXcnIIbDaBkij",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "延展维度：",
+                  "type": "text"
+                }
+              ],
+              "id": "EdbRNzKFgUYWKXme",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "配色延展：同一款做3-5个色（至少1个基础色+1-2个流行色）",
+                  "type": "text"
+                }
+              ],
+              "id": "UCCbDeEgSJJKuvWf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "面料延展：同一廓形用不同面料（如西装款用毛呢、棉麻、丝绒）",
+                  "type": "text"
+                }
+              ],
+              "id": "hKJcMgMYaMOGxVjb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "细节延展：同一基础款衍生不同细节（如A字裙做有口袋/无口袋、有腰袢/无腰袢）",
+                  "type": "text"
+                }
+              ],
+              "id": "QHpEAGyNLIDqWYiR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "eXpHshDfRgSBtOVP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "品类延展：从核心款衍生上下装/内外搭（如一件衬衫衍生出同面料裤子、裙子、外套）",
+                  "type": "text"
+                }
+              ],
+              "id": "AvTVFEpJjXZNLsSE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ZGyYPPbKNGZVhxmt",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "示例：",
+                  "type": "text"
+                }
+              ],
+              "id": "TohvaJzGEmPCdbxp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "核心款：H型风衣",
+                  "type": "text"
+                }
+              ],
+              "id": "AMngQqWhfmOpxVOM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "配色延展：卡其、黑色、军绿",
+                  "type": "text"
+                }
+              ],
+              "id": "YPmRHoCZXXJoIHkp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "面料延展：轻薄款、加棉款",
+                  "type": "text"
+                }
+              ],
+              "id": "XSvKMvgUqhmnavrK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "细节延展：有腰带/无腰带、肩章款/无肩章",
+                  "type": "text"
+                }
+              ],
+              "id": "ddUcZIIYOfNxFlTT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "品类延展：同面料连衣裙、裤子、短外套",
+                  "type": "text"
+                }
+              ],
+              "id": "RqXRLpOifwltRIqc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "rVfyDyxCiJaKXBov",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "➡️爆款拆解公式",
+                  "type": "text"
+                }
+              ],
+              "id": "zOzNZtYEKggfgVau",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "爆款 = 基础版型 × （流行元素¹ + 流行元素² + 实用细节） ÷ 成本系数",
+                  "type": "text"
+                }
+              ],
+              "id": "lSdmiXFQeOuNkDaR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "HhghkQHtyMJZzXAK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "应用方法：",
+                  "type": "text"
+                }
+              ],
+              "id": "HLJkJPAnjtIVWtwp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "找到3-5个同品类爆款，拆解成：",
+                  "type": "text"
+                }
+              ],
+              "id": "zOrvtOqgNTriJDVA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "基础版型：H型/A型/X型/O型？数据是多少？",
+                  "type": "text"
+                }
+              ],
+              "id": "ExRVNlpUkEdESkWE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "流行元素A：颜色/面料/印花/廓形趋势",
+                  "type": "text"
+                }
+              ],
+              "id": "wRbimjadSDIPguVj",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "流行元素B：第二个趋势点（如袖子设计、领型）",
+                  "type": "text"
+                }
+              ],
+              "id": "MotvmvUpzfBbIOtN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "实用细节：口袋/拉链/调节扣/里布等提升穿着体验的部分",
+                  "type": "text"
+                }
+              ],
+              "id": "fmLgoKiOYTDaDlLp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "记录数据：把每个爆款的版型数据、元素组合记下来，建立你的爆款基因",
+                  "type": "text"
+                }
+              ],
+              "id": "UwMZPaUrfehfHCMz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "NOZypOQngVKMZczm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "THE END",
+                  "type": "text"
+                }
+              ],
+              "id": "oGfOMoCKngaHrvDC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " -  用心去做的，永远不会浪费 -",
+                  "type": "text"
+                }
+              ],
+              "id": "phdjDCgmjbgVmymF",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 205,
+                "renderHeight": 203.85,
+                "renderWidth": 636.4,
+                "sourceKey": "e8b6b7446ab2ba86447e2e5e2089b7f9fd5a9d01",
+                "version": 2,
+                "width": 640
+              },
+              "id": "wOdbEMFalLnufcNQ",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KnkeqgiNIEMEAjkU",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "F 先 生 绘 公 众 号",
+                  "type": "text"
+                }
+              ],
+              "id": "IddiMlbMDlOHgtUy",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "Take  heart  without  taking  detours ",
+                  "type": "text"
+                }
+              ],
+              "id": "MIjQdOWQeHWlkCTB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "“走心，不走弯路",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "”",
+                  "type": "text"
+                }
+              ],
+              "id": "OcRJpwIviLhHCWzN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "content": "不喜欢",
+                  "type": "text"
+                }
+              ],
+              "id": "EsRHeycQVztHolnw",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 13
+    }
+  },
+  "result": "ok"
+}

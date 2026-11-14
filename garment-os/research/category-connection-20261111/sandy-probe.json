@@ -1,0 +1,1028 @@
+{
+  "name": "sandy",
+  "version": "4.10.2",
+  "profile": "cisFemaleAdult34",
+  "measurements": {
+    "ankle": 245,
+    "biceps": 270,
+    "bustFront": 480,
+    "bustPointToUnderbust": 100,
+    "bustSpan": 160,
+    "chest": 925,
+    "crossSeam": 740,
+    "crossSeamFront": 370,
+    "crotchDepth": 270,
+    "heel": 315,
+    "head": 565,
+    "highBust": 865,
+    "highBustFront": 440,
+    "hips": 900,
+    "hpsToBust": 275,
+    "hpsToWaistBack": 395,
+    "hpsToWaistFront": 400,
+    "inseam": 765,
+    "knee": 380,
+    "neck": 340,
+    "seat": 1010,
+    "seatBack": 520,
+    "shoulderSlope": 13,
+    "shoulderToElbow": 340,
+    "shoulderToShoulder": 415,
+    "shoulderToWrist": 590,
+    "underbust": 780,
+    "upperLeg": 570,
+    "waist": 750,
+    "waistBack": 380,
+    "waistToArmpit": 170,
+    "waistToFloor": 1050,
+    "waistToHips": 125,
+    "waistToKnee": 600,
+    "waistToSeat": 250,
+    "waistToUnderbust": 80,
+    "waistToUpperLeg": 285,
+    "wrist": 165
+  },
+  "options": {
+    "waistbandPosition": 0,
+    "waistbandShape": "straight",
+    "seamlessFullCircle": false,
+    "panels": 2,
+    "circleRatio": 1,
+    "gathering": 0,
+    "minimumOverlap": 15,
+    "waistbandWidth": 0.04,
+    "lengthBonus": 0.5,
+    "waistbandOverlap": 0.03,
+    "hemWidth": 0.02
+  },
+  "parts": [
+    {
+      "id": "sandy.skirt",
+      "cutlist": {
+        "materials": {
+          "fabric": [
+            {
+              "cut": 2,
+              "identical": true,
+              "onBias": false,
+              "onFold": true
+            }
+          ]
+        },
+        "cutOnFold": [
+          {
+            "x": -84.40465463972869,
+            "y": 84.4046546397287,
+            "attributes": {
+              "list": {}
+            },
+            "name": "in2Flipped"
+          },
+          {
+            "x": -84.40465463972872,
+            "y": 569.4046546397287,
+            "attributes": {
+              "list": {}
+            },
+            "name": "ex2Flipped"
+          }
+        ],
+        "grainOrigin": "cutonfold",
+        "grain": 270
+      },
+      "points": {
+        "center": {
+          "x": -84.40465463972866,
+          "y": -34.961552679192806
+        },
+        "centerRotated": {
+          "x": 0,
+          "y": 0
+        },
+        "in1": {
+          "x": 0,
+          "y": 49.443101960535905
+        },
+        "in1Rotated": {
+          "x": 84.40465463972869,
+          "y": 84.4046546397287
+        },
+        "in1c": {
+          "x": 22.38550622966784,
+          "y": 27.057595730868094
+        },
+        "in1cRotated": {
+          "x": 106.79016086939653,
+          "y": 62.01914841006085
+        },
+        "in2": {
+          "x": 34.961552679192835,
+          "y": -34.96155267919278
+        },
+        "in2Rotated": {
+          "x": 119.36620731892151,
+          "y": 1.461814437194766e-14
+        },
+        "in2c": {
+          "x": 34.96155267919279,
+          "y": -3.303666168609155
+        },
+        "in2cRotated": {
+          "x": 119.36620731892148,
+          "y": 31.657886510583687
+        },
+        "ex1": {
+          "x": 342.94678887547553,
+          "y": 392.38989083601155
+        },
+        "ex1Rotated": {
+          "x": 427.3514435152042,
+          "y": 427.35144351520427
+        },
+        "ex1c": {
+          "x": 456.28743865244013,
+          "y": 279.04924105904666
+        },
+        "ex1cRotated": {
+          "x": 540.6920932921689,
+          "y": 314.0107937382395
+        },
+        "ex2": {
+          "x": 519.9615526791928,
+          "y": -34.961552679192806
+        },
+        "ex2Rotated": {
+          "x": 604.3662073189215,
+          "y": 7.401351413059429e-14
+        },
+        "ex2c": {
+          "x": 519.9615526791928,
+          "y": 125.32633140356977
+        },
+        "ex2cRotated": {
+          "x": 604.3662073189214,
+          "y": 160.2878840827627
+        },
+        "in2Flipped": {
+          "x": -84.40465463972869,
+          "y": 84.4046546397287
+        },
+        "in2FlippedRotated": {
+          "x": -7.30907218597383e-15,
+          "y": 119.36620731892151
+        },
+        "in2cFlipped": {
+          "x": -52.74676812914504,
+          "y": 84.4046546397287
+        },
+        "in2cFlippedRotated": {
+          "x": 31.657886510583666,
+          "y": 119.3662073189215
+        },
+        "in1cFlipped": {
+          "x": -22.385506229667833,
+          "y": 71.82860819020371
+        },
+        "in1cFlippedRotated": {
+          "x": 62.01914841006088,
+          "y": 106.7901608693965
+        },
+        "ex1cFlipped": {
+          "x": 229.606139098511,
+          "y": 505.73054061297603
+        },
+        "ex1cFlippedRotated": {
+          "x": 314.01079373823967,
+          "y": 540.6920932921688
+        },
+        "ex2cFlipped": {
+          "x": 75.88322944303395,
+          "y": 569.4046546397286
+        },
+        "ex2cFlippedRotated": {
+          "x": 160.2878840827626,
+          "y": 604.3662073189215
+        },
+        "ex2Flipped": {
+          "x": -84.40465463972872,
+          "y": 569.4046546397287
+        },
+        "ex2FlippedRotated": {
+          "x": -3.700675706529714e-14,
+          "y": 604.3662073189215
+        },
+        "gridAnchor": {
+          "x": -84.40465463972869,
+          "y": 84.4046546397287
+        },
+        "logo": {
+          "x": -2.2157914625635487e-14,
+          "y": 167.8662073189215
+        },
+        "title": {
+          "x": -4.4431178285127977e-14,
+          "y": 240.6162073189215
+        },
+        "scalebox": {
+          "x": -7.412886316445129e-14,
+          "y": 337.6162073189215
+        }
+      },
+      "paths": {
+        "seam": {
+          "d": "M -84.4,569.4 C 75.88,569.4 229.61,505.73 342.95,392.39 C 456.29,279.05 519.96,125.33 519.96,-34.96 L 34.96,-34.96 C 34.96,-3.3 22.39,27.06 0,49.44 C -22.39,71.83 -52.75,84.4 -84.4,84.4 L -84.4,569.4 z",
+          "ops": [
+            {
+              "type": "move",
+              "to": {
+                "x": -84.40465463972872,
+                "y": 569.4046546397287,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "curve",
+              "to": {
+                "x": 342.94678887547553,
+                "y": 392.38989083601155,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp1": {
+                "x": 75.88322944303395,
+                "y": 569.4046546397286,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp2": {
+                "x": 229.606139098511,
+                "y": 505.73054061297603,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "curve",
+              "to": {
+                "x": 519.9615526791928,
+                "y": -34.961552679192806,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp1": {
+                "x": 456.28743865244013,
+                "y": 279.04924105904666,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp2": {
+                "x": 519.9615526791928,
+                "y": 125.32633140356977,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 34.961552679192835,
+                "y": -34.96155267919278,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "curve",
+              "to": {
+                "x": 0,
+                "y": 49.443101960535905,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp1": {
+                "x": 34.96155267919279,
+                "y": -3.303666168609155,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp2": {
+                "x": 22.38550622966784,
+                "y": 27.057595730868094,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "curve",
+              "to": {
+                "x": -84.40465463972869,
+                "y": 84.4046546397287,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp1": {
+                "x": -22.385506229667833,
+                "y": 71.82860819020371,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp2": {
+                "x": -52.74676812914504,
+                "y": 84.4046546397287,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -84.40465463972872,
+                "y": 569.4046546397287,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "close"
+            }
+          ],
+          "lengthMm": 2106.838700834948,
+          "classes": [
+            "fabric"
+          ]
+        },
+        "sa": {
+          "d": "M -84.4,569.4 L -84.4,579.9 C 78.67,579.9 235.06,515.12 350.37,399.81 C 465.68,284.5 530.46,128.11 530.46,-34.96 L 519.96,-44.96 L 34.96,-44.96 L 24.96,-34.96 C 24.96,-5.96 13.44,21.86 -7.07,42.37 C -27.58,62.88 -55.4,74.4 -84.4,74.4 L -84.4,84.4",
+          "ops": [
+            {
+              "type": "move",
+              "to": {
+                "x": -84.40465463972872,
+                "y": 569.4046546397287,
+                "attributes": {
+                  "list": {}
+                },
+                "name": "ex2Flipped"
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -84.4046546397287,
+                "y": 579.9046546397287,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "curve",
+              "cp1": {
+                "x": 78.66800258634919,
+                "y": 579.9046546397286,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp2": {
+                "x": 235.06162832726537,
+                "y": 515.1242937891391,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "to": {
+                "x": 350.3714100779343,
+                "y": 399.8145120384703,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "curve",
+              "cp1": {
+                "x": 465.68119182860323,
+                "y": 284.50473028780107,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp2": {
+                "x": 530.4615526791928,
+                "y": 128.111104546885,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "to": {
+                "x": 530.4615526791928,
+                "y": -34.96155267919278,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 519.9615526791928,
+                "y": -44.961552679192806,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 34.961552679192835,
+                "y": -44.96155267919278,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 24.961552679192835,
+                "y": -34.96155267919279,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "curve",
+              "cp1": {
+                "x": 24.961552679192796,
+                "y": -5.955831067004606,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp2": {
+                "x": 13.43907463332202,
+                "y": 21.861891703482957,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "to": {
+                "x": -7.071067811865471,
+                "y": 42.37203414867042,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "curve",
+              "cp1": {
+                "x": -27.58121025705296,
+                "y": 62.88217659385789,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "cp2": {
+                "x": -55.39893302754047,
+                "y": 74.4046546397287,
+                "attributes": {
+                  "list": {}
+                }
+              },
+              "to": {
+                "x": -84.40465463972869,
+                "y": 74.4046546397287,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -84.40465463972869,
+                "y": 84.4046546397287,
+                "attributes": {
+                  "list": {}
+                },
+                "name": "in2Flipped"
+              }
+            }
+          ],
+          "lengthMm": 1671.7662363370332,
+          "classes": [
+            "fabric sa"
+          ]
+        },
+        "__macro_cutonfold_cutonfold_line": {
+          "d": "M -84.4,108.65 L -69.4,108.65 L -69.4,545.15 L -84.4,545.15",
+          "ops": [
+            {
+              "type": "move",
+              "to": {
+                "x": -84.4046546397287,
+                "y": 108.6546546397287,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -69.4046546397287,
+                "y": 108.6546546397287,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -69.40465463972872,
+                "y": 545.1546546397287,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -84.40465463972872,
+                "y": 545.1546546397287,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            }
+          ],
+          "lengthMm": 466.5,
+          "classes": [
+            "note"
+          ]
+        },
+        "__macro_scalebox_scalebox_imperial": {
+          "d": "M -50.8,312.22 L -50.8,363.02 L 50.8,363.02 L 50.8,312.22 L -50.8,312.22 z",
+          "ops": [
+            {
+              "type": "move",
+              "to": {
+                "x": -50.80000000000007,
+                "y": 312.21620731892153,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -50.80000000000007,
+                "y": 363.0162073189215,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 50.799999999999926,
+                "y": 363.0162073189215,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 50.799999999999926,
+                "y": 312.21620731892153,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -50.80000000000007,
+                "y": 312.21620731892153,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "close"
+            }
+          ],
+          "lengthMm": 304.7999999999999,
+          "classes": [
+            "scalebox imperial fill-current"
+          ]
+        },
+        "__macro_scalebox_scalebox_metric": {
+          "d": "M -50,312.62 L -50,362.62 L 50,362.62 L 50,312.62 L -50,312.62 z",
+          "ops": [
+            {
+              "type": "move",
+              "to": {
+                "x": -50.00000000000007,
+                "y": 312.6162073189215,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -50.00000000000007,
+                "y": 362.6162073189215,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 49.99999999999993,
+                "y": 362.6162073189215,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 49.99999999999993,
+                "y": 312.6162073189215,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -50.00000000000007,
+                "y": 312.6162073189215,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "close"
+            }
+          ],
+          "lengthMm": 300,
+          "classes": [
+            "scalebox metric fill-bg"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sandy.waistband",
+      "cutlist": {
+        "materials": {
+          "fabric": [
+            {
+              "cut": 1,
+              "identical": false,
+              "onBias": false,
+              "onFold": false
+            }
+          ]
+        },
+        "grainOrigin": "grainline",
+        "grain": 0
+      },
+      "points": {
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "centerLeft": {
+          "x": -375,
+          "y": 0
+        },
+        "centerRight": {
+          "x": 397.5,
+          "y": 0
+        },
+        "topRight": {
+          "x": 397.5,
+          "y": -40
+        },
+        "topLeft": {
+          "x": -375,
+          "y": -40
+        },
+        "bottomRight": {
+          "x": 397.5,
+          "y": 40
+        },
+        "bottomLeft": {
+          "x": -375,
+          "y": 40
+        },
+        "title": {
+          "x": 198.75,
+          "y": 2.4339855133053645e-14
+        },
+        "grainlineFrom": {
+          "x": -375,
+          "y": -20
+        },
+        "grainlineTo": {
+          "x": 375,
+          "y": -20
+        },
+        "button": {
+          "x": 386.25,
+          "y": 19.999999999999996
+        },
+        "buttonhole": {
+          "x": -363.75,
+          "y": 20
+        },
+        "centerNotch": {
+          "x": -11.25,
+          "y": 40
+        },
+        "buttonNotch": {
+          "x": 375,
+          "y": 39.99999999999999
+        }
+      },
+      "paths": {
+        "seam": {
+          "d": "M -375,-40 L -375,40 L 397.5,40 L 397.5,-40 L -375,-40 z",
+          "ops": [
+            {
+              "type": "move",
+              "to": {
+                "x": -375,
+                "y": -40,
+                "attributes": {
+                  "list": {}
+                },
+                "name": "topLeft"
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -375,
+                "y": 40,
+                "attributes": {
+                  "list": {}
+                },
+                "name": "bottomLeft"
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 397.5,
+                "y": 40,
+                "attributes": {
+                  "list": {}
+                },
+                "name": "bottomRight"
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 397.5,
+                "y": -40,
+                "attributes": {
+                  "list": {}
+                },
+                "name": "topRight"
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -375,
+                "y": -40,
+                "attributes": {
+                  "list": {}
+                },
+                "name": "topLeft"
+              }
+            },
+            {
+              "type": "close"
+            }
+          ],
+          "lengthMm": 1705,
+          "classes": [
+            "fabric"
+          ]
+        },
+        "fold": {
+          "d": "M 397.5,0 L -375,0",
+          "ops": [
+            {
+              "type": "move",
+              "to": {
+                "x": 397.5,
+                "y": 0,
+                "attributes": {
+                  "list": {}
+                },
+                "name": "centerRight"
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -375,
+                "y": 0,
+                "attributes": {
+                  "list": {}
+                },
+                "name": "centerLeft"
+              }
+            }
+          ],
+          "lengthMm": 772.5,
+          "classes": [
+            "fabric dashed"
+          ]
+        },
+        "sa": {
+          "d": "M -385,-40 L -385,40 L -375,50 L 397.5,50 L 407.5,40 L 407.5,-40 L 397.5,-50 L -375,-50 z",
+          "ops": [
+            {
+              "type": "move",
+              "to": {
+                "x": -385,
+                "y": -40,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -385,
+                "y": 40,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -375,
+                "y": 50,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 397.5,
+                "y": 50,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 407.5,
+                "y": 40,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 407.5,
+                "y": -40,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 397.5,
+                "y": -50,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": -375,
+                "y": -50,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "close"
+            }
+          ],
+          "lengthMm": 1761.5685424949238,
+          "classes": [
+            "fabric sa"
+          ]
+        },
+        "__macro_grainline_grainline_line": {
+          "d": "M -337.5,-20 L 337.5,-20",
+          "ops": [
+            {
+              "type": "move",
+              "to": {
+                "x": -337.5,
+                "y": -19.999999999999996,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            },
+            {
+              "type": "line",
+              "to": {
+                "x": 337.5,
+                "y": -20.00000000000001,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            }
+          ],
+          "lengthMm": 675,
+          "classes": [
+            "note"
+          ]
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "node_modules/@freesewing/sandy/src/skirt.mjs",
+      "sha256": "bc4025c020f035c0acc014efc97727ffb20af00d450a63ff88ca0ff4e54fe071"
+    },
+    {
+      "path": "node_modules/@freesewing/sandy/src/straight-waistband.mjs",
+      "sha256": "fb264e8cf286381e1116b2468392f99e0fcdddd74732868b07e7faa3e8a4fac8"
+    },
+    {
+      "path": "node_modules/@freesewing/sandy/src/curved-waistband.mjs",
+      "sha256": "18363bfb1fb3063d1cd3351b24691a68a202981f1dc26189a0efb6605efe34a5"
+    },
+    {
+      "path": "node_modules/@freesewing/sandy/src/waistband.mjs",
+      "sha256": "b2f4b8b3da2b9f3a0ad8f4376f697b7d9840394501badfc79440bbc6ed245115"
+    }
+  ],
+  "productionApproved": false
+}

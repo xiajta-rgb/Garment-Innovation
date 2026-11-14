@@ -1,3 +1,6 @@
+import {PANTS_PATTERN_ID,PANTS_MEASUREMENT_FIELDS} from '@/data/foundationMethods';
+import { SKIRT_PATTERN_ID,SKIRT_MEASUREMENT_FIELDS } from '@/data/skirtMethods';
+import { referenceChestEase } from '@/data/referenceFit';
 /**
  * 测量值输入面板
  *
@@ -11,7 +14,8 @@
  */
 
 import { useState } from 'react';
-import { useParametricStore } from '@/store/parametricStore';
+import { useDesignStore } from '@/store/useDesignStore';
+import { useCompositionUiStore } from '@/store/compositionUiStore';
 import type { StandardSize, BodyMeasurements } from '@/types/measurements';
 import {
   FormatPainterOutlined,
@@ -25,9 +29,9 @@ import {
 
 const SIZE_OPTIONS: StandardSize[] = ['XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL'];
 const FIT_OPTIONS = [
-  { value: 'slim' as const, label: '紧身', ease: '0-2cm' },
-  { value: 'regular' as const, label: '合身', ease: '4-6cm' },
-  { value: 'loose' as const, label: '宽松', ease: '10-14cm' },
+  { value: 'slim' as const, label: '较小松量' },
+  { value: 'regular' as const, label: '常规松量' },
+  { value: 'loose' as const, label: '较大松量' },
 ];
 
 /** 测量值字段元信息 (单位 + 显示名 + 简写) */
@@ -43,25 +47,29 @@ const MEASUREMENT_FIELDS: Array<{
   { key: 'waist',        label: '腰围',     short: 'W',  unit: 'mm', min: 600,  max: 1200 },
   { key: 'hip',          label: '臀围',     short: 'H',  unit: 'mm', min: 800,  max: 1400 },
   { key: 'shoulderWidth', label: '总肩宽',  short: 'SW', unit: 'mm', min: 340,  max: 520 },
-  { key: 'sleeveLength', label: '袖长',     short: 'SL', unit: 'mm', min: 450,  max: 700 },
+  { key: 'sleeveLength', label: '人体肩端到腕', short: '肩腕', unit: 'mm', min: 450,  max: 700 },
   { key: 'totalLength',  label: '衣长',     short: 'TL', unit: 'mm', min: 500,  max: 900 },
 ];
 
 /** 简略字段显示 (cm) */
-const fmt = (mm: number) => `${(mm / 10).toFixed(1)}cm`;
+const fmt = (mm: number | undefined) => Number.isFinite(mm)?`${(mm! / 10).toFixed(1)}cm`:'待输入';
 
 export function MeasurementInput() {
-  const measurements = useParametricStore((s) => s.measurements);
-  const standardSize = useParametricStore((s) => s.standardSize);
-  const fit = useParametricStore((s) => s.fit);
-  const viewMode = useParametricStore((s) => s.viewMode);
-  const setSize = useParametricStore((s) => s.setSize);
-  const updateMeasurements = useParametricStore((s) => s.updateMeasurements);
-  const setFit = useParametricStore((s) => s.setFit);
-  const setViewMode = useParametricStore((s) => s.setViewMode);
-  const gender = useParametricStore((s) => s.gender);
+  const compositionActive=useCompositionUiStore(s=>s.active);
+  const measurements = useDesignStore((s) => s.measurements);
+  const standardSize = useDesignStore((s) => s.standardSize);
+  const patternId = useDesignStore(s => s.activePatternId);
+  const fit = useDesignStore((s) => s.fit);
+  const viewMode = useDesignStore((s) => s.viewMode);
+  const setSize = useDesignStore((s) => s.setSize);
+  const updateMeasurements = useDesignStore((s) => s.updateMeasurements);
+  const setFit = useDesignStore((s) => s.setFit);
+  const setViewMode = useDesignStore((s) => s.setViewMode);
+  const gender = useDesignStore((s) => s.gender);
 
   const [expanded, setExpanded] = useState(false);
+  const isSkirt=patternId===SKIRT_PATTERN_ID,isPants=patternId===PANTS_PATTERN_ID;
+  const fields=isPants?PANTS_MEASUREMENT_FIELDS.map(f=>({...f,key:f.id,short:f.label})):isSkirt?SKIRT_MEASUREMENT_FIELDS.map(f=>({...f,key:f.id,short:f.label})):MEASUREMENT_FIELDS;
 
   return (
     <div
@@ -74,6 +82,7 @@ export function MeasurementInput() {
         color: 'var(--text-primary)',
       }}
     >
+      {compositionActive&&<p style={{fontSize:10,lineHeight:1.7,color:'var(--text-muted)',margin:'0 0 8px'}}>此处调整来源模板尺寸；已加入方案的裁片保留原尺寸，请选中部位后在右侧调整。</p>}
       {/* ─── 视图模式 (Clean 线稿 / Industrial 工业纸样) ─── */}
       <div style={{ marginBottom: 6 }}>
         <div
@@ -138,7 +147,7 @@ export function MeasurementInput() {
             <ColumnHeightOutlined /> 尺码 · {gender === 'female' ? '女' : '男'}
           </span>
           <span style={{ fontSize: 8, color: 'var(--text-muted)' }}>
-            ASTM D5586/D5585
+            演示样本 · 待实测
           </span>
         </div>
         <div style={{ display: 'flex', gap: 2 }}>
@@ -165,7 +174,7 @@ export function MeasurementInput() {
       </div>
 
       {/* ─── 版型选择 ─── */}
-      <div style={{ marginBottom: 6 }}>
+      {!isSkirt&&!isPants&&<div style={{ marginBottom: 6 }}>
         <div
           style={{
             fontWeight: 600,
@@ -181,7 +190,7 @@ export function MeasurementInput() {
             <button
               key={opt.value}
               onClick={() => setFit(opt.value)}
-              title={`放松量: ${opt.ease}`}
+              title={`胸围增量 ${Math.round(referenceChestEase(patternId,opt.value)*100)}%（人体胸围的比例）；其他构型选项以生成器为准`}
               style={{
                 flex: 1,
                 padding: '3px 0',
@@ -198,7 +207,9 @@ export function MeasurementInput() {
             </button>
           ))}
         </div>
-      </div>
+      </div>}
+      {isPants&&<p>裤装使用完整下身测量；松量、脚口和腰头在工艺构成中调整。</p>}
+      {isSkirt&&<p>圆度、抽褶与腰头比例在工艺构成中调整；成品裙长是独立设计长度。</p>}
 
       {/* ─── 测量值简表 (可展开详细) ─── */}
       <div>
@@ -221,7 +232,7 @@ export function MeasurementInput() {
 
         {expanded && (
           <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-            {MEASUREMENT_FIELDS.map((f) => (
+            {fields.map((f) => (
               <MeasurementRow
                 key={f.key}
                 label={f.label}
@@ -245,7 +256,7 @@ export function MeasurementInput() {
               color: 'var(--text-secondary)',
             }}
           >
-            {MEASUREMENT_FIELDS.slice(0, 6).map((f) => (
+            {fields.slice(0, 6).map((f) => (
               <div
                 key={f.key}
                 style={{
@@ -268,33 +279,35 @@ export function MeasurementInput() {
 interface RowProps {
   label: string;
   short: string;
-  value: number;
+  value: number | undefined;
   min: number;
   max: number;
   onChange: (v: number) => void;
 }
 
-function MeasurementRow({ label, short: _short, value, min, max, onChange }: RowProps) {
+function MeasurementRow({ label, value, min, max, onChange }: RowProps) {
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
       <span style={{ flex: '0 0 50px', fontSize: 9, color: 'var(--text-muted)' }}>
         {label}
       </span>
       <input
+        aria-label={`${label}滑动调整`}
         type="range"
         min={min}
         max={max}
         step={1}
-        value={value}
-        onChange={(e) => onChange(Number(e.target.value))}
+        value={Number.isFinite(value)?value:''}
+        onChange={(e) => onChange(e.target.value===''?NaN:Number(e.target.value))}
         style={{ flex: 1, height: 4 }}
       />
       <input
+        aria-label={label}
         type="number"
         min={min}
         max={max}
-        value={value}
-        onChange={(e) => onChange(Number(e.target.value))}
+        value={Number.isFinite(value)?value:''}
+        onChange={(e) => onChange(e.target.value===''?NaN:Number(e.target.value))}
         style={{
           width: 50,
           background: 'var(--bg-secondary)',

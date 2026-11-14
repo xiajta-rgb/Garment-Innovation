@@ -10,7 +10,7 @@ export interface FabricColor {
   group: 'white' | 'beige' | 'brown' | 'red' | 'orange' | 'yellow' | 'green' | 'blue' | 'purple' | 'pink' | 'gray' | 'black';
 }
 
-/** 标准面料颜色 (30色, 含中文名) */
+/** 屏幕配色 (30色)。不是实物色卡、色差或染色标准。 */
 export const FABRIC_COLORS: FabricColor[] = [
   { hex: '#FFFFFF', name: '纯白', group: 'white' },
   { hex: '#F5F5DC', name: '米色', group: 'beige' },

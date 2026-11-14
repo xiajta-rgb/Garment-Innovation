@@ -1,11 +1,30 @@
-import { PART_CATEGORIES } from '@/data/garmentParts';
-import { useParametricStore } from '@/store/parametricStore';
+import { isReferencePattern } from '@/data/patternReview';
+import { PART_CATEGORIES } from '@/data/partCategories';
+import { usePieceLibraryStore } from '@/store/pieceLibraryStore';
+import { useDesignStore } from '@/store/useDesignStore';
 import { PART_ICONS } from '@/components/icons/PartIcons';
-import { viewToggleBtnStyle } from '@/components/layout/shared-styles';
 import { CanvasMenu } from '@/features/canvas/components/CanvasMenu';
+import { PatternValidationBadge } from '@/features/canvas/components/PatternValidationBadge';
+import { PieceLibraryView } from '@/features/piece-library/PieceLibraryView';
+import { usePieceQC } from '@/features/piece-library/usePieceQC';
 import { GarmentSketch } from '@/features/canvas/components/GarmentSketch';
-import DesignCanvas from '@/features/canvas/components/DesignCanvas';
-import { useRef, useCallback, useState } from 'react';
+import ReferencePatternBoard from '@/features/canvas/components/ReferencePatternBoard';
+import { lazy, Suspense, useRef, useCallback, useState } from 'react';
+import type { AssetLibraryTab,CategoryWorkspaceAction,PieceLibraryViewId } from '@/types/category-workbench';
+import { ManagedMaterialSummary } from '@/features/asset-library/ManagedMaterialAssignments';
+import { WORKBENCH_NAV_ITEMS } from '@/application/workbench-config';
+
+const StyleWorkflow=lazy(()=>import('@/features/style-workflow/StyleWorkflow').then(m=>({default:m.StyleWorkflow})));
+const ReferenceCatalogue=lazy(()=>import('@/features/piece-library/ReferenceCatalogue').then(m=>({default:m.ReferenceCatalogue})));
+const CompanyDesignBoard=lazy(()=>import('@/features/company-design/CompanyDesignBoard').then(m=>({default:m.CompanyDesignBoard})));
+const PieceDesignBoard=lazy(()=>import('@/features/piece-design/PieceDesignBoard').then(m=>({default:m.PieceDesignBoard})));
+const AssetLibrary=lazy(()=>import('@/features/asset-library/AssetLibrary').then(m=>({default:m.AssetLibrary})));
+const CategoryWorkbench=lazy(()=>import('@/features/category-workbench/CategoryWorkbench').then(m=>({default:m.CategoryWorkbench})));
+const DesignDesk=lazy(()=>import('@/features/design-desk/DesignDesk').then(m=>({default:m.DesignDesk})));
+const TemplateReviewStudio=lazy(()=>import('@/features/tee-matrix/TemplateReviewStudio').then(m=>({default:m.TemplateReviewStudio})));
+const TeeFoundationStudio=lazy(()=>import('@/features/tee-matrix/TeeFoundationStudio').then(m=>({default:m.TeeFoundationStudio})));
+const RedesignReferences=lazy(()=>import('@/features/piece-design/RedesignReferences').then(m=>({default:m.RedesignReferences})));
+type WorkspaceView = 'redesign-reference' | 'matrix' | 'review' | 'foundation' | 'piece-design' | 'company' | 'categories' | 'assets' | 'canvas' | 'pieces' | 'workflow';
 
 interface CanvasAreaProps {
   showSketch: boolean;
@@ -15,6 +34,7 @@ interface CanvasAreaProps {
   sketchZoom: number;
   onSketchZoom: (updater: (z: number) => number) => void;
   garmentColor: string;
+  onToggleSidebar?: () => void;
 }
 
 export function CanvasArea({
@@ -25,20 +45,54 @@ export function CanvasArea({
   sketchZoom,
   onSketchZoom,
   garmentColor,
+  onToggleSidebar,
 }: CanvasAreaProps) {
-  const storeView = useParametricStore((s) => s.view);
-  const setView = useParametricStore((s) => s.setView);
-  const activePart = useParametricStore((s) => s.activePart);
+  // 裁片 QC 门禁常驻 (换模板/改尺寸自动重检)
+  usePieceQC();
+  const [selectedWorkspace, setSelectedWorkspace] = useState<WorkspaceView>(()=>{
+    const requested = new URLSearchParams(window.location.search).get('workspace');
+    if (['matrix', 'matrix-v1', 'design'].includes(requested ?? '')) return 'matrix';
+    if (['redesign-reference','company','review','foundation','assets','pieces','categories','workflow'].includes(requested ?? '')) return requested as WorkspaceView;
+    return 'piece-design';
+  });
+  const lastDesign = useRef<WorkspaceView>(['matrix','piece-design','canvas','workflow'].includes(selectedWorkspace) ? selectedWorkspace : 'piece-design');
+  const setWorkspaceView = (next: WorkspaceView) => {
+    if (['matrix','piece-design','canvas','workflow'].includes(next)) lastDesign.current = next;
+    setSelectedWorkspace(next);
+  };
+  const [categoryId,setCategoryId]=useState('round-short-tee');
+  const [assetContext,setAssetContext]=useState<{categoryId?:string;tab:AssetLibraryTab}>({tab:'material'});
+  const [pieceInitialView,setPieceInitialView]=useState<PieceLibraryViewId>('generator');
+  const currentPiecesView=usePieceLibraryStore(s=>s.currentPiecesView),workspaceView=currentPiecesView?'canvas':selectedWorkspace;
+  const showPieces = workspaceView === 'pieces';
+  const showWorkflow = workspaceView === 'workflow';
+  const storeView = useDesignStore((s) => s.view);
+  const setView = useDesignStore((s) => s.setView);
+  const activePart = usePieceLibraryStore((s) => s.activePart);
+  const activePatternId = useDesignStore(s => s.activePatternId);
+  const referenceBrowse=usePieceLibraryStore(s=>s.referenceBrowse);
+  const openReferences=usePieceLibraryStore(s=>s.openReferenceCatalogue);
+  const section = referenceBrowse || ['redesign-reference','company','categories','review','foundation'].includes(workspaceView) ? 'references' : workspaceView==='assets' ? 'assets' : workspaceView==='pieces' ? 'pieces' : 'design';
+  const closeReferences=usePieceLibraryStore(s=>s.closeReferenceCatalogue);
+  const clearFilter=usePieceLibraryStore(s=>s.clearTagFilter);
+  const setFilter=usePieceLibraryStore(s=>s.setTagFilter);
+  const navigateCategory=(action:CategoryWorkspaceAction)=>{
+    clearFilter();
+    if(action.kind==='assets'){setCategoryId(action.categoryId);setAssetContext({categoryId:action.categoryId,tab:action.tab});setWorkspaceView('assets');}
+    else if(action.kind==='pieces'){setPieceInitialView(action.view);setWorkspaceView('pieces');}
+    else setWorkspaceView('company');
+  };
 
   // 画布平移状态
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const isPanning = useRef(false);
+  const [panning,setPanning] = useState(false);
   const lastPanPoint = useRef({ x: 0, y: 0 });
 
   const handleMouseDown = useCallback((e: React.MouseEvent) => {
     // 中键拖拽 或 Space+左键拖拽
     if (e.button === 1 || (e.button === 0 && e.altKey)) {
-      isPanning.current = true;
+      isPanning.current = true; setPanning(true);
       lastPanPoint.current = { x: e.clientX, y: e.clientY };
       e.preventDefault();
     }
@@ -53,7 +107,7 @@ export function CanvasArea({
   }, []);
 
   const handleMouseUp = useCallback(() => {
-    isPanning.current = false;
+    isPanning.current = false; setPanning(false);
   }, []);
 
   const handleResetView = useCallback(() => {
@@ -62,68 +116,69 @@ export function CanvasArea({
   }, [onSketchZoom]);
 
   return (
-    <main style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
-      {/* 视图切换工具栏 */}
-      <div style={{
-        height: 36,
-        display: 'flex',
-        alignItems: 'center',
-        padding: '0 16px',
-        gap: 8,
-        background: 'var(--bg-secondary)',
-        borderBottom: '1px solid var(--border)',
-        flexShrink: 0,
-      }}>
-        <button
-          onClick={onToggleSketch}
-          className={`view-toggle ${showSketch ? 'active' : ''}`}
-          style={viewToggleBtnStyle(showSketch)}
-        >
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-            <rect x="1" y="1" width="12" height="12" rx="2" stroke="currentColor" strokeWidth="1.2" />
-            <path d="M4 5h6M4 7h6M4 9h4" stroke="currentColor" strokeWidth="1" strokeLinecap="round" />
-          </svg>
-          Sketch
-        </button>
-        <button
-          onClick={onTogglePattern}
-          className={`view-toggle ${showPattern ? 'active' : ''}`}
-          style={viewToggleBtnStyle(showPattern)}
-        >
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-            <path d="M1 1h5v5H1zM8 1h5v5H8zM1 8h5v5H1zM8 8h5v5H8z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
-          </svg>
-          Pattern
-        </button>
-
-        {showSketch && (
-          <>
-            <span style={{ color: 'var(--border-light)', fontSize: 12, margin: '0 4px' }}>|</span>
-            <button
-              onClick={() => setView('front')}
-              className={`view-toggle ${storeView === 'front' ? 'active' : ''}`}
-              style={viewToggleBtnStyle(storeView === 'front')}
-            >
-              Front
-            </button>
-            <button
-              onClick={() => setView('back')}
-              className={`view-toggle ${storeView === 'back' ? 'active' : ''}`}
-              style={viewToggleBtnStyle(storeView === 'back')}
-            >
-              Back
-            </button>
-          </>
-        )}
-
-        <div style={{ flex: 1 }} />
-
-        <span style={{ fontSize: 10, color: 'var(--text-muted)', fontWeight: 500 }}>
-          {Math.round(sketchZoom * 100)}%
-        </span>
+    <main data-testid="workbench-canvas" style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+      <nav className="workbench-primary-nav" aria-label="工作台主导航">
+        {onToggleSidebar && <button className="workbench-sidebar-toggle" onClick={onToggleSidebar}>模板与尺寸</button>}
+        {WORKBENCH_NAV_ITEMS.map(({ id, label }) => <button key={id} data-workbench-section={id} aria-pressed={section === id} onClick={() => { clearFilter(); setWorkspaceView(id === 'design' ? lastDesign.current : id === 'references' ? 'company' : id); }}>{label}</button>)}
+        <div className="workbench-nav-status"><PatternValidationBadge/></div>
+      </nav>
+      <div className="workbench-secondary-nav" aria-label={section==='references'?'参考资料分类':section==='design'?'设计工具':'资源导航'}>
+        {section==='design'&&<>
+          <button className="view-toggle" aria-pressed={workspaceView==='piece-design'} onClick={()=>{closeReferences();setWorkspaceView('piece-design');}}>裁片组合设计</button>
+          <button className="view-toggle" aria-pressed={workspaceView==='matrix'} onClick={()=>{clearFilter();setWorkspaceView('matrix');}}>定制矩阵</button>
+          <button className="view-toggle" aria-pressed={showWorkflow} onClick={()=>{closeReferences();setWorkspaceView('workflow');}}>款式工作流</button>
+          <details className="workbench-view-options"><summary>画布视图</summary><div>
+            <button className="view-toggle" aria-pressed={showSketch&&workspaceView==='canvas'} onClick={()=>{setWorkspaceView('canvas');if(!showSketch)onToggleSketch();}}>Sketch</button>
+            <button className="view-toggle" aria-pressed={showPattern&&workspaceView==='canvas'} onClick={()=>{setWorkspaceView('canvas');if(!showPattern)onTogglePattern();}}>Pattern</button>
+            {workspaceView==='canvas'&&<><button onClick={()=>setView('front')}>Front</button><button onClick={()=>setView('back')}>Back</button></>}
+          </div></details>
+        </>}
+        {section==='references'&&<>
+          <button aria-pressed={workspaceView==='redesign-reference'&&!referenceBrowse} onClick={()=>{closeReferences();setWorkspaceView('redesign-reference');}}>改款文献</button>
+          <button aria-pressed={workspaceView==='company'&&!referenceBrowse} onClick={()=>{closeReferences();setWorkspaceView('company');}}>公司设计稿</button>
+          <button aria-pressed={!!referenceBrowse} onClick={()=>{clearFilter();openReferences();}}>参考裁片库</button>
+          <button aria-pressed={workspaceView==='categories'&&!referenceBrowse} onClick={()=>{closeReferences();setWorkspaceView('categories');}}>品类与功能</button>
+          <button aria-pressed={workspaceView==='review'&&!referenceBrowse} onClick={()=>{closeReferences();setWorkspaceView('review');}}>模板审查</button>
+          <button aria-pressed={workspaceView==='foundation'&&!referenceBrowse} onClick={()=>{closeReferences();setWorkspaceView('foundation');}}>基础裁片核对</button>
+        </>}
+        {section==='assets'&&<><span>面料 · 工艺 · 结构 · 模板 · 配色</span><button onClick={()=>{setPieceInitialView('generator');setWorkspaceView('pieces');}}>查看当前裁片</button><button onClick={()=>setWorkspaceView('categories')}>品类与功能</button></>}
+        {section==='pieces'&&<><span>源裁片 · 分类 · 配缝与检查</span><button onClick={()=>{openReferences();}}>查看参考资料</button></>}
       </div>
 
+      <ManagedMaterialSummary onManage={()=>{clearFilter();setAssetContext({tab:'material'});setWorkspaceView('assets');}}/>
+      {referenceBrowse&&<Suspense fallback={<p role="status">正在加载参考裁片库…</p>}>
+        <ReferenceCatalogue key={`${referenceBrowse.family??''}/${referenceBrowse.role??''}`} initial={referenceBrowse}
+          onScopeChange={({family,role})=>{
+            setFilter(family?[family,...(role?[`role:${role}`]:[])]:[]);
+            if(family)usePieceLibraryStore.getState().setActivePart(family);
+            openReferences(family,role);
+          }}
+          onCurrent={(family,role)=>{
+            if(!family){clearFilter();return;}
+            setFilter([family,...(role?[`role:${role}`]:[])]);closeReferences();setWorkspaceView('pieces');
+          }}/>
+      </Suspense>}
+      {!referenceBrowse&&showWorkflow&&<Suspense fallback={<p role="status">正在加载款式工作流…</p>}><StyleWorkflow/></Suspense>}
+      {!referenceBrowse&&workspaceView==='matrix'&&<Suspense fallback={<p role="status">正在加载定制矩阵…</p>}><DesignDesk onReview={()=>setWorkspaceView('review')} onFoundation={()=>setWorkspaceView('foundation')}/></Suspense>}
+      {!referenceBrowse&&workspaceView==='review'&&<div className="workbench-reference-module"><button className="workbench-back" onClick={()=>setWorkspaceView('matrix')}>返回定制矩阵</button><Suspense fallback={<p>正在加载模板审查…</p>}><TemplateReviewStudio onDesign={()=>setWorkspaceView('matrix')}/></Suspense></div>}
+      {!referenceBrowse&&workspaceView==='foundation'&&<div className="workbench-reference-module"><button className="workbench-back" onClick={()=>setWorkspaceView('matrix')}>返回定制矩阵</button><Suspense fallback={<p>正在加载基础裁片…</p>}><TeeFoundationStudio/></Suspense></div>}
+      {!referenceBrowse&&workspaceView==='piece-design'&&<Suspense fallback={<p role="status">正在加载裁片组合…</p>}><PieceDesignBoard onReferences={()=>{closeReferences();setWorkspaceView('redesign-reference');}}/></Suspense>}
+      {!referenceBrowse&&workspaceView==='redesign-reference'&&<Suspense fallback={<p role="status">正在加载改款文献…</p>}><RedesignReferences onDesign={()=>setWorkspaceView('piece-design')}/></Suspense>}
+      {!referenceBrowse&&workspaceView==='company'&&<Suspense fallback={<p role="status">正在加载公司母版…</p>}><CompanyDesignBoard onMapping={()=>{clearFilter();setPieceInitialView('generator');setWorkspaceView('pieces');}} onLibrary={()=>{setAssetContext({tab:'material'});setWorkspaceView('assets');}}/></Suspense>}
+      {!referenceBrowse&&workspaceView==='categories'&&<Suspense fallback={<p role="status">正在加载品类映射…</p>}><CategoryWorkbench categoryId={categoryId} onCategoryChange={setCategoryId} onNavigate={navigateCategory}/></Suspense>}
+      {!referenceBrowse&&workspaceView==='assets'&&<Suspense fallback={<p role="status">正在加载资产库…</p>}><AssetLibrary key={`${assetContext.categoryId??'all'}-${assetContext.tab}`} categoryId={assetContext.categoryId} initialTab={assetContext.tab} onDesign={()=>setWorkspaceView('piece-design')} onCategories={()=>setWorkspaceView('categories')} onCompany={()=>setWorkspaceView('company')} onPattern={()=>{clearFilter();setPieceInitialView('generator');setWorkspaceView('pieces');}}/></Suspense>}
+      {/* 裁片标准化库视图 (全屏接管) */}
+      {!referenceBrowse && !showWorkflow && showPieces && (
+        <div style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
+          <PieceLibraryView key={pieceInitialView} initialView={pieceInitialView}/>
+        </div>
+      )}
+
       {/* 双画布 */}
+      {!referenceBrowse && workspaceView === 'canvas' && !isReferencePattern(activePatternId) && <div data-testid="legacy-pattern-quarantine" style={{ padding: '8px 16px', background: '#fff7e6', color: '#874d00', fontSize: 12 }}>
+        历史模板待逐片核验，已停止映射。可在裁片库的检验页查看原始资料。
+      </div>}
+      {!referenceBrowse && workspaceView === 'canvas' && (
       <div style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
         {/* 左：成衣线稿 */}
         {showSketch && (
@@ -186,7 +241,7 @@ export function CanvasArea({
 
             {/* 可缩放/平移画布区域 */}
             <div
-              style={{ flex: 1, overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: isPanning.current ? 'grabbing' : 'default' }}
+              style={{ flex: 1, overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: panning ? 'grabbing' : 'default' }}
               onWheel={(e) => {
                 e.preventDefault();
                 onSketchZoom(z => Math.min(3, Math.max(0.3, z + (e.deltaY > 0 ? -0.1 : 0.1))));
@@ -243,10 +298,11 @@ export function CanvasArea({
         {showPattern && (
           <div id="pattern-canvas" style={{ flex: 1, overflow: 'hidden', position: 'relative' }}>
             <CanvasMenu canvasId="pattern-canvas" capabilities={{ svg: false, png: false, sheet: true }} />
-            <DesignCanvas />
+            <ReferencePatternBoard />
           </div>
         )}
       </div>
+      )}
     </main>
   );
 }

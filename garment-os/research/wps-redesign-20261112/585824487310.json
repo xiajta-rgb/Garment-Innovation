@@ -1,0 +1,2137 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "爆款廓形如何做延伸（公式+5维思路）",
+                  "type": "text"
+                }
+              ],
+              "id": "UjMxagClUlhjfieO",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/gKNrojfuhfUroUGu6VQ20g"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "VuqjixHrmpBZTuQX",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "点 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#102270"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "卡片",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "关注，并 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#FFA900"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "星标",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "，不错过每期精华推送",
+                  "type": "text"
+                }
+              ],
+              "id": "aNqlWfrGkzthMHwh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 543,
+                "renderHeight": 372.06,
+                "renderWidth": 740,
+                "sourceKey": "e7b237696255a46c720b0e7a7c310661b502073b",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "fKmsKdodCyQYzvkz",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ykfZfokHzSzAEnat",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "廓形作为服装的“骨骼”，是消费者识别品牌DNA的关键。延续爆款廓形的关键，在于保持核心轮廓的同时在别的方面做延伸调整。",
+                  "type": "text"
+                }
+              ],
+              "id": "ZCjKSZEInpaDdaMq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "MTVCHCghrVNAZWxr",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    },
+                    "underline": true
+                  },
+                  "content": "如何在延续中保持辨识度，又避免审美疲劳和过度魔改？",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "以下是我系统整理的方法论和案例，供你参考。",
+                  "type": "text"
+                }
+              ],
+              "id": "IIfMQgYrGraLqVKM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 80,
+                "renderHeight": 79.55,
+                "renderWidth": 636.4,
+                "sourceKey": "178e3d1dedb30020a44fac2873e544fd30f9a0ab",
+                "version": 2,
+                "width": 640
+              },
+              "id": "GBZTeLErECincnzv",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "WqsNfLVIHPYujKPJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "1. 整体认知：",
+                  "type": "text"
+                }
+              ],
+              "id": "XtcolbpEbuoAAuOT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "爆款廓形的",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "延续公式=",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "廓形识别度",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": " × ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "元素变量",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": " × ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "场景适配",
+                  "type": "text"
+                }
+              ],
+              "id": "ZrLJPcpNUeQvGuMC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "UWRWyrpfnfOkRbgy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "A. 廓形识别度：",
+                  "type": "text"
+                }
+              ],
+              "id": "nKlDhYmCedVSdhvW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "消费者闭眼能想象出的轮廓",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "（",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "如",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "S",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "aint Laurent廓形",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "的利落线条感）,这个廓形识别度是定量，是相对稳定的。",
+                  "type": "text"
+                }
+              ],
+              "id": "hCgcubvcdBEvcLhI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 505,
+                "renderHeight": 346.02,
+                "renderWidth": 740,
+                "sourceKey": "1d18614cba656ffcb1c6cb277b880fba1b6a08e3",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "LgDtdRqIkgdklkEh",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "vuznGpysjkEZpJew",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "国内品牌的话，比如EDITION，不论是连衣裙还是风衣外套、裤子，廓形都是利落干净不拖泥带水的，这就是廓形辨识度。",
+                  "type": "text"
+                }
+              ],
+              "id": "XpoVKGsqSQjBEvSm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 507,
+                "renderHeight": 347.39,
+                "renderWidth": 740,
+                "sourceKey": "3e0591a568e11e1a382fc7c9dd6cc91f7d034890",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "TWrNlNzlWLZLtUaa",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "tgsNgnSGfbOeJiOA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "B. 元素变量：",
+                  "type": "text"
+                }
+              ],
+              "id": "GiuvWLiIHGkrNZMT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "可调整的细节维度（领型/袖型/腰线下摆等）",
+                  "type": "text"
+                }
+              ],
+              "id": "bNHoWunDwVVrsJHW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "元素变量就是调整设计细节这个维度，",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "在关键的部位做微调",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "比如在肩袖的地方做结构变形处理，飞袖改假两件袖，下摆做层叠处理",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "。",
+                  "type": "text"
+                }
+              ],
+              "id": "biLRsfvFxvklkaPi",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 664,
+                "renderHeight": 454.96,
+                "renderWidth": 740,
+                "sourceKey": "a85988a58cd31d52061e3218b1697334db1ce29b",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "WENucEjXXXxkqRHS",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "SXNXWbXIkxrAnjVa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "C. 场景适配",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "：",
+                  "type": "text"
+                }
+              ],
+              "id": "wsWmQLfqhETzKBvp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "覆盖日常/通勤/社交等场景需求",
+                  "type": "text"
+                }
+              ],
+              "id": "jhZQzBGYMKlKtAUv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "比如",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "H型（直筒）、A字型、微茧型、改良西装廓形",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "等，这些剪裁具备天然的",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "包容性",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "和",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "多场景适配性",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "。",
+                  "type": "text"
+                }
+              ],
+              "id": "UMepBoBFbZiQxnhH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "jhnSDZzuaEbABQsm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 3
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "在延伸爆款廓",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "形的方法上，",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "面料和细节可以做“场景化微调”",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "。",
+                  "type": "text"
+                }
+              ],
+              "id": "NQmkiUFAmMBSwTLC",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "同一廓形，在休闲（日常）场景可以用",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "弹性混纺（棉+氨纶）、空气层面料，提升舒适和抗皱性。",
+                  "type": "text"
+                }
+              ],
+              "id": "ldbkAYIJDQaDyJFg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "hZKkYcCQhMHyIplS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "而",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "通勤场景可以",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "添加微哑光的质感（如TR斜纹布、轻羊毛）提升正式感，",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "内衬增加抗静电处理，避免职场尴尬。",
+                  "type": "text"
+                }
+              ],
+              "id": "ZSDrrCuQUfatlUYZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "mftDjjzLFkOqVVnA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "社交场景就可以在",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "局部使用特殊工艺（激光镂空、珠光涂层）或装饰性缝线这些，在廓形不变的基础上尽可能扩展场景需求",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "。",
+                  "type": "text"
+                }
+              ],
+              "id": "AzcdlQGtDEhIoSLe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "QxoPbMOTYtOcucGV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "2. 延续爆款廓形的5维思路",
+                  "type": "text"
+                }
+              ],
+              "id": "UYTVJPyTXyzmbzEA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "1. 元素解构重组（经典款进化）",
+                  "type": "text"
+                }
+              ],
+              "id": "eEpKYsgfGFhsaRLB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "PSxtvmtXkElzsNms",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "领型变量：",
+                  "type": "text"
+                }
+              ],
+              "id": "XZXQUunQvsEvHZwe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "基础廓形+可变领型（如MIUMIU2025的局部领子变化）",
+                  "type": "text"
+                }
+              ],
+              "id": "uvEkLUDMwTZNnZtW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 575,
+                "renderHeight": 393.98,
+                "renderWidth": 740,
+                "sourceKey": "909d29261634b86275651fabd8ffe1f3131a01fa",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "mHnaxQjqrBpwjXfF",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "GGzNNCAUcvReHPdv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "袖型变量：",
+                  "type": "text"
+                }
+              ],
+              "id": "PmaNquctwfFiymIZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "保留肩线，调整袖型（比如泡泡袖→羊腿袖→灯笼袖）",
+                  "type": "text"
+                }
+              ],
+              "id": "rCTrSNEOzuBCVYXV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 529,
+                "renderHeight": 362.46,
+                "renderWidth": 740,
+                "sourceKey": "9c744f2db72886568974187fd0ab1bbce8fa77b4",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "wVBxhSvNkucINqCk",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "oWUihuvMtwkvtOfo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "装饰加减：",
+                  "type": "text"
+                }
+              ],
+              "id": "gJypWQNLUTaakaOt",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "基础款（净面）→迭代款（比如添加装饰线/花边/打揽等）",
+                  "type": "text"
+                }
+              ],
+              "id": "UeMVTiaixZjsepav",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 560,
+                "renderHeight": 383.7,
+                "renderWidth": 740,
+                "sourceKey": "b922b30619ce25ee6efe64eed0d719724f13f806",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "NwfhodKDkCkDNTBu",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "bvSradFwRjzrKsyu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "2. 面料变量激活（同廓形不同性格）",
+                  "type": "text"
+                }
+              ],
+              "id": "ZOQNWZnFtoqJDfHG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "国内设计师品牌ANNAKIKI，2024年春夏的亮片面料西装款，保留基本廓形，将亮片面料换成黑白图案面料，领子细节微调：",
+                  "type": "text"
+                }
+              ],
+              "id": "nsCWIcVLMcnfCIBj",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 773,
+                "renderHeight": 529.65,
+                "renderWidth": 740,
+                "sourceKey": "0e98bb8c53a352fc59e47804fdef91185a4ae12f",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "znqYCtJAWddHTnMf",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "dtgrkIoosOorNJja",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "不同的面料会有不同性格，虽然廓形相同，但成衣的性格从“夜店风”变的相对内敛了，同时也符合品牌整体的外放型设计表现手法。",
+                  "type": "text"
+                }
+              ],
+              "id": "ArYIGmtSjwiExrjk",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "wxcZAWiUIlGOJZzH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "3.色彩与图案延续（视觉新鲜感）",
+                  "type": "text"
+                }
+              ],
+              "id": "IgXeZIoxDbuxnSKT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "图案延续：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": " 比如国内品牌",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "MAXRIENY2025春季的针织开衫，就延续了24秋的开衫廓形和图案，调整了色彩、图案和部分细节，整体设计虽然偏保守，但市场销量（电商平台）依然不错：",
+                  "type": "text"
+                }
+              ],
+              "id": "sYTmBOqGSYReGqem",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 712,
+                "renderHeight": 487.85,
+                "renderWidth": 740,
+                "sourceKey": "9ca15219ee7df1d0e87ab2a6c359ccdc963d2863",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "oYqljQJyWmsWSibI",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "mZubEZCqxaFCYhUa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "4. 跨品类复刻（廓形资产复用）",
+                  "type": "text"
+                }
+              ],
+              "id": "FcCtBCGPPvPDykuA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "纵向延伸：",
+                  "type": "text"
+                }
+              ],
+              "id": "HVbZTpitgwcgHvST",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "品类A廓形→",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "品类B廓形（如双面呢→羽绒服）",
+                  "type": "text"
+                }
+              ],
+              "id": "xeVmIuvFzXiYIxYI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "案例：某国内品牌，某款",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "2023秋冬双面呢卖的比较好，2024秋冬的薄款羽绒服继续沿用相似廓形，销量依然不错：",
+                  "type": "text"
+                }
+              ],
+              "id": "TlLhKxjPzmzNYPIe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 782,
+                "renderHeight": 535.81,
+                "renderWidth": 740,
+                "sourceKey": "c0342bc233eb894689ebaaca1dbe0f26105ca9fc",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "NgiVThllABDVxXyN",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "pzwtyYJZyIOJklqC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "5. 版型包容度升级（覆盖多元身材）",
+                  "type": "text"
+                }
+              ],
+              "id": "jJlbrgSSkOwsxyVd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "尺码、版型都可以做包容度扩展。",
+                  "type": "text"
+                }
+              ],
+              "id": "KvbDGBfLIUyzHCMK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "尺码延伸：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "基础码（S-XL）→扩展码（XS-3XL）",
+                  "type": "text"
+                }
+              ],
+              "id": "CvNOmOesaZDCwcQt",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "版型变体：",
+                  "type": "text"
+                }
+              ],
+              "id": "DIRFOvbsonRBBWNQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "是很多品牌都用过的手法，成本低效果好，比如",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "MAXRIENY的低中腰连衣裙",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "→上衣，面料色彩都保持不变，只微调细节",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "：",
+                  "type": "text"
+                }
+              ],
+              "id": "feBzDgmMAPispfQK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 605,
+                "renderHeight": 414.54,
+                "renderWidth": 740,
+                "sourceKey": "bdf6ca8b9602affdf536e16cdab6170f0fe92142",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "mklHttDCfaUIEoVO",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "dugIOSAywQWYcpHh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "最后是廓形延续的4个禁忌，供你参考：",
+                  "type": "text"
+                }
+              ],
+              "id": "dUdGEXgcSGFUKZnY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "1. ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "建议",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "不要过度的偏离原型",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "，如果改动部位大于3个维度，很可能会丧失原来那个款的辨识度（核心卖点）。",
+                  "type": "text"
+                }
+              ],
+              "id": "WtSwxtcwnegXHLnn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "2. ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "延伸爆款廓形一定",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "不",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "要",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "忽视了人",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "体工学",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "，为了过于追求美观而牺牲了舒适度导致日常行动上的不方便。",
+                  "type": "text"
+                }
+              ],
+              "id": "oKhFLZFtxSzsZtjS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "3. ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "这个点很多初级设计师会出问题，就是",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "材质和廓形不搭配",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "，原来想要的款式效果出不来，比如软塌塌的面料撑不起有型的款式风格",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": " 。",
+                  "type": "text"
+                }
+              ],
+              "id": "ZVhwtKTfjSZiKUyu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "4. 延伸廓形也要",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "注意价格带",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "，选用的面料、工艺都要符合既定价格区间，有的款能爆，很大因素是因为价格合理（更多是因为更便宜），如果成本上浮，定位肯定会水涨船高。",
+                  "type": "text"
+                }
+              ],
+              "id": "GeZXhVxaspmHkNnF",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "YrZXatSDwhigwxid",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "THE END",
+                  "type": "text"
+                }
+              ],
+              "id": "cllFbXQUWSFmgLgS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " -  用心去做的，永远不会浪费 -",
+                  "type": "text"
+                }
+              ],
+              "id": "ZGSZJCNSFOxwHnxL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 201,
+                "renderHeight": 201.32,
+                "renderWidth": 629,
+                "sourceKey": "e8b6b7446ab2ba86447e2e5e2089b7f9fd5a9d01",
+                "version": 2,
+                "width": 628
+              },
+              "id": "gbYCKfaKIKzPTCXF",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "NeWgCKcKyWooSmIh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "F 先 生 绘 公 众 号",
+                  "type": "text"
+                }
+              ],
+              "id": "UJeVzqICCpjDuuNl",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "Take  heart  without  taking  detours ",
+                  "type": "text"
+                }
+              ],
+              "id": "ssjznbEeWyHzEMTG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "“走心，不走弯路",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "”",
+                  "type": "text"
+                }
+              ],
+              "id": "qSVUMprpNSHWMyuV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 392,
+                "renderHeight": 393.87,
+                "renderWidth": 547.6,
+                "sourceKey": "a79e0cad9ed14478095a0178a5de0cd1343d490d",
+                "version": 2,
+                "width": 545
+              },
+              "id": "zqGzBmVmHwutIUGa",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "▲",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " 关注F先生视频号",
+                  "type": "text"
+                }
+              ],
+              "id": "JYOANRDyTRoxXqpM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "《F先生精品课》直播间（千聊平台统称直播间，其实课程均为永久录播），至今总学习次数已经超过87000次，学习过的学员已超过7600人。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "长按识别下方二维码",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "。升级认知、提升能力、增强自己的核心竞争力。我，与你同在。",
+                  "type": "text"
+                }
+              ],
+              "id": "ZewGSJKPuyuFsGEk",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 204,
+                "renderHeight": 202.92,
+                "renderWidth": 673.4,
+                "sourceKey": "301bb2a233f1e5ae57ce6e6a6015ce82928a8c81",
+                "version": 2,
+                "width": 677
+              },
+              "id": "AsRCoZNwXFPrTzlZ",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#222222"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "▲",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#222222"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " 深度学习企划、设计、管理课程",
+                  "type": "text"
+                }
+              ],
+              "id": "uhekljWzLwyQMvqK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "不喜欢",
+                  "type": "text"
+                }
+              ],
+              "id": "gBJQmRGBnvbyMYKx",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 17
+    }
+  },
+  "result": "ok"
+}

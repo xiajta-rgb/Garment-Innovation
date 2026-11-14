@@ -10,6 +10,7 @@ export function ErrorBanner({ error, onDismiss }: ErrorBannerProps) {
 
   return (
     <div
+      role="alert"
       style={{
         background: 'rgba(183, 28, 28, 0.92)',
         color: '#fff',

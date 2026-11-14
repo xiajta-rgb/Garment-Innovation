@@ -1,0 +1,18 @@
+{
+  "source": "research/redesign-study-20261113/briefs.json",
+  "uniqueDesigns": 12,
+  "baseUnchanged": true,
+  "dimensionsAndFixedViewsPreserved": true,
+  "designerEdits": "配色、袋色、袋位在生成后明确调整；不是矩阵7轴覆盖了所有要求",
+  "materialPhotosAssigned": 0,
+  "productionApproved": false,
+  "designReview": "已目视核对12款固定正背侧联系表和城市轻商务组三视图；属于设计表达自查，不是公司版师审核",
+  "visualFindings": [
+    "插肩款前后结构线与装袖有可见区别",
+    "Polo/亨利/半拉链/全开襟为不同开合结构表达",
+    "V领与圆领、华夫格与坑条、贴袋与嵌线袋可辨认",
+    "单视图预览不再渲染邻视图，防止缩放留白中出现邻图文字",
+    "侧视图是轮廓和工艺示意，不能证明实际立体袖型或穿着适体",
+    "纹理为图形示意，尚未匹配企业实料或按真实花回校准"
+  ]
+}

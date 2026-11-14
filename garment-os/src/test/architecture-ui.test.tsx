@@ -1,0 +1,52 @@
+import { afterEach,beforeEach,expect,it } from 'vitest';
+import { act,cleanup,fireEvent,render,screen } from '@testing-library/react';
+import { GarmentSketch } from '@/features/canvas/components/GarmentSketch';
+import ReferencePatternBoard from '@/features/canvas/components/ReferencePatternBoard';
+import { PieceLibraryView } from '@/features/piece-library/PieceLibraryView';
+import { StandardGeneratorPanel } from '@/features/piece-library/StandardGeneratorPanel';
+import { BrianGeneratorPanel } from '@/features/piece-library/BrianGeneratorPanel';
+import { useDesignStore } from '@/store/useDesignStore';
+import { usePieceLibraryStore } from '@/store/pieceLibraryStore';
+beforeEach(()=>{useDesignStore.getState().newDesign();usePieceLibraryStore.getState().clearTagFilter();});
+afterEach(cleanup);
+it('one tag filter drives the actual canvas, overview and QC selection; hiding cannot override checks',()=>{
+  useDesignStore.getState().applyPattern('button-up-shirt');
+  const {container}=render(<><GarmentSketch view="front" garmentColor="#abcdef"/><ReferencePatternBoard/><PieceLibraryView/></>);
+  fireEvent.click(screen.getByText('裁片检验 (QC)',{selector:'button'}));
+  expect(container.querySelectorAll('[data-board-piece]')).toHaveLength(10);
+  fireEvent.click(screen.getByText('领类',{selector:'button'}));
+  expect([...container.querySelectorAll('[data-board-piece]')].map(n=>n.getAttribute('data-board-piece'))).toEqual(['simon.collar','simon.collarStand']);
+  expect(new Set([...container.querySelectorAll('[data-piece-id]')].map(n=>n.getAttribute('data-piece-id')))).toEqual(new Set(['simon.collar','simon.collarStand']));
+  expect(container.querySelector('[data-piece-key]')).toHaveAttribute('data-piece-key','simon.collar');
+  fireEvent.click(screen.getByText('隐藏预览',{selector:'button'}));
+  expect(container.querySelectorAll('[data-board-piece]')).toHaveLength(1);
+  fireEvent.click(screen.getByText('显示通过检查的裁片',{selector:'button'}));
+  expect(container.querySelectorAll('[data-board-piece]')).toHaveLength(2);
+  fireEvent.click(screen.getByText('口袋类',{selector:'button'}));fireEvent.click(screen.getByText('领类',{selector:'button'}));
+  expect(screen.getByTestId('reference-board-empty')).toBeInTheDocument();expect(container.querySelector('[data-piece-key]')).toBeNull();
+  expect(container.querySelector('[data-testid="garment-sketch"] path[data-piece-id]')).toBeNull();
+});
+it('hiding preferences reset on a changed geometry and cannot keep stale approvals',()=>{
+  const {container}=render(<ReferencePatternBoard/>),piece=useDesignStore.getState().draft.pieces[0].key;
+  act(()=>{const ui=usePieceLibraryStore.getState();ui.setHidden(ui.gateKey,piece,true);});
+  expect(container.querySelectorAll('[data-board-piece]')).toHaveLength(2);
+  act(()=>useDesignStore.getState().updateMeasurements({neckCirc:395}));
+  expect(container.querySelectorAll('[data-board-piece]')).toHaveLength(3);
+  act(()=>useDesignStore.getState().updateMeasurements({waistToArmpit:undefined}));
+  expect(container.querySelectorAll('[data-board-piece]')).toHaveLength(0);
+  act(()=>usePieceLibraryStore.getState().showAllChecked());
+  expect(container.querySelectorAll('[data-board-piece]')).toHaveLength(0);
+});
+it('staged dimensions survive appearance changes, but cannot leak into a new design session',()=>{
+  useDesignStore.getState().applyPattern('button-up-shirt');render(<StandardGeneratorPanel/>);
+  fireEvent.change(screen.getByLabelText('颈围'),{target:{value:'395'}});
+  act(()=>useDesignStore.getState().setColor('#abcdef'));
+  expect(screen.getByLabelText('颈围')).toHaveValue(395);
+  act(()=>useDesignStore.getState().newDesign());
+  expect(screen.getByLabelText('颈围')).toHaveValue(useDesignStore.getState().measurements.neckCirc);
+});
+it('blank Brian input remains unknown and cannot be applied as zero',()=>{
+  render(<BrianGeneratorPanel/>);fireEvent.change(screen.getByLabelText('颈围'),{target:{value:''}});
+  expect(screen.getByLabelText('颈围')).toHaveValue(null);expect(screen.getByTestId('reference-apply')).toBeDisabled();
+  expect(screen.getByRole('alert')).toBeInTheDocument();
+});

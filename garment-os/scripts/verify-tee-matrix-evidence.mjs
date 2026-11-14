@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+const dir='doc/evidence/tee-matrix-20261112',read=f=>fs.readFileSync(`${dir}/${f}`,'utf8'),json=f=>JSON.parse(read(f));
+const browser=json('browser.json'),all=json('neck-matrix.json'),session=json('selection-before-refresh.json'),selected=json('男士短T-选款方案.json'),check=read('check.log');
+assert.match(check,/Test Files\s+59 passed/);assert.match(check,/Tests\s+1234 passed/);assert.match(check,/built in/);
+assert.equal(browser.steps.length,15);assert(browser.steps.every(s=>s.pass));assert.deepEqual(browser.errors,[]);assert.deepEqual(browser.paidGenerationSubmissions,[]);
+assert.equal(all.length,9);assert.equal(new Set(all.map(m=>m.drawingScalePixelsPerMm)).size,1);assert(all.every(m=>m.coordinateSpace==='source-cad-mm'&&m.joins.every(j=>j.status!=='failed')));
+assert.deepEqual(session.selections,selected.selections);assert.equal(selected.selections.length,3);
+for(const [file,sha] of Object.entries(browser.hashes))assert.equal(createHash('sha256').update(fs.readFileSync(`${dir}/${file}`)).digest('hex'),sha);
+const metadata=file=>{const data=read(file).match(/<metadata>([\s\S]*?)<\/metadata>/)?.[1];assert(data);return JSON.parse(data.replace(/&(?:amp|lt|gt|quot|apos);/g,s=>({'&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&apos;':"'"}[s])));};
+assert.deepEqual(metadata('男士短T-三视图.svg').configuration,metadata('男士短T-毫米裁片.svg').configuration);
+assert(selected.selections.some(s=>JSON.stringify(s.configuration)===JSON.stringify(metadata('男士短T-三视图.svg').configuration)));
+const result={verifiedAt:new Date().toISOString(),fullCheck:{files:59,tests:1234,buildPassed:true},browser:{stepsPassed:15,errors:0},matrix:{cards:9,orthographicViews:27,sourceGeometry:true,commonScale:true},exports:{selectionCount:3,hashesVerified:true,svgAndCadConfigurationMatch:true},paidGenerationSubmissions:0,productionApproved:false};
+fs.writeFileSync(`${dir}/verification.json`,JSON.stringify(result,null,2));console.log(JSON.stringify(result));

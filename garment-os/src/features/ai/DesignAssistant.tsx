@@ -1,25 +1,13 @@
-/**
- * AI 设计助手 (Design Assistant) UI
- *
- * 商业化功能 - AI 辅助设计:
- *  - 用户输入自然语言需求 → 调用 MiniMax API → 返回结构化设计建议
- *  - 用户一键应用: Block 组合 + 颜色 + 面料 全部套用
- *
- * 子组件已拆分至:
- * - ApiKeySettings.tsx (API Key 设置面板 + 连接状态)
- * - SuggestionCard.tsx (AI 建议卡片)
- */
-
+/** Optional AI suggestions reference reviewed templates only. */
 import { useState } from 'react';
 import {
   chatCompletion,
   isConfigured,
   parseJsonFromContent,
 } from '@/lib/ai-service/minimax-client';
-import { buildDesignPrompt, type DesignSuggestion } from '@/lib/ai-service/prompts';
-import { useParametricStore } from '@/store/parametricStore';
-import { listPatterns } from '@/data/patternLibrary';
-import { BLOCK_LIBRARY } from '@/lib/patterns/block-library';
+import { buildDesignPrompt } from '@/lib/ai-service/prompts';
+import { readDesignSuggestion, type DesignSuggestion } from '@/application/design-suggestion';
+import { useDesignStore } from '@/store/useDesignStore';
 import { StarOutlined, LoadingOutlined } from '@ant-design/icons';
 import { ApiKeySettings, ConnectionStatusButton } from './ApiKeySettings';
 import { SuggestionCard } from './SuggestionCard';
@@ -33,9 +21,6 @@ export function DesignAssistant() {
   const [applied, setApplied] = useState(false);
   const [statusMsg, setStatusMsg] = useState<{ text: string; ok: boolean } | null>(null);
 
-  const applyPattern = useParametricStore((s) => s.applyPattern);
-  const setColor = useParametricStore((s) => s.setColor);
-  const setDesignName = useParametricStore((s) => s.setDesignName);
 
   const handleSubmit = async () => {
     if (!input.trim()) return;
@@ -47,13 +32,12 @@ export function DesignAssistant() {
 
     setLoading(true);
     setError(null);
-    setSuggestion(null);
+    setSuggestion(null); setApplied(false); setStatusMsg(null);
 
     try {
       const messages = buildDesignPrompt(input.trim());
       const { content } = await chatCompletion({ messages });
-      const parsed = parseJsonFromContent(content) as DesignSuggestion;
-      validateSuggestion(parsed);
+      const parsed = readDesignSuggestion(parseJsonFromContent(content));
       setSuggestion(parsed);
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
@@ -63,54 +47,14 @@ export function DesignAssistant() {
     }
   };
 
-  const handleApply = async () => {
-    if (!suggestion) return;
-
-    const allPatterns = listPatterns();
-    let matched = allPatterns.find((p) => p.category === suggestion.category);
-
-    if (!matched) {
-      const fallbackMap: Record<string, string> = {
-        'dress': 'shirt',
-        'skirt': 't-shirt',
-        'pants': 't-shirt',
-        'jacket': 'shirt',
-      };
-      const fallbackCat = fallbackMap[suggestion.category];
-      if (fallbackCat) {
-        matched = allPatterns.find((p) => p.category === fallbackCat);
-      }
-    }
-
-    if (!matched && allPatterns.length > 0) {
-      matched = allPatterns[0];
-    }
-
-    if (matched) {
-      applyPattern(matched.id);
-    }
-
-    if (suggestion.colorSuggestions.length > 0) {
-      setColor(suggestion.colorSuggestions[0]);
-    }
-
-    setDesignName(suggestion.name);
-
-    if (matched && matched.category === suggestion.category) {
-      setStatusMsg({ text: `已应用: ${matched.name}`, ok: true });
-    } else if (matched) {
-      setStatusMsg({
-        text: `AI 建议 ${suggestion.category}, 当前无对应模板, 已降级为 ${matched.name}`,
-        ok: false,
-      });
-    } else {
-      setStatusMsg({ text: '未应用任何模板, 仅应用颜色和设计名', ok: false });
-    }
-    setApplied(true);
-    setTimeout(() => {
-      setApplied(false);
-      setStatusMsg(null);
-    }, 4000);
+  const handleApply = () => {
+    if (!suggestion?.templateId || suggestion.unmetRequirements.length) return;
+    const verified = readDesignSuggestion(suggestion);
+    useDesignStore.getState().applyPattern(verified.templateId!);
+    const state = useDesignStore.getState();
+    const ok = state.activePatternId === verified.templateId && state.draft.status === 'reference';
+    setApplied(ok);
+    setStatusMsg({ text: ok ? '已选择该参考模板；尺寸与材料仍需核验。' : state.lastError ?? '模板应用受阻', ok });
   };
 
   return (
@@ -221,19 +165,4 @@ export function DesignAssistant() {
       )}
     </div>
   );
-}
-
-/** 验证 AI 返回的建议是否符合规范 */
-function validateSuggestion(s: any): asserts s is DesignSuggestion {
-  if (!s || typeof s !== 'object') throw new Error('AI 返回无效');
-  if (typeof s.name !== 'string' || s.name.length === 0) throw new Error('AI 建议缺少 name');
-  if (typeof s.description !== 'string') throw new Error('AI 建议缺少 description');
-  if (!Array.isArray(s.blocks) || s.blocks.length === 0) throw new Error('AI 建议 blocks 无效');
-  for (const b of s.blocks) {
-    if (!BLOCK_LIBRARY[b.blockId]) {
-      throw new Error(`AI 引用了不存在的 Block: ${b.blockId}`);
-    }
-  }
-  if (!Array.isArray(s.colorSuggestions)) s.colorSuggestions = [];
-  if (!Array.isArray(s.fabricSuggestions)) s.fabricSuggestions = [];
 }

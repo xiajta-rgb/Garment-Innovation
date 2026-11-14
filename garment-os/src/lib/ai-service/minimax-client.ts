@@ -8,8 +8,8 @@
  *  - 永远不向 source control 提交密钥
  *
  * 商业化场景:
- *  - 用户描述需求 → AI 推荐 Pattern + Block 组合 + 颜色 + 面料
- *  - 一键应用 AI 建议 → 画布自动出图
+ *  - 用户描述需求 → AI 推荐已审查参考模板与外观建议
+ *  - 核对具体构型与限制后选择参考模板
  *
  * 支持的端点:
  *  - OpenAI 兼容: https://api.minimaxi.com/v1/chat/completions
@@ -36,11 +36,11 @@ export interface ChatRequest {
 export interface ChatResponse {
   content: string;
   usage?: { promptTokens: number; completionTokens: number; totalTokens: number };
-  raw: any;
+  raw: unknown;
 }
 
 export class MinimaxError extends Error {
-  constructor(message: string, public readonly status?: number, public readonly body?: any) {
+  constructor(message: string, public readonly status?: number, public readonly body?: unknown) {
     super(message);
     this.name = 'MinimaxError';
   }
@@ -54,7 +54,7 @@ const LS_MODEL_KEY = 'minimax_model';
 /** 获取 API key: 优先 env, fallback localStorage */
 export function getApiKey(): string | null {
   // Vite env 注入
-  const envKey = (import.meta as any).env?.VITE_MINIMAX_API_KEY;
+  const envKey = import.meta.env?.VITE_MINIMAX_API_KEY;
   if (envKey && envKey.length > 0) return envKey;
   try {
     return localStorage.getItem(LS_KEY);
@@ -68,11 +68,11 @@ export function setApiKey(key: string | null): void {
   try {
     if (key) localStorage.setItem(LS_KEY, key);
     else localStorage.removeItem(LS_KEY);
-  } catch {}
+  } catch { /* Browser storage or optional parse may be unavailable. */ }
 }
 
 export function getBaseUrl(): string {
-  const envUrl = (import.meta as any).env?.VITE_MINIMAX_BASE_URL;
+  const envUrl = import.meta.env?.VITE_MINIMAX_BASE_URL;
   if (envUrl) return envUrl;
   try {
     return localStorage.getItem(LS_BASE_URL_KEY) || DEFAULT_BASE_URL;
@@ -82,11 +82,11 @@ export function getBaseUrl(): string {
 }
 
 export function setBaseUrl(url: string): void {
-  try { localStorage.setItem(LS_BASE_URL_KEY, url); } catch {}
+  try { localStorage.setItem(LS_BASE_URL_KEY, url); } catch { /* Browser storage or optional parse may be unavailable. */ }
 }
 
 export function getModel(): string {
-  const envModel = (import.meta as any).env?.VITE_MINIMAX_MODEL;
+  const envModel = import.meta.env?.VITE_MINIMAX_MODEL;
   if (envModel) return envModel;
   try {
     return localStorage.getItem(LS_MODEL_KEY) || DEFAULT_MODEL;
@@ -96,7 +96,7 @@ export function getModel(): string {
 }
 
 export function setModel(model: string): void {
-  try { localStorage.setItem(LS_MODEL_KEY, model); } catch {}
+  try { localStorage.setItem(LS_MODEL_KEY, model); } catch { /* Browser storage or optional parse may be unavailable. */ }
 }
 
 /** 检查 key 是否已配置 */
@@ -152,16 +152,16 @@ export async function chatCompletion(req: ChatRequest): Promise<ChatResponse> {
 
   if (!res.ok) {
     const text = await res.text();
-    let parsed: any = text;
-    try { parsed = JSON.parse(text); } catch {}
+    let parsed: unknown = text;
+    try { parsed = JSON.parse(text); } catch { /* Browser storage or optional parse may be unavailable. */ }
     throw new MinimaxError(
-      `API 错误 ${res.status}: ${parsed?.error?.message || parsed?.message || text.slice(0, 200)}`,
+      `API 错误 ${res.status}: ${errorMessage(parsed) || text.slice(0, 200)}`,
       res.status,
       parsed
     );
   }
 
-  const data = await res.json();
+  const data = await res.json() as { choices?: Array<{ message?: { content?: string } }>; usage?: { prompt_tokens:number;completion_tokens:number;total_tokens:number } };
   const content = data?.choices?.[0]?.message?.content ?? '';
   return {
     content,
@@ -174,19 +174,26 @@ export async function chatCompletion(req: ChatRequest): Promise<ChatResponse> {
   };
 }
 
+function errorMessage(value:unknown):string|null {
+  if(!value || typeof value!=='object')return null;
+  const data=value as Record<string,unknown>,nested=data.error;
+  const message=nested && typeof nested==='object' ? (nested as Record<string,unknown>).message : data.message;
+  return typeof message==='string' ? message : null;
+}
+
 /** 健壮的 JSON 解析 (AI 返回可能被 markdown 包裹) */
-export function parseJsonFromContent(content: string): any {
+export function parseJsonFromContent(content: string): unknown {
   // 尝试直接解析
-  try { return JSON.parse(content); } catch {}
+  try { return JSON.parse(content); } catch { /* Browser storage or optional parse may be unavailable. */ }
   // 尝试提取 ```json ... ``` 块
   const match = content.match(/```(?:json)?\s*([\s\S]+?)\s*```/);
   if (match) {
-    try { return JSON.parse(match[1]); } catch {}
+    try { return JSON.parse(match[1]); } catch { /* Browser storage or optional parse may be unavailable. */ }
   }
   // 尝试提取 {...} 第一个大括号对
   const braceMatch = content.match(/\{[\s\S]+\}/);
   if (braceMatch) {
-    try { return JSON.parse(braceMatch[0]); } catch {}
+    try { return JSON.parse(braceMatch[0]); } catch { /* Browser storage or optional parse may be unavailable. */ }
   }
   throw new Error('AI 返回内容无法解析为 JSON');
 }

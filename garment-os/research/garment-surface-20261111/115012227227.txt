@@ -1,0 +1,3 @@
+https://support.clo3d.com/hc/en-us/articles/115012227227-Particle-Distance
+Particle Distance
+List of Contents Particle Distance Adjust Particle Distance Particle Distance - Adjust Particle Distance to manage the Garment quality and Simulation speed. - Navigate to Property Editor ▶ Simulation Properties ▶ Particle Distance Adjust Particle Distance - Using the Transform pattern tool, select the Pattern to be edited. - Navigate to the Property Editor ▶ Simulation Properties ▶ Particle Distance. - The default value of the Particle Distance is 20. Lower this value to 5 and simulate. - The quality of the 3D Garment increases as the size of the Particle Distance decreases. Go back to the List of Contents

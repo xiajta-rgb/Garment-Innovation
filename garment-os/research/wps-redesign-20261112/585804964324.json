@@ -1,0 +1,1024 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "女装改款文章20篇全收录｜建立可复用的商业款式延伸体系",
+                  "type": "text"
+                }
+              ],
+              "id": "pElrdvRijhFnJwoH",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/yF4cPCNoOSHVyExZwLejaw"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "WsPsFSBjyIqAwSHS",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "点 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#102270"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "卡片",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "关注，并 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#FFA900"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "星标",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "，不错过每期精华推送",
+                  "type": "text"
+                }
+              ],
+              "id": "YJLrZkTDLxUFoUgJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 424,
+                "renderHeight": 376.21,
+                "renderWidth": 740,
+                "sourceKey": "fae9e8b7c508bc7bbbab742178992c854a4fbd0b",
+                "version": 2,
+                "width": 834
+              },
+              "id": "asXmSLzcidDgBkfr",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "WlnBzJrHUAXmfxOT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "商业女装开发中，改款与系列延伸，绝非简单调整领口、袖长的表层操作，而是融合市场反馈、版型逻辑、成本管控的系统化开发能力。",
+                  "type": "text"
+                }
+              ],
+              "id": "LtDYAjbikITGgdzb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "sIWoyQNmDtgRyuro",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "不少设计师受困于原创产出效率不足，新品投产风险高，诸多主理人也面临爆款周期短，难以依托单品做系列化变现的难题，这便是整理这套合集的初衷。",
+                  "type": "text"
+                }
+              ],
+              "id": "HtanGoHazHcBuHxk",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "hzLykHegvumRpwzu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "合集共收录20篇内容，围绕",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "女装改款、款式延伸、爆款设计",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "搭建完整知识体系，兼顾",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "底层逻辑、落地方法、标杆案例与踩坑复盘",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "。",
+                  "type": "text"
+                }
+              ],
+              "id": "AbdDiFAzzMbdbqLZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "gbjUaiPhYFlvRLuR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "内容覆盖七大品类延伸方法、电商爆款拆解模板，同时总结单品延伸开发八大常见误区，下沉至衬衫、连衣裙等细分品类的版型迭代方案，给出爆款廓形延伸五维框架，最终以爆款测算公式串联整套开发工作流。",
+                  "type": "text"
+                }
+              ],
+              "id": "PasdOomiddqEJecs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "lZnpZnzEABTYORsi",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "我整理了这篇改款合集，助力同行跳出盲目改款的误区，建立一套理性、可复用的款式开发体系",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#D92142"
+                    }
+                  },
+                  "content": "（点标题进原文）",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "：",
+                  "type": "text"
+                }
+              ],
+              "id": "UbOfpGXJHhIGXGEE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247541420&idx=1&sn=393cac35b6bc3454f4ba2550533badf2&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "女装改款：方法、步骤与背后逻辑",
+                  "type": "text"
+                }
+              ],
+              "id": "kbSpbMRNtAoGODNg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "SQvNGOzawUqqNlij",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247539416&idx=1&sn=8ab19930d742c729b4600ef425014383&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "MiuMiu改款模式实例拆解",
+                  "type": "text"
+                }
+              ],
+              "id": "EscXGNWDNNcMlogj",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247538032&idx=1&sn=63aad5bce48af50cbe359e26150f3afd&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "四类服装公司改款方式特征对比",
+                  "type": "text"
+                }
+              ],
+              "id": "meEzanatPpqjrkqx",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247536781&idx=1&sn=6b7e1a22c45f2a6db8fa31ef68680cd7&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "我花了两周整理的改款延伸思路表格",
+                  "type": "text"
+                }
+              ],
+              "id": "gFfjnCPNIbCrclyo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247535659&idx=1&sn=4c6e05099cc9b3e7f3e670e9f7529aff&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "服装延伸改款的7个设计思路",
+                  "type": "text"
+                }
+              ],
+              "id": "pKyVWleEjrWdvEfl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247534338&idx=1&sn=f136cad2297b905ed86afc0f8ff07b42&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "服装设计开发怎样有效改款",
+                  "type": "text"
+                }
+              ],
+              "id": "XzVwvYNHJvxnsxgC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247533746&idx=1&sn=d2b74c9126aac2b0a7558c77c7bfba72&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "女装系列延伸改款秀场实例",
+                  "type": "text"
+                }
+              ],
+              "id": "PBEOpGCsfGSNgmtS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247524740&idx=1&sn=264946798e4c6ac60c2afb8516b2fdb0&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "【精心整理】商业设计公式思维导图（延伸、改款、出款）",
+                  "type": "text"
+                }
+              ],
+              "id": "kSQUuTKPRIUdsgJQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247541131&idx=1&sn=b6db68f2dcf759286f1c5c7c421dc563&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "如何做爆款设计延伸（款式、廓形、面料）",
+                  "type": "text"
+                }
+              ],
+              "id": "KXgaGcmydVNwzTsv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247540913&idx=1&sn=0283fcba8d605a05477dce6147b2e091&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "服装款式延伸系统方法（七大品类）",
+                  "type": "text"
+                }
+              ],
+              "id": "docSzlXKQnxLMDvr",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247540075&idx=1&sn=0ae1f900919f78ca28a833426d589b70&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "电商服装爆款拆解延伸案例与模板",
+                  "type": "text"
+                }
+              ],
+              "id": "vqUqQCpxRhGMgrKW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247539232&idx=1&sn=93c5735049eeac5033c43cae4508d76f&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "女装爆款延伸方法汇总",
+                  "type": "text"
+                }
+              ],
+              "id": "pdIaYULyhYAKpIxK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247538291&idx=1&sn=4f76554f2cc573db22a987c26f238894&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "单品延伸，我踩过的八大坑",
+                  "type": "text"
+                }
+              ],
+              "id": "JYQIbKcRGEwSxoCs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247537924&idx=2&sn=3ab5c8dab98fbf7344cee859761571de&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "款式设计延伸思路分析",
+                  "type": "text"
+                }
+              ],
+              "id": "dpXjGauCqxsNLGiI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247537632&idx=1&sn=3fcdf7b079715979a7345ac8daeb5fe7&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "衬衫爆款：从版型角度延伸的具体方法",
+                  "type": "text"
+                }
+              ],
+              "id": "IvBmEjSOwhuKxRgM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247536694&idx=1&sn=25645c34ba3c05a7008b79a029fdc8e8&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "连衣裙爆款延伸设计思路分析（附表）",
+                  "type": "text"
+                }
+              ],
+              "id": "MpPjezNXABGdBZAa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247533048&idx=1&sn=0c77f66b94bcee528d63c1e7c8638d6e&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "爆款廓形如何做延伸（公式+5维思路）",
+                  "type": "text"
+                }
+              ],
+              "id": "bUkRXSABQZmxaskV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247529281&idx=1&sn=9135139cbaa8ce06919644fb069bd0dc&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "市场服装设计延伸公式与开发规划",
+                  "type": "text"
+                }
+              ],
+              "id": "UKaGZqruWUMDNEeh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247541179&idx=1&sn=99b6fda10b6ede1e50e320460daeca43&scene=21#wechat_redirect"
+                    }
+                  },
+                  "content": "爆款 =（流行元素 × 实穿性）÷（成本 × 生产难度）｜市场服装设计完整工作流",
+                  "type": "text"
+                }
+              ],
+              "id": "iiDpfnYVjQRhPLzt",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "最后，原创是设计的根基，但成熟的商业开发，需要依靠改款延伸承接市场需求。",
+                  "type": "text"
+                }
+              ],
+              "id": "agQQxKVTUtGyWBQc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "llanwtcmjvrGCloc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "优质的改款，是保留单品核心记忆点的前提下适度迭代，兼顾消费者穿着习惯、供应链承载力与品牌风格一致性。",
+                  "type": "text"
+                }
+              ],
+              "id": "lviTKFKQqFHQiWBg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "商业款的迭代能力，是长期深耕市场的核心竞争力，让我们在开发中持续沉淀属于自己的改款方法论。",
+                  "type": "text"
+                }
+              ],
+              "id": "BYfpexPmAuBcBDBT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "lHjKEOMNXAtQxjqi",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "THE END",
+                  "type": "text"
+                }
+              ],
+              "id": "einmEouqOoJADmtq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " -  用心去做的，永远不会浪费 -",
+                  "type": "text"
+                }
+              ],
+              "id": "GHwGfRGpZcOddwrV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 205,
+                "renderHeight": 203.85,
+                "renderWidth": 636.4,
+                "sourceKey": "e8b6b7446ab2ba86447e2e5e2089b7f9fd5a9d01",
+                "version": 2,
+                "width": 640
+              },
+              "id": "eacxDqqklsPsLSwi",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "WIvHthsXzjktdDDO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "F 先 生 绘 公 众 号",
+                  "type": "text"
+                }
+              ],
+              "id": "UfrSxUEnzvwQtqsD",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "Take  heart  without  taking  detours ",
+                  "type": "text"
+                }
+              ],
+              "id": "rLFOMgmKDrnGNHCK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "“走心，不走弯路",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "”",
+                  "type": "text"
+                }
+              ],
+              "id": "AvQbkjGZwrnKUnhz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 464,
+                "renderHeight": 463.14,
+                "renderWidth": 643.8,
+                "sourceKey": "a79e0cad9ed14478095a0178a5de0cd1343d490d",
+                "version": 2,
+                "width": 645
+              },
+              "id": "SKsncxNokoFPRLMJ",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#D92142"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "▲",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#222222"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " 关注F先生视频号",
+                  "type": "text"
+                }
+              ],
+              "id": "OCsIHvMHBFvsxlBg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "不喜欢",
+                  "type": "text"
+                }
+              ],
+              "id": "AbZciatupGZKHJCV",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 5
+    }
+  },
+  "result": "ok"
+}

@@ -1,0 +1,2494 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "单品延伸，我踩过的八大坑",
+                  "type": "text"
+                }
+              ],
+              "id": "fsZxOAvzDUnMNpYA",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/VeZ7w_FA69C7jNAaZOg7fw"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "dvubBhRBIWiQbQjy",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "level": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    }
+                  },
+                  "content": "点 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#102270"
+                    }
+                  },
+                  "content": "卡片",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    }
+                  },
+                  "content": "关注，并 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#FFA900"
+                    }
+                  },
+                  "content": "星标",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    }
+                  },
+                  "content": "，不错过每期精华推送",
+                  "type": "text"
+                }
+              ],
+              "id": "xPDNDqjGhPgbywPx",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 538,
+                "renderHeight": 368.63,
+                "renderWidth": 740,
+                "sourceKey": "440fe49507dc176e8f754b5480ed7c2d8635c3e3",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "iPVyHaCUcRXExRTM",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "etEZpdrKZIhuuYZn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "先纠正一个概念。",
+                  "type": "text"
+                }
+              ],
+              "id": "bMSChieAXefhXgHH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "很多人一提单品延伸，就觉得只有爆款才配。其实不是。",
+                  "type": "text"
+                }
+              ],
+              "id": "hOIdoSgqGbJGJFav",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "zfuGloaBcMXCSqcd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "任何一个单品，只要它有潜力、有基因，都可以延伸。爆款确实是延伸的好苗子，但普通款也能通过延伸变成小爆款。关键是你会不会延伸。",
+                  "type": "text"
+                }
+              ],
+              "id": "YTbJWLQnGXRDLuId",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "PbnZjrqWExsffHHW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "下面的8个坑，都是我和团队踩过的。跟是不是爆款没关系，只要是做延伸，这些坑你大概率也会遇到。",
+                  "type": "text"
+                }
+              ],
+              "id": "LnNxoFYcHPINAxaK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 80,
+                "renderHeight": 79.55,
+                "renderWidth": 636.4,
+                "sourceKey": "178e3d1dedb30020a44fac2873e544fd30f9a0ab",
+                "version": 2,
+                "width": 640
+              },
+              "id": "WfbzpBtctrGMbLXr",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "oNHyjqIvQqRCzyjN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "坑一：觉得“只有爆款才能延伸”",
+                  "type": "text"
+                }
+              ],
+              "id": "CLzWYYlTtzbSVJNE",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这是最大的误区。",
+                  "type": "text"
+                }
+              ],
+              "id": "BuwFLVLFSGsPhAnG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "sFPHIhsTUAgTttUV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "以前有一次，某位设计师出了一个偏基础款的白衬衫，平平无奇，卖得一般。团队开会，没人提它。大家都盯着另一条爆款半裙，想着怎么延伸。",
+                  "type": "text"
+                }
+              ],
+              "id": "pMRwAbXsNFoLTrUX",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "CiZuUrbkVVxNeaGF",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "我说，这个白衬衫，版型其实不错，就是太素了，能不能给它加几个东西？后来做了以下延伸：出了个黑色版本，出了个条纹版本，出了个在领口和下摆加小细节版本。",
+                  "type": "text"
+                }
+              ],
+              "id": "LIXfASndVdLFSvYn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 722,
+                "renderHeight": 494.7,
+                "renderWidth": 740,
+                "sourceKey": "22f3dacca50728a13ce069da5ae3f2b46135ae8f",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "FGkRRgLchHXplxLq",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "xcvnQEErqQmLHGbf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "结果呢？黑色版卖得比白色还好，条纹版成了不错的搭配款，领口下摆细节那款反响最佳。虽然还达不到爆款的要求，但销量已经远超原来的白色版本。",
+                  "type": "text"
+                }
+              ],
+              "id": "fnJxaleBBmtktRSW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "XCyhQjNwKJhsfBvl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "所以别只盯着爆款。普通款也有好基因，就看你能不能挖出来。",
+                  "type": "text"
+                }
+              ],
+              "id": "lkBaVRvXkqYoPmcg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "faMyUKJEIJxyDUqw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "坑二：不知道延伸什么，瞎延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "FldiilvuyhcNyLBo",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这是最常见的问题。",
+                  "type": "text"
+                }
+              ],
+              "id": "AVTpbhFtgCRuVjxd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "PvSDhUfntEUArzga",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一个款摆在那，你说要延伸，但往哪个方向延？换颜色？换面料？改长度？做配套？很多人上来就是“都试试”，结果做了一堆，没一个能打。",
+                  "type": "text"
+                }
+              ],
+              "id": "WUCeIcWElWlZmVJm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "yxGDAQkHPdJViYap",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "我后来总结了一个方法：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "拿到一个款，先问自己3个问题。",
+                  "type": "text"
+                }
+              ],
+              "id": "kXoJwZRgnzjEWAQn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KJlddFQUYdjapRsF",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1.它哪个地方最特别？",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "是版型好？面料舒服？还是那个扣子让人记住？",
+                  "type": "text"
+                }
+              ],
+              "id": "RzvQQEDQGcHdZOvQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2.用户买它是为了什么？",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "是为了通勤？是为了约会？还是单纯因为舒服？",
+                  "type": "text"
+                }
+              ],
+              "id": "FrNOSiyUwUzqeleC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3.它缺什么？",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "是不是颜色太单一？是不是季节太受限？是不是不好搭？",
+                  "type": "text"
+                }
+              ],
+              "id": "UOdGZUmjRxGhDOAb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "mjUZWBaXaPxHipqE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这三个问题想清楚了，延伸方向自然就出来了。",
+                  "type": "text"
+                }
+              ],
+              "id": "ydtiqjuCMJnynXCx",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ljSNayIgIRJlgrSg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "举个例子，有一款针织开衫，卖得还行，但不是爆款，分析了一下：它的优点是“软糯”，缺点是“颜色太少，只有燕麦色”。用户买它是为了“居家穿，偶尔外出一趟”。",
+                  "type": "text"
+                }
+              ],
+              "id": "bAUJUBfabdaXoWgh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "aSBwiNPvmdfGBJie",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "后来延伸了三个新色：雾霾蓝、豆沙粉、浅灰。然后加了一个小细节：袖口做了个可翻折的设计，翻上来露出一点撞色，后来那个雾霾蓝成了小爆款，比原色卖得好。",
+                  "type": "text"
+                }
+              ],
+              "id": "XwGXqxvkSyFEjGqu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "GKIxyIXQgIDumHli",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "坑三：一上来就大改",
+                  "type": "text"
+                }
+              ],
+              "id": "thyEBqbyAuZkwXAD",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "很多人做延伸，恨不得把原款改得亲妈都不认识。",
+                  "type": "text"
+                }
+              ],
+              "id": "xxmjTRIuDRzkeMPE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ijjtAoyAhXJVQiOJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "换面料、改版型、加一堆细节，最后出来一个几乎全新的东西。顾客一看，这跟我之前买的那件有什么关系？",
+                  "type": "text"
+                }
+              ],
+              "id": "zXNHrNXaBjZaflnH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "GZskbdZepVUCnlod",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "记住一个原则：延伸不是推翻，是迭代。",
+                  "type": "text"
+                }
+              ],
+              "id": "vJxTKbZwvYbIzfJR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "我一般按这个比例走：70%保留，30%创新。",
+                  "type": "text"
+                }
+              ],
+              "id": "qdRRePbDPjHaBnTd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ScMmelaKHkBwYAFI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "原款的核心基因，比如版型的风格、面料手感的标准、标志性的细节水准必须留着。让顾客拿到手，能第一眼得认出来“这是我喜欢的那个牌子”。",
+                  "type": "text"
+                }
+              ],
+              "id": "REnwxrmMEMABKvxK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "CUDXwQVWIkcHJKVM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "创新的部分，可以是一个新颜色、或一个新面料、",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "或",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一个小细节、",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "或",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一个新长度，别贪多，一个就够了。",
+                  "type": "text"
+                }
+              ],
+              "id": "WkOQdQanHYGWfTVO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "kckpDVKKGmvkMLIk",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "比如还是那款白衬衫，保留它的大致版型和面料手感，如果只改两处：门襟的扣子换一下，袖口做了个小小的刺绣logo。",
+                  "type": "text"
+                }
+              ],
+              "id": "jMqWXTfGNgeVvjQE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "HQrbGzlmKZKDCuvh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "就这么简单，顾客可能就说“哎，这个不一样了，但还是那件我喜欢的衬衫”。",
+                  "type": "text"
+                }
+              ],
+              "id": "ThbRcdDQpSxWsyMH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "TMqvxRsMOmwCePDl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "坑四：只顾着好看，忘了场景",
+                  "type": "text"
+                }
+              ],
+              "id": "rgGthMGcPcLegnbr",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这是设计师最容易犯的错。",
+                  "type": "text"
+                }
+              ],
+              "id": "KfGAyEcrKquOUooM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "skuRSSWLiLvmbtIS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "看到一个款，觉得好看，就想把它延伸成各种样子。但从来没想过：在什么场合穿它？",
+                  "type": "text"
+                }
+              ],
+              "id": "vZVhNvqnFmLMbSDo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "jYWPXAdDccfUBMbe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "有一款连衣裙，设计感很强，我们出了三个延伸款：加长版、短款、印花版。结果呢？三个都没卖好。",
+                  "type": "text"
+                }
+              ],
+              "id": "vCVAjWasuQFJYaeh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "AHnyrMyaihBdlFOW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "后来问一位东北客户，她说“这样式儿的不知道什么时候穿它。上班太隆重了，周末又太板正了”。",
+                  "type": "text"
+                }
+              ],
+              "id": "CrMDLMSJqTUZXkhR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ithpULARvUANMbDO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "我们这才意识到，原款本身的场景就很模糊。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "在我们延伸的时候，没有先帮它找到一个清晰的场景，而是盲目地做长度和花色的变化。",
+                  "type": "text"
+                }
+              ],
+              "id": "zfyCcsNluXLOvusZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ARIxmfHHacRPShBg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "从那以后，",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "做延伸之前，先问：这个款，用户到底在什么场景穿？",
+                  "type": "text"
+                }
+              ],
+              "id": "FanZHHHcqyyJrPqe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "如果是通勤款，延伸就往“更利落、更好搭”的方向走。",
+                  "type": "text"
+                }
+              ],
+              "id": "vQQvewTJnRYwrfru",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "如果是度假款，就往“更飘逸、更上镜”的方向走。",
+                  "type": "text"
+                }
+              ],
+              "id": "lxtviNaojCpzqpqL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "如果是居家款，就往“更舒服、更方便”的方向走。",
+                  "type": "text"
+                }
+              ],
+              "id": "WDLWrkemkQKeqRSj",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "场景清晰了，延伸的方向自然就对了。",
+                  "type": "text"
+                }
+              ],
+              "id": "JMmjXLozHOXKaqKL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "HWHtebZTLnIvhVRQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "坑五：只盯着一个维度延，忽略了组合的力量",
+                  "type": "text"
+                }
+              ],
+              "id": "ZAGTdLeDDjijagyb",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "说起来想笑，有些人做延伸只会一招：换颜色。一个款卖得好，就出五个颜色。五个颜色卖完了，就没了。",
+                  "type": "text"
+                }
+              ],
+              "id": "cWiROhLklWMCbXMW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ieAJjbKsqJfCiCbd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "但延伸不是只有一个维度。你把",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "颜色、面料、长度、细节、场景",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这几个维度组合起来，能玩出无数种变化。",
+                  "type": "text"
+                }
+              ],
+              "id": "PcyNieuWzhgqAlYe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "uYfCrMqjKiBrEpxL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "我举个例子。有一款基础T恤，怎么延伸？",
+                  "type": "text"
+                }
+              ],
+              "id": "PUcWiixNvxIIwseI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "第一波：换颜色。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "出了黑、白、灰、藏青、燕麦五个基础色。",
+                  "type": "text"
+                }
+              ],
+              "id": "wRXjWDOudEApSxIx",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "第二波：换面料。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": " 出了丝光棉版（更有质感）、竹节棉版（更有肌理感）、速干面料版（运动穿）。",
+                  "type": "text"
+                }
+              ],
+              "id": "AZBuqmMPsgfCxnpT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "第三波：改细节。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "出了V领版、圆领版、小高领版；袖口加了小刺绣的版本。",
+                  "type": "text"
+                }
+              ],
+              "id": "rTRmGTSotzNpsVPM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "第四波：改长度。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "出了短款（露脐）、常规款、长款（可以塞进裤子）。",
+                  "type": "text"
+                }
+              ],
+              "id": "bzHSiLfTHEZuIpuc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "第五波：做配套。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": " 出了同面料的吊带、短裤，凑成一套。",
+                  "type": "text"
+                }
+              ],
+              "id": "VoZgtNUrZCbNsLyY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ULipCZVzoQAusFqG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "你算算，这一款T恤，延伸了多少个SKU？二十多个。而且每个都有自己的人群和场景，不是瞎堆数量。",
+                  "type": "text"
+                }
+              ],
+              "id": "hGFkRDrzkCWhbgNw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "TUUnakBPSshVzKUS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这就是组合的力量。当然这只是给思路打个样，实际操作得跟情况来，千变万化。",
+                  "type": "text"
+                }
+              ],
+              "id": "UtpdFxRxZlEdATxY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "OPepBoTBaIXRPDGB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "坑六：只做单品，不做系列",
+                  "type": "text"
+                }
+              ],
+              "id": "JbbHRruNhraffBiP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这是很多品牌的通病。",
+                  "type": "text"
+                }
+              ],
+              "id": "JmYIjjtfMBKgLSPs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "TeVSElMmWvftLpMg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "做了一堆延伸款，但每个都是独立的，互相之间没有关系。顾客买了一件，不会想买第二件。但",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "如果你把延伸款做成一个系列，效果就不一样了。",
+                  "type": "text"
+                }
+              ],
+              "id": "KEeuRdEbcvxrqUXC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "aHhYGozsaAbGoMnF",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "比如有一款牛仔裤，版型特别好。我们做五个延伸款：不同颜色、不同长度、不同水洗。但光有这些还不够。我们又做了配套的上衣：同面料的牛仔衬衫、牛仔马甲、牛仔外套。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这样呈现的是一个完整的牛仔世界，而不是一堆零散的裤子。",
+                  "type": "text"
+                }
+              ],
+              "id": "fFpOHiUPtOZIgERp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "CeoxuvmYgdmqbreA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "结果呢？很多人一次性买两三件：一条裤子，一件衬衫，再搭个马甲。连带率直接翻倍。",
+                  "type": "text"
+                }
+              ],
+              "id": "NEOWgzhzyQXxwuJD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "UjpJZJrQVTsTySDE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "所以",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "单品延伸的终极形态，不只是单品变多款，更可以是单品变系列。",
+                  "type": "text"
+                }
+              ],
+              "id": "PhLYSEafmOWnglni",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "uImcONJWSeJbLQob",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "坑七：延伸了，但供应链跟不上",
+                  "type": "text"
+                }
+              ],
+              "id": "NtFBEPjZPszmPYWY",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这个坑我之前文章写过，但再说一次，因为太重要了。",
+                  "type": "text"
+                }
+              ],
+              "id": "qDuDgfDibRsKpJDy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KVAtgiUWaXdiGUYC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "有一年，我做了一个针织衫的延伸系列---五个颜色，两个版型，一共十个SKU。",
+                  "type": "text"
+                }
+              ],
+              "id": "HbFgnYLWBBMIZHMA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "vDnkZbIhloBgDXTz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "面料是定染的，每个颜色都有起订量。结果呢？有些颜色卖得好，有些卖得差。卖得差的颜色，面料还剩一大堆，压了一年的库存。",
+                  "type": "text"
+                }
+              ],
+              "id": "SSMNFQTgnnxGLTUL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "mGPSAbSezevNjoxh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "后来我改了策略。做延伸的时候，核心面料统一用一种底色，然后通过后整理或者小范围装饰来区分颜色。这样面料可以通用，库存风险就分散了。",
+                  "type": "text"
+                }
+              ],
+              "id": "DeArcweSFdXvdrGW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "cnjREaezHVUWhXWG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "还有就是快反能力。有一个款，上市第一周就爆了，但追单追不上，因为面料要45天。等面料到了，季节过了。",
+                  "type": "text"
+                }
+              ],
+              "id": "UlZLyjEAgoxbmgoA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "aqeKMFYRKnBZjgmN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "从那以后，我做延伸款的时候，会",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "先跟供应商确认：核心面料的备货周期是多少？能不能备一些白坯布，随时染色？能不能接受小批量追单？",
+                  "type": "text"
+                }
+              ],
+              "id": "XvtUUfVSvsUTwHma",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "NaGEtkYkZEguweJd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "供应链跟不上的延伸，就是纸上谈兵。",
+                  "type": "text"
+                }
+              ],
+              "id": "oCTPjgYWiYcUNXiY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "TBrXYOWlbUXnHPIm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "坑八：只盯着老客，忘了拉新",
+                  "type": "text"
+                }
+              ],
+              "id": "fjApbsXPwqfVrqOJ",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这是另一个极端。",
+                  "type": "text"
+                }
+              ],
+              "id": "XvLMukgyYFwoplSk",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "dPxwpjNmJeaskhGs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "有些人做延伸，就是给老客做的。换换颜色，改改细节，老客觉得新鲜，再买一件。",
+                  "type": "text"
+                }
+              ],
+              "id": "fVpnEsJDwXcYpWNg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "TOSuwuiKvqcOwoni",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "但这只能吃老本，不能扩大盘子。",
+                  "type": "text"
+                }
+              ],
+              "id": "dOHsiUjQjffhKdie",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KkeamXJdQqBmWffB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFB00",
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "真正好的延伸，既要让老客觉得“还是那个味儿”，也要让新客觉得“哎，这个好像适合我”。",
+                  "type": "text"
+                }
+              ],
+              "id": "bSBiPcLLunekuYvd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "RaeKHSMnVsVapkwm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "怎么做到？",
+                  "type": "text"
+                }
+              ],
+              "id": "vOwqoWsKUwgQssob",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "zzhlmJxnwQSVpPNN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "举个例子，有一款经典风衣，卖了很多年，老客都很喜欢。我们想做个延伸款，既能留住老客，又能吸引新客。",
+                  "type": "text"
+                }
+              ],
+              "id": "bKEAbzAnSKGPuAMx",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "rymmPfWBdniMkpuO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "怎么做？保留经典风衣的版型和标志性的双排扣，但把面料换成了更轻薄的防水科技面料，颜色也从卡其色换成了黑色和浅黄绿色。",
+                  "type": "text"
+                }
+              ],
+              "id": "rWShXlfNUfjqNIXa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "IEVNqhiCNIteAbjX",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "结果呢，老客说“还是那个味道，但更实用了”，而新客说“这不是我小姨那件风衣，是我能穿的风衣”。",
+                  "type": "text"
+                }
+              ],
+              "id": "sjCGyPiluixMVHSZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "yyyjVUSlHfzvOqAa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这就是在平衡。也许结果不一定完美，但有这个意识特别重要。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "延伸的时候，脑子里要有两个人群。别只想着讨好老客，也别只想着讨好新客。",
+                  "type": "text"
+                }
+              ],
+              "id": "SGMtjhbhYSgMrlno",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "oBhEOanyoipVzuBN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true,
+                    "underline": true
+                  },
+                  "content": "最后的话：",
+                  "type": "text"
+                }
+              ],
+              "id": "RuDknOKpaKXUMRfq",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "单品延伸，不是爆款的专利。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "任何一个款，只要它有基因、有潜力，都可以延伸。关键是别瞎延伸。",
+                  "type": "text"
+                }
+              ],
+              "id": "xnyZUGthjqoCRxwD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KjGamvYKPzpIfPlC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "想清楚往哪个方向延，用什么方式延，延完之后怎么卖，卖不动怎么收。",
+                  "type": "text"
+                }
+              ],
+              "id": "BApTnwCIaAMqKaFW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "JcuhHHMYVCNvOwAb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "THE END",
+                  "type": "text"
+                }
+              ],
+              "id": "XiQfgDuHWalBkwDW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " -  用心去做的，永远不会浪费 -",
+                  "type": "text"
+                }
+              ],
+              "id": "CHcGfMpaFFxNBEtq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 205,
+                "renderHeight": 203.85,
+                "renderWidth": 636.4,
+                "sourceKey": "e8b6b7446ab2ba86447e2e5e2089b7f9fd5a9d01",
+                "version": 2,
+                "width": 640
+              },
+              "id": "rIvKljLjgysRzrud",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "AHYYYYqlNiOmkWmb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "F 先 生 绘 公 众 号",
+                  "type": "text"
+                }
+              ],
+              "id": "bRyIbioJmwXtsDyC",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "Take  heart  without  taking  detours ",
+                  "type": "text"
+                }
+              ],
+              "id": "cgzxaedfGyLWiugV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "“走心，不走弯路",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "”",
+                  "type": "text"
+                }
+              ],
+              "id": "ibrjDjHfbtARloeb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "id": "DvAgXAHVftqCPzpz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "服装电子版参考学习资料",
+                  "type": "text"
+                }
+              ],
+              "id": "zfcYoBbiHqJMbNPx",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "可扫码购买",
+                  "type": "text"
+                }
+              ],
+              "id": "LwvBmoURFfYxthOe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 822,
+                "renderHeight": 827.09,
+                "renderWidth": 584.6,
+                "sourceKey": "dac18e36a3cedd216c3197ebf743e7f62cc72bb6",
+                "version": 2,
+                "width": 581
+              },
+              "id": "aTccnUJQcNBXAfYd",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "cnRkwhwUFGoIEkJB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "修改于",
+                  "type": "text"
+                }
+              ],
+              "id": "QuajMUkhPfYlrxUH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "不喜欢",
+                  "type": "text"
+                }
+              ],
+              "id": "MTfWTKEAJFldquFV",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 7
+    }
+  },
+  "result": "ok"
+}

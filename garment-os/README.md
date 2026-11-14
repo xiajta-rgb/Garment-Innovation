@@ -1,73 +1,90 @@
-# React + TypeScript + Vite
+# GarmentOS · 服装造型与参考制版
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+以服装造型域为主，将模板、结构部件、参数定义和真实毫米裁片关联起来。飞书保存可复用元信息，本系统计算并检查详细参考几何。
 
-Currently, two official plugins are available:
+**企业面料管理已接入**：“资产库 → 面料库”默认打开面料管理，已连接时自动读取25条启用面料，首页在内存复用5分钟。默认图片卡片、本页有图优先，支持切换列表和仅看本页有图；原图预览显示实际像素，支持适合窗口、50%/100%/200%缩放。常用查询保留编码和名称，其余条件收起。款式关联后可在设计台直接打开各部位面料图，沿用原撤销/重做、保存重开和资产导出；原稿材料另在“原稿面料”保留。连接配置位于面料管理内，凭证仅保留在服务内存；服务重启后重新连接，或从进程环境变量MCP_ACCESS_TOKEN注入，地址可用MCP_ENDPOINT设置。详见[面料管理接入](doc/面料管理MCP接入-20261112.md)与[面料图片浏览](doc/面料图片浏览-20261112.md)。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+首页现使用统一的 **设计台、资产库、裁片库、参考资料** 四个入口。公司设计稿和其他参考、审查归入参考资料；资产库集中面料、工艺、结构、模板和配色。各模块统一主题、控件与间距，手机裁片预览完整显示。三视图侧边与贴袋线条已清理，保留同款同视角对比，原毫米裁片不受显示优化影响。详见[统一界面与线稿优化](doc/工作台统一界面与线稿优化-20261112.md)。
 
-## React Compiler
+首页 `/` 使用原有 **GarmentOS 工作台**，保留顶部操作、左侧模板与尺寸和原裁片组合设计。**定制矩阵**作为原工具栏内的模块，与裁片组合设计、公司设计稿和资产库共享当前款式；选基础短T后，可多选定制项、自动展开组合、比较固定位置三视图和保存选款。点击“应用到当前款式”后，沿用原工作台的撤销、重做、保存及后续二维编辑。手动尺寸与领口、工艺、口袋设置随基版保留。详见[工作台矩阵模块整合](doc/工作台矩阵模块整合-20261112.md)。
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+默认基础男士短T为2种版型×2种袖长；配套装袖圆领平纹组合显示源裁片组装三视图，V领、插肩、落肩及其他面料组织先保留设计需求和缺口，不套用替代几何。`?workspace=design`、`matrix`、`matrix-v1` 均在同一工作台内打开矩阵。初始进入不会替换当前模板，也不会自动应用历史选款。原[设计台与自动定制矩阵](doc/设计台与自动定制矩阵-20261112.md)记录保留，页面布局以整合报告为准。
 
-## Expanding the ESLint configuration
+模板结构审查保留在 `?workspace=review`。14个正式模板中9个为源版参考、4个待重建、1个停用，当前0个通过整款验收；源参考预览与设计需求的自动组合不代表结构放行。另核查4份公司母版、25个结构方案、3个外观预设与6个旧设计方向。详见[全模板结构审查](doc/全模板结构审查-20261112.md)。两个旧矩阵入口 `?workspace=matrix`、`?workspace=matrix-v1` 均进入当前设计台；旧生成器和没有配套裁片的图形导出继续停用，旧选款数据和历史证据保留。
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**男士短T基础裁片库**可在 <http://localhost:5341/?workspace=foundation> 查看：Teagan装袖短T的真实毫米前身、后身、短袖及配缝；Hugo插肩只用于连帽长袖源版研究，配缝超差且未改成短T，禁止采用；落肩缺少配套方法，禁止组合。领条、工艺、材料与试样尚未完成，主体可核对不等于整件验收。本轮未提交生图。详见[基础裁片库核对与纠正](doc/男士短T基础裁片库核对-20261112.md)。
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+原**裁片组合设计**保留在 <http://localhost:5341/?workspace=piece-design>，支持拖动袋位、逐片配色、配缝检查、保存恢复及毫米裁片SVG导出。已完成的森灵立体产品图与模特图及原始参考仍保留，当前组合页面已收起生图入口。当前仅接通配套Teagan T恤；翻领、帽衫、任意裁片混拼与自由分割尚未开放。此前出图记录见[裁片组合设计与森灵立体模特实测](doc/裁片组合设计与森灵立体模特实测-20261111.md)。
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+“公司设计稿”保留上一轮**三视图 2D 外观创作**。以研发货盘的 COT25M002、LT26M1581、AT25M3295、AT25M3288 四份真实原稿建立参考母版，正背侧共享设计设定与绘图比例；原公司稿仍可对照。轮廓使用原稿中的图稿比例，不将图片像素当作毫米尺寸。
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+可叠加领型、袖型、版型、衣长、口袋、下摆、拼色和内置图案位置，提供 Polo、宽短T恤和帽衫三个快速方案；保存重开及撤销重做保留改款，可导出 SVG、PNG 与关联数据。点击“森灵测试”实际上传当前三视图 PNG，本轮两组真实出图均返回，保留提交参考与原图对比。AI 仍会重画部分领口、袖形及细节，需人工检查；二维改款未接通毫米制版时禁用裁片入口。详见[三视图创作与森灵实测](doc/三视图创作与森灵实测-20261111.md)。
+
+可选择母版、对照原稿、编辑款号/配色/面料/工艺/改款说明，随现有设计保存、恢复和撤销；SVG与关联JSON均携带来源和母版修订。换料会清空继承的成分、克重，保持待确认。COT25M002为微落肩原稿，已撤销其错误的普通装袖CAD关联并禁用裁片入口；旧文件载入会解除该关联，保留图稿与用户修改。长T仅保留同类装袖参考方法关联，不能认定与公司原款纸样一致。圆领卫衣和套头帽衫的裁片仍待接通。此前记录见[公司参考母版与二维三维关联](doc/公司参考母版与二维三维关联-20261111.md)，以本轮结构审查结论为准。
+
+当前支持 Brian 基型、Teagan 圆领短袖/收腰针织上衣、Sven 长袖针织上衣、Simon 男装衬衫、Aaron 包边背心、Huey 开襟连帽卫衣、Sandy 分幅圆裙及 Paco 松紧腰基础长裤的完整参考制图，统一固定 FreeSewing 4.10.2。全部处于生产未验收状态。V领、两种Polo和梭织女衬衫仍禁止生成；旧 T-Shirt Pro 已合并。
+
+优先完善**基础T恤与裤装**：品类工作台新增“基础款快速改款”，T恤可改短袖延伸、袖口宽、领宽/深；基础裤可改裤长、脚口、臀部松量和腰头高。改款使用完整同源方法重算，保存与撤销可恢复。基础裤使用13项直接下身测量，3种源裁片共5片。统一部件接口已定义，胸贴袋、插袋、插肩/落肩及裤装完成态接口仍待接通。详见[基础T恤与裤装模块化](doc/基础T恤与裤装模块化-20261111.md)。
+
+连续改款已修复：换袖保留领口，裤口和裤长可叠加，保留臀部松量及腰头；跨方法不继承旧参数。T恤和基础裤可沿用当前构型进入款式工作流、生成裁剪/BOM与工艺草案。详见[基础款连续改款业务审查](doc/基础款连续改款业务审查-20261111.md)。
+
+“资产库”统一管理裁片模板、结构组合、面料、工艺及配色；公司母版浏览归入“参考资料”。现有4种有原稿来源的材料和25种同源结构组合，支持逐片CAD预览、部位兼容筛选、选用、保存恢复和过期引用解除。衬衫方案含明确的参考衣长；已修复非零衣长下曲线下摆的侧缝端点合同。面料缺失物性保持空值，飞书协同以候选导出承接。详见[资产与模板库联动](doc/资产与模板库联动-20261111.md)。
+
+“参考资料 → 品类与功能”按成熟制版工作台的公开界面与工程流程组织现有功能，登记45种明确构型，分别显示必需/可选角色、尺寸口径、配缝接口、模板、公司母版与缺口。9类有整款参考CAD，5类（含基型）支持成衣曲面示意，2类只有公司二维母版，34类待接整款CAD。品类筛选实际联动资产库；各操作可直达生成、配缝/BOM、部件约束和材料检查。分类和独立参考图不能晋级为可制造模板。详见[品类与功能工作台](doc/品类与功能工作台-20261111.md)。
+
+新增分幅圆裙支持独立裙长、圆度、2–4幅、抽褶、腰头高度及搭量联动；保留原生毫米轮廓、源裁边、折线和裁法。腰头请求高度与源吸附后的实际高度分别显示。整件裙装开口与折返完成态仍待接通。[本轮接通与验收说明](doc/品类持续接通与圆裙验收-20261111.md)附全库45类分阶段状态、112组跨尺码映射检查及可重放流程。
+
+## 启动与检查
+
+```powershell
+npm ci
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+本地页面：<http://localhost:5341/>。端口被占用时会明确退出，不自动改端口。现有设计保存在同一浏览器、同一来源的本地 IndexedDB 中。
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```powershell
+npm run check
 ```
+
+顺序执行架构边界与归档完整性、代码检查、单元/组件检查和正式构建。当前结构审查证据位于 `doc/evidence/all-template-structures-20261112/`：含327组有限配置回放、25个结构预设重算、逐模板记录、毫米裁片图、源文件指纹与真实浏览器操作。具体最终检查结果见本轮审查报告。旧外观矩阵、毫米矩阵、裁片组合及森灵出图证据继续保留，不能作为本轮结构放行依据。这些检查不能代替实物试坯。
+
+“裁片库 → 裁片组成”可查看实际裁剪数量、逐条配缝关系、对应的源净边、方向顺序和实测差值。结构检查已接入所有完整制图适配器；生成器、画布和导入均须通过。筛选只改变展示，不移除完整模板的检查。尚未完成的翻折、褶量或搭门规则保持待定义。
+
+“裁片库 → 分类总览”提供22大类、129个具体角色、7种材料身份与13类服装场景的内部分类词典。可按类别、名称和建设状态检索，再点击“查看当前裁片”同步筛选实际图纸。分类、结构层级、材料、对折方式与数量分轴管理。当前款式生成器的35种源身份覆盖20个角色、13大类，其余角色尚未接入整款制版与装配。
+
+侧栏“裁片快捷筛选”现在按部位打开**跨模板参考裁片库**，衣领等部位不再因当前T恤没有该部件而空白。也可从“参考资料 → 参考裁片库”、裁片库的“全量参考图”，或分类总览每行“查看参考图”进入。收录172份源图纸、覆盖65个具体角色和21个大类；手套类另有CC0实物纸样照片，22大类均可查看参考。原先30种源裁片均有独立参考；新增Sandy的2种源裁片已有实际源净样与裁边。图片没有毫米尺寸，不可当作CAD。129个角色中仍有64个缺少毫米CAD、61个无直接参考，逐项显示缺口。参考浏览不会修改款式、测量数据或BOM。详见[参考裁片全量审查](doc/参考裁片全量审查-20261111.md)。
+
+运行 `npm run test:assembly` 可重放 126 组结构矩阵、22 种故障注入和组成界面组件交互，并生成 5 份基准范例。详见 [系统结构与裁片组成验收范例](doc/系统结构与裁片组成验收范例-20261110.md)。该范例按系统逻辑验收，不要求工厂或试坯资料。
+
+浏览器获准使用的环境中，操作人员可运行 `npm run e2e`。可用 `GARMENT_E2E_BROWSER` 指定浏览器程序，`GARMENT_E2E_URL` 指定本地站点；默认 Edge 与 5341。当前工作流覆盖二维参考图、尺寸、筛选、模板审查、资产关联及保存恢复。
+
+## 二维裁片设计边界
+
+当前版本已从工作台移除三维仿真、人体模型、曲面贴图、glTF 导出和三维量尺入口，避免把不可兑现的预览误作版型或生产依据。所有设计继续以固定位置的正、背、侧三视图和真实毫米裁片为核心：衣身、袖子、领子按部位替换自动落位；口袋、Logo 和装饰元素保留可拖动、缩放、旋转与删除；尺寸、配缝方向、裁片数量和工艺说明随方案保存。
+
+“裁片库”提供裁片生成器、裁片检验、裁片组成、部件组合、分类总览和全量参考图；“设计台 → 定制矩阵”按领型、肩袖、版型、面料组织、口袋、分割线、包边、拉链和撞色等轴自动展开候选，缺少同源净样的方向明确标记为待补结构。资产库集中面料、工艺、结构、模板、Logo 与配色，参考资料集中公司设计稿和改款文献。
+
+二维输出属于设计与参考制版阶段。软件检查、专业纸样审查、样衣验证、生产批准彼此分开；缺失尺寸、未登记裁片或未核实配缝不会被默认为通过。森灵仅用于提交已确认的二维三视图和面料/工艺参考图生成视觉稿，返回图片不反写裁片，也不替代纸样审查。
+
+## 开发与数据归属
+
+画布工具栏“款式工作流”接通企划设计稿、裁片映射、BOM 草案、技术与工艺稿四步。支持两种Teagan T恤、Paco松紧腰基础裤、Aaron包边背心和Huey开襟卫衣；确认设计后，直接使用工作区的制版输入和同源裁片。BOM 草案只列已声明裁剪量，技术草案复用源工艺关系，可导出联动 JSON 与参考裁片 SVG。最新验证见[基础款连续改款业务审查](doc/基础款连续改款业务审查-20261111.md)，早期工作流验证保留于[款式工作流联动验收](doc/款式工作流联动验收-20261111.md)。
+
+“企划设计稿 → 森灵 / 图稿解析试验”通过 Amazon-image 已使用的森灵 AIS 接口生成参考稿、识别可见构型。选用图片后才能识图，候选需核对、填入结构并确认后才制版。本机参考图仍仅在浏览器内预览，也可以继续导入结构观察 JSON。详见[森灵接入与验活](doc/森灵接入与验活-20261111.md)。
+
+- `src/types`：毫米几何、测量、设计文档与存储端口。
+- `src/data`：已审查目录、测量样本、飞书快照与参数语义映射。
+- `src/lib/pattern`、`src/lib/patterns`：完整参考引擎适配与几何检查。
+- `src/application`：制版、设计文件兼容、导入、候选资料包等纯应用逻辑。
+- `src/store/designStore.ts`：可注入存储的编辑会话；`useDesignStore.ts` 装配默认存储。
+- `src/lib/db`：IndexedDB 适配；`src/features`、`src/components`：界面与文件下载适配。
+
+- `server`：本地森灵 AIS 接口与生成任务管理；不参与裁片计算。
+- `research/legacy`：带校验清单的历史归档，退出运行入口。
+
+文档只保存输入与元信息，恢复时重新生成裁片；不保存第二份派生几何或模拟成本。原数据库版本与素材存储保留。无完整输入的旧设计明确拒绝载入，当前编辑内容保持不变。
+
+飞书当前仍使用现有服装元素表与参数定义表，不新增日志、编号或规格表。启动只读本地快照，不自动向飞书写入。
+
+详细边界、兼容方案、检查结果及后续缺口见 [架构整理报告](doc/系统架构整理-20261110.md)。模板逐项结论见 [全模板审查与重建报告](doc/全模板审查与重建报告-20261110.md)。

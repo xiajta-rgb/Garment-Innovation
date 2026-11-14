@@ -1,0 +1,522 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "服装款式延伸系统方法（七大品类）",
+                  "type": "text"
+                }
+              ],
+              "id": "LgLsRBhuTCifdoXC",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/3q90J25Cxk3jtJSqqLqNsA"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "loIaBkVyQefZEZsG",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "1d1f90e17f1eae94cb8cf5b1744cb49d51ae2974",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "WYIRtwLryXyxmVAf",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "9162b989a37fd67fba4a92fe8b0a76ef7ce22638",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "xPOXqweCRogzXwWk",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "c0f6defab5a566ee47207362727108e6adfbe7c6",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "RgQswGwAFvxcktRI",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "2cbb6a91131de3f23c9b9f5701e0cfd504a67d03",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "fWvGHNYXxfoTCPYM",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "c4d8129122bcb899aa3fc5b84c25961dc56da225",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "cuFVOcnmlpeyMOBR",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "763e19290b4ec118fb23df27c7d62685fa6eb2c1",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "SMoStmXxoyMFiUFf",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "BicTphAAobhWBuIB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "一个重要认知：款式延伸不是靠感觉，而是靠一套可复制的系统。",
+                  "type": "text"
+                }
+              ],
+              "id": "BBpAzLbSDKJXSsSP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "JmyHGneSKYiemixL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "我把款式延伸方法拆解成了这一整系列爆款制造工具。",
+                  "type": "text"
+                }
+              ],
+              "id": "ZtEMJtJcPcGXRKMA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "XsKWbsvaDimtsfrZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "✅ 内含：",
+                  "type": "text"
+                }
+              ],
+              "id": "RcNtNgaTAuKrWury",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "爆款基因分析表",
+                  "type": "text"
+                }
+              ],
+              "id": "xftgwAFwCopgXcPW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "趋势元素周期分析",
+                  "type": "text"
+                }
+              ],
+              "id": "hymKsBaAonaljOuU",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "六大品类改款延伸方向指导",
+                  "type": "text"
+                }
+              ],
+              "id": "XvWcVvbLePZxRWnX",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "几十个小品类原型延伸路线表",
+                  "type": "text"
+                }
+              ],
+              "id": "UvvHTXvjNLZluOXd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "秀场提取爆款设计点",
+                  "type": "text"
+                }
+              ],
+              "id": "BFimEbuUCdgAhkKK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "爆款打法与公式",
+                  "type": "text"
+                }
+              ],
+              "id": "qTAQfBKnSaALxrPN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "爆款廓形延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "QKHiDwlleBrbYqKz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "爆款卖点打造",
+                  "type": "text"
+                }
+              ],
+              "id": "bhVnVqKFEsPBsEMn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "……",
+                  "type": "text"
+                }
+              ],
+              "id": "pGoLojrkBfmVOtng",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "共四十多份专业学习与工具资料💾",
+                  "type": "text"
+                }
+              ],
+              "id": "QpJsUHmqCvkoSfnm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "lKUXwrsxYiCcQhEW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "这套资料能帮你建立从系统理性的爆款思维和方法，告别盲目试错。是一整套拿来即用的【出款工具包】：",
+                  "type": "text"
+                }
+              ],
+              "id": "xvYjTaEtSvWXdOLU",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247539569&idx=1&sn=153cbcd753754274a7d76ed174bc8782&scene=142#wechat_redirect"
+                    }
+                  },
+                  "content": "不要凭感觉了，女装爆款设计都有工具表可用",
+                  "type": "text"
+                }
+              ],
+              "id": "UDbVcZMQjHNopXrB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "微信扫一扫赞赏作者",
+                  "type": "text"
+                },
+                {
+                  "content": "Like Author",
+                  "type": "text"
+                }
+              ],
+              "id": "JNvaXgcxqFSGMrTo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "WqWDGXzIeeGGHFmc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "F先生",
+                  "type": "text"
+                }
+              ],
+              "id": "gJRjLaxTtKPupGZM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "Collected in",
+                  "type": "text"
+                },
+                {
+                  "content": "服装设计开发",
+                  "type": "text"
+                }
+              ],
+              "id": "bnUsILSLwASnMYlo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "Author's tip: 个人观点，仅供参",
+                  "type": "text"
+                },
+                {
+                  "content": "考",
+                  "type": "text"
+                }
+              ],
+              "id": "hCdvqIiLGZntjUxb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 272,
+                "renderHeight": 273.8,
+                "renderWidth": 273.8,
+                "sourceKey": "76ca0ae4203aa8c115d0c3424d824d2e4ff36e08",
+                "version": 2,
+                "width": 272
+              },
+              "id": "oeNptpcsAWjyQPzH",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "jwXezFvRcwQOMCCo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "F先生绘",
+                  "type": "text"
+                }
+              ],
+              "id": "DzjEmWgfHICvrUmY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "pSofzfyRWpSpauDj",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 9
+    }
+  },
+  "result": "ok"
+}

@@ -1,10 +1,10 @@
-import { useParametricStore } from '@/store/parametricStore';
-import type { GenderType } from '@/types/gene';
+import { useDesignStore } from '@/store/useDesignStore';
+import type { GenderType } from '@/types/measurements';
 
 /** 性别切换器 (Male / Female) */
 export function GenderSwitcher() {
-  const gender = useParametricStore((s) => s.gender);
-  const setGender = useParametricStore((s) => s.setGender);
+  const gender = useDesignStore((s) => s.gender);
+  const setGender = useDesignStore((s) => s.setGender);
 
   const options: { value: GenderType; label: string; icon: React.ReactNode }[] = [
     {

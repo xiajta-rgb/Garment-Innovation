@@ -1,0 +1,58 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "ZMY8brxraaCBfhseuIFccVe0n8g",
+  "table_id": "tbl3lvwyeOg7DpYT",
+  "rev": 991838,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "field_scope": "selected_fields",
+    "record_scope": "view_filtered_records"
+  },
+  "requested_limit": 2000,
+  "records_count": 788,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "C:\\Users\\xmls\\Documents\\ChatGPT\\服装创新设计平台\\Garment-Innovation\\garment-os\\research\\rd-design-reference-20261111\\design-records.ndjson",
+  "record_file_size_bytes": 202633,
+  "manifest_file": "C:\\Users\\xmls\\Documents\\ChatGPT\\服装创新设计平台\\Garment-Innovation\\garment-os\\research\\rd-design-reference-20261111\\design-records.manifest.json",
+  "columns": {
+    "GTM产品名称": {
+      "field_id": "fld3gxQejk",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 20
+      },
+      "example": "短蛙D"
+    },
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28Xjq6EeX2x"
+    },
+    "类目": {
+      "field_id": "fld6EmKV5o",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 43
+      },
+      "example": "Men's T-Shirts/美国"
+    },
+    "设计稿": {
+      "field_id": "fld5YwPdLG",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 70,
+        "max_length": 132
+      },
+      "example": "https://lasenyun.com/ls-prod-oss/04623448dd9e79325c66ad6d8436cca3c7178c88705bf06dfe5e71a3b309ca2f.png"
+    }
+  }
+}

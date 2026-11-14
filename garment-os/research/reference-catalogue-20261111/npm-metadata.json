@@ -1,0 +1,1020 @@
+{
+  "albert": {
+    "name": "@freesewing/albert",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for an apron",
+    "dist": {
+      "shasum": "6dab6e1c3635bc41fe5f72711127cf7428350062",
+      "tarball": "https://registry.npmjs.org/@freesewing/albert/-/albert-4.10.2.tgz",
+      "fileCount": 9,
+      "integrity": "sha512-szMsp50HA5tykH9YKNJurwr+9lh2WvbjFTjaKtAXYHVre1HpjaG6sxVItAG/V6RJJeGuh2us/O+RdIIWCXiwyg==",
+      "signatures": [
+        {
+          "sig": "MEQCIGDBbXWc1EMS1uTD5qg1lsdzLV34yJMGiejuwUYOnlW5AiAdyYXPqDerciw4AE51NQetGKz4m36MFzqMtonm+zgTNw==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIQCdmTIbFjXadi0axSVKLofWYbwmATk6r5T12bb9Vf+LUwIgSy08txVGbZxxuI5+HuFb6+i+KkF+vhor96muBOqSYho=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 24413
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "bee": {
+    "name": "@freesewing/bee",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a bikini top",
+    "dist": {
+      "shasum": "1cda9f6dc147be3cca1e28516c729c4a9d7aca32",
+      "tarball": "https://registry.npmjs.org/@freesewing/bee/-/bee-4.10.2.tgz",
+      "fileCount": 9,
+      "integrity": "sha512-OQOuY1f5h07vYfLwauX3Hr2JqEj3U5Ms5k3xVw981aWWjg1YyBWkyReEMFjqsjgdqP1quKaOHJWewRjB3F78yg==",
+      "signatures": [
+        {
+          "sig": "MEYCIQDRodln4dDcRRwB8Pe1p2mkrQ2np5f7Kp2TN6C7dEnvSgIhAIsJnuGV9eF9c4DR/r59dB3AEvvhrkP84hXuyE3ogxov",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEQCIDetztbDbCfvHi80MULVG9+e0AuowUgYcsgckvm0kSDPAiABY7vyvcOy5amdwpSM30DSqiaToTZAmJcCqC/bwar//w==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 37990
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "bella": {
+    "name": "@freesewing/bella",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a womenswear bodice block",
+    "dist": {
+      "shasum": "5eea5f25d4a75ea1cb4f4cdc720788bb78187e4f",
+      "tarball": "https://registry.npmjs.org/@freesewing/bella/-/bella-4.10.2.tgz",
+      "fileCount": 9,
+      "integrity": "sha512-+a9H2dSSNvGDrr5uX2k2FmhVzUXHnFjPONHN1FTxoKBoBdWf2oINrE2LQgwP2G06MWOu+E/ozXacGEfpriiiAg==",
+      "signatures": [
+        {
+          "sig": "MEUCIA9EzITrJxlCHEUx40F1bXGf4uSWOuufjj3gH054kWhpAiEA4v52YWjeyY5Kb8xjjD+DsoG8Fb4TCqh9Uh8FF/dBo1Y=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIQDiCEJIIHexkqKzUcSaACwdk27/rZsN5l5O+EMlD4YmIgIgL4RzmtSx4QdpbHXoTp2z0x5HZI5jCGIvaxIBaQ7o2V0=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 44748
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "benjamin": {
+    "name": "@freesewing/benjamin",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a bow tie",
+    "dist": {
+      "shasum": "58e8100a09a4c3978aa7f067c862b3aafe3b9cf8",
+      "tarball": "https://registry.npmjs.org/@freesewing/benjamin/-/benjamin-4.10.2.tgz",
+      "fileCount": 11,
+      "integrity": "sha512-nP7zFnH4xCFCbDOZCf8YpEOku8gX6BomMq3yweUl38veC43DoeJXnVR1Z37Zmvjol+WtqvoM3mKuncOXYlAFTw==",
+      "signatures": [
+        {
+          "sig": "MEQCIEVZ3KomI0KQ4fxsagw5BHBM12NETapTUevCnWlu8yjTAiAzbwZDJIAvpnbZuGyC61B55zssChW0GrncgV53Hwxu9A==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 24829
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "bent": {
+    "name": "@freesewing/bent",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a menswear body block with a two-part sleeve",
+    "dist": {
+      "shasum": "547e114ff4bbdbb3a742f5633a18295ab4a51e3b",
+      "tarball": "https://registry.npmjs.org/@freesewing/bent/-/bent-4.10.2.tgz",
+      "fileCount": 6,
+      "integrity": "sha512-9Sh4xM2DBCbK9XtzvcVM5PWGyPHNkUMHQ2oLkkWsWtUR90riwqRaGVIqI44u6BhIYWl8zkbXB1DSEP3vvpAO4g==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCpOQ3p6sRyKhNlhcaQi1BAhT93iKKZRjS5a52zG4kJwAIgH1da2kFpfCzNkFgoQHFa3CXoRowWc1yTcRb2sD9VQNg=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIQDistVkrzs8vb3z1oyIZ2eraB2mH7uabQKOkWRcR7VFggIgaOG2jHIjonrjQDgBo12VMYhEMCADRPjFwc5KYESL9o0=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 10041
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "bibi": {
+    "name": "@freesewing/bibi",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a knit top body block",
+    "dist": {
+      "shasum": "ac9d5e7e0e3528d2b655bc5bfb7e129d81863b74",
+      "tarball": "https://registry.npmjs.org/@freesewing/bibi/-/bibi-4.10.2.tgz",
+      "fileCount": 14,
+      "integrity": "sha512-CjdC+GL5l1Jvs7PHNGZevoo987zauozZ2fMZ+u9wuex4ESMBGnFN8F/GudqmIr9cyolLypJWfhqMeBuU9nCz/w==",
+      "signatures": [
+        {
+          "sig": "MEQCIBw/f04O4QjJneHglWSZASG0k8zNgbI6bn66GhNSC7x7AiAzaaR5Kz4/xgGeZP37Y0MArxkk/ijQiQO2zeQbU/g83Q==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQDAdEHVuedBvdbuoKMvFMlGvdp8u48VNi0h9HQRZhrSygIhANDb97t7rhrhPZgUN2Q5W9Wb9Q5CfGiY/eUdPKBGbWBn",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 76722
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "bob": {
+    "name": "@freesewing/bob",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a bib",
+    "dist": {
+      "shasum": "49d6fe8eebb4c66aeb1fc5e0656a43ff4cf6ac2b",
+      "tarball": "https://registry.npmjs.org/@freesewing/bob/-/bob-4.10.2.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-MCp1ozprEJ2yHxlKXJoPCsqJ6Qo7kLik7SxKp6qgV6a31vWo34PI7vPN4eBrrq6xuhVfOGX/sSMSXp98oSOgEw==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCxEc4uVstJfyozaDH4B/myp2kVUvEMsHO0cN9p1vJqkAIgQWHQyomuVdOONN9qWx+w2lOVhvCtQPVOlO2WCaIirZY=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQCDSk/0dksRGgjYHRfuQh0Z8ocSjak5k9D+bM/gu6WenAIhAO3t2psWNI7rspYPxcSODhmXcfTfzd3o/36d2qLEwIKX",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 17578
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "bonny": {
+    "name": "@freesewing/bonny",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern that turns measurements into a body outline",
+    "dist": {
+      "shasum": "03727064c8c623fe3fa4a60db0b46e4259cfb794",
+      "tarball": "https://registry.npmjs.org/@freesewing/bonny/-/bonny-4.10.2.tgz",
+      "fileCount": 8,
+      "integrity": "sha512-cgLkMcBUDoeiW5tZmpjeHJ3mVVQImQaS/ej4CH979X6mOY3EKjkB2P8d5Z6O4u8rf9WMnHLvbr/ZOA8l9OCWNg==",
+      "signatures": [
+        {
+          "sig": "MEUCIQDJ3meTaFknUh2I2CVYvMrIooYCUNleNQKiLI48i0+g+gIgO2NvypjmjKIzU71pQDkRbbFRdqfXPaoJhiTO3eUpkmU=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQD9hpZ61+qt/GAAvtDj2Vf3DAdkDxphKLM47uZB6/aPEQIhAPI+HjV1vxmJpWamUQ8ZiS07nkpMz8L5FE2lOY0J4COL",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 73430
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "breanna": {
+    "name": "@freesewing/breanna",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a basic body block for womenswear",
+    "dist": {
+      "shasum": "4cb8bf3366bb6f2600ebf26404996e040d69b304",
+      "tarball": "https://registry.npmjs.org/@freesewing/breanna/-/breanna-4.10.2.tgz",
+      "fileCount": 23,
+      "integrity": "sha512-c3jUbk0zaJIsiyU88HTSoaQqdSCLv4X753onzRors8VwYmNcKebZSwRpxkWS/RtZGCbaOt7fs7DKMOzHwCAG2g==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCCjPL1awk13T72X8/rW7O7bdQMQlimg9ttDkFcrJ5X6gIgNi+hG5PZ+uusI5Wvoyqrgb6yeQiR7kowatjEnROLXvE=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 92251
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "bruce": {
+    "name": "@freesewing/bruce",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for boxer briefs",
+    "dist": {
+      "shasum": "2fa2968a2cda3893d802def5f7a056c9558ac8cb",
+      "tarball": "https://registry.npmjs.org/@freesewing/bruce/-/bruce-4.10.2.tgz",
+      "fileCount": 11,
+      "integrity": "sha512-dohYdovBf76NgER8jRWIkO7Yov3J91GI9ZkFzgQEEPT0zzpFWbYPHPowk1btE1V6sfjt/I+HOr3QU7ROAttC4w==",
+      "signatures": [
+        {
+          "sig": "MEUCIQDyn90XtpfeQbvYPmeHAEtJDRYtaU4Qmry+i/q6kz4B1AIgODrMGdZI3OYQFlfsrRZpgnCpw5NbMYl/vBJg6Wyk9Rk=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 37056
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "carlita": {
+    "name": "@freesewing/carlita",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for Sherlock Holmes cosplay; Or just a nice long coat",
+    "dist": {
+      "shasum": "6e6af64492131dee8241c830595d8dccef3e9e4a",
+      "tarball": "https://registry.npmjs.org/@freesewing/carlita/-/carlita-4.10.2.tgz",
+      "fileCount": 11,
+      "integrity": "sha512-/wsFhxJToeej43vP/4e2ZkRMkUEckiDCb1W5s/sn+732llNbecHmJTtH/1lAQiVgZmeOHa3v/1P4rPILD/ERvg==",
+      "signatures": [
+        {
+          "sig": "MEQCIHVyaRAY3geEGnXAJ0CrMhLWKhs+d4wdfH2m7ksUU5G4AiBGcfBUhK6s7BEAZHySXfQQ/LWMVD7dMPMDYwOVhaxexg==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEQCIAF3zhltTV+sIb+dkiPc2o6MQOgSyWIsEoqVgPjw+8teAiBRQQqmKWiYm8jqrg5FAMlLqTJPgNEBPLqlzfzOGtEMuA==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 35035
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "carlton": {
+    "name": "@freesewing/carlton",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for Sherlock Holmes cosplay; Or just a nice long coat",
+    "dist": {
+      "shasum": "71111f485aba93f5a3207db0eb5e3e39b2199eb4",
+      "tarball": "https://registry.npmjs.org/@freesewing/carlton/-/carlton-4.10.2.tgz",
+      "fileCount": 27,
+      "integrity": "sha512-LLbUkfBA1feWqiOw3oParddIvrgvE7q0Xb8hdNmZeU0viXjAm8epPM3C42WIcl6Y9xPidfHSX43SWTripcJKQA==",
+      "signatures": [
+        {
+          "sig": "MEQCIEp20wIp7QJRc+M1oZVPiCK9w+QDxucFfNN9Ey+gk5ePAiA2RCkVnS+h/z+EmZNbjdUBLBaIDDc00W8uT0og79+YPw==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQCmtwQHliVl+RNvgC8npPa2YRQ9rwed/DIazkoqXkg/lgIhAIrqEPALp8ykSBw3bwbXo3EaPV8cd7ssIA23slPiiU/s",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 110762
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "cathrin": {
+    "name": "@freesewing/cathrin",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a underbust corset / waist trainer",
+    "dist": {
+      "shasum": "b0d2cfdcb77daa11b2bba5c392eeb90bb53d68a5",
+      "tarball": "https://registry.npmjs.org/@freesewing/cathrin/-/cathrin-4.10.2.tgz",
+      "fileCount": 15,
+      "integrity": "sha512-+R06keYV5ItR+TtakdAaVRGFiWmSbA7BZGUhyFb2Io0MvJvlGqE5PLtvU8Z63yf+YNodQ5UJWtRx0TWLexCf2g==",
+      "signatures": [
+        {
+          "sig": "MEUCIQDes4ICqQn5+54JKt9JWGifZ7rWD7N4zE83/WjIWOH5KQIgejkeYpr3f10HMiwrm7OPmkQTnK4WOlRTS1WxyeLFXDQ=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIQC/ACzOEdIEZvoaMV1FK2z4IQielxv6vpjcEOoWuDzjWgIgOx+FgujvrP7s3qmw/4oIMmDgQnWp3OVlRoT5FGDOzx0=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 40803
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "charlie": {
+    "name": "@freesewing/charlie",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for chino trousers",
+    "dist": {
+      "shasum": "47a03f55a806378804ddaaeab27607fcd1ff7da7",
+      "tarball": "https://registry.npmjs.org/@freesewing/charlie/-/charlie-4.10.2.tgz",
+      "fileCount": 19,
+      "integrity": "sha512-ZFN7hGXHrCAaeR7swLnzVmepEqIlYevChsieq18pEeaHrnSBW/8dLTLlZZsOK7elpn/UNOkCiV1tka47cosEDg==",
+      "signatures": [
+        {
+          "sig": "MEUCIQDs8VRjlNoUvk/y+H2BqnG+Rv3wgDeYDv0eYTbyhPsj9AIgVDxJHzBl1e+6b5vdi+5u/btS7fAG5c5NrL6oqfyRzQs=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEQCIAgF7HkI1fc5524dPCqKazdmyn3EzU4KIbiDMOSO6edqAiBB00bZTPsYbdZX60P5aTgEdqivwuBg5Nu7r3RIyqshxA==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 75851
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "cornelius": {
+    "name": "@freesewing/cornelius",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for cycling breeches, based on the Keystone drafting system",
+    "dist": {
+      "shasum": "44f79306fdd82b984c37157807092c21cf80b282",
+      "tarball": "https://registry.npmjs.org/@freesewing/cornelius/-/cornelius-4.10.2.tgz",
+      "fileCount": 15,
+      "integrity": "sha512-+F6xt0W6lCz6+QdeXxPOglOzVWdCEZHaz4J54HtA19m8EIdQampSh9k4qzBh4x7WRWGHtrA9xXl9tVLuRF9wlg==",
+      "signatures": [
+        {
+          "sig": "MEUCIQC2QkyB165r2r1hcRrD982RIE0/Q7OLAGgXpPBDhZIpawIgClV9PGHCt3Ds6b0JlJPSQKflDfo7BdSCp64YfMAhDYU=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQCzU5dU27fpKJx5jtGex8ZZ5DbbY5cPFZRTsiZkkegFtAIhAJiMpFn6800C8Yg959u1YG0El+ymyDCQci5Q5lNnEHGu",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 58162
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "diana": {
+    "name": "@freesewing/diana",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a top with a draped neck",
+    "dist": {
+      "shasum": "318ea6930859783ceb227b60759068488360f689",
+      "tarball": "https://registry.npmjs.org/@freesewing/diana/-/diana-4.10.2.tgz",
+      "fileCount": 8,
+      "integrity": "sha512-9xAQ2jbfr+4iq7yVqjkptNW9rzfEIMPVRdD0TOW6RhfVfZTlvoTiSKhP3+B4KK5gu6wqop6AHMPaQ6tgYuttww==",
+      "signatures": [
+        {
+          "sig": "MEUCID0Cteo63PBBqPCbCTAiNHPhsTRzMLSgy+DWMMC/84n0AiEA9fvIyhOdmL84xIMBOdZlktHrtZzBrBXyUh+Llnyly38=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 22111
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "florence": {
+    "name": "@freesewing/florence",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a face mask",
+    "dist": {
+      "shasum": "092810f9d6bfc937cb66e3c01968b1f930a7c189",
+      "tarball": "https://registry.npmjs.org/@freesewing/florence/-/florence-4.10.2.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-pNJyXQ5fVTzQ6UzK2uEdLutU9AMgd8pkvB1yYCx56j+2FUSNIuvWsWQJUVha603XeMkMzoyC/TSYgnraiTUHQQ==",
+      "signatures": [
+        {
+          "sig": "MEYCIQDFoHhxw7qm4NZjhfKTr6Cn/rYhzsObk1TeOLvghkXwfQIhAIIgd5nfwnOxaLAPwPHAHicJVuCcVmLxylgCx2DUumxn",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEQCIFursSN3lMZUHND9ZiFD8ftkSk5SSos3iN5ZaQCG/lxhAiAchvGGtP72aHmIl1KOgpvZkDUD1daQDzfpPgqaTMIHTQ==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 12671
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "florent": {
+    "name": "@freesewing/florent",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a flat cap",
+    "dist": {
+      "shasum": "6be237409252488bb3eec65199a8fc1063f782f3",
+      "tarball": "https://registry.npmjs.org/@freesewing/florent/-/florent-4.10.2.tgz",
+      "fileCount": 11,
+      "integrity": "sha512-dpzZhuv4eRywJFlPKbG8zpiHYhhYSxOv5MT9gxr2SjZT7A6NTHV1xZt1d4Q85bp33C+LvzIcRN8AbOUFeBULLg==",
+      "signatures": [
+        {
+          "sig": "MEQCIGuTnMnLK75NOfHnsP9AXpsdCa6dRbrYRmzhJQAN49LAAiAor3grDYYvCjIdsznVWffUz4ubnK1KAkAsux7FXEJbAw==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 26052
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "gozer": {
+    "name": "@freesewing/gozer",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a ghost costume",
+    "dist": {
+      "shasum": "5bd0127cdf67d7804b9039e55ce1d4ea98fc1f76",
+      "tarball": "https://registry.npmjs.org/@freesewing/gozer/-/gozer-4.10.2.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-8hAt+AdGFGjVz6jlXYEQkMxp4QaWDFQAVh+NtIBjZH2m8eJ+nQuo4xLl1dVnuxbb13K2Kod21eFktqIydQBzWA==",
+      "signatures": [
+        {
+          "sig": "MEUCIQD/VxUmaS82CCFafCHUYAbtAyGI8h9xHt2/PgHAvyyFlwIgDNVihnAQ67lpSzTYVwAuFSPr/0GtBebOgZCc3Uv/KUE=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQDaQIlHqKq3Bt4FbmRBkCUjhaRL+udB+Ts8ct8veE/c1gIhANprQgrTV80/4qzcYTQvGVwsfM/S/gKZ/h0tftx/+PEn",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 11164
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "holmes": {
+    "name": "@freesewing/holmes",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a Sherlock Holmes hat",
+    "dist": {
+      "shasum": "c98df78f3c829134ec1af0771c0a71ad21dcd2d3",
+      "tarball": "https://registry.npmjs.org/@freesewing/holmes/-/holmes-4.10.2.tgz",
+      "fileCount": 9,
+      "integrity": "sha512-6i9OGVIpL3FIfvJO4tUPhEIYMEpC4Ip+xBvVW1n4u6lcsn5v0jNHD8Io+oSv8LV/R7buIyd/FNbMGOVZUGCLQw==",
+      "signatures": [
+        {
+          "sig": "MEUCIFB65U9qMVXND0QTMiUh4ypb9tP0B5OhaAJ6wN/Dv7BAAiEA5Ng27PILXsOEOCxSWwMNgOcQsYrRzq2Srt9omJWq7FU=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIEDwpmTjmw64Z9UFUUfYDbCRY5JF5zBFh87+CCJQV2mFAiEA0ln1zGMTlMh4UPI8z3tT+bDNCqTNhsY+0bcSqnfTICI=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 18773
+    },
+    "dependencies": {
+      "@freesewing/plugin-gore": "4.10.2"
+    },
+    "license": "MIT"
+  },
+  "hortensia": {
+    "name": "@freesewing/hortensia",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a handbag",
+    "dist": {
+      "shasum": "eebbca5a1eef303b371a7a800e3954a62b576dea",
+      "tarball": "https://registry.npmjs.org/@freesewing/hortensia/-/hortensia-4.10.2.tgz",
+      "fileCount": 13,
+      "integrity": "sha512-S7lltNhSXZZpWK8EU0RflpY7LkDK1z7SbZi4hrVacQaRcvgy6JHGxCCYSXDgeyofycVTQ/P5Rab8ydCOadY+5A==",
+      "signatures": [
+        {
+          "sig": "MEUCIHltCQLxlwr/eKOj6yz6dbV1JL7Ldf190ot8Y9pQIczjAiEA0ZRkLH0OJ9jO80KcFeS01nXAyixWQduOCD4c864fBms=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEQCIGhEpO/00YCRkk7WDjGhbtMX/jBB1FSx7iaZGtvyYg3SAiBT2KHFwV2QX6JM184SyDYj3kuLEy6jVoO29eLjIaycqw==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 33030
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "hugo": {
+    "name": "@freesewing/hugo",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a hooded jumper with raglan sleeves",
+    "dist": {
+      "shasum": "de825b6a9ab8df35a60f2297b20fe59045eea6a2",
+      "tarball": "https://registry.npmjs.org/@freesewing/hugo/-/hugo-4.10.2.tgz",
+      "fileCount": 15,
+      "integrity": "sha512-f7K98Xy0hrE7YDG/Psjr2qd5A3UdpUAyD+sLkC7wZZQwWU8KuxbZR5GQ1t0jC1ejfhWOU9Tatihpuvnr9lMvVQ==",
+      "signatures": [
+        {
+          "sig": "MEYCIQCR3X0fUiZNaL0lf5rzkvnOZ68KIAnajnGBeW+uSI7u4QIhANyE3//UN4DOxwW3tpfKbfKzhkPTFeGYer6kNPDZVzDo",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 44502
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "jaeger": {
+    "name": "@freesewing/jaeger",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a sport coat style jacket",
+    "dist": {
+      "shasum": "6b9fd4d7090a69ae89eb5d9fbcfc5387f18b9d66",
+      "tarball": "https://registry.npmjs.org/@freesewing/jaeger/-/jaeger-4.10.2.tgz",
+      "fileCount": 27,
+      "integrity": "sha512-tUS/ImAq/e2WIgEnCPRkmQD/7wlPTNJOiXkO6WLQGvfbDqtbvlKjm6rvcUGKtlX4g19NzIUi84YC5nBxkByK0w==",
+      "signatures": [
+        {
+          "sig": "MEUCIEvfXBUGL3uOWs8Fl45v5ppk87Wik1S8XfQ/5ZxOeJ/OAiEA0nutwZZU+mxy7ZlWtnY54fnOY2F2RNSP4kT6eWaIO0E=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 115642
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "jane": {
+    "name": "@freesewing/jane",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a 1790s shift",
+    "dist": {
+      "shasum": "14066709bf17c3ecc78547de9bfea09e69095ce8",
+      "tarball": "https://registry.npmjs.org/@freesewing/jane/-/jane-4.10.2.tgz",
+      "fileCount": 9,
+      "integrity": "sha512-nsfAEYPRpdIO1ExzogGY2E3gvec3KZD+a7fqoTwC1nRTYYD4Y9UfhDrGQFKcH5mQsijuivL03+LRsrXPZyGGcg==",
+      "signatures": [
+        {
+          "sig": "MEUCIFLU7N1AS91PpjaiP6tfdWDW+Dv/7VPBEGAExgyKXy9VAiEA8m9MVPtcUy/Ztw58E+QmcR5ggqya/j+qG/Y/e+LckJE=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 19084
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "legend": {
+    "name": "@freesewing/legend",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern to document pattern notation",
+    "dist": {
+      "shasum": "93677e79dd19148132ddefefb7268a5cf4e77b77",
+      "tarball": "https://registry.npmjs.org/@freesewing/legend/-/legend-4.10.2.tgz",
+      "fileCount": 20,
+      "integrity": "sha512-X5u2J2JSubd+aVjysznJn+HltMjF2/CIMvpExmNBSSNGtpqDrI+eiTsatLi8PBOCDVlqPR0wjQi6D7s4qfNrHQ==",
+      "signatures": [
+        {
+          "sig": "MEUCIGlZvodsN2gX5Xiir/N8MVlrVKoGOnnObkGftytBiAyQAiEAq1bOkmH1G7mM4UO7FZTvVGxBgeofa0W0bu0SRuXG51k=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 18797
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "lily": {
+    "name": "@freesewing/lily",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for basic leggings",
+    "dist": {
+      "shasum": "7a78d278e0a1ad7b25e626a0390cdd3fea677dc0",
+      "tarball": "https://registry.npmjs.org/@freesewing/lily/-/lily-4.10.2.tgz",
+      "fileCount": 9,
+      "integrity": "sha512-5DpKJ1YqM3gbS9ezwuAiTM7z5Ok7op5dwyXbMrT21nH5MRY7nMbfIS9Wp9shsF8PrMBcla6NFEWSXn0zNkcPGA==",
+      "signatures": [
+        {
+          "sig": "MEUCIQDQ44g0oZluAJcuvSq24E/+lcU1vGkAHwptL3p7EYNevAIgUt76/vaFL2G/msUGti+4UmfHHAFPS5kp3pVRDx4J/G0=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQCCjr/8f7r/5N5CJ8I/pRn7Lbg91NeSXpyXpJ6r+rd3ywIhAM7SSVNEyv8NrsmdQ4s0VyOuUmL+arR3Sh1nrk+6Thxk",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 49444
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "lucy": {
+    "name": "@freesewing/lucy",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a historical tie-on pocket",
+    "dist": {
+      "shasum": "c04c7572a3f6befab66143ac308df726a3e96b03",
+      "tarball": "https://registry.npmjs.org/@freesewing/lucy/-/lucy-4.10.2.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-wzOrDcxP/W4g1LIpdnbs5YS9IHweG74DEUBtXBgRgzGj2ZPENz2lBEFlQynVlkFZBNrCwlsv/h8WD3P0btLROg==",
+      "signatures": [
+        {
+          "sig": "MEUCIQDJC5ot40P2mos6Z6M4zks6Kmp1zqDgpTJXFoEII1MjnQIgLcDq0I/yF1Ov6LMaQNR/kDoep61i4V5EOoIefoao2ic=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 11364
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "lumina": {
+    "name": "@freesewing/lumina",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for leggings",
+    "dist": {
+      "shasum": "63a2a44ba121fd28a58dd48c8e348292ab8221eb",
+      "tarball": "https://registry.npmjs.org/@freesewing/lumina/-/lumina-4.10.2.tgz",
+      "fileCount": 11,
+      "integrity": "sha512-uQ8WgM8R6vZFSQ3rCA2Piqj4nGz3I9gsr0CGqEtiM+59DiC+k433yTvSUWgcW9yjX7ED2vzH7kC75mIfGfdTFw==",
+      "signatures": [
+        {
+          "sig": "MEUCIHs4a5nw1E4+mSqR0fyKvAw8qcfdil5ywR9POucjro+XAiEA64zoiS8P6aIxwksAdy3toy2yznD8G40ROhalIuCwhrw=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 52155
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "lumira": {
+    "name": "@freesewing/lumira",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for leggings",
+    "dist": {
+      "shasum": "a0d866d7354eb349d26c3c8265dd7828bc18ede5",
+      "tarball": "https://registry.npmjs.org/@freesewing/lumira/-/lumira-4.10.2.tgz",
+      "fileCount": 10,
+      "integrity": "sha512-eG9+Df4E6lpkXUGzAD7UtxT4pB76asS+I5cKwP2VZ16uecnlgXKrm63CfU10ol3o743Zi3JcPHX7IJxyV75CPA==",
+      "signatures": [
+        {
+          "sig": "MEYCIQCHC1NTvj74jRu78YZSLDjHHbtOM6fIHYbvNxXHCQJXZwIhAJnQ4gw6sonYAJOxVbwhv6S2SY65FAyMZklJ92dFkMJM",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQDop5PhYnblYZZReCqTwojMH3MV/osbjqLrm89t45k9uQIhAK6XqR+aaCKt62cLtdtRgHhx0+d8tWvBkxcKfcRek+zA",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 57256
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "lunetius": {
+    "name": "@freesewing/lunetius",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a lacerna, a historical Roman cloak",
+    "dist": {
+      "shasum": "c66d3d7feeadfe4de972388d20fa3139d81f5621",
+      "tarball": "https://registry.npmjs.org/@freesewing/lunetius/-/lunetius-4.10.2.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-LPN/URCS1e/Us0N0uKSPaZ/DFIhnztQilXxBc9k2rprqcf0xWwOcpn5l8zUSsE8EsNmnW/tSy9Qt30nzOADJTA==",
+      "signatures": [
+        {
+          "sig": "MEUCIGaXgjbpmHip33ankB27yO7L4pQExIwyrOpef0U8/nmOAiEAq/rHo2FnA2F2NEaeaOwNPby4xXsnfH0Lfr+BMsrP4g8=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 13197
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "magde": {
+    "name": "@freesewing/magde",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a bike messenger bag",
+    "dist": {
+      "shasum": "72ace672e6d19eecaa5d943c697100d166df3707",
+      "tarball": "https://registry.npmjs.org/@freesewing/magde/-/magde-4.10.2.tgz",
+      "fileCount": 17,
+      "integrity": "sha512-yEsLwAufdkW+lco2n7QsVVLMji51zB81YJjTNXmZlarEw3bAoFPgzeWmF7egbrraRe26iE2mDkNiYEw+vFBYsQ==",
+      "signatures": [
+        {
+          "sig": "MEUCIANcg/VfdXZJhc73+ZT07iSp2tJ8epH65eyHEkc7uYRFAiEAmzP9wBvZNlDrpvhnWi03MENnKynxfXwpsEWEJWn9Sp0=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQCXek34s6QyFeYzvfRh2ruTQzWR+fQhG7NRF1TSqdDaYgIhAPDdprOFRnmbjW28OhHgZOOyf9RCqMhMwskMIH8HN/Nx",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 49185
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "noble": {
+    "name": "@freesewing/noble",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a princess seam bodice block",
+    "dist": {
+      "shasum": "3bbf4489151d92bf079e7c94fb839b60508d448d",
+      "tarball": "https://registry.npmjs.org/@freesewing/noble/-/noble-4.10.2.tgz",
+      "fileCount": 13,
+      "integrity": "sha512-+IiqJHv9f+9P1izruJzr74j6HFDtCKAnALHR9aLRj+xuKTfHQuRZapVHULf379hGj+JwQ6D0yrR/eironorKDg==",
+      "signatures": [
+        {
+          "sig": "MEQCIB7kXrBvuALMrvdC9SslEi5X0GkaUhYaBrw2Qqt59WhZAiAtdZQi0eDq4zjIl76H5fIIubGj+vkB7Eh+LPrDxQXQNA==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQDzeFIfPEosZkkSEyCTdDgoWXh2IogF2r5Pd8GviZijigIhALXadQJIpqWpriH6d4pPv9VB3f+4ZH8Rohu1xiwqnR+Z",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 62143
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "onyx": {
+    "error": "<urlopen error _ssl.c:1059: The handshake operation timed ou"
+  },
+  "opal": {
+    "error": "<urlopen error _ssl.c:1059: The handshake operation timed ou"
+  },
+  "otis": {
+    "error": "<urlopen error _ssl.c:1059: The handshake operation timed ou"
+  },
+  "paco": {
+    "error": "<urlopen error _ssl.c:1059: The handshake operation timed ou"
+  },
+  "penelope": {
+    "error": "<urlopen error _ssl.c:1059: The handshake operation timed ou"
+  },
+  "sandy": {
+    "error": "<urlopen error _ssl.c:1059: The handshake operation timed ou"
+  },
+  "shelly": {
+    "error": "<urlopen error _ssl.c:1059: The handshake operation timed ou"
+  },
+  "shin": {
+    "error": "<urlopen error _ssl.c:1059: The handshake operation timed ou"
+  },
+  "skully": {
+    "name": "@freesewing/skully",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for skully, our logo, a plushy toy",
+    "dist": {
+      "shasum": "591b2c278b11ee4d8590ae22d3d01503fb140a50",
+      "tarball": "https://registry.npmjs.org/@freesewing/skully/-/skully-4.10.2.tgz",
+      "fileCount": 18,
+      "integrity": "sha512-7o+jqv/fsMhurIG3m6mpphtwKlzMTrYqPK7/htSjnsMPbTav7DkEW6g7VHiNzPgf2ePaVoPcCtEFFf4E1ZX3KA==",
+      "signatures": [
+        {
+          "sig": "MEYCIQD2Cd0vEM+rT9lakHDqgIZ7jP9O8uZDYnxDJkaOnJ6zGQIhANWKlaNVmJ7r3QyrUrWUD2dWEr14cmFMIrXLL2RzPHDS",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEQCIBgoXWSCKCSNwR9kL0uSOY6oEBRvjS0vOP1DjnQHmE86AiAG4M9Mr2qF9dlSzsbOME8rICTUXlx/aDbXCoz55GP3Rw==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 85823
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "tamiko": {
+    "name": "@freesewing/tamiko",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a zero-waste top",
+    "dist": {
+      "shasum": "274cece36b7f553cba908717b464e3c79aa2b412",
+      "tarball": "https://registry.npmjs.org/@freesewing/tamiko/-/tamiko-4.10.2.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-4Fld9CT03HcQFhdOmpJV3xRyIBiNXIn7d8KgJMu8nDr7jnrepa+VY742a6TCwPLOIjvYzeLMz3mNU7aROEx2mQ==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCMHqJvk2QjJQ1bc/VhzrOiV189AWHTtAoaiLHOW0fNHQIgUD2pGeL/8csLtJNrdbfIMomvSG4bkraq3ZbtqB1DAPk=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 15324
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "tiberius": {
+    "name": "@freesewing/tiberius",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a tunica, a historical Roman tunic",
+    "dist": {
+      "shasum": "774b7c3af1031ef2bcf3845842a644138a1d9bce",
+      "tarball": "https://registry.npmjs.org/@freesewing/tiberius/-/tiberius-4.10.2.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-fIML+yWck1aqfPln7foQCAHIUnxX3edaR6fYl2nZ+0kf7IlssnFI3/0qVdXGrj6bE5C4DcKIPTMjQjZGHRF70g==",
+      "signatures": [
+        {
+          "sig": "MEYCIQCmf5Mm61N5hmXt4PBQanRDhzjdhduUbHCFpXm/Nzn3ZAIhAKOFJDXKvTDyB4w4BEk4Kcgl8y6Q1m0mDV/aONRU7sKN",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIQC4I3Mta79jPbsESWko6z+SVCY5mQXKeEjz+R6Xxw4pHgIgcITC64EgUckCXrP1kSoEFzgQvRWS96ny4NDHmiYt0CE=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 15660
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "titan": {
+    "name": "@freesewing/titan",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a unisex trouser block",
+    "dist": {
+      "shasum": "69a754a2dfef78f42099187ea8f8dfffcb586303",
+      "tarball": "https://registry.npmjs.org/@freesewing/titan/-/titan-4.10.2.tgz",
+      "fileCount": 8,
+      "integrity": "sha512-euyXkYIboh7qPqyLT/e3yURKdmgg/rNKFIeQ9wBdV6Auzs67P1re6+jrpswVOi1vPecEI+ocFukhxkZvWT8u1w==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCfIp8mbTVCPpTzWm1dfYvRAzlbnIrXZhGnz/ZbHbRC2wIgTV/Nu/+We7vr372dBhODR0gv2AOVVx22/YiDJ27wG5k=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIHGb7dAtIOdgXLQ11ubYLQ3DcQhAKN8vUTTcpJ7JDhbGAiEAywX1Kxdd26KOvH5ex5GOFFaAjx01S4bMCqW6DTnjqwA=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 41880
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "trayvon": {
+    "name": "@freesewing/trayvon",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a tie",
+    "dist": {
+      "shasum": "256566fb546ad7c5add4cb0bbd4b7f300bbb1847",
+      "tarball": "https://registry.npmjs.org/@freesewing/trayvon/-/trayvon-4.10.2.tgz",
+      "fileCount": 11,
+      "integrity": "sha512-9Kqs0M72EQOc52qp9MdArVHqPQQzelL2CwVSvOKPc3CkjnBtmg77FB4P2OhQALcByYtp/pJSVTRKcE9ECGELNg==",
+      "signatures": [
+        {
+          "sig": "MEYCIQDkQ/WUlWSnqnSpZvBWDLLXkBmIvZapRKCx9t0HqSacSwIhAPwpYMF4gp1L8QoZaiE4E1k/g4i1cRDMFn2rNPiU9A46",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEQCIACjBkWCQfCBSa23EmkTdV+EXMNtqaDk6UaMBBn6lSJYAiA9N311QS48wfgEDxbOTEXOmDiViKM0SIrCk3I28pCJWg==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 21320
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "tristan": {
+    "name": "@freesewing/tristan",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a fitted top with prince(ss) seams",
+    "dist": {
+      "shasum": "044aed05caa6ea9a72ed675661c78a663184cb35",
+      "tarball": "https://registry.npmjs.org/@freesewing/tristan/-/tristan-4.10.2.tgz",
+      "fileCount": 14,
+      "integrity": "sha512-aL0cukUCKTr9VEVJfPuGcOpIli/CnNVjdxnQoY8qY+GvAh/1Phhxu4Qlo6l6u9crfAIyto/TMmGJ4EYOycwyHg==",
+      "signatures": [
+        {
+          "sig": "MEQCIDtqsjFK+EM/IdA0qFBpJIg5KWYuPgl08f8tisuxHv/eAiA7t/BvODvEpTtZeapu9D73BDo+O0ym3V98e7sDbcf3Tg==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 53473
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "uma": {
+    "name": "@freesewing/uma",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a basic, highly-customizable underwear pattern",
+    "dist": {
+      "shasum": "bc7eef6428eed30ead81d4bab3352a577f59da9e",
+      "tarball": "https://registry.npmjs.org/@freesewing/uma/-/uma-4.10.2.tgz",
+      "fileCount": 10,
+      "integrity": "sha512-iYoShMQzvfvCd1sunmi05dYBhFvdRcCyP7dAsL+fQgPhJufE8iZp/bRLdxeXY4UvwNP7AtRd7uKM5Dl1jPdAyw==",
+      "signatures": [
+        {
+          "sig": "MEUCIC06MFiRF3YgiuuArfbgRsiOTkQSwtG2iSxnfQV+dP1EAiEA0djngbPhRmsUEWXyrR/RGgP40E8cQwSnm2CtnT0WK40=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 47294
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "umbra": {
+    "name": "@freesewing/umbra",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a basic, highly-customizable underwear pattern",
+    "dist": {
+      "shasum": "ce97395b3fd203b76aeedbfe840190748264c046",
+      "tarball": "https://registry.npmjs.org/@freesewing/umbra/-/umbra-4.10.2.tgz",
+      "fileCount": 9,
+      "integrity": "sha512-vvEq0FtcrCGGIb1wDNWsOSv4U58opMhNMAXSOMBMrOgXnnrD5GPIPpBHLjxF2ahU1hUNxFsV+myOTRfH3yTZ+w==",
+      "signatures": [
+        {
+          "sig": "MEUCIQDOuH0AI6C7e6j6edPKHpzIteQIi7QcTMLSc+MHczyn2gIgQaQoCBPw4jM8ocO0bn1iTZ0VdA0p8OwmTvMn2Of4hvA=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIDZyhKol5OdYkziCnbXP6AEh4HD8lz3jrWF04bi/ogOYAiEAjPUTILfDw7IMzVzwsuWHcMRI+1aq5H7ZBxjodvtRNXY=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 50722
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "wahid": {
+    "name": "@freesewing/wahid",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a classic fitted waistcoat",
+    "dist": {
+      "shasum": "28accccac4d15d24106018121bb9a5eeb4b230b6",
+      "tarball": "https://registry.npmjs.org/@freesewing/wahid/-/wahid-4.10.2.tgz",
+      "fileCount": 16,
+      "integrity": "sha512-wotqp5qIhUlfNgBFZ5azZaSzxQUI8tA025G5zgrgGdcz24Ut2mo7vxaCCCxjS+UJ/HyWvQ5Bi75FzmfGZvZX/g==",
+      "signatures": [
+        {
+          "sig": "MEUCIQDTzHPQl9OwgwfbkFFZ3oNPHvM/ilUfoeXRidYV5/4UIQIgA8GNVnabdIUXPo2os9jT47WFczLyEuDNTPcrQL/RMvY=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIQCwS+E6J9l2aXtxwCNjLaKGPjedtp0z1JDeZ6ICcwOpcAIgHjBVLQHjI69Xwt8VgPvs/KgkcnTYPVyqPhJT2xm7UdA=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 62359
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "walburga": {
+    "name": "@freesewing/walburga",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a wappenrock (tabard/surcoat), a historical European/medieval (ish) garment",
+    "dist": {
+      "shasum": "0312d095db4ac40288d8fc543704309d0145425a",
+      "tarball": "https://registry.npmjs.org/@freesewing/walburga/-/walburga-4.10.2.tgz",
+      "fileCount": 9,
+      "integrity": "sha512-M/m3TltB1IYdRe1poGAm1MIjUyR/CZdSwf0uqHmIKKidrZzxAdHIcrDHg22X4MImBcj1twLPFD+OPzX0TAblGg==",
+      "signatures": [
+        {
+          "sig": "MEYCIQCgfJBIXMGF4iGN1iVaCFKJamjh7ua4F0P1vHwZdOJ6aQIhAK9O1ga8BHavcsQ9bFfHzJ/kJcm2Ac5SZn4C1gPH90dc",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIQD9jO653KcIXrFAu7FXaoChsBaQnfTpuHqFP1Nc9n9q5AIgfU1Aq0jEszW6HvF+ImuijuaDNn2tX4hc4Qal1ts9LWE=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 19003
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "waralee": {
+    "name": "@freesewing/waralee",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for wrap pants",
+    "dist": {
+      "shasum": "30fefaae3e284ef81cba75f9e324146d41c95983",
+      "tarball": "https://registry.npmjs.org/@freesewing/waralee/-/waralee-4.10.2.tgz",
+      "fileCount": 14,
+      "integrity": "sha512-qNlQi4cRx5g+B9U4uiJ3NYlbYAJy2qRTQFVSNguZdVqXr5ZgmaffbH+fLhYuxyCIE7AzzPHs/8wjaG+eu3QNmw==",
+      "signatures": [
+        {
+          "sig": "MEYCIQCXzl0jZ2oSVDSZmWGZzlW3BDCTLTWg/3Nt/9FZapCrcQIhAM9WZHPnprZeF+WSklLDUBg6HQB4MkHz3ZVaELe6OIgu",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 58923
+    },
+    "dependencies": {},
+    "license": "MIT"
+  },
+  "yuri": {
+    "name": "@freesewing/yuri",
+    "version": "4.10.2",
+    "description": "A FreeSewing pattern for a fancy zipless sweater based on the Huey hoodie",
+    "dist": {
+      "shasum": "275e8296484014411b2568e9cc45d14da0732e70",
+      "tarball": "https://registry.npmjs.org/@freesewing/yuri/-/yuri-4.10.2.tgz",
+      "fileCount": 11,
+      "integrity": "sha512-yMH4RNYqdPBgnw+Cz2cLMz+Cw9B+vyWH1gcQqyK3nyE7D7/RmiTX5q69H5qlU+AfM3bcZlJplLDwWjr0FE+8nQ==",
+      "signatures": [
+        {
+          "sig": "MEYCIQDdp8GlqiP+OqE+M6WaCcpl3vrHKfYpMu5/KfwqvjTJHQIhAMKMDiVUn7uaOZhu/EJ4Xb82rVAeQaG+DOXVrpK3UoK9",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEQCIGaxVL7ckpOUHRIY/lmYuJW2xBtq1Hb3k18kyT281DNEAiAD9qXCdEChoMUGph5Ar5r6zv22lkhu/arwMTqFzlcovg==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 21684
+    },
+    "dependencies": {},
+    "license": "MIT"
+  }
+}

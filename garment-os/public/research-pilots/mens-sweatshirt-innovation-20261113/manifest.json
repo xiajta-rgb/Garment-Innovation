@@ -1,0 +1,608 @@
+{
+  "schema": "garment-os/research-design-pilot/v1",
+  "runId": "mens-sweatshirt-innovation-20261113",
+  "title": "男士卫衣洞察到设计试验",
+  "conclusion": "优先试验无帽、可调领口的日常层搭卫衣；把材料与洗后保持作为差异验证，再分别测试领部识别和安全置物。",
+  "sourceSummary": "复用十月市场原件：670条分星样本作检索，逐句复读15条正反原话；本轮读取我司82条商品表现行与21条面料主数据。",
+  "boundary": "当前为六组设计对照，正式机会待补证；尚无样衣/购买对照结果。图稿为公司母版比例，非毫米纸样。通用生产矩阵暂停保持。",
+  "recommendation": "先完成C0/C1/Q0/Q1的材料×领口对照，再按结果决定Q2或Q3。Q1是研究首选，不等于已批准立项；不做六款齐投产。",
+  "comparisons": [
+    "C0→C1：材料差异，保持圆领轮廓。",
+    "C0→Q0 / C1→Q1：领口与开合差异；相关领片和拉链必须成套。",
+    "Q0→Q1：310g对照与260g候选材料，保暖/热感需实测。",
+    "Q1→Q2：仅领面配色，检验辨识与价格接受。",
+    "Q1→Q3：仅口袋，先验证任务再验证安全置物；当前无直接VOC证明。"
+  ],
+  "candidates": [
+    {
+      "id": "C0",
+      "name": "原款圆领对照",
+      "role": "基准对照",
+      "material": {
+        "code": "FC174",
+        "ingredients": "66%Polyester34%Cotton",
+        "nominalGsm": "310",
+        "source": "E2",
+        "testStatus": "not-tested"
+      },
+      "neck": "crew",
+      "pocket": "none",
+      "blocking": "none",
+      "evidenceIds": [
+        "D1",
+        "E1",
+        "E2",
+        "S3"
+      ],
+      "change": "沿用AT25M3295微落肩圆领、长袖与罗纹；主体310g料号",
+      "question": "现有基款的厚薄、洗后表现与叠穿基线是什么？",
+      "falsifier": "如果原款已满足目标场景，改领或换料的必要性降低。",
+      "draft": {
+        "schema": "garment-os/company-style/v1",
+        "masterId": "company-at25m3295",
+        "masterRevision": 1,
+        "styleCode": "PILOT-C0",
+        "name": "原款圆领对照",
+        "color": "#283b3a",
+        "fabric": "FC174 棉盖涤拉毛摇粒卫衣",
+        "composition": "66%Polyester34%Cotton",
+        "weight": "310g/m²（料库标称，待实测）",
+        "notes": "沿用AT25M3295微落肩圆领、长袖与罗纹；主体310g料号。现有基款的厚薄、洗后表现与叠穿基线是什么？。本轮研究设计草案，材料效果、净样与成本待验证。",
+        "finish": {
+          "enabled": true,
+          "neckWidthMm": 20,
+          "neckRatio": 0.9,
+          "seamAllowanceMm": 6,
+          "bodyHemMm": 20,
+          "sleeveHemMm": 20,
+          "needleGaugeMm": 4,
+          "stitchPitchMm": 3
+        },
+        "cadApplied": false,
+        "design": {
+          "neckline": "crew",
+          "sleeve": "source",
+          "fit": "source",
+          "length": "source",
+          "pocket": "none",
+          "hem": "rib",
+          "blocking": "none",
+          "graphic": "none",
+          "accentColor": "#b8b5a8"
+        }
+      },
+      "needs": [
+        "原款圆领装接与罗纹回弹需以同款净样和实测确认。",
+        "主料FC174与罗纹FC-00320按原稿/料库核对，批次一致性与回弹仍需实测。",
+        "人体/成衣规格、前后平衡、肩袖活动量、洗前后外观与尺寸、缝制工艺、成本、放码和授权审核未完成。"
+      ],
+      "svg": "C0-three-views.svg",
+      "image": "C0-three-views.png",
+      "lineage": {
+        "masterId": "company-at25m3295",
+        "source": {
+          "recordId": "reczz28Xjq6EZvym",
+          "styleCode": "AT25M3295",
+          "image": "/company-reference/AT25M3295.webp",
+          "url": "https://ls-prod-1320529356.cos.ap-guangzhou.myqcloud.com/public/6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731.jpg",
+          "sha256": "6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731",
+          "drawingFrame": [
+            1888,
+            1334
+          ],
+          "originPx": [
+            515,
+            394
+          ],
+          "bodyHeightPx": 462
+        },
+        "patternStatus": "unconnected",
+        "coordinateSpace": "drawing-ratio",
+        "sideView": "design-proposal"
+      },
+      "evidence_provenance": "assistant-design-proposal-derived-from-cited-sources",
+      "productionApproved": false
+    },
+    {
+      "id": "C1",
+      "name": "较轻材料圆领",
+      "role": "材料单项试验",
+      "material": {
+        "code": "FC063",
+        "ingredients": "68%Cotton,27%Polyester5%Spandex",
+        "nominalGsm": "260",
+        "source": "E2",
+        "testStatus": "not-tested"
+      },
+      "neck": "crew",
+      "pocket": "none",
+      "blocking": "none",
+      "evidenceIds": [
+        "D1",
+        "E2",
+        "S3"
+      ],
+      "change": "C0仅改260g候选主体材料；具体成衣规格仍待制版",
+      "question": "换料是否改善层搭，同时保留洗后尺寸与表面？",
+      "falsifier": "若变形、落毛、起球或保暖不适增加，否定这次材料替换。",
+      "draft": {
+        "schema": "garment-os/company-style/v1",
+        "masterId": "company-at25m3295",
+        "masterRevision": 1,
+        "styleCode": "PILOT-C1",
+        "name": "较轻材料圆领",
+        "color": "#283b3a",
+        "fabric": "FC063 32支棉盖丝拉架卫衣260g",
+        "composition": "68%Cotton,27%Polyester5%Spandex",
+        "weight": "260g/m²（料库标称，待实测）",
+        "notes": "C0仅改260g候选主体材料；具体成衣规格仍待制版。换料是否改善层搭，同时保留洗后尺寸与表面？。本轮研究设计草案，材料效果、净样与成本待验证。",
+        "finish": {
+          "enabled": true,
+          "neckWidthMm": 20,
+          "neckRatio": 0.9,
+          "seamAllowanceMm": 6,
+          "bodyHemMm": 20,
+          "sleeveHemMm": 20,
+          "needleGaugeMm": 4,
+          "stitchPitchMm": 3
+        },
+        "cadApplied": false,
+        "design": {
+          "neckline": "crew",
+          "sleeve": "source",
+          "fit": "source",
+          "length": "source",
+          "pocket": "none",
+          "hem": "rib",
+          "blocking": "none",
+          "graphic": "none",
+          "accentColor": "#b8b5a8"
+        }
+      },
+      "needs": [
+        "原款圆领装接与罗纹回弹需以同款净样和实测确认。",
+        "更换主体材料后，重新选配罗纹；FC-00327/FC-00750为库中候选，未完成配套回弹与缩率试验。",
+        "人体/成衣规格、前后平衡、肩袖活动量、洗前后外观与尺寸、缝制工艺、成本、放码和授权审核未完成。"
+      ],
+      "svg": "C1-three-views.svg",
+      "image": "C1-three-views.png",
+      "lineage": {
+        "masterId": "company-at25m3295",
+        "source": {
+          "recordId": "reczz28Xjq6EZvym",
+          "styleCode": "AT25M3295",
+          "image": "/company-reference/AT25M3295.webp",
+          "url": "https://ls-prod-1320529356.cos.ap-guangzhou.myqcloud.com/public/6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731.jpg",
+          "sha256": "6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731",
+          "drawingFrame": [
+            1888,
+            1334
+          ],
+          "originPx": [
+            515,
+            394
+          ],
+          "bodyHeightPx": 462
+        },
+        "patternStatus": "unconnected",
+        "coordinateSpace": "drawing-ratio",
+        "sideView": "design-proposal"
+      },
+      "evidence_provenance": "assistant-design-proposal-derived-from-cited-sources",
+      "productionApproved": false
+    },
+    {
+      "id": "Q0",
+      "name": "立领半拉链对照",
+      "role": "领口单项试验",
+      "material": {
+        "code": "FC174",
+        "ingredients": "66%Polyester34%Cotton",
+        "nominalGsm": "310",
+        "source": "E2",
+        "testStatus": "not-tested"
+      },
+      "neck": "quarter-zip",
+      "pocket": "none",
+      "blocking": "none",
+      "evidenceIds": [
+        "S1",
+        "S2",
+        "S4",
+        "E1",
+        "D1"
+      ],
+      "change": "在同一圆领母版轮廓上提出立领半拉链；保留310g材料",
+      "question": "可开领口的穿脱与层搭收益能否超过领部不适和成本？",
+      "falsifier": "若比圆领更压颈、领形不稳或目标用户无收益，停止该领部方案。",
+      "draft": {
+        "schema": "garment-os/company-style/v1",
+        "masterId": "company-at25m3295",
+        "masterRevision": 1,
+        "styleCode": "PILOT-Q0",
+        "name": "立领半拉链对照",
+        "color": "#283b3a",
+        "fabric": "FC174 棉盖涤拉毛摇粒卫衣",
+        "composition": "66%Polyester34%Cotton",
+        "weight": "310g/m²（料库标称，待实测）",
+        "notes": "在同一圆领母版轮廓上提出立领半拉链；保留310g材料。可开领口的穿脱与层搭收益能否超过领部不适和成本？。本轮研究设计草案，材料效果、净样与成本待验证。",
+        "finish": {
+          "enabled": true,
+          "neckWidthMm": 20,
+          "neckRatio": 0.9,
+          "seamAllowanceMm": 6,
+          "bodyHemMm": 20,
+          "sleeveHemMm": 20,
+          "needleGaugeMm": 4,
+          "stitchPitchMm": 3
+        },
+        "cadApplied": false,
+        "design": {
+          "neckline": "quarter-zip",
+          "sleeve": "source",
+          "fit": "source",
+          "length": "source",
+          "pocket": "none",
+          "hem": "rib",
+          "blocking": "none",
+          "graphic": "none",
+          "accentColor": "#b8b5a8"
+        }
+      },
+      "needs": [
+        "独立领面/领底、前中开口、贴边/挡片、拉链完成长、末端加固及护颏待制版；与我司B23M2009逐项比对，不继承其净样。",
+        "主料FC174与罗纹FC-00320按原稿/料库核对，批次一致性与回弹仍需实测。",
+        "人体/成衣规格、前后平衡、肩袖活动量、洗前后外观与尺寸、缝制工艺、成本、放码和授权审核未完成。"
+      ],
+      "svg": "Q0-three-views.svg",
+      "image": "Q0-three-views.png",
+      "lineage": {
+        "masterId": "company-at25m3295",
+        "source": {
+          "recordId": "reczz28Xjq6EZvym",
+          "styleCode": "AT25M3295",
+          "image": "/company-reference/AT25M3295.webp",
+          "url": "https://ls-prod-1320529356.cos.ap-guangzhou.myqcloud.com/public/6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731.jpg",
+          "sha256": "6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731",
+          "drawingFrame": [
+            1888,
+            1334
+          ],
+          "originPx": [
+            515,
+            394
+          ],
+          "bodyHeightPx": 462
+        },
+        "patternStatus": "unconnected",
+        "coordinateSpace": "drawing-ratio",
+        "sideView": "design-proposal"
+      },
+      "evidence_provenance": "assistant-design-proposal-derived-from-cited-sources",
+      "productionApproved": false
+    },
+    {
+      "id": "Q1",
+      "name": "日常层搭半拉链",
+      "role": "优先验证主款",
+      "material": {
+        "code": "FC063",
+        "ingredients": "68%Cotton,27%Polyester5%Spandex",
+        "nominalGsm": "260",
+        "source": "E2",
+        "testStatus": "not-tested"
+      },
+      "neck": "quarter-zip",
+      "pocket": "none",
+      "blocking": "none",
+      "evidenceIds": [
+        "S1",
+        "S2",
+        "S3",
+        "E1",
+        "E2",
+        "D1"
+      ],
+      "change": "Q0仅改260g候选材料；无帽、无图案、保持原稿轮廓",
+      "question": "与Q0、C1相比，换料和开领各自贡献多少？",
+      "falsifier": "只有同任务穿着对照支持且洗后合格才保留；较轻不自动等于舒适。",
+      "draft": {
+        "schema": "garment-os/company-style/v1",
+        "masterId": "company-at25m3295",
+        "masterRevision": 1,
+        "styleCode": "PILOT-Q1",
+        "name": "日常层搭半拉链",
+        "color": "#283b3a",
+        "fabric": "FC063 32支棉盖丝拉架卫衣260g",
+        "composition": "68%Cotton,27%Polyester5%Spandex",
+        "weight": "260g/m²（料库标称，待实测）",
+        "notes": "Q0仅改260g候选材料；无帽、无图案、保持原稿轮廓。与Q0、C1相比，换料和开领各自贡献多少？。本轮研究设计草案，材料效果、净样与成本待验证。",
+        "finish": {
+          "enabled": true,
+          "neckWidthMm": 20,
+          "neckRatio": 0.9,
+          "seamAllowanceMm": 6,
+          "bodyHemMm": 20,
+          "sleeveHemMm": 20,
+          "needleGaugeMm": 4,
+          "stitchPitchMm": 3
+        },
+        "cadApplied": false,
+        "design": {
+          "neckline": "quarter-zip",
+          "sleeve": "source",
+          "fit": "source",
+          "length": "source",
+          "pocket": "none",
+          "hem": "rib",
+          "blocking": "none",
+          "graphic": "none",
+          "accentColor": "#b8b5a8"
+        }
+      },
+      "needs": [
+        "独立领面/领底、前中开口、贴边/挡片、拉链完成长、末端加固及护颏待制版；与我司B23M2009逐项比对，不继承其净样。",
+        "更换主体材料后，重新选配罗纹；FC-00327/FC-00750为库中候选，未完成配套回弹与缩率试验。",
+        "人体/成衣规格、前后平衡、肩袖活动量、洗前后外观与尺寸、缝制工艺、成本、放码和授权审核未完成。"
+      ],
+      "svg": "Q1-three-views.svg",
+      "image": "Q1-three-views.png",
+      "lineage": {
+        "masterId": "company-at25m3295",
+        "source": {
+          "recordId": "reczz28Xjq6EZvym",
+          "styleCode": "AT25M3295",
+          "image": "/company-reference/AT25M3295.webp",
+          "url": "https://ls-prod-1320529356.cos.ap-guangzhou.myqcloud.com/public/6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731.jpg",
+          "sha256": "6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731",
+          "drawingFrame": [
+            1888,
+            1334
+          ],
+          "originPx": [
+            515,
+            394
+          ],
+          "bodyHeightPx": 462
+        },
+        "patternStatus": "unconnected",
+        "coordinateSpace": "drawing-ratio",
+        "sideView": "design-proposal"
+      },
+      "evidence_provenance": "assistant-design-proposal-derived-from-cited-sources",
+      "productionApproved": false
+    },
+    {
+      "id": "Q2",
+      "name": "领面识别半拉链",
+      "role": "视觉增量试验",
+      "material": {
+        "code": "FC063",
+        "ingredients": "68%Cotton,27%Polyester5%Spandex",
+        "nominalGsm": "260",
+        "source": "E2",
+        "testStatus": "not-tested"
+      },
+      "neck": "quarter-zip",
+      "pocket": "none",
+      "blocking": "collar",
+      "evidenceIds": [
+        "S2",
+        "E1",
+        "D1"
+      ],
+      "change": "Q1仅增加外露领面同材对比色；主身不拼色",
+      "question": "能否提高辨识与搭配偏好，并支持额外成本？",
+      "falsifier": "若识别无改善、难搭配或不愿支付额外成本，回退Q1。",
+      "draft": {
+        "schema": "garment-os/company-style/v1",
+        "masterId": "company-at25m3295",
+        "masterRevision": 1,
+        "styleCode": "PILOT-Q2",
+        "name": "领面识别半拉链",
+        "color": "#283b3a",
+        "fabric": "FC063 32支棉盖丝拉架卫衣260g",
+        "composition": "68%Cotton,27%Polyester5%Spandex",
+        "weight": "260g/m²（料库标称，待实测）",
+        "notes": "Q1仅增加外露领面同材对比色；主身不拼色。能否提高辨识与搭配偏好，并支持额外成本？。本轮研究设计草案，材料效果、净样与成本待验证。",
+        "finish": {
+          "enabled": true,
+          "neckWidthMm": 20,
+          "neckRatio": 0.9,
+          "seamAllowanceMm": 6,
+          "bodyHemMm": 20,
+          "sleeveHemMm": 20,
+          "needleGaugeMm": 4,
+          "stitchPitchMm": 3
+        },
+        "cadApplied": false,
+        "design": {
+          "neckline": "quarter-zip",
+          "sleeve": "source",
+          "fit": "source",
+          "length": "source",
+          "pocket": "none",
+          "hem": "rib",
+          "blocking": "collar",
+          "graphic": "none",
+          "accentColor": "#b8b5a8"
+        }
+      },
+      "needs": [
+        "独立领面/领底、前中开口、贴边/挡片、拉链完成长、末端加固及护颏待制版；与我司B23M2009逐项比对，不继承其净样。",
+        "领面拼色的实际色号、色牢度、沾色与洗后变形待核。",
+        "更换主体材料后，重新选配罗纹；FC-00327/FC-00750为库中候选，未完成配套回弹与缩率试验。",
+        "人体/成衣规格、前后平衡、肩袖活动量、洗前后外观与尺寸、缝制工艺、成本、放码和授权审核未完成。"
+      ],
+      "svg": "Q2-three-views.svg",
+      "image": "Q2-three-views.png",
+      "lineage": {
+        "masterId": "company-at25m3295",
+        "source": {
+          "recordId": "reczz28Xjq6EZvym",
+          "styleCode": "AT25M3295",
+          "image": "/company-reference/AT25M3295.webp",
+          "url": "https://ls-prod-1320529356.cos.ap-guangzhou.myqcloud.com/public/6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731.jpg",
+          "sha256": "6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731",
+          "drawingFrame": [
+            1888,
+            1334
+          ],
+          "originPx": [
+            515,
+            394
+          ],
+          "bodyHeightPx": 462
+        },
+        "patternStatus": "unconnected",
+        "coordinateSpace": "drawing-ratio",
+        "sideView": "design-proposal"
+      },
+      "evidence_provenance": "assistant-design-proposal-derived-from-cited-sources",
+      "productionApproved": false
+    },
+    {
+      "id": "Q3",
+      "name": "安全置物半拉链",
+      "role": "功能增量试验",
+      "material": {
+        "code": "FC063",
+        "ingredients": "68%Cotton,27%Polyester5%Spandex",
+        "nominalGsm": "260",
+        "source": "E2",
+        "testStatus": "not-tested"
+      },
+      "neck": "quarter-zip",
+      "pocket": "zip-side",
+      "blocking": "none",
+      "evidenceIds": [
+        "S2",
+        "E2",
+        "D1"
+      ],
+      "change": "Q1仅增加两侧拉链插袋；不同时加拼片和领面撞色",
+      "question": "置物需求是否存在，手机重量是否造成摆动或下坠？",
+      "falsifier": "这是新增设计假设；若无任务需求、拉链磨手或袋载荷使衣身下坠，删除口袋。",
+      "draft": {
+        "schema": "garment-os/company-style/v1",
+        "masterId": "company-at25m3295",
+        "masterRevision": 1,
+        "styleCode": "PILOT-Q3",
+        "name": "安全置物半拉链",
+        "color": "#283b3a",
+        "fabric": "FC063 32支棉盖丝拉架卫衣260g",
+        "composition": "68%Cotton,27%Polyester5%Spandex",
+        "weight": "260g/m²（料库标称，待实测）",
+        "notes": "Q1仅增加两侧拉链插袋；不同时加拼片和领面撞色。置物需求是否存在，手机重量是否造成摆动或下坠？。本轮研究设计草案，材料效果、净样与成本待验证。",
+        "finish": {
+          "enabled": true,
+          "neckWidthMm": 20,
+          "neckRatio": 0.9,
+          "seamAllowanceMm": 6,
+          "bodyHemMm": 20,
+          "sleeveHemMm": 20,
+          "needleGaugeMm": 4,
+          "stitchPitchMm": 3
+        },
+        "cadApplied": false,
+        "design": {
+          "neckline": "quarter-zip",
+          "sleeve": "source",
+          "fit": "source",
+          "length": "source",
+          "pocket": "zip-side",
+          "hem": "rib",
+          "blocking": "none",
+          "graphic": "none",
+          "accentColor": "#b8b5a8"
+        }
+      },
+      "needs": [
+        "独立领面/领底、前中开口、贴边/挡片、拉链完成长、末端加固及护颏待制版；与我司B23M2009逐项比对，不继承其净样。",
+        "袋口止点、袋布轮廓与固定、稳定衬和两端加固待制版；检验实际手机负载。",
+        "更换主体材料后，重新选配罗纹；FC-00327/FC-00750为库中候选，未完成配套回弹与缩率试验。",
+        "人体/成衣规格、前后平衡、肩袖活动量、洗前后外观与尺寸、缝制工艺、成本、放码和授权审核未完成。"
+      ],
+      "svg": "Q3-three-views.svg",
+      "image": "Q3-three-views.png",
+      "lineage": {
+        "masterId": "company-at25m3295",
+        "source": {
+          "recordId": "reczz28Xjq6EZvym",
+          "styleCode": "AT25M3295",
+          "image": "/company-reference/AT25M3295.webp",
+          "url": "https://ls-prod-1320529356.cos.ap-guangzhou.myqcloud.com/public/6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731.jpg",
+          "sha256": "6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731",
+          "drawingFrame": [
+            1888,
+            1334
+          ],
+          "originPx": [
+            515,
+            394
+          ],
+          "bodyHeightPx": 462
+        },
+        "patternStatus": "unconnected",
+        "coordinateSpace": "drawing-ratio",
+        "sideView": "design-proposal"
+      },
+      "evidence_provenance": "assistant-design-proposal-derived-from-cited-sources",
+      "productionApproved": false
+    }
+  ],
+  "evidence": [
+    {
+      "id": "S1",
+      "label": "SellerSprite 词级历史序列",
+      "url": "https://www.sellersprite.com/v3/keyword-miner/?q=mens%20sweatshirt&marketId=1&batch=0",
+      "window": "2025-09 vs 2026-09；2026-10-22采集",
+      "nature": "工具估算；逐词分析"
+    },
+    {
+      "id": "S2",
+      "label": "Obla半拉链：材料、腹围与领型反馈",
+      "url": "https://www.sellersprite.com/v3/ai-review-analysis/details?list=56225&asin=B0DG8HDXTX",
+      "window": "历史分星抽样170条；本轮复读已核验5条",
+      "nature": "购买者自述；含正反反馈"
+    },
+    {
+      "id": "S3",
+      "label": "Fruit of the Loom圆领：洗护、版型及工作场景",
+      "url": "https://www.sellersprite.com/v3/ai-review-analysis/details?list=56241&asin=B0CJP9G1FG",
+      "window": "历史分星抽样500条；本轮复读已核验10条",
+      "nature": "购买者自述；不代表总体"
+    },
+    {
+      "id": "S4",
+      "label": "Carhartt品牌站公开反馈",
+      "url": "https://www.carhartt.com/product/100617/paxton-14-zip-sweatshirt",
+      "window": "2026-10-22归档；原评论日期缺失",
+      "nature": "品牌托管评论；重磅连帽邻近先例"
+    },
+    {
+      "id": "E1",
+      "label": "我司US男士卫衣商品表现",
+      "url": "https://mcp.lasensys.com/mcp",
+      "window": "2026-11-12T17:06:22.106Z",
+      "nature": "授权接口；82条店铺/SPU/父体行，41个名称；非41个已归并款"
+    },
+    {
+      "id": "E2",
+      "label": "我司启用卫衣面料",
+      "url": "https://mcp.lasensys.com/mcp",
+      "window": "2026-11-12T17:06:22.497Z",
+      "nature": "21条主数据；无试样性能证明"
+    },
+    {
+      "id": "D1",
+      "label": "我司AT25M3295原设计稿",
+      "url": "https://ls-prod-1320529356.cos.ap-guangzhou.myqcloud.com/public/6dd68e2290d9b1d601eae20049030edf4868516f9e21dd185b52a071136ba731.jpg",
+      "window": "原图2024-11-04；本轮逐图复核",
+      "nature": "二维款式与标注参考；无毫米净样"
+    }
+  ],
+  "productionApproved": false,
+  "physicalTestCompleted": false,
+  "formalQualified": false
+}

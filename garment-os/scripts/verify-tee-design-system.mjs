@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+const dir='doc/evidence/tee-design-system-20261112',read=f=>fs.readFileSync(`${dir}/${f}`,'utf8'),json=f=>JSON.parse(read(f));
+const check=read('check.log'),targeted=read('final-targeted.log'),browser=json('browser.json'),geometry=json('geometry-viewports.json'),spec=json('男士短T-结构设计规格.json'),selection=json('男士短T-结构设计选款.json');
+assert.match(check,/Test Files\s+60 passed/);assert.match(check,/Tests\s+1239 passed/);assert.match(check,/built in/);assert.match(targeted,/Tests\s+16 passed/);assert.match(read('final-build.log'),/built in/);
+assert.equal(browser.steps.length,15);assert(browser.steps.every(s=>s.pass));assert.deepEqual(browser.errors,[]);assert.deepEqual(browser.paidGenerationSubmissions,[]);assert.equal(geometry.count,243);assert.deepEqual(geometry.failures,[]);
+for(const [file,sha] of Object.entries(browser.hashes))assert.equal(createHash('sha256').update(fs.readFileSync(`${dir}/${file}`)).digest('hex'),sha);
+const svg=read('男士短T-技术三视图.svg'),encoded=svg.match(/<metadata>([\s\S]*?)<\/metadata>/)?.[1];assert(encoded);const metadata=JSON.parse(encoded.replace(/&(?:amp|lt|gt|quot|apos);/g,s=>({'&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&apos;':"'"}[s])));
+assert.deepEqual(metadata,spec);assert.equal(spec.patternStatus,'drafting-validation-pending');assert.equal(spec.productionApproved,false);assert.equal(spec.fabric.composition,null);assert.equal(spec.fabric.weightGsm,null);assert.equal(spec.fabric.gauge,null);
+assert.equal(selection.selections.length,4);assert.deepEqual(selection.selections,json('session.json').selections);
+const dims=svg.match(/width="([\d.]+)" height="([\d.]+)"/),png=fs.readFileSync(`${dir}/男士短T-技术三视图.png`);assert(dims);assert.equal(png.readUInt32BE(16),Number(dims[1]));assert.equal(png.readUInt32BE(20),Math.round(Number(dims[2])));
+const result={verifiedAt:new Date().toISOString(),fullCheck:{files:60,tests:1239},finalRegression:{files:3,tests:16,build:true},browser:{passed:15,errors:0},vectorBounds:{checked:243,outside:0},export:{nativeAspectRatio:true,metadataMatchesSpec:true,selectionSnapshots:4,hashesVerified:true},paidGenerationSubmissions:0,patternValidation:'pending',productionApproved:false};fs.writeFileSync(`${dir}/verification.json`,JSON.stringify(result,null,2));console.log(JSON.stringify(result));

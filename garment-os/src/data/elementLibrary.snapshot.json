@@ -1,0 +1,4873 @@
+{
+  "snapshotVersion": "1.0",
+  "syncedAt": "2026-11-12T12:48:04.977212+00:00",
+  "source": {
+    "baseToken": "WeYeb0BiCauS3zsXTP1c2qoTnxh",
+    "tableId": "tblI4uKwuTbKFFeT",
+    "parameterTableId": "tblBubbOzjlF7B9g",
+    "shapeViewId": "vewlxhSksa",
+    "wikiUrl": "https://xcnplmqtjyqc.feishu.cn/wiki/BBbgwcqBFi3oIakFo19csZETnTy"
+  },
+  "elements": [
+    {
+      "sourceId": "garment-os://block/bodice-aldrich",
+      "feishuRecordId": "reczz28WTAcESGEi",
+      "name": "Aldrich mm 衣身原型",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "衣身"
+      ],
+      "productCores": [
+        "上衣域｜Polo",
+        "上衣域｜T恤",
+        "上衣域｜衬衫"
+      ],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "acrossBack",
+        "acrossChest",
+        "bustPointSpacing",
+        "chestCircumference",
+        "chestEase",
+        "constructionVariant",
+        "garmentLength",
+        "hipCircumference",
+        "hipEase",
+        "hpsToBustPoint",
+        "hpsToWaistBack",
+        "hpsToWaistFront",
+        "materialProfile",
+        "neckCircumference",
+        "neckOpeningDepthBack",
+        "neckOpeningDepthFront",
+        "neckOpeningWidth",
+        "shoulderLength",
+        "shoulderSlope",
+        "waistCircumference",
+        "waistEase",
+        "waistToArmpit"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/bodice-basic",
+      "feishuRecordId": "reczz28WTAh9k60I",
+      "name": "基础身片 Block",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "衣身"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "acrossBack",
+        "acrossChest",
+        "bustPointSpacing",
+        "chestCircumference",
+        "chestEase",
+        "constructionVariant",
+        "garmentLength",
+        "hipCircumference",
+        "hipEase",
+        "hpsToBustPoint",
+        "hpsToWaistBack",
+        "hpsToWaistFront",
+        "materialProfile",
+        "neckCircumference",
+        "neckOpeningDepthBack",
+        "neckOpeningDepthFront",
+        "neckOpeningWidth",
+        "shoulderLength",
+        "shoulderSlope",
+        "waistCircumference",
+        "waistEase",
+        "waistToArmpit"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD；具体适用产品核待明确，不把上装自动扩展为全部上衣类型",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/bodice-brian",
+      "feishuRecordId": "reczz28XwEHwsSQ3",
+      "name": "Brian 衣身参考部件",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "来自 FreeSewing Brian 4.10.2 的男装基础参考制图；同一完整解算输出匹配的衣身与袖。此记录是生成规则，具体尺寸裁片在生成后另行登记。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "衣身",
+        "前身",
+        "后身"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装参考基型（具体产品核与材料适用性待核验）"
+      ],
+      "specification": {
+        "engine": "@freesewing/brian",
+        "engine_version": "4.10.2",
+        "scope": "menswear_body_block_reference",
+        "output_piece_roles": [
+          "front-body",
+          "back-body"
+        ],
+        "input_contract": "brian-inputs-v1",
+        "length_unit": "mm",
+        "geometry_use": "reference_candidate_only",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "chestEaseRatio",
+        "bicepsEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/brian@4.10.2; brian-inputs-v1",
+      "limitations": "参数定义待专业复核；不是女装省道方法；实测来源、材料与缩率、逐边缝份/剪口工艺、试坯和生产批准待补。几何一致性不等于生产验收。",
+      "sourceUrl": "https://freesewing.eu/designs/brian/",
+      "updatedAt": "2026-11-10T18:15:13.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/collar-aldrich",
+      "feishuRecordId": "reczz28WTyWb7kGU",
+      "name": "立领 (mm 制版)",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "领部"
+      ],
+      "productCores": [
+        "上衣域｜Polo",
+        "上衣域｜衬衫"
+      ],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "backNeckNetLength",
+        "collarHeightBack",
+        "collarHeightFront",
+        "collarOverlap",
+        "constructionVariant",
+        "frontNeckNetLength",
+        "materialProfile",
+        "turnOfClothAllowance"
+      ],
+      "tagCandidates": [
+        "reczz28Xq1tzzAEV"
+      ],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/collar-mandarin",
+      "feishuRecordId": "reczz28WTAm07yuY",
+      "name": "立领 Block",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "领部"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "backNeckNetLength",
+        "collarHeightBack",
+        "collarHeightFront",
+        "collarOverlap",
+        "constructionVariant",
+        "frontNeckNetLength",
+        "materialProfile",
+        "turnOfClothAllowance"
+      ],
+      "tagCandidates": [
+        "reczz28Xq1tzzAEV"
+      ],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD；具体适用产品核待明确，不把上装自动扩展为全部上衣类型",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/cuff-aldrich",
+      "feishuRecordId": "reczz28WTyZdDgHJ",
+      "name": "平袖口 (mm 制版)",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "袖口"
+      ],
+      "productCores": [
+        "上衣域｜Polo",
+        "上衣域｜衬衫"
+      ],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "constructionVariant",
+        "cuffFinishedHeight",
+        "cuffOverlap",
+        "cuffPleatIntake",
+        "materialProfile",
+        "sleeveOpeningNetLength",
+        "turnOfClothAllowance",
+        "wristCircumference",
+        "wristEase"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/cuff-plain",
+      "feishuRecordId": "reczz28WTAoSX3Vk",
+      "name": "平袖口 Block",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "袖口"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "constructionVariant",
+        "cuffFinishedHeight",
+        "cuffOverlap",
+        "cuffPleatIntake",
+        "materialProfile",
+        "sleeveOpeningNetLength",
+        "turnOfClothAllowance",
+        "wristCircumference",
+        "wristEase"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD；具体适用产品核待明确，不把上装自动扩展为全部上衣类型",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/placket-aldrich",
+      "feishuRecordId": "reczz28WTyYB50KO",
+      "name": "中开门襟 (mm 制版)",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "门襟"
+      ],
+      "productCores": [
+        "上衣域｜Polo",
+        "上衣域｜衬衫"
+      ],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "constructionVariant",
+        "fastenerLayout",
+        "materialProfile",
+        "placketFinishedWidth",
+        "placketFoldAllowance",
+        "placketOpeningLength",
+        "placketOverlap"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/placket-center",
+      "feishuRecordId": "reczz28WTAqvzimi",
+      "name": "中开门襟 Block",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "门襟"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "constructionVariant",
+        "fastenerLayout",
+        "materialProfile",
+        "placketFinishedWidth",
+        "placketFoldAllowance",
+        "placketOpeningLength",
+        "placketOverlap"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD；具体适用产品核待明确，不把上装自动扩展为全部上衣类型",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/pocket-aldrich",
+      "feishuRecordId": "reczz28WTybDeJq1",
+      "name": "贴袋 (mm 制版)",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "口袋"
+      ],
+      "productCores": [
+        "上衣域｜衬衫"
+      ],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "constructionVariant",
+        "materialProfile",
+        "pocketCornerRadius",
+        "pocketFinishedHeight",
+        "pocketFinishedWidth",
+        "pocketMouthFoldDepth",
+        "pocketPlacement"
+      ],
+      "tagCandidates": [
+        "reczz28Q7BnmZ6Ou"
+      ],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/pocket-patch",
+      "feishuRecordId": "reczz28WTAtYmiVS",
+      "name": "贴袋 Block",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "口袋"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "constructionVariant",
+        "materialProfile",
+        "pocketCornerRadius",
+        "pocketFinishedHeight",
+        "pocketFinishedWidth",
+        "pocketMouthFoldDepth",
+        "pocketPlacement"
+      ],
+      "tagCandidates": [
+        "reczz28Q7BnmZ6Ou"
+      ],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD；具体适用产品核待明确，不把上装自动扩展为全部上衣类型",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/simon.back",
+      "feishuRecordId": "reczz28XxI36ikb5",
+      "name": "Simon · 后衣身生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "衣身"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/simon",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "simon.back",
+        "requires_template_context": true,
+        "reference_cut_qty": 1,
+        "reference_on_fold": true,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/simon@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/simon/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/simon.collar",
+      "feishuRecordId": "reczz28XxI36fkdV",
+      "name": "Simon · 领面生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "领部"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/simon",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "simon.collar",
+        "requires_template_context": true,
+        "reference_cut_qty": 2,
+        "reference_on_fold": false,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/simon@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/simon/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/simon.collarStand",
+      "feishuRecordId": "reczz28XxI36gfMt",
+      "name": "Simon · 领座生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "领部"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/simon",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "simon.collarStand",
+        "requires_template_context": true,
+        "reference_cut_qty": 2,
+        "reference_on_fold": false,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/simon@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/simon/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/simon.cuff",
+      "feishuRecordId": "reczz28XxI36fO9O",
+      "name": "Simon · 袖口生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "袖口"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/simon",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "simon.cuff",
+        "requires_template_context": true,
+        "reference_cut_qty": 4,
+        "reference_on_fold": false,
+        "grain_defined": false,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/simon@4.10.2; complete-reference-v1",
+      "limitations": "上游未标布纹，生产交付须补齐。参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/simon/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/simon.frontLeft",
+      "feishuRecordId": "reczz28XxI36gaUg",
+      "name": "Simon · 左前身生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "衣身"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/simon",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "simon.frontLeft",
+        "requires_template_context": true,
+        "reference_cut_qty": 1,
+        "reference_on_fold": false,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/simon@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/simon/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/simon.frontRight",
+      "feishuRecordId": "reczz28XxI36fNE4",
+      "name": "Simon · 右前身生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "衣身"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/simon",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "simon.frontRight",
+        "requires_template_context": true,
+        "reference_cut_qty": 1,
+        "reference_on_fold": false,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/simon@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/simon/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/simon.sleeve",
+      "feishuRecordId": "reczz28XxI36fQMN",
+      "name": "Simon · 袖片生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "袖部"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/simon",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "simon.sleeve",
+        "requires_template_context": true,
+        "reference_cut_qty": 2,
+        "reference_on_fold": false,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/simon@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/simon/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/simon.sleevePlacketOverlap",
+      "feishuRecordId": "reczz28XxI36iMHN",
+      "name": "Simon · 袖衩外搭片生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "袖部"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/simon",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "simon.sleevePlacketOverlap",
+        "requires_template_context": true,
+        "reference_cut_qty": 2,
+        "reference_on_fold": false,
+        "grain_defined": false,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/simon@4.10.2; complete-reference-v1",
+      "limitations": "上游未标布纹，生产交付须补齐。参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/simon/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/simon.sleevePlacketUnderlap",
+      "feishuRecordId": "reczz28XxI36gpmN",
+      "name": "Simon · 袖衩内搭片生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "袖部"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/simon",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "simon.sleevePlacketUnderlap",
+        "requires_template_context": true,
+        "reference_cut_qty": 2,
+        "reference_on_fold": false,
+        "grain_defined": false,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/simon@4.10.2; complete-reference-v1",
+      "limitations": "上游未标布纹，生产交付须补齐。参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/simon/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/simon.yoke",
+      "feishuRecordId": "reczz28XxI36hTbg",
+      "name": "Simon · 过肩生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "衣身"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/simon",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "simon.yoke",
+        "requires_template_context": true,
+        "reference_cut_qty": 2,
+        "reference_on_fold": true,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/simon@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/simon/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/sleeve-aldrich",
+      "feishuRecordId": "reczz28WTAefjTWz",
+      "name": "Aldrich mm 装袖原型",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "袖部"
+      ],
+      "productCores": [
+        "上衣域｜Polo",
+        "上衣域｜T恤",
+        "上衣域｜衬衫"
+      ],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "backArmholeNetLength",
+        "constructionVariant",
+        "elbowCircumference",
+        "elbowEase",
+        "frontArmholeNetLength",
+        "materialProfile",
+        "sleeveCapEase",
+        "sleeveCapHeight",
+        "sleeveLength",
+        "upperArmCircumference",
+        "upperArmEase",
+        "wristCircumference",
+        "wristEase"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/sleeve-brian",
+      "feishuRecordId": "reczz28XwEHwsuzv",
+      "name": "Brian 装袖参考部件",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "来自 FreeSewing Brian 4.10.2 的男装基础参考制图；同一完整解算输出匹配的衣身与袖。此记录是生成规则，具体尺寸裁片在生成后另行登记。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "袖部"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装参考基型（具体产品核与材料适用性待核验）"
+      ],
+      "specification": {
+        "engine": "@freesewing/brian",
+        "engine_version": "4.10.2",
+        "scope": "menswear_body_block_reference",
+        "output_piece_roles": [
+          "sleeve"
+        ],
+        "input_contract": "brian-inputs-v1",
+        "length_unit": "mm",
+        "geometry_use": "reference_candidate_only",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "chestEaseRatio",
+        "bicepsEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/brian@4.10.2; brian-inputs-v1",
+      "limitations": "参数定义待专业复核；不是女装省道方法；实测来源、材料与缩率、逐边缝份/剪口工艺、试坯和生产批准待补。几何一致性不等于生产验收。",
+      "sourceUrl": "https://freesewing.eu/designs/brian/",
+      "updatedAt": "2026-11-10T18:15:13.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/sleeve-set-in",
+      "feishuRecordId": "reczz28WTAjV1zN8",
+      "name": "装袖 Block",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "历史部件规则登记。原有近似/毫米试验数据仅供追溯；待依据专业图纸重建及接口核对。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "袖部"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "backArmholeNetLength",
+        "constructionVariant",
+        "elbowCircumference",
+        "elbowEase",
+        "frontArmholeNetLength",
+        "materialProfile",
+        "sleeveCapEase",
+        "sleeveCapHeight",
+        "sleeveLength",
+        "upperArmCircumference",
+        "upperArmEase",
+        "wristCircumference",
+        "wristEase"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "历史近似几何尚未逐片核验；连接接口、裁剪/布纹、缝份及容差依据待补；不得直接映射生产CAD；具体适用产品核待明确，不把上装自动扩展为全部上衣类型",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/sven.back",
+      "feishuRecordId": "reczz28XxI36fswm",
+      "name": "Sven · 后衣身生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "衣身"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/sven",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "sven.back",
+        "requires_template_context": true,
+        "reference_cut_qty": 1,
+        "reference_on_fold": true,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/sven@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/sven/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/sven.front",
+      "feishuRecordId": "reczz28XxI36hBQd",
+      "name": "Sven · 前衣身生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "衣身"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/sven",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "sven.front",
+        "requires_template_context": true,
+        "reference_cut_qty": 1,
+        "reference_on_fold": true,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/sven@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/sven/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/sven.sleeve",
+      "feishuRecordId": "reczz28XxI36gvAC",
+      "name": "Sven · 袖片生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "袖部"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/sven",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "sven.sleeve",
+        "requires_template_context": true,
+        "reference_cut_qty": 2,
+        "reference_on_fold": false,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/sven@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/sven/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/teagan.back",
+      "feishuRecordId": "reczz28XxI36fntL",
+      "name": "Teagan · 后衣身生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "衣身"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/teagan",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "teagan.back",
+        "requires_template_context": true,
+        "reference_cut_qty": 1,
+        "reference_on_fold": true,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/teagan@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/teagan/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/teagan.front",
+      "feishuRecordId": "reczz28XxI36gQwH",
+      "name": "Teagan · 前衣身生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "衣身"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/teagan",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "teagan.front",
+        "requires_template_context": true,
+        "reference_cut_qty": 1,
+        "reference_on_fold": true,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/teagan@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/teagan/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://block/teagan.sleeve",
+      "feishuRecordId": "reczz28XxI36hgBb",
+      "name": "Teagan · 袖片生成规则",
+      "domain": "服装造型域",
+      "type": "结构部件模板",
+      "description": "同一完整模板解算中的具体部位规则；不可脱离父模板设置独立拼接。一次具体尺寸的裁片不是本记录。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "部件规则",
+      "parts": [
+        "袖部"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "engine": "@freesewing/teagan",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "source_part": "teagan.sleeve",
+        "requires_template_context": true,
+        "reference_cut_qty": 2,
+        "reference_on_fold": false,
+        "grain_defined": true,
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/teagan@4.10.2; complete-reference-v1",
+      "limitations": "参数与工艺待专业复核；材料/缩率、试坯及生产交换文件未验收。完整输入配置与 CAD 在本系统保存。",
+      "sourceUrl": "https://freesewing.eu/designs/teagan/",
+      "updatedAt": "2026-11-10T19:17:28.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/000000",
+      "feishuRecordId": "reczz28XvVnP6Oss",
+      "name": "屏幕色 · 纯黑 #000000",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#000000",
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/0000cd",
+      "feishuRecordId": "reczz28XvVnP74YC",
+      "name": "屏幕色 · 中蓝 #0000CD",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#0000CD",
+        "rgb": [
+          0,
+          0,
+          205
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/008000",
+      "feishuRecordId": "reczz28XvVnP6sPc",
+      "name": "屏幕色 · 深绿 #008000",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#008000",
+        "rgb": [
+          0,
+          128,
+          0
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/00ced1",
+      "feishuRecordId": "reczz28XvVnP6TUm",
+      "name": "屏幕色 · 暗松石 #00CED1",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#00CED1",
+        "rgb": [
+          0,
+          206,
+          209
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/1e90ff",
+      "feishuRecordId": "reczz28XvVnP8hG5",
+      "name": "屏幕色 · 道奇蓝 #1E90FF",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#1E90FF",
+        "rgb": [
+          30,
+          144,
+          255
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/2f4f4f",
+      "feishuRecordId": "reczz28XvVnP5xsd",
+      "name": "屏幕色 · 暗灰绿 #2F4F4F",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#2F4F4F",
+        "rgb": [
+          47,
+          79,
+          79
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/32cd32",
+      "feishuRecordId": "reczz28XvVnP84ch",
+      "name": "屏幕色 · 酸橙绿 #32CD32",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#32CD32",
+        "rgb": [
+          50,
+          205,
+          50
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/4b0082",
+      "feishuRecordId": "reczz28XvVnP7eCw",
+      "name": "屏幕色 · 靛蓝 #4B0082",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#4B0082",
+        "rgb": [
+          75,
+          0,
+          130
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/808080",
+      "feishuRecordId": "reczz28XvVnP7LcB",
+      "name": "屏幕色 · 中灰 #808080",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#808080",
+        "rgb": [
+          128,
+          128,
+          128
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/8b008b",
+      "feishuRecordId": "reczz28XvVnP6OEg",
+      "name": "屏幕色 · 暗洋红 #8B008B",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#8B008B",
+        "rgb": [
+          139,
+          0,
+          139
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/8b4513",
+      "feishuRecordId": "reczz28XvVnP4w8g",
+      "name": "屏幕色 · 鞍棕 #8B4513",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#8B4513",
+        "rgb": [
+          139,
+          69,
+          19
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/a0522d",
+      "feishuRecordId": "reczz28XvVnP6a5A",
+      "name": "屏幕色 · 赭石 #A0522D",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#A0522D",
+        "rgb": [
+          160,
+          82,
+          45
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/adff2f",
+      "feishuRecordId": "reczz28XvVnP6HeK",
+      "name": "屏幕色 · 黄绿 #ADFF2F",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#ADFF2F",
+        "rgb": [
+          173,
+          255,
+          47
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/bc8f8f",
+      "feishuRecordId": "reczz28XvVnP70NX",
+      "name": "屏幕色 · 玫瑰棕 #BC8F8F",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#BC8F8F",
+        "rgb": [
+          188,
+          143,
+          143
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/c71585",
+      "feishuRecordId": "reczz28XvVnP4mtU",
+      "name": "屏幕色 · 中紫红 #C71585",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#C71585",
+        "rgb": [
+          199,
+          21,
+          133
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/d2691e",
+      "feishuRecordId": "reczz28XvVnP8jjp",
+      "name": "屏幕色 · 巧克力 #D2691E",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#D2691E",
+        "rgb": [
+          210,
+          105,
+          30
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/dc143c",
+      "feishuRecordId": "reczz28XvVnP8Ufw",
+      "name": "屏幕色 · 猩红 #DC143C",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#DC143C",
+        "rgb": [
+          220,
+          20,
+          60
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/dda0dd",
+      "feishuRecordId": "reczz28XvVnP7P0S",
+      "name": "屏幕色 · 梅色 #DDA0DD",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#DDA0DD",
+        "rgb": [
+          221,
+          160,
+          221
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/f5f5dc",
+      "feishuRecordId": "reczz28XvVnP6AEk",
+      "name": "屏幕色 · 米色 #F5F5DC",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#F5F5DC",
+        "rgb": [
+          245,
+          245,
+          220
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/faebd7",
+      "feishuRecordId": "reczz28XvVnP8k5u",
+      "name": "屏幕色 · 古白 #FAEBD7",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#FAEBD7",
+        "rgb": [
+          250,
+          235,
+          215
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/ff0000",
+      "feishuRecordId": "reczz28XvVnP4rUM",
+      "name": "屏幕色 · 大红 #FF0000",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#FF0000",
+        "rgb": [
+          255,
+          0,
+          0
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/ff1493",
+      "feishuRecordId": "reczz28XvVnP4yen",
+      "name": "屏幕色 · 深粉 #FF1493",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#FF1493",
+        "rgb": [
+          255,
+          20,
+          147
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/ff4500",
+      "feishuRecordId": "reczz28XvVnP6Urd",
+      "name": "屏幕色 · 橘红 #FF4500",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#FF4500",
+        "rgb": [
+          255,
+          69,
+          0
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/ff6347",
+      "feishuRecordId": "reczz28XvVnP8N8H",
+      "name": "屏幕色 · 番茄红 #FF6347",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#FF6347",
+        "rgb": [
+          255,
+          99,
+          71
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/ffa07a",
+      "feishuRecordId": "reczz28XvVnP4uOV",
+      "name": "屏幕色 · 浅鲑 #FFA07A",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#FFA07A",
+        "rgb": [
+          255,
+          160,
+          122
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/ffd700",
+      "feishuRecordId": "reczz28XvVnP8mcD",
+      "name": "屏幕色 · 金色 #FFD700",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#FFD700",
+        "rgb": [
+          255,
+          215,
+          0
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/ffdab9",
+      "feishuRecordId": "reczz28XvVnP7iIP",
+      "name": "屏幕色 · 桃色 #FFDAB9",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#FFDAB9",
+        "rgb": [
+          255,
+          218,
+          185
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/ffe4c4",
+      "feishuRecordId": "reczz28XvVnP5EFj",
+      "name": "屏幕色 · 麦色 #FFE4C4",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#FFE4C4",
+        "rgb": [
+          255,
+          228,
+          196
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/ffff00",
+      "feishuRecordId": "reczz28XvVnP88uc",
+      "name": "屏幕色 · 明黄 #FFFF00",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#FFFF00",
+        "rgb": [
+          255,
+          255,
+          0
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://color/ffffff",
+      "feishuRecordId": "reczz28XvVnP81sp",
+      "name": "屏幕色 · 纯白 #FFFFFF",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "从当前项目配色文件逐项登记的数字色。色名和旧分组为项目原文；不当作09标准标签或实物色名。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "单个屏幕色",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [],
+      "specification": {
+        "color_space": "sRGB",
+        "hex": "#FFFFFF",
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "purpose": "screen_preview_only"
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供sRGB屏幕预览；项目授权待核对；未对应实物色卡/供应商色号或生产打色样。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://fabric/FAB-001",
+      "feishuRecordId": "reczz28WTB3t91jm",
+      "name": "全棉府绸",
+      "domain": "面料材质域",
+      "type": "面料样卡",
+      "description": "演示材料条目。既有成分/幅宽/克重/价格/损耗缺少供应商与检测证据，未录为已核验规格。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "面料样卡",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [
+        "上衣域｜衬衫",
+        "上衣域｜T恤"
+      ],
+      "categories": [
+        "衬衫",
+        "T恤"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "无供应商料号/实物样卡/批次与检测证据；成分、幅宽、克重、价格和损耗均为历史演示声明；不进入正式BOM或成本",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://fabric/FAB-002",
+      "feishuRecordId": "reczz28WTB6KVRIG",
+      "name": "涤棉斜纹",
+      "domain": "面料材质域",
+      "type": "面料样卡",
+      "description": "演示材料条目。既有成分/幅宽/克重/价格/损耗缺少供应商与检测证据，未录为已核验规格。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "面料样卡",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [
+        "上衣域｜衬衫"
+      ],
+      "categories": [
+        "衬衫",
+        "外套"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "无供应商料号/实物样卡/批次与检测证据；成分、幅宽、克重、价格和损耗均为历史演示声明；不进入正式BOM或成本",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://fabric/FAB-003",
+      "feishuRecordId": "reczz28WTB8oH5a8",
+      "name": "真丝缎面",
+      "domain": "面料材质域",
+      "type": "面料样卡",
+      "description": "演示材料条目。既有成分/幅宽/克重/价格/损耗缺少供应商与检测证据，未录为已核验规格。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "面料样卡",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [
+        "上衣域｜衬衫",
+        "连身域｜连衣裙"
+      ],
+      "categories": [
+        "衬衫",
+        "连衣裙"
+      ],
+      "specification": null,
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "无供应商料号/实物样卡/批次与检测证据；成分、幅宽、克重、价格和损耗均为历史演示声明；不进入正式BOM或成本",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://fit/loose",
+      "feishuRecordId": "reczz28WTB1OWS5B",
+      "name": "宽松廓形 (Loose)",
+      "domain": "服装造型域",
+      "type": "廓形模板",
+      "description": "历史项目松量预设。数值属于旧配置，尚无体型/材料及试穿批准，不构成标准贴体度定义。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "松量配置",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装"
+      ],
+      "specification": {
+        "use": "unverified_legacy_project_configuration",
+        "ease_mm": {
+          "chest": 120,
+          "waist": 80,
+          "hip": 100,
+          "upper_arm": 40,
+          "wrist": 15
+        }
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "项目历史松量配置，不能代表标准贴体度；体型/材料条件与试穿证据待补；不得与当前Brian预设混用；具体适用产品核待明确，不把上装自动扩展为全部上衣类型",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://fit/regular",
+      "feishuRecordId": "reczz28WTAye4yhE",
+      "name": "合身廓形 (Regular)",
+      "domain": "服装造型域",
+      "type": "廓形模板",
+      "description": "历史项目松量预设。数值属于旧配置，尚无体型/材料及试穿批准，不构成标准贴体度定义。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "松量配置",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装"
+      ],
+      "specification": {
+        "use": "unverified_legacy_project_configuration",
+        "ease_mm": {
+          "chest": 60,
+          "waist": 40,
+          "hip": 40,
+          "upper_arm": 20,
+          "wrist": 10
+        }
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "项目历史松量配置，不能代表标准贴体度；体型/材料条件与试穿证据待补；不得与当前Brian预设混用；具体适用产品核待明确，不把上装自动扩展为全部上衣类型",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://fit/slim",
+      "feishuRecordId": "reczz28WTAw5BRkw",
+      "name": "Slim 松量预设（历史配置）",
+      "domain": "服装造型域",
+      "type": "廓形模板",
+      "description": "历史项目松量预设。数值属于旧配置，尚无体型/材料及试穿批准，不构成标准贴体度定义。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "松量配置",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装"
+      ],
+      "specification": {
+        "use": "unverified_legacy_project_configuration",
+        "ease_mm": {
+          "chest": 20,
+          "waist": 10,
+          "hip": 20,
+          "upper_arm": 15,
+          "wrist": 5
+        }
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "项目历史松量配置，不能代表标准贴体度；体型/材料条件与试穿证据待补；不得与当前Brian预设混用；具体适用产品核待明确，不把上装自动扩展为全部上衣类型",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://palette/fabric-colors-30",
+      "feishuRecordId": "reczz28WTBBEGZLm",
+      "name": "应用配色预设（30色）",
+      "domain": "色彩图案域",
+      "type": "色彩与配色",
+      "description": "项目屏幕配色预设，含30个可独立引用的sRGB颜色成员；不等同实物标准色卡。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "配色方案",
+      "parts": [
+        "不限定"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装"
+      ],
+      "specification": {
+        "color_space": "sRGB",
+        "purpose": "screen_preview_only",
+        "member_order": [
+          "#FFFFFF",
+          "#F5F5DC",
+          "#FAEBD7",
+          "#FFE4C4",
+          "#FFDAB9",
+          "#D2691E",
+          "#8B4513",
+          "#A0522D",
+          "#2F4F4F",
+          "#000000",
+          "#FF0000",
+          "#DC143C",
+          "#FF4500",
+          "#FF6347",
+          "#FFA07A",
+          "#FFD700",
+          "#FFFF00",
+          "#ADFF2F",
+          "#32CD32",
+          "#008000",
+          "#00CED1",
+          "#1E90FF",
+          "#0000CD",
+          "#4B0082",
+          "#8B008B",
+          "#FF1493",
+          "#C71585",
+          "#DDA0DD",
+          "#BC8F8F",
+          "#808080"
+        ]
+      },
+      "componentSourceIds": [
+        "garment-os://color/ffffff",
+        "garment-os://color/f5f5dc",
+        "garment-os://color/faebd7",
+        "garment-os://color/ffe4c4",
+        "garment-os://color/ffdab9",
+        "garment-os://color/d2691e",
+        "garment-os://color/8b4513",
+        "garment-os://color/a0522d",
+        "garment-os://color/2f4f4f",
+        "garment-os://color/000000",
+        "garment-os://color/ff0000",
+        "garment-os://color/dc143c",
+        "garment-os://color/ff4500",
+        "garment-os://color/ff6347",
+        "garment-os://color/ffa07a",
+        "garment-os://color/ffd700",
+        "garment-os://color/ffff00",
+        "garment-os://color/adff2f",
+        "garment-os://color/32cd32",
+        "garment-os://color/008000",
+        "garment-os://color/00ced1",
+        "garment-os://color/1e90ff",
+        "garment-os://color/0000cd",
+        "garment-os://color/4b0082",
+        "garment-os://color/8b008b",
+        "garment-os://color/ff1493",
+        "garment-os://color/c71585",
+        "garment-os://color/dda0dd",
+        "garment-os://color/bc8f8f",
+        "garment-os://color/808080"
+      ],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/fabrics.ts@sha256:326ec838eb7020c926107eb7bf2186944635fbd4e381dc81927a3f878000222f",
+      "limitations": "仅供屏幕预览，已拆分单色；不具有实物色号、测色或打色批准；项目授权范围待核对",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://pattern/brian-reference",
+      "feishuRecordId": "reczz28XwEHwqqDt",
+      "name": "Brian 男装参考基型",
+      "domain": "服装造型域",
+      "type": "版型模板",
+      "description": "来自 FreeSewing Brian 4.10.2 的男装基础参考制图；同一完整解算输出匹配的衣身与袖。此记录是生成规则，具体尺寸裁片在生成后另行登记。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "组合模板",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装参考基型（具体产品核与材料适用性待核验）"
+      ],
+      "specification": {
+        "engine": "@freesewing/brian",
+        "engine_version": "4.10.2",
+        "scope": "menswear_body_block_reference",
+        "output_piece_roles": [
+          "front-body",
+          "back-body",
+          "sleeve"
+        ],
+        "input_contract": "brian-inputs-v1",
+        "length_unit": "mm",
+        "geometry_use": "reference_candidate_only",
+        "production_approved": false,
+        "component_order": [
+          "garment-os://block/bodice-brian",
+          "garment-os://block/sleeve-brian"
+        ],
+        "fit_options": {
+          "slim": {
+            "chestEaseRatio": 0.08,
+            "bicepsEaseRatio": 0.1
+          },
+          "regular": {
+            "chestEaseRatio": 0.15,
+            "bicepsEaseRatio": 0.15
+          },
+          "loose": {
+            "chestEaseRatio": 0.25,
+            "bicepsEaseRatio": 0.25
+          }
+        }
+      },
+      "componentSourceIds": [
+        "garment-os://block/bodice-brian",
+        "garment-os://block/sleeve-brian"
+      ],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "chestEaseRatio",
+        "bicepsEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/brian@4.10.2; brian-inputs-v1",
+      "limitations": "参数定义待专业复核；不是女装省道方法；实测来源、材料与缩率、逐边缝份/剪口工艺、试坯和生产批准待补。几何一致性不等于生产验收。",
+      "sourceUrl": "https://freesewing.eu/designs/brian/",
+      "updatedAt": "2026-11-10T18:15:16.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://pattern/button-up-shirt",
+      "feishuRecordId": "reczz28WTAPtkxcj",
+      "name": "男装长袖衬衫 · Simon",
+      "domain": "服装造型域",
+      "type": "版型模板",
+      "description": "改用完整 Simon：左右前身、后身、过肩、袖、领面、领座、袖口及两种袖衩。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "组合模板",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [
+        "上衣域｜衬衫"
+      ],
+      "categories": [
+        "衬衫"
+      ],
+      "specification": {
+        "review": "template-review-v1",
+        "disposition": "rebuilt",
+        "runtime_enabled": true,
+        "engine": "@freesewing/simon",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "component_order": [
+          "garment-os://block/simon.back",
+          "garment-os://block/simon.collar",
+          "garment-os://block/simon.collarStand",
+          "garment-os://block/simon.cuff",
+          "garment-os://block/simon.frontRight",
+          "garment-os://block/simon.frontLeft",
+          "garment-os://block/simon.sleeve",
+          "garment-os://block/simon.sleevePlacketOverlap",
+          "garment-os://block/simon.sleevePlacketUnderlap",
+          "garment-os://block/simon.yoke"
+        ],
+        "measurement_codes": [
+          "chestCircumference",
+          "neckCircumference",
+          "shoulderToShoulder",
+          "shoulderSlope",
+          "hpsToBust",
+          "hpsToWaistBack",
+          "waistToArmpit",
+          "waistToHips",
+          "hpsToHem",
+          "upperArmCircumference",
+          "shoulderToWrist",
+          "wristCircumference",
+          "waistCircumference",
+          "hipCircumference",
+          "chestEaseRatio",
+          "referenceSeamAllowance"
+        ],
+        "reference_settings": {
+          "measurements": {
+            "biceps": 350,
+            "chest": 1000,
+            "neck": 380,
+            "shoulderToShoulder": 450,
+            "shoulderSlope": 13,
+            "hpsToBust": 280,
+            "hpsToWaistBack": 470,
+            "waistToArmpit": 210,
+            "waistToHips": 130,
+            "shoulderToWrist": 630,
+            "wrist": 175,
+            "waist": 810,
+            "hips": 840
+          },
+          "options": {
+            "chestEase": 0.15,
+            "lengthBonus": 0
+          },
+          "sa": 10
+        },
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [
+        "garment-os://block/simon.back",
+        "garment-os://block/simon.collar",
+        "garment-os://block/simon.collarStand",
+        "garment-os://block/simon.cuff",
+        "garment-os://block/simon.frontRight",
+        "garment-os://block/simon.frontLeft",
+        "garment-os://block/simon.sleeve",
+        "garment-os://block/simon.sleevePlacketOverlap",
+        "garment-os://block/simon.sleevePlacketUnderlap",
+        "garment-os://block/simon.yoke"
+      ],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/simon@4.10.2; complete-reference-v1",
+      "limitations": "男装衬衫参考；领底差异未拆成独立生产裁片；袖口和两种袖衩缺上游布纹；衬料、逐层用量和试坯待核验。",
+      "sourceUrl": "https://freesewing.eu/designs/simon/",
+      "updatedAt": "2026-11-10T19:32:55.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://pattern/long-sleeve-polo",
+      "feishuRecordId": "reczz28WTAXGqT9D",
+      "name": "长袖 Polo · 待重建",
+      "domain": "服装造型域",
+      "type": "版型模板",
+      "description": "除 Polo 领襟缺口外，旧袖口是腕围加常数，未与袖下口和褶量配合。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "组合模板",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [
+        "上衣域｜Polo"
+      ],
+      "categories": [
+        "Polo衫"
+      ],
+      "specification": {
+        "review": "template-review-v1",
+        "disposition": "rebuild-required",
+        "runtime_enabled": false,
+        "replacement_template": null,
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "acrossBack",
+        "acrossChest",
+        "backArmholeNetLength",
+        "backNeckNetLength",
+        "bustPointSpacing",
+        "chestCircumference",
+        "chestEase",
+        "collarHeightBack",
+        "collarHeightFront",
+        "collarOverlap",
+        "constructionVariant",
+        "cuffFinishedHeight",
+        "cuffOverlap",
+        "cuffPleatIntake",
+        "elbowCircumference",
+        "elbowEase",
+        "fastenerLayout",
+        "frontArmholeNetLength",
+        "frontNeckNetLength",
+        "garmentLength",
+        "hipCircumference",
+        "hipEase",
+        "hpsToBustPoint",
+        "hpsToWaistBack",
+        "hpsToWaistFront",
+        "materialProfile",
+        "neckCircumference",
+        "neckOpeningDepthBack",
+        "neckOpeningDepthFront",
+        "neckOpeningWidth",
+        "placketFinishedWidth",
+        "placketFoldAllowance",
+        "placketOpeningLength",
+        "placketOverlap",
+        "shoulderLength",
+        "shoulderSlope",
+        "sleeveCapEase",
+        "sleeveCapHeight",
+        "sleeveLength",
+        "sleeveOpeningNetLength",
+        "turnOfClothAllowance",
+        "upperArmCircumference",
+        "upperArmEase",
+        "waistCircumference",
+        "waistEase",
+        "waistToArmpit",
+        "wristCircumference",
+        "wristEase"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/patternLibrary.ts@sha256:6f09d58806fe6d61e3843672673bd47e628cef99a5d80430961a182cef0cf5cc",
+      "limitations": "需完成 Polo 领襟与长袖下口、袖口/袖衩具体构型及走缝约束。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T19:17:31.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://pattern/long-sleeve-tee",
+      "feishuRecordId": "reczz28WTAUvytbz",
+      "name": "长袖针织上衣 · Sven",
+      "domain": "服装造型域",
+      "type": "版型模板",
+      "description": "改用 Sven 无罗纹配置的完整长袖针织上衣；袖口和衣身按同一方法解算。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "组合模板",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [
+        "上衣域｜T恤"
+      ],
+      "categories": [
+        "T恤"
+      ],
+      "specification": {
+        "review": "template-review-v1",
+        "disposition": "rebuilt",
+        "runtime_enabled": true,
+        "engine": "@freesewing/sven",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "component_order": [
+          "garment-os://block/sven.front",
+          "garment-os://block/sven.back",
+          "garment-os://block/sven.sleeve"
+        ],
+        "measurement_codes": [
+          "chestCircumference",
+          "neckCircumference",
+          "shoulderToShoulder",
+          "shoulderSlope",
+          "hpsToBust",
+          "hpsToWaistBack",
+          "waistToArmpit",
+          "waistToHips",
+          "hpsToHem",
+          "upperArmCircumference",
+          "shoulderToWrist",
+          "wristCircumference",
+          "waistCircumference",
+          "hipCircumference",
+          "chestEaseRatio",
+          "referenceSeamAllowance"
+        ],
+        "reference_settings": {
+          "measurements": {
+            "biceps": 350,
+            "chest": 1000,
+            "neck": 380,
+            "shoulderToShoulder": 450,
+            "shoulderSlope": 13,
+            "hpsToBust": 280,
+            "hpsToWaistBack": 470,
+            "waistToArmpit": 210,
+            "waistToHips": 130,
+            "shoulderToWrist": 630,
+            "wrist": 175,
+            "waist": 810,
+            "hips": 840
+          },
+          "options": {
+            "ribbing": false,
+            "chestEase": 0.15,
+            "lengthBonus": 0
+          },
+          "sa": 10
+        },
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [
+        "garment-os://block/sven.front",
+        "garment-os://block/sven.back",
+        "garment-os://block/sven.sleeve"
+      ],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/sven@4.10.2; complete-reference-v1",
+      "limitations": "宽松长袖针织参考，不等同于贴体打底衫；材料和领口收边待核验。",
+      "sourceUrl": "https://freesewing.eu/designs/sven/",
+      "updatedAt": "2026-11-10T19:17:31.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://pattern/polo-shirt",
+      "feishuRecordId": "reczz28WTANVuZ5T",
+      "name": "短袖 Polo · 待重建",
+      "domain": "服装造型域",
+      "type": "版型模板",
+      "description": "旧立领条与矩形门襟独立拼接，未定义翻领/领座、半开襟切口及装配。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "组合模板",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [
+        "上衣域｜Polo"
+      ],
+      "categories": [
+        "Polo衫"
+      ],
+      "specification": {
+        "review": "template-review-v1",
+        "disposition": "rebuild-required",
+        "runtime_enabled": false,
+        "replacement_template": null,
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "acrossBack",
+        "acrossChest",
+        "backArmholeNetLength",
+        "backNeckNetLength",
+        "bustPointSpacing",
+        "chestCircumference",
+        "chestEase",
+        "collarHeightBack",
+        "collarHeightFront",
+        "collarOverlap",
+        "constructionVariant",
+        "elbowCircumference",
+        "elbowEase",
+        "fastenerLayout",
+        "frontArmholeNetLength",
+        "frontNeckNetLength",
+        "garmentLength",
+        "hipCircumference",
+        "hipEase",
+        "hpsToBustPoint",
+        "hpsToWaistBack",
+        "hpsToWaistFront",
+        "materialProfile",
+        "neckCircumference",
+        "neckOpeningDepthBack",
+        "neckOpeningDepthFront",
+        "neckOpeningWidth",
+        "placketFinishedWidth",
+        "placketFoldAllowance",
+        "placketOpeningLength",
+        "placketOverlap",
+        "shoulderLength",
+        "shoulderSlope",
+        "sleeveCapEase",
+        "sleeveCapHeight",
+        "sleeveLength",
+        "turnOfClothAllowance",
+        "upperArmCircumference",
+        "upperArmEase",
+        "waistCircumference",
+        "waistEase",
+        "waistToArmpit",
+        "wristCircumference",
+        "wristEase"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/patternLibrary.ts@sha256:6f09d58806fe6d61e3843672673bd47e628cef99a5d80430961a182cef0cf5cc",
+      "limitations": "需 Polo 翻领/领座和半开襟的完整制图、材料及接口依据；Simon 全开襟不能冒充。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T19:17:31.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://pattern/t-shirt",
+      "feishuRecordId": "reczz28WTAIiVKNK",
+      "name": "圆领短袖 T 恤 · Teagan",
+      "domain": "服装造型域",
+      "type": "版型模板",
+      "description": "旧衣身/短袖近似式删除，改用完整 Teagan 前身、后身及配套短袖。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "组合模板",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [
+        "上衣域｜T恤"
+      ],
+      "categories": [
+        "T恤"
+      ],
+      "specification": {
+        "review": "template-review-v1",
+        "disposition": "rebuilt",
+        "runtime_enabled": true,
+        "engine": "@freesewing/teagan",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "component_order": [
+          "garment-os://block/teagan.front",
+          "garment-os://block/teagan.back",
+          "garment-os://block/teagan.sleeve"
+        ],
+        "measurement_codes": [
+          "chestCircumference",
+          "neckCircumference",
+          "shoulderToShoulder",
+          "shoulderSlope",
+          "hpsToBust",
+          "hpsToWaistBack",
+          "waistToArmpit",
+          "waistToHips",
+          "hpsToHem",
+          "upperArmCircumference",
+          "shoulderToWrist",
+          "wristCircumference",
+          "waistCircumference",
+          "hipCircumference",
+          "chestEaseRatio",
+          "referenceSeamAllowance"
+        ],
+        "reference_settings": {
+          "measurements": {
+            "biceps": 350,
+            "chest": 1000,
+            "neck": 380,
+            "shoulderToShoulder": 450,
+            "shoulderSlope": 13,
+            "hpsToBust": 280,
+            "hpsToWaistBack": 470,
+            "waistToArmpit": 210,
+            "waistToHips": 130,
+            "shoulderToWrist": 630,
+            "wrist": 175,
+            "waist": 810,
+            "hips": 840
+          },
+          "options": {
+            "fitWaist": false,
+            "chestEase": 0.12,
+            "lengthBonus": 0
+          },
+          "sa": 10
+        },
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [
+        "garment-os://block/teagan.front",
+        "garment-os://block/teagan.back",
+        "garment-os://block/teagan.sleeve"
+      ],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/teagan@4.10.2; complete-reference-v1",
+      "limitations": "针织基础参考；领口收边方式与材料条件待补。",
+      "sourceUrl": "https://freesewing.eu/designs/teagan/",
+      "updatedAt": "2026-11-10T19:17:31.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://pattern/t-shirt-pro",
+      "feishuRecordId": "reczz28WTAG7HFNr",
+      "name": "旧 T-Shirt Pro · 已合并",
+      "domain": "服装造型域",
+      "type": "版型模板",
+      "description": "与基础 T 恤重复，旧“专业”称号无验收依据，合并至重建后的圆领 T 恤。",
+      "status": "弃用",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "组合模板",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [
+        "上衣域｜T恤"
+      ],
+      "categories": [
+        "T恤"
+      ],
+      "specification": {
+        "review": "template-review-v1",
+        "disposition": "retired",
+        "runtime_enabled": false,
+        "replacement_template": "t-shirt",
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "acrossBack",
+        "acrossChest",
+        "backArmholeNetLength",
+        "bustPointSpacing",
+        "chestCircumference",
+        "chestEase",
+        "constructionVariant",
+        "elbowCircumference",
+        "elbowEase",
+        "frontArmholeNetLength",
+        "garmentLength",
+        "hipCircumference",
+        "hipEase",
+        "hpsToBustPoint",
+        "hpsToWaistBack",
+        "hpsToWaistFront",
+        "materialProfile",
+        "neckCircumference",
+        "neckOpeningDepthBack",
+        "neckOpeningDepthFront",
+        "neckOpeningWidth",
+        "shoulderLength",
+        "shoulderSlope",
+        "sleeveCapEase",
+        "sleeveCapHeight",
+        "sleeveLength",
+        "upperArmCircumference",
+        "upperArmEase",
+        "waistCircumference",
+        "waistEase",
+        "waistToArmpit",
+        "wristCircumference",
+        "wristEase"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/patternLibrary.ts@sha256:6f09d58806fe6d61e3843672673bd47e628cef99a5d80430961a182cef0cf5cc",
+      "limitations": "旧几何禁止生成与导出。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T19:17:31.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://pattern/v-neck-tee",
+      "feishuRecordId": "reczz28WTAL6veR3",
+      "name": "V 领 T 恤 · 待重建",
+      "domain": "服装造型域",
+      "type": "版型模板",
+      "description": "旧 V 领仅加深领窝，缺少尖角、肩领关系及 V 领收边构型。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "组合模板",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [
+        "上衣域｜T恤"
+      ],
+      "categories": [
+        "T恤"
+      ],
+      "specification": {
+        "review": "template-review-v1",
+        "disposition": "rebuild-required",
+        "runtime_enabled": false,
+        "replacement_template": null,
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "acrossBack",
+        "acrossChest",
+        "backArmholeNetLength",
+        "bustPointSpacing",
+        "chestCircumference",
+        "chestEase",
+        "constructionVariant",
+        "elbowCircumference",
+        "elbowEase",
+        "frontArmholeNetLength",
+        "garmentLength",
+        "hipCircumference",
+        "hipEase",
+        "hpsToBustPoint",
+        "hpsToWaistBack",
+        "hpsToWaistFront",
+        "materialProfile",
+        "neckCircumference",
+        "neckOpeningDepthBack",
+        "neckOpeningDepthFront",
+        "neckOpeningWidth",
+        "shoulderLength",
+        "shoulderSlope",
+        "sleeveCapEase",
+        "sleeveCapHeight",
+        "sleeveLength",
+        "upperArmCircumference",
+        "upperArmEase",
+        "waistCircumference",
+        "waistEase",
+        "waistToArmpit",
+        "wristCircumference",
+        "wristEase"
+      ],
+      "tagCandidates": [
+        "reczz28XmmX3JALP",
+        "reczz28Q7BnmWbUs"
+      ],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/patternLibrary.ts@sha256:6f09d58806fe6d61e3843672673bd47e628cef99a5d80430961a182cef0cf5cc",
+      "limitations": "需建立 V 领具体构型、领条/贴边、材料伸缩条件与缝合配对；禁止用圆领改名替代。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T19:17:31.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://pattern/womens-basic-tee",
+      "feishuRecordId": "reczz28WTAZkO2wz",
+      "name": "收腰针织 T 恤 · Teagan",
+      "domain": "服装造型域",
+      "type": "版型模板",
+      "description": "改用 Teagan 收腰基础针织 T 恤，腰臀围直接驱动真实侧缝。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "组合模板",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [
+        "上衣域｜T恤"
+      ],
+      "categories": [
+        "T恤"
+      ],
+      "specification": {
+        "review": "template-review-v1",
+        "disposition": "rebuilt",
+        "runtime_enabled": true,
+        "engine": "@freesewing/teagan",
+        "engine_version": "4.10.2",
+        "input_contract": "complete-reference-v1",
+        "component_order": [
+          "garment-os://block/teagan.front",
+          "garment-os://block/teagan.back",
+          "garment-os://block/teagan.sleeve"
+        ],
+        "measurement_codes": [
+          "chestCircumference",
+          "neckCircumference",
+          "shoulderToShoulder",
+          "shoulderSlope",
+          "hpsToBust",
+          "hpsToWaistBack",
+          "waistToArmpit",
+          "waistToHips",
+          "hpsToHem",
+          "upperArmCircumference",
+          "shoulderToWrist",
+          "wristCircumference",
+          "waistCircumference",
+          "hipCircumference",
+          "chestEaseRatio",
+          "referenceSeamAllowance"
+        ],
+        "reference_settings": {
+          "measurements": {
+            "biceps": 270,
+            "chest": 925,
+            "neck": 340,
+            "shoulderToShoulder": 415,
+            "shoulderSlope": 13,
+            "hpsToBust": 275,
+            "hpsToWaistBack": 395,
+            "waistToArmpit": 170,
+            "waistToHips": 125,
+            "shoulderToWrist": 590,
+            "wrist": 165,
+            "waist": 750,
+            "hips": 900
+          },
+          "options": {
+            "fitWaist": true,
+            "chestEase": 0.12,
+            "lengthBonus": 0
+          },
+          "sa": 10
+        },
+        "length_unit": "mm",
+        "production_approved": false
+      },
+      "componentSourceIds": [
+        "garment-os://block/teagan.front",
+        "garment-os://block/teagan.back",
+        "garment-os://block/teagan.sleeve"
+      ],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "chestCircumference",
+        "neckCircumference",
+        "shoulderToShoulder",
+        "shoulderSlope",
+        "hpsToBust",
+        "hpsToWaistBack",
+        "waistToArmpit",
+        "waistToHips",
+        "hpsToHem",
+        "upperArmCircumference",
+        "shoulderToWrist",
+        "wristCircumference",
+        "waistCircumference",
+        "hipCircumference",
+        "chestEaseRatio",
+        "referenceSeamAllowance"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "@freesewing/teagan@4.10.2; complete-reference-v1",
+      "limitations": "基础针织参考，不提供梭织胸省、全胸调整或女装合体保证。",
+      "sourceUrl": "https://freesewing.eu/designs/teagan/",
+      "updatedAt": "2026-11-10T19:17:31.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://pattern/womens-blouse",
+      "feishuRecordId": "reczz28WTASap4U9",
+      "name": "女装梭织衬衫 · 待重建",
+      "domain": "服装造型域",
+      "type": "版型模板",
+      "description": "旧实现仅切换女性尺码加贴袋，缺少胸部立体量、省道和前后平衡控制。",
+      "status": "隔离",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "组合模板",
+      "parts": [
+        "整体"
+      ],
+      "productCores": [
+        "上衣域｜衬衫"
+      ],
+      "categories": [
+        "衬衫"
+      ],
+      "specification": {
+        "review": "template-review-v1",
+        "disposition": "rebuild-required",
+        "runtime_enabled": false,
+        "replacement_template": null,
+        "production_approved": false
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [
+        "acrossBack",
+        "acrossChest",
+        "backArmholeNetLength",
+        "bustPointSpacing",
+        "chestCircumference",
+        "chestEase",
+        "constructionVariant",
+        "elbowCircumference",
+        "elbowEase",
+        "frontArmholeNetLength",
+        "garmentLength",
+        "hipCircumference",
+        "hipEase",
+        "hpsToBustPoint",
+        "hpsToWaistBack",
+        "hpsToWaistFront",
+        "materialProfile",
+        "neckCircumference",
+        "neckOpeningDepthBack",
+        "neckOpeningDepthFront",
+        "neckOpeningWidth",
+        "pocketCornerRadius",
+        "pocketFinishedHeight",
+        "pocketFinishedWidth",
+        "pocketMouthFoldDepth",
+        "pocketPlacement",
+        "shoulderLength",
+        "shoulderSlope",
+        "sleeveCapEase",
+        "sleeveCapHeight",
+        "sleeveLength",
+        "upperArmCircumference",
+        "upperArmEase",
+        "waistCircumference",
+        "waistEase",
+        "waistToArmpit",
+        "wristCircumference",
+        "wristEase"
+      ],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/patternLibrary.ts@sha256:6f09d58806fe6d61e3843672673bd47e628cef99a5d80430961a182cef0cf5cc",
+      "limitations": "需胸围/高胸围、胸点与前腰节协议、胸省/省道方法及合体试坯。",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T19:17:31.000+08:00"
+    },
+    {
+      "sourceId": "garment-os://process/seam-industrial",
+      "feishuRecordId": "reczz28WTBDXsYNk",
+      "name": "项目缝份默认配置（待工艺核验）",
+      "domain": "细节工艺域",
+      "type": "缝制工艺",
+      "description": "历史项目缝份配置（10/6/25mm）。需按材料、连接边和工艺另行批准。",
+      "status": "待核验",
+      "labelStatus": "未核验",
+      "rightsStatus": "待确认",
+      "granularity": "工艺规则",
+      "parts": [
+        "肩部",
+        "领部",
+        "袖部",
+        "下摆"
+      ],
+      "productCores": [],
+      "categories": [
+        "上装"
+      ],
+      "specification": {
+        "use": "unverified_legacy_project_configuration",
+        "seam_allowance_mm": {
+          "shoulder": 10,
+          "side": 10,
+          "sleeve": 10,
+          "neck": 6
+        },
+        "hem_fold_depth_mm": 25
+      },
+      "componentSourceIds": [],
+      "basisSourceIds": [],
+      "parameterCodes": [],
+      "tagCandidates": [],
+      "tagCodes": null,
+      "tagDictionaryVersion": null,
+      "sourceVersion": "src/data/elementRegistry.ts@sha256:fb78952fc9603ff26839a5e1da1673ac86a0fcf4cfcec5ff2e1cb93f4672a530",
+      "limitations": "10/6/25毫米为项目历史默认值；不是通用工业缝份标准；设备、材料、接口及样缝审核待补",
+      "sourceUrl": "https://github.com/xiajta-rgb/Garment-Innovation",
+      "updatedAt": "2026-11-10T17:59:10.000+08:00"
+    }
+  ],
+  "parameters": [
+    {
+      "code": "acrossBack",
+      "name": "背宽",
+      "recordId": "reczz28XvkK8awcV",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "协议定义的后腋折间宽及高度；不直接等于后片纸样宽。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "acrossChest",
+      "name": "胸宽",
+      "recordId": "reczz28XvkK8chF1",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "协议定义的前腋折间宽及高度；不从胸围比例猜测。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "backArmholeNetLength",
+      "name": "后袖窿净缝长",
+      "recordId": "reczz28XvkK8cV4T",
+      "unit": "mm",
+      "roles": [
+        "袖"
+      ],
+      "kind": "接口派生量",
+      "dataType": "number",
+      "basis": "从已绑定后身净样边按缝合区间读取；登记边ID和端点。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "backNeckNetLength",
+      "name": "后领口净缝长",
+      "recordId": "reczz28XvkK8d7zE",
+      "unit": "mm",
+      "roles": [
+        "领"
+      ],
+      "kind": "接口派生量",
+      "dataType": "number",
+      "basis": "从衣身后领净缝边读取，明确左右/半片/全圈及闭合边界。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "bicepsEaseRatio",
+      "name": "上臂松量比例",
+      "recordId": "reczz28XwECfe8Ms",
+      "unit": "ratio",
+      "roles": [
+        "袖"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "Brian bicepsEase 选项为人体上臂围的增量比例，0.15 表示增加15%；不是上臂绝对松量 upperArmEase(mm)。",
+      "requiredWhen": "使用 Brian 4.10.2 参考生成器时必填；不得用其他同名近似量替代",
+      "sourceRequirement": "FreeSewing Brian 4.10.2 输入语义；人体量须声明测量来源，设计与工艺量须明确配置及用途；待专业复核",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "bustPointSpacing",
+      "name": "胸点间距",
+      "recordId": "reczz28XvkK8cZDQ",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "需胸省/胸部立体量时量取；明确胸点协议与左右差异。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "chestCircumference",
+      "name": "胸围/胸部围度",
+      "recordId": "reczz28XvkK8b4G8",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "按选定测量协议，在定义的胸部水平截面量取净围；性别/体型及协议必须明确。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "chestEase",
+      "name": "胸围松量",
+      "recordId": "reczz28XvkK8b2KE",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "相对人体胸围的整圈绝对增量；若采用比例另登记模式和算法，不能混算。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "chestEaseRatio",
+      "name": "胸围松量比例",
+      "recordId": "reczz28XwECfdJj9",
+      "unit": "ratio",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "Brian chestEase 选项为人体胸围的增量比例，0.15 表示增加15%；不是胸围绝对松量 chestEase(mm)。",
+      "requiredWhen": "使用 Brian 4.10.2 参考生成器时必填；不得用其他同名近似量替代",
+      "sourceRequirement": "FreeSewing Brian 4.10.2 输入语义；人体量须声明测量来源，设计与工艺量须明确配置及用途；待专业复核",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "collarHeightBack",
+      "name": "后领成品高",
+      "recordId": "reczz28XvkK8bZwQ",
+      "unit": "mm",
+      "roles": [
+        "领"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "指定后中测量线及成品折转状态；不与毛样高度混用。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "collarHeightFront",
+      "name": "前领成品高",
+      "recordId": "reczz28XvkK8cgte",
+      "unit": "mm",
+      "roles": [
+        "领"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "指定前中或前端测量线及成品折转状态。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "collarOverlap",
+      "name": "领端搭接量",
+      "recordId": "reczz28XvkK8amQs",
+      "unit": "mm",
+      "roles": [
+        "领"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "按闭合结构定义净搭接方向与长度；不作为领围松量。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "constructionVariant",
+      "name": "具体构型",
+      "recordId": "reczz28XvkK8croR",
+      "unit": "不适用",
+      "roles": [
+        "衣身",
+        "袖",
+        "领",
+        "袖口",
+        "门襟",
+        "口袋"
+      ],
+      "kind": "设计量",
+      "dataType": "enum",
+      "basis": "选择具体结构及其版本；立领/翻领、单层/对折袖口等不能共用未区分的公式。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "cuffFinishedHeight",
+      "name": "袖口成品高",
+      "recordId": "reczz28XvkK8aPd4",
+      "unit": "mm",
+      "roles": [
+        "袖口"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "指定成品状态和测量线；毛样高度按结构/折边另推导。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "cuffOverlap",
+      "name": "袖口搭接量",
+      "recordId": "reczz28XvkK8awDM",
+      "unit": "mm",
+      "roles": [
+        "袖口"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "按扣合/开口方向定义净搭接；与腕部松量分开。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "cuffPleatIntake",
+      "name": "袖口褶量",
+      "recordId": "reczz28XvkK8djvm",
+      "unit": "mm",
+      "roles": [
+        "袖口"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "袖下口至袖口接缝的总收量及分配，明确是否含抽褶/省量。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "elbowCircumference",
+      "name": "肘围",
+      "recordId": "reczz28XvkK8bOsv",
+      "unit": "mm",
+      "roles": [
+        "袖"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "长袖或肘部造型时按指定屈肘姿态量取。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "elbowEase",
+      "name": "肘部松量",
+      "recordId": "reczz28XvkK8afv3",
+      "unit": "mm",
+      "roles": [
+        "袖"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "肘部整圈绝对增量，结合屈肘活动及袖型。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "fastenerLayout",
+      "name": "闭合件排布",
+      "recordId": "reczz28XvkK8dNZN",
+      "unit": "不适用",
+      "roles": [
+        "门襟"
+      ],
+      "kind": "设计量",
+      "dataType": "object",
+      "basis": "闭合件类型/数量、首末定位、间距规则、边距与扣眼方向；不能只给扣数。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "frontArmholeNetLength",
+      "name": "前袖窿净缝长",
+      "recordId": "reczz28XvkK8cKK9",
+      "unit": "mm",
+      "roles": [
+        "袖"
+      ],
+      "kind": "接口派生量",
+      "dataType": "number",
+      "basis": "从已绑定前身净样边按缝合区间读取；登记边ID和端点。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "frontNeckNetLength",
+      "name": "前领口净缝长",
+      "recordId": "reczz28XvkK8dXqq",
+      "unit": "mm",
+      "roles": [
+        "领"
+      ],
+      "kind": "接口派生量",
+      "dataType": "number",
+      "basis": "从衣身前领净缝边读取，明确左右/半片/全圈及闭合边界。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "garmentLength",
+      "name": "成衣设计衣长",
+      "recordId": "reczz28XvkK8eJST",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "指定起点HPS/后中等与终点、路径和成品状态；与人体躯干长分开。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "hipCircumference",
+      "name": "臀围",
+      "recordId": "reczz28XvkK8dg11",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "协议定义的臀部最大水平净围；明确测量高度。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "hipEase",
+      "name": "臀围松量",
+      "recordId": "reczz28XvkK8bQ0J",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "相对人体臀围的整圈绝对增量；允许区间按材料与试穿批准。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "hpsToBust",
+      "name": "颈肩点至胸围线",
+      "recordId": "reczz28XwECfc0rO",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "HPS 至胸围水平参考线的垂直距离，按 Brian hpsToBust 协议；不是颈肩点至胸点 hpsToBustPoint。",
+      "requiredWhen": "使用 Brian 4.10.2 参考生成器时必填；不得用其他同名近似量替代",
+      "sourceRequirement": "FreeSewing Brian 4.10.2 输入语义；人体量须声明测量来源，设计与工艺量须明确配置及用途；待专业复核",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "hpsToBustPoint",
+      "name": "颈肩点至胸点",
+      "recordId": "reczz28XvkK8chV2",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "需胸省/胸部立体量时量取；不得混用后颈点或袖窿深。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "hpsToHem",
+      "name": "颈肩点至设计下摆",
+      "recordId": "reczz28XwECfcmnO",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "HPS 至下摆的设计长度；Brian lengthBonus=该值/(hpsToWaistBack+waistToHips)-1，支持 -0.04～0.6，越界阻断。",
+      "requiredWhen": "使用 Brian 4.10.2 参考生成器时必填；不得用其他同名近似量替代",
+      "sourceRequirement": "FreeSewing Brian 4.10.2 输入语义；人体量须声明测量来源，设计与工艺量须明确配置及用途；待专业复核",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "hpsToWaistBack",
+      "name": "后颈肩点至腰长",
+      "recordId": "reczz28XvkK8cgBe",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "HPS至后腰的协议路径；后中颈点背长需另定义，不可混用。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "hpsToWaistFront",
+      "name": "前颈肩点至腰长",
+      "recordId": "reczz28XvkK8aohx",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "前HPS经协议定义路径至腰；胸部体型及胸高影响需独立处理。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "materialProfile",
+      "name": "材料条件引用",
+      "recordId": "reczz28XvkK8b0Q7",
+      "unit": "不适用",
+      "roles": [
+        "衣身",
+        "袖",
+        "领",
+        "袖口",
+        "门襟",
+        "口袋"
+      ],
+      "kind": "材料条件",
+      "dataType": "object",
+      "basis": "绑定材料版本及厚度、伸长/回缩、缩水等适用条件；无证据不能认定兼容。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "neckCircumference",
+      "name": "颈围",
+      "recordId": "reczz28XvkK8brPi",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "协议定义的颈根围；领口缝合线长需另由净样取得。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "neckOpeningDepthBack",
+      "name": "后领口深",
+      "recordId": "reczz28XvkK8e3KW",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "从协议定义的水平基准至后领最低点；与前领口分开。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "neckOpeningDepthFront",
+      "name": "前领口深",
+      "recordId": "reczz28XvkK8blsn",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "从协议定义的水平基准至前领最低点；不能仅凭领型名给固定值。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "neckOpeningWidth",
+      "name": "领口设计宽",
+      "recordId": "reczz28XvkK8cXa9",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "在净样的指定点之间定义半宽/全宽；与颈围、领片长度分开。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "placketFinishedWidth",
+      "name": "门襟成品宽",
+      "recordId": "reczz28XvkK8btWp",
+      "unit": "mm",
+      "roles": [
+        "门襟"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "明示净宽、左右片角色及外观露出范围。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "placketFoldAllowance",
+      "name": "门襟折边配置",
+      "recordId": "reczz28XvkK8aaQk",
+      "unit": "逐边mm",
+      "roles": [
+        "门襟"
+      ],
+      "kind": "工艺量",
+      "dataType": "object",
+      "basis": "逐边记录折入/包边层次与宽度；不使用统一双倍宽加常数公式。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "placketOpeningLength",
+      "name": "门襟开口长",
+      "recordId": "reczz28XvkK8aNmk",
+      "unit": "mm",
+      "roles": [
+        "门襟"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "指定起止点、净开口与延伸/封口部位，不以毛样总长替代。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "placketOverlap",
+      "name": "门襟搭接量",
+      "recordId": "reczz28XvkK8cg3W",
+      "unit": "mm",
+      "roles": [
+        "门襟"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "左右襟、扣合方向和净搭接区间；与折边宽区分。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "pocketCornerRadius",
+      "name": "袋角半径",
+      "recordId": "reczz28XvkK8apiF",
+      "unit": "mm",
+      "roles": [
+        "口袋"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "仅适用于选定圆角构型；须与成品宽高/接续规则一致。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "pocketFinishedHeight",
+      "name": "口袋成品高",
+      "recordId": "reczz28XvkK8c51o",
+      "unit": "mm",
+      "roles": [
+        "口袋"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "指定上口到下缘的测量线与成品状态。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "pocketFinishedWidth",
+      "name": "口袋成品宽",
+      "recordId": "reczz28XvkK8bQpw",
+      "unit": "mm",
+      "roles": [
+        "口袋"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "指定袋口/最宽处/底部的宽度口径，不能混用。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "pocketMouthFoldDepth",
+      "name": "袋口折边深",
+      "recordId": "reczz28XvkK8clW7",
+      "unit": "mm",
+      "roles": [
+        "口袋"
+      ],
+      "kind": "工艺量",
+      "dataType": "number",
+      "basis": "按袋口结构逐层定义折入/贴边和净毛边界。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "pocketPlacement",
+      "name": "口袋定位",
+      "recordId": "reczz28XvkK8bhaA",
+      "unit": "不适用",
+      "roles": [
+        "口袋"
+      ],
+      "kind": "设计量",
+      "dataType": "object",
+      "basis": "绑定衣身/视图版本，指定锚点、坐标/旋转及测量状态。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "referenceSeamAllowance",
+      "name": "参考制图缝份",
+      "recordId": "reczz28XwECffnad",
+      "unit": "mm",
+      "roles": [
+        "衣身",
+        "袖"
+      ],
+      "kind": "工艺量",
+      "dataType": "number",
+      "basis": "当前 Brian 参考生成器统一 sa 选项，允许0～30mm，项目预览默认10mm；未经材料、逐边工艺和试样核验，不作为工业缝份标准。",
+      "requiredWhen": "使用 Brian 4.10.2 参考生成器时必填；不得用其他同名近似量替代",
+      "sourceRequirement": "FreeSewing Brian 4.10.2 输入语义；人体量须声明测量来源，设计与工艺量须明确配置及用途；待专业复核",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "shoulderLength",
+      "name": "肩长",
+      "recordId": "reczz28XvkK8aWKJ",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "协议定义的颈肩点至肩端点；左右及肩端定位应记录。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "shoulderSlope",
+      "name": "肩斜角",
+      "recordId": "reczz28XvkK8dofB",
+      "unit": "deg",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "明确两端点、投影方向、水平参照与角度正负；不能固定套用15度。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "shoulderToShoulder",
+      "name": "总肩宽",
+      "recordId": "reczz28XwECffDsp",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "左右肩端之间的总肩宽，按 FreeSewing shoulderToShoulder 测量协议；不是单肩肩长 shoulderLength。",
+      "requiredWhen": "使用 Brian 4.10.2 参考生成器时必填；不得用其他同名近似量替代",
+      "sourceRequirement": "FreeSewing Brian 4.10.2 输入语义；人体量须声明测量来源，设计与工艺量须明确配置及用途；待专业复核",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "shoulderToWrist",
+      "name": "肩端至腕长度",
+      "recordId": "reczz28XwECffh7P",
+      "unit": "mm",
+      "roles": [
+        "袖"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "按 FreeSewing shoulderToWrist 测量协议，从肩端至腕；不是含袖口配置的成品袖长 sleeveLength。",
+      "requiredWhen": "使用 Brian 4.10.2 参考生成器时必填；不得用其他同名近似量替代",
+      "sourceRequirement": "FreeSewing Brian 4.10.2 输入语义；人体量须声明测量来源，设计与工艺量须明确配置及用途；待专业复核",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "sleeveCapEase",
+      "name": "袖山吃势",
+      "recordId": "reczz28XvkK8dU4L",
+      "unit": "mm",
+      "roles": [
+        "袖"
+      ],
+      "kind": "工艺量",
+      "dataType": "number",
+      "basis": "袖山有效净缝长相对袖窿的增量及分配；材料/工艺/部位和批准容差必须配套。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "sleeveCapHeight",
+      "name": "袖山高",
+      "recordId": "reczz28XvkK8aqri",
+      "unit": "mm",
+      "roles": [
+        "袖"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "袖山顶至袖肥基准线的垂距；必须与袖窿/袖型方法关联，不采用万能比例。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "sleeveLength",
+      "name": "成品袖长",
+      "recordId": "reczz28XvkK8derz",
+      "unit": "mm",
+      "roles": [
+        "袖"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "指定肩端/袖山顶至袖口的路径；是否含袖口部件必须声明。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "sleeveOpeningNetLength",
+      "name": "袖下口净缝长",
+      "recordId": "reczz28XvkK8bSH9",
+      "unit": "mm",
+      "roles": [
+        "袖口"
+      ],
+      "kind": "接口派生量",
+      "dataType": "number",
+      "basis": "由绑定袖片下口有效净缝边取得，开衩与搭接需单列。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "turnOfClothAllowance",
+      "name": "内外层转折修正",
+      "recordId": "reczz28XvkK8dZFb",
+      "unit": "mm",
+      "roles": [
+        "领",
+        "袖口"
+      ],
+      "kind": "工艺量",
+      "dataType": "number",
+      "basis": "按材料厚度、层数、粘合和翻折试样确定；未知不得默认为0。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "upperArmCircumference",
+      "name": "上臂围",
+      "recordId": "reczz28XvkK8cQNX",
+      "unit": "mm",
+      "roles": [
+        "袖"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "协议定义的上臂最大净围及姿态。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "upperArmEase",
+      "name": "上臂松量",
+      "recordId": "reczz28XvkK8c4mE",
+      "unit": "mm",
+      "roles": [
+        "袖"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "上臂整圈绝对增量；需材料与活动度依据。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "waistCircumference",
+      "name": "腰围",
+      "recordId": "reczz28XvkK8dfOz",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "协议定义的自然腰水平净围；不能用成衣腰围替代。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "waistEase",
+      "name": "腰围松量",
+      "recordId": "reczz28XvkK8agHl",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "相对人体腰围的整圈绝对增量；允许区间按材料与试穿批准。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "waistToArmpit",
+      "name": "腰至腋下距离",
+      "recordId": "reczz28XvkK8dbAv",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "明确侧腰点、腋下点及直距/表面路径；与袖窿深的换算依上游方法。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "waistToHips",
+      "name": "腰线至臀线",
+      "recordId": "reczz28XwECfcRyJ",
+      "unit": "mm",
+      "roles": [
+        "衣身"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "按 FreeSewing waistToHips 协议定义腰线至臀线距离，与后腰长相加构成 Brian 长度基准。",
+      "requiredWhen": "使用 Brian 4.10.2 参考生成器时必填；不得用其他同名近似量替代",
+      "sourceRequirement": "FreeSewing Brian 4.10.2 输入语义；人体量须声明测量来源，设计与工艺量须明确配置及用途；待专业复核",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "wristCircumference",
+      "name": "腕围",
+      "recordId": "reczz28XvkK8cmmv",
+      "unit": "mm",
+      "roles": [
+        "袖",
+        "袖口"
+      ],
+      "kind": "人体量",
+      "dataType": "number",
+      "basis": "腕部协议位置净围；不能默认等于袖口成品围。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    },
+    {
+      "code": "wristEase",
+      "name": "腕部松量",
+      "recordId": "reczz28XvkK8dmcJ",
+      "unit": "mm",
+      "roles": [
+        "袖",
+        "袖口"
+      ],
+      "kind": "设计量",
+      "dataType": "number",
+      "basis": "腕部整圈绝对增量；穿脱、闭合方式和搭接另记。",
+      "requiredWhen": "由具体构型、适用体型和交付用途确认；未确认前不允许默认省略",
+      "sourceRequirement": "人体量须测量协议/实测；接口量须已核对净样；设计/工艺量须批准配置或试样依据",
+      "reviewStatus": "项目草案待专业复核"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "pass": 9,
+  "total": 9,
+  "results": [
+    {
+      "step": "V1 主界面加载, 成衣画布渲染",
+      "pass": true,
+      "detail": "画布 path=10"
+    },
+    {
+      "step": "V2 裁片库打开, QC 列表渲染",
+      "pass": true,
+      "detail": "裁片项=3"
+    },
+    {
+      "step": "V3 裁片详情 + CAD 检验项",
+      "pass": true,
+      "detail": "检验面板渲染"
+    },
+    {
+      "step": "V4 生成器打开, 裁片卡渲染",
+      "pass": true,
+      "detail": "裁片卡=7"
+    },
+    {
+      "step": "V5 关键数据驱动尺寸",
+      "pass": true,
+      "detail": "半胸宽 255→327"
+    },
+    {
+      "step": "V6 推档叠加图 (多尺码)",
+      "pass": true,
+      "detail": "尺码标签=4 套叠path=5"
+    },
+    {
+      "step": "V7 标签筛选: 袖类 → 列表只剩袖片",
+      "pass": true,
+      "detail": "剩余=[\"✓袖片408\"]"
+    },
+    {
+      "step": "V8 画布跟随筛选: 只渲染袖片",
+      "pass": true,
+      "detail": "画布 path 10→4"
+    },
+    {
+      "step": "V9 清除筛选 → 画布恢复全部",
+      "pass": true,
+      "detail": "画布 path 10/10"
+    }
+  ]
+}

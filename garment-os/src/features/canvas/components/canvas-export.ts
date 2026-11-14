@@ -3,19 +3,22 @@
  * 从 CanvasMenu.tsx 拆分的纯逻辑
  */
 
-import { useParametricStore } from '@/store/parametricStore';
+import { downloadText,selectPatternFile } from '@/features/files/browser-files';
+import { useDesignStore } from '@/store/useDesignStore';
 import { PATTERN_LIBRARY } from '@/data/patternLibrary';
+import { requireReviewedPattern } from '@/data/patternReview';
+import { newCompanyStyle } from '@/lib/pattern/company-style';
+import { exportCompanyStyleSvg } from '@/lib/pattern/company-style-drawing';
+import { resolveReviewedImport } from '@/application/pattern-transfer';
+import { createAssemblyRecord } from '@/application/assembly-record';
 import {
   generatePatternSheet,
-  downloadPatternSheet,
   generateSheetFilename,
 } from '@/lib/svg-export/pattern-sheet-exporter';
 import {
   serializePattern,
-  downloadPatternJSON,
-  selectPatternFile,
   generateFilename,
-} from '@/lib/pattern/pattern-io';
+} from '@/lib/pattern/pattern-format';
 
 /** 导出 PNG (2x 高清) */
 export function exportPNG(canvasId: string): void {
@@ -53,39 +56,46 @@ export function exportPNG(canvasId: string): void {
 }
 
 /** 导出 SVG */
-export function exportSVG(canvasId: string): void {
+export function exportSVG(canvasId: string): boolean {
+  if(canvasId==='sketch-canvas'){
+    const currentExport=document.querySelector<HTMLButtonElement>('[data-workbench-export]');
+    if(currentExport){if(currentExport.disabled)return false;currentExport.click();return true;}
+  }
+  if(canvasId==='sketch-canvas'&&document.getElementById('company-design-board')){
+    const d=useDesignStore.getState().companyDraft??newCompanyStyle();
+    downloadText(exportCompanyStyleSvg(d),(d.styleCode||'公司母版')+'-设计草案.svg','image/svg+xml;charset=utf-8');return true;
+  }
   const container = document.getElementById(canvasId);
-  if (!container) return;
+  if (!container) return false;
   const svgEl = container.querySelector('svg');
-  if (!svgEl) return;
+  if (!svgEl) return false;
 
   const svgData = new XMLSerializer().serializeToString(svgEl);
-  const blob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'garment-design.svg';
-  a.click();
-  URL.revokeObjectURL(a.href);
+  downloadText(svgData,'garment-design.svg','image/svg+xml;charset=utf-8');
+  return true;
 }
 
 /** 导出技术图 Pattern Sheet */
 export function exportPatternSheet(): void {
-  const state = useParametricStore.getState();
+  const state = useDesignStore.getState();
   const pattern = PATTERN_LIBRARY[state.activePatternId];
   if (!pattern) return;
-  const sheet = generatePatternSheet(pattern, state.patternPaths);
+  createAssemblyRecord(state.getConfiguration(),state.draft);
+  const sheet = generatePatternSheet(pattern, state.draft.paths, {construction:state.construction});
   const filename = generateSheetFilename(pattern);
-  downloadPatternSheet(sheet, filename);
+  downloadText(sheet,filename,'image/svg+xml;charset=utf-8');
 }
 
 /** 导出 Pattern JSON */
 export function exportPatternJSON(): void {
-  const state = useParametricStore.getState();
+  const state = useDesignStore.getState();
   const pattern = PATTERN_LIBRARY[state.activePatternId];
   if (!pattern) return;
-  const json = serializePattern(pattern);
+  requireReviewedPattern(pattern.id);
+  const json = serializePattern(pattern, { measurements: state.measurements, gender: state.gender, fit: state.fit, standardSize: state.standardSize, engineVersion: '4.10.2', construction: state.construction });
+  resolveReviewedImport(JSON.parse(json));
   const filename = generateFilename(pattern);
-  downloadPatternJSON(json, filename);
+  downloadText(json,filename,'application/json');
 }
 
 /** 导入 Pattern JSON */
@@ -93,9 +103,8 @@ export async function importPatternJSON(): Promise<{ msg: string; ok: boolean }>
   try {
     const envelope = await selectPatternFile();
     const pattern = envelope.pattern;
-    PATTERN_LIBRARY[pattern.id] = pattern;
-    useParametricStore.getState().applyPattern(pattern.id);
-    return { msg: `已导入: ${pattern.name}`, ok: true };
+    useDesignStore.getState().restorePatternInputs(envelope);
+    return { msg: `已恢复模板和原始尺寸: ${pattern.name}`, ok: true };
   } catch (err) {
     return {
       msg: `导入失败: ${err instanceof Error ? err.message : String(err)}`,

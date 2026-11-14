@@ -1,0 +1,423 @@
+{
+  "kind": "pinned-native-source-research",
+  "sources": [
+    {
+      "path": "node_modules/@freesewing/paco/package.json",
+      "sha256": "d5e9a54de7b80757446eb9100e8bdd67dcdc4b0922d1d882a6b009eebf28b921"
+    },
+    {
+      "path": "node_modules/@freesewing/paco/src/back.mjs",
+      "sha256": "a8ae9a276cb71fac374a2f558a078a6eeb322e70445374bcb80fc46cec77ccca"
+    },
+    {
+      "path": "node_modules/@freesewing/paco/src/backpocketbag.mjs",
+      "sha256": "223f4670a15c12ba5cf3d1f8d79a16b42caaca5c1911baee63759336809c7375"
+    },
+    {
+      "path": "node_modules/@freesewing/paco/src/backpocketwelt.mjs",
+      "sha256": "73482b286776dd3f28240a906c917dd9cd835e623cee1badf566d678d48618f8"
+    },
+    {
+      "path": "node_modules/@freesewing/paco/src/backpocketweltinterfacing.mjs",
+      "sha256": "b6de7f6a1d1f0ab53b8d2d262578a1a274db0a164b27f6c3ec4e23079c4ae393"
+    },
+    {
+      "path": "node_modules/@freesewing/paco/src/cuff.mjs",
+      "sha256": "33b441be671a589f92d2ac039ed7fe067373d33384bc0b603a0c84ad1f48c305"
+    },
+    {
+      "path": "node_modules/@freesewing/paco/src/front.mjs",
+      "sha256": "3f6f138c7e6b6ddd0d7b30e112d03a7c00fedbdc6b0d2df6fd455026515a0f64"
+    },
+    {
+      "path": "node_modules/@freesewing/paco/src/frontpocketbag.mjs",
+      "sha256": "86336bac7518474c955fb06e75162b1fe94d7b286f7570341a6fc28db109bf39"
+    },
+    {
+      "path": "node_modules/@freesewing/paco/src/index.mjs",
+      "sha256": "203f575973d436bde6c6ae2887521405144ec30870d5a2adff272035dcd5e978"
+    },
+    {
+      "path": "node_modules/@freesewing/paco/src/waistband.mjs",
+      "sha256": "8d90e6a18b7d11d3eaa27a1c1a8e74c00ccf3e29acced151bc4aa35033d29005"
+    },
+    {
+      "path": "node_modules/@freesewing/teagan/package.json",
+      "sha256": "017535368443cf2030fe788e6c5eabc4ee465cda51b2aa3a8406965fb0581575"
+    },
+    {
+      "path": "node_modules/@freesewing/teagan/src/back.mjs",
+      "sha256": "2dcabe7965bf333f01fb2e3f68d5f3d31342dd4a82b3046704ffc2f6a115919a"
+    },
+    {
+      "path": "node_modules/@freesewing/teagan/src/front.mjs",
+      "sha256": "2906b035cb5b7ceb9fa15feea0f208e889c4caa06f95e9e9bdcf4c72bfc67323"
+    },
+    {
+      "path": "node_modules/@freesewing/teagan/src/index.mjs",
+      "sha256": "18babdba1abd7a5078855caa592acd5531b50e240e64e537a7a9ed593b1100e5"
+    },
+    {
+      "path": "node_modules/@freesewing/teagan/src/shared.mjs",
+      "sha256": "bc0371c5c0bd6b44e31a6a69300d7a1d4b9480d75719ff6dbb0a2a7f1adc0bd6"
+    },
+    {
+      "path": "node_modules/@freesewing/teagan/src/sleeve.mjs",
+      "sha256": "326a42395becaffff8d6494f0d3b2b1325a574a8058017b09b8317ffc69f3b35"
+    }
+  ],
+  "cases": [
+    {
+      "frontPockets": false,
+      "parts": [
+        {
+          "id": "titan.back",
+          "paths": [
+            "seam",
+            "saBase",
+            "hemBase",
+            "sa",
+            "hint",
+            "__macro_grainline_grainline_line",
+            "__macro_scalebox_scalebox_imperial",
+            "__macro_scalebox_scalebox_metric"
+          ],
+          "cutlist": {
+            "materials": {
+              "fabric": [
+                {
+                  "cut": 2,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            },
+            "grainOrigin": "grainline",
+            "grain": 270
+          },
+          "netPath": "M -398.96,346.8 C -388.29,397.3 -297.62,542.27 -297.62,1160 L -33.12,1160 C -33.12,542.27 0,270 5.53,151.53 L -238.95,106.28 L -278.38,223.54 C -305.32,303.66 -348.64,336.11 -398.96,346.8 z"
+        },
+        {
+          "id": "paco.back",
+          "paths": [
+            "seam",
+            "saBase",
+            "hemBase",
+            "sa",
+            "hint",
+            "__macro_grainline_grainline_line",
+            "__macro_scalebox_scalebox_imperial",
+            "__macro_scalebox_scalebox_metric"
+          ],
+          "cutlist": {
+            "grainOrigin": "grainline",
+            "grain": 270,
+            "materials": {
+              "fabric": [
+                {
+                  "cut": 2,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            }
+          },
+          "netPath": "M -398.96,346.8 C -388.29,397.3 -274.05,640 -274.05,1160 L -56.7,1160 C -56.7,640 43.87,278.12 49.4,159.64 L -238.95,106.28 L -278.38,223.54 C -305.32,303.66 -348.64,336.11 -398.96,346.8 z"
+        },
+        {
+          "id": "titan.front",
+          "paths": [
+            "seam",
+            "hint",
+            "saBase",
+            "hemBase",
+            "sa",
+            "__macro_grainline_grainline_line"
+          ],
+          "cutlist": {
+            "materials": {
+              "fabric": [
+                {
+                  "cut": 2,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            },
+            "grainOrigin": "grainline",
+            "grain": 270
+          },
+          "netPath": "M -0.08,152.5 C 0,270 38.09,543.36 38.09,1161.1 L 233.59,1161.1 C 233.59,543.36 297.56,395.28 320.23,346.51 C 271.73,323.95 249.19,319.51 232.46,211.28 L 219.71,128.83 L -0.08,152.5 z"
+        },
+        {
+          "id": "paco.front",
+          "paths": [
+            "seam",
+            "hint",
+            "saBase",
+            "hemBase",
+            "sa",
+            "__macro_grainline_grainline_line"
+          ],
+          "cutlist": {
+            "grainOrigin": "grainline",
+            "grain": 270,
+            "materials": {
+              "fabric": [
+                {
+                  "cut": 2,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            }
+          },
+          "netPath": "M 4.45,156.94 C 4.29,269.54 55.52,641.1 55.52,1162.72 L 216.17,1162.72 C 216.17,641.1 297.56,395.28 320.23,346.51 C 271.73,323.95 249.19,319.51 232.46,211.28 L 219.71,128.83 L 4.45,156.94 z"
+        },
+        {
+          "id": "paco.frontPocketBag",
+          "paths": [
+            "seam",
+            "hint",
+            "saBase",
+            "hemBase",
+            "sa",
+            "__macro_grainline_grainline_line"
+          ],
+          "cutlist": {
+            "grainOrigin": "grainline",
+            "grain": 270,
+            "materials": {
+              "fabric": [
+                {
+                  "cut": 2,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            }
+          },
+          "netPath": "M 4.45,156.94 C 4.29,269.54 55.52,641.1 55.52,1162.72 L 216.17,1162.72 C 216.17,641.1 297.56,395.28 320.23,346.51 C 271.73,323.95 249.19,319.51 232.46,211.28 L 219.71,128.83 L 4.45,156.94 z"
+        },
+        {
+          "id": "paco.waistband",
+          "paths": [
+            "seam",
+            "fold",
+            "sa",
+            "__macro_grainline_grainline_line"
+          ],
+          "cutlist": {
+            "materials": {
+              "fabric": [
+                {
+                  "cut": 1,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            },
+            "grainOrigin": "grainline",
+            "grain": 270
+          },
+          "netPath": "M 0,0 L 0,1020.67 L 60,1020.67 L 60,0 L 0,0 z"
+        }
+      ]
+    },
+    {
+      "frontPockets": true,
+      "parts": [
+        {
+          "id": "titan.back",
+          "paths": [
+            "seam",
+            "saBase",
+            "hemBase",
+            "sa",
+            "hint",
+            "__macro_grainline_grainline_line",
+            "__macro_scalebox_scalebox_imperial",
+            "__macro_scalebox_scalebox_metric"
+          ],
+          "cutlist": {
+            "materials": {
+              "fabric": [
+                {
+                  "cut": 2,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            },
+            "grainOrigin": "grainline",
+            "grain": 270
+          },
+          "netPath": "M -398.96,346.8 C -388.29,397.3 -297.62,542.27 -297.62,1160 L -33.12,1160 C -33.12,542.27 0,270 5.53,151.53 L -238.95,106.28 L -278.38,223.54 C -305.32,303.66 -348.64,336.11 -398.96,346.8 z"
+        },
+        {
+          "id": "paco.back",
+          "paths": [
+            "seam",
+            "saBase",
+            "hemBase",
+            "sa",
+            "hint",
+            "__macro_grainline_grainline_line",
+            "__macro_scalebox_scalebox_imperial",
+            "__macro_scalebox_scalebox_metric"
+          ],
+          "cutlist": {
+            "grainOrigin": "grainline",
+            "grain": 270,
+            "materials": {
+              "fabric": [
+                {
+                  "cut": 2,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            }
+          },
+          "netPath": "M -398.96,346.8 C -388.29,397.3 -274.05,640 -274.05,1160 L -56.7,1160 C -56.7,793.36 -6.7,505.32 24.73,325.79 L 44.64,353.27 L 71.12,187.34 L 47.42,183.56 C 48.4,174.73 49.07,166.75 49.4,159.64 L -238.95,106.28 L -278.38,223.54 C -305.32,303.66 -348.64,336.11 -398.96,346.8 z"
+        },
+        {
+          "id": "titan.front",
+          "paths": [
+            "seam",
+            "hint",
+            "saBase",
+            "hemBase",
+            "sa",
+            "__macro_grainline_grainline_line"
+          ],
+          "cutlist": {
+            "materials": {
+              "fabric": [
+                {
+                  "cut": 2,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            },
+            "grainOrigin": "grainline",
+            "grain": 270
+          },
+          "netPath": "M -0.08,152.5 C 0,270 38.09,543.36 38.09,1161.1 L 233.59,1161.1 C 233.59,543.36 297.56,395.28 320.23,346.51 C 271.73,323.95 249.19,319.51 232.46,211.28 L 219.71,128.83 L -0.08,152.5 z"
+        },
+        {
+          "id": "paco.front",
+          "paths": [
+            "seam",
+            "hint",
+            "saBase",
+            "hemBase",
+            "sa",
+            "__macro_grainline_grainline_line",
+            "pocket",
+            "pocketFlap"
+          ],
+          "cutlist": {
+            "grainOrigin": "grainline",
+            "grain": 270,
+            "materials": {
+              "fabric": [
+                {
+                  "cut": 2,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            }
+          },
+          "netPath": "M 4.45,156.94 C 4.44,163.95 4.63,171.96 4.99,180.95 L -18.94,182.68 L -6.85,350.29 L 15.36,324.63 C 30.36,505.3 55.52,797.16 55.52,1162.72 L 216.17,1162.72 C 216.17,641.1 297.56,395.28 320.23,346.51 C 271.73,323.95 249.19,319.51 232.46,211.28 L 219.71,128.83 L 4.45,156.94 z"
+        },
+        {
+          "id": "paco.frontPocketBag",
+          "paths": [
+            "pocket",
+            "sa",
+            "__macro_cutonfold_cutonfold_line"
+          ],
+          "cutlist": {
+            "grainOrigin": "cutonfold",
+            "grain": 90.00000000000001,
+            "materials": {
+              "lining": [
+                {
+                  "cut": 2,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            },
+            "cutOnFold": [
+              {
+                "x": 142.66968747362117,
+                "y": 432.9818858235643,
+                "attributes": {
+                  "list": {}
+                },
+                "name": "bottomRight"
+              },
+              {
+                "x": 142.6696874736211,
+                "y": 138.89103609144578,
+                "attributes": {
+                  "list": {}
+                }
+              }
+            ]
+          },
+          "netPath": "M 26.18,135.47 L 9.33,328.09 C 9.33,328.09 -3.74,409.46 69.46,421.22 L 142.67,432.98 L 142.67,138.89 L 26.18,135.47 z"
+        },
+        {
+          "id": "paco.waistband",
+          "paths": [
+            "seam",
+            "fold",
+            "sa",
+            "__macro_grainline_grainline_line"
+          ],
+          "cutlist": {
+            "materials": {
+              "fabric": [
+                {
+                  "cut": 1,
+                  "identical": false,
+                  "onBias": false,
+                  "onFold": false
+                }
+              ]
+            },
+            "grainOrigin": "grainline",
+            "grain": 270
+          },
+          "netPath": "M 0,0 L 0,1020.67 L 60,1020.67 L 60,0 L 0,0 z"
+        }
+      ]
+    }
+  ],
+  "decisions": {
+    "pantsBaseline": {
+      "frontPockets": false,
+      "backPockets": false,
+      "elasticatedCuff": false
+    },
+    "frontPocket": "blocked: bag uses paths.pocket plus cutonfold macro; cutlist must be resolved before generic source adapter integration",
+    "sleeve": "Teagan set-in sleeve extension/width only; raglan and dropped shoulder need a separate compatible body contract"
+  },
+  "productionApproved": false
+}

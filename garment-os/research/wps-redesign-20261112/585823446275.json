@@ -1,0 +1,334 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "MiuMiu改款模式实例拆解",
+                  "type": "text"
+                }
+              ],
+              "id": "qCHvfglpyEXmDeED",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/xBJ2kN3Ps044pcsP-crkQA"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "fhggFznOmMOzeESj",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "518298fce149d1346fb9b0423e8973ec8beca99d",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "uSMTgVTxyolMvtRj",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "bbdf1cf4e1ea19d8a840b8e8647f1d0a78be5b4e",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "saDljBBwfInAiHYJ",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "631f09551f424f21c84ab7ddd31d9da4c443dca5",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "jYBIQCFhLcTnaJMQ",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "4d71ee9f9a4a3291881e80fe7305bd3df3e404ab",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "eqrTbkkkMaPrXtnt",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "be08b662da615463a0d139526a1fcdcaaa67d7da",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "vJipnjmWkhawHRrQ",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "3ba1701f7c84a8507f9ec82676639e6f5d20c828",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "CTeDrYqgSQEOfXpv",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "YhkBzjFrfkQzLwlf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "相关内容见图片，可👉滑动。",
+                  "type": "text"
+                }
+              ],
+              "id": "tcQgciRAraQteqDd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ZegWXhvWjNVXvkka",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "更多设计出款改款学习资料，可于末页扫码购买。",
+                  "type": "text"
+                }
+              ],
+              "id": "yzoLHgYGCjSRgoTD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "微信扫一扫赞赏作者",
+                  "type": "text"
+                },
+                {
+                  "content": "Like Author",
+                  "type": "text"
+                }
+              ],
+              "id": "eucgYvxsbZRSIoqa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "uNfkshfztavISspY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "F先生",
+                  "type": "text"
+                }
+              ],
+              "id": "DUFsOgIijUsloeKq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "Collected in",
+                  "type": "text"
+                },
+                {
+                  "content": "服装设计开发",
+                  "type": "text"
+                }
+              ],
+              "id": "CRlTquzGcZTbLgdQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "Author's tip: 个人观点，仅供参",
+                  "type": "text"
+                },
+                {
+                  "content": "考",
+                  "type": "text"
+                }
+              ],
+              "id": "gEYFiyhFUaUhzxmZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 272,
+                "renderHeight": 273.8,
+                "renderWidth": 273.8,
+                "sourceKey": "76ca0ae4203aa8c115d0c3424d824d2e4ff36e08",
+                "version": 2,
+                "width": 272
+              },
+              "id": "BnJnLxcJJWkdQdAf",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KWBeUkkxCScraixk",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "F先生绘",
+                  "type": "text"
+                }
+              ],
+              "id": "eijIHHGArOIKuezy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "qgyjdigsIrLaqvgt",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 9
+    }
+  },
+  "result": "ok"
+}

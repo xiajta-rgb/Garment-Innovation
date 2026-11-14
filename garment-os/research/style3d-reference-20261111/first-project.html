@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="zh-CN" class="scroll-smooth" data-controller="theme">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="turbo-prefetch" content="false">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="446TWxgbSfiWA3xuLXml5aF-I5jJ6MO6LjgpKF2OEckQ38aEqgBGnN8nz1SjnygERsu6krw1Qor8s5z7IhfCjA" />
+<meta name="csp-nonce" />
+<meta charset="utf-8">
+<title id="js--document-head-title">首个工程文件完整工作流 | Style3D Studio帮助中心</title>
+<link rel="icon" type="image/x-icon" href="/studio/zh/-/dam/assets/organization_lendcx--main-version--128x128/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MzMwNSwicGF0aCI6ImZhdmljb24iLCJ0aW1lc3RhbXAiOiIyMDI0LTA2LTE4VDE2OjMxOjA0LjkwOSswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbi0tMTI4eDEyOCJ9fQ--4bfad59357fdce6807edfe5dbf8d1a90509502e26813266cac53f6f4742dbe3c/favicon">
+<meta name="theme-name" content="wiki">
+<meta name="theme-scope" content="wiki">
+<meta name="theme-version" content="main_new_0827">
+<meta name="theme-revision" content="832dbe814dd3bbb4e0c06bb3d7540136a5f83f7d">
+<meta name="template-name" content="page">
+<script src="https://helpcdn.style3d.cn/assets/editor-render-bad5aafb.js" data-turbo-track="reload" defer="defer"></script>
+<link rel="stylesheet" href="https://helpcdn.style3d.cn/assets/editor-render-8b09b660.css" data-turbo-track="reload" />
+<link rel="stylesheet" href="https://helpcdn.style3d.cn/assets/theme-shared/tailwind-2625abe7.css" data-turbo-track="reload" />
+<meta name="dam-url-template" content="/studio/zh/-/dam/entities/url/:purpose/:id?expiration_token=eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTQ0MTYwNDZ9.PEdxyF9jKPstBwu5AlfDPs7ACCXiM0MCX_CFSt6WeE8&sync_main_version=true&variant=cover">
+<meta name="dam-embed-url-template" content="/studio/zh/-/dam/entities/url/organization_lendcx/:id?expiration_token=eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTQ0MTYwNDZ9.PEdxyF9jKPstBwu5AlfDPs7ACCXiM0MCX_CFSt6WeE8&sync_main_version=%3Async_main_version">
+<style type="text/css" id="js--theme-colors-stylesheet">
+  :root { --theme-color-base-100-hsl-h: 0;--theme-color-base-100-hsl-s: 0%;--theme-color-base-100-hsl-l: 100%;--theme-color-base-100: var(--theme-color-base-100-hsl-h) var(--theme-color-base-100-hsl-s) var(--theme-color-base-100-hsl-l);--theme-color-base-100-dark-hsl-h: 212;--theme-color-base-100-dark-hsl-s: 18%;--theme-color-base-100-dark-hsl-l: 14%;--theme-color-base-100-dark: var(--theme-color-base-100-dark-hsl-h) var(--theme-color-base-100-dark-hsl-s) var(--theme-color-base-100-dark-hsl-l);--theme-color-base-200-hsl-h: 0;--theme-color-base-200-hsl-s: 0%;--theme-color-base-200-hsl-l: 97%;--theme-color-base-200: var(--theme-color-base-200-hsl-h) var(--theme-color-base-200-hsl-s) var(--theme-color-base-200-hsl-l);--theme-color-base-200-dark-hsl-h: 216;--theme-color-base-200-dark-hsl-s: 19%;--theme-color-base-200-dark-hsl-l: 20%;--theme-color-base-200-dark: var(--theme-color-base-200-dark-hsl-h) var(--theme-color-base-200-dark-hsl-s) var(--theme-color-base-200-dark-hsl-l);--theme-color-base-300-hsl-h: 0;--theme-color-base-300-hsl-s: 0%;--theme-color-base-300-hsl-l: 93%;--theme-color-base-300: var(--theme-color-base-300-hsl-h) var(--theme-color-base-300-hsl-s) var(--theme-color-base-300-hsl-l);--theme-color-base-300-dark-hsl-h: 219;--theme-color-base-300-dark-hsl-s: 18%;--theme-color-base-300-dark-hsl-l: 26%;--theme-color-base-300-dark: var(--theme-color-base-300-dark-hsl-h) var(--theme-color-base-300-dark-hsl-s) var(--theme-color-base-300-dark-hsl-l);--theme-color-base-content-hsl-h: 240;--theme-color-base-content-hsl-s: 6%;--theme-color-base-content-hsl-l: 10%;--theme-color-base-content: var(--theme-color-base-content-hsl-h) var(--theme-color-base-content-hsl-s) var(--theme-color-base-content-hsl-l);--theme-color-base-content-dark-hsl-h: 199;--theme-color-base-content-dark-hsl-s: 100%;--theme-color-base-content-dark-hsl-l: 96%;--theme-color-base-content-dark: var(--theme-color-base-content-dark-hsl-h) var(--theme-color-base-content-dark-hsl-s) var(--theme-color-base-content-dark-hsl-l);--theme-color-primary-hsl-h: 199;--theme-color-primary-hsl-s: 98%;--theme-color-primary-hsl-l: 48%;--theme-color-primary: var(--theme-color-primary-hsl-h) var(--theme-color-primary-hsl-s) var(--theme-color-primary-hsl-l);--theme-color-primary-50-hsl-h: 205; --theme-color-primary-50-hsl-s: 88%; --theme-color-primary-50-hsl-l: 96%; --theme-color-primary-100-hsl-h: 205; --theme-color-primary-100-hsl-s: 93%; --theme-color-primary-100-hsl-l: 91%; --theme-color-primary-200-hsl-h: 205; --theme-color-primary-200-hsl-s: 93%; --theme-color-primary-200-hsl-l: 83%; --theme-color-primary-300-hsl-h: 204; --theme-color-primary-300-hsl-s: 92%; --theme-color-primary-300-hsl-l: 75%; --theme-color-primary-400-hsl-h: 203; --theme-color-primary-400-hsl-s: 91%; --theme-color-primary-400-hsl-l: 66%; --theme-color-primary-500-hsl-h: 199; --theme-color-primary-500-hsl-s: 98%; --theme-color-primary-500-hsl-l: 48%; --theme-color-primary-600-hsl-h: 199; --theme-color-primary-600-hsl-s: 100%; --theme-color-primary-600-hsl-l: 41%; --theme-color-primary-700-hsl-h: 199; --theme-color-primary-700-hsl-s: 100%; --theme-color-primary-700-hsl-l: 34%; --theme-color-primary-800-hsl-h: 200; --theme-color-primary-800-hsl-s: 100%; --theme-color-primary-800-hsl-l: 28%; --theme-color-primary-900-hsl-h: 201; --theme-color-primary-900-hsl-s: 100%; --theme-color-primary-900-hsl-l: 22%;--theme-color-primary-dark-hsl-h: 199;--theme-color-primary-dark-hsl-s: 98%;--theme-color-primary-dark-hsl-l: 48%;--theme-color-primary-dark: var(--theme-color-primary-dark-hsl-h) var(--theme-color-primary-dark-hsl-s) var(--theme-color-primary-dark-hsl-l);--theme-color-primary-dark-50-hsl-h: 205; --theme-color-primary-dark-50-hsl-s: 88%; --theme-color-primary-dark-50-hsl-l: 96%; --theme-color-primary-dark-100-hsl-h: 205; --theme-color-primary-dark-100-hsl-s: 93%; --theme-color-primary-dark-100-hsl-l: 91%; --theme-color-primary-dark-200-hsl-h: 205; --theme-color-primary-dark-200-hsl-s: 93%; --theme-color-primary-dark-200-hsl-l: 83%; --theme-color-primary-dark-300-hsl-h: 204; --theme-color-primary-dark-300-hsl-s: 92%; --theme-color-primary-dark-300-hsl-l: 75%; --theme-color-primary-dark-400-hsl-h: 203; --theme-color-primary-dark-400-hsl-s: 91%; --theme-color-primary-dark-400-hsl-l: 66%; --theme-color-primary-dark-500-hsl-h: 199; --theme-color-primary-dark-500-hsl-s: 98%; --theme-color-primary-dark-500-hsl-l: 48%; --theme-color-primary-dark-600-hsl-h: 199; --theme-color-primary-dark-600-hsl-s: 100%; --theme-color-primary-dark-600-hsl-l: 41%; --theme-color-primary-dark-700-hsl-h: 199; --theme-color-primary-dark-700-hsl-s: 100%; --theme-color-primary-dark-700-hsl-l: 34%; --theme-color-primary-dark-800-hsl-h: 200; --theme-color-primary-dark-800-hsl-s: 100%; --theme-color-primary-dark-800-hsl-l: 28%; --theme-color-primary-dark-900-hsl-h: 201; --theme-color-primary-dark-900-hsl-s: 100%; --theme-color-primary-dark-900-hsl-l: 22%;--theme-color-primary-content-hsl-h: 226;--theme-color-primary-content-hsl-s: 100%;--theme-color-primary-content-hsl-l: 94%;--theme-color-primary-content: var(--theme-color-primary-content-hsl-h) var(--theme-color-primary-content-hsl-s) var(--theme-color-primary-content-hsl-l);--theme-color-primary-content-dark-hsl-h: 226;--theme-color-primary-content-dark-hsl-s: 89%;--theme-color-primary-content-dark-hsl-l: 96%;--theme-color-primary-content-dark: var(--theme-color-primary-content-dark-hsl-h) var(--theme-color-primary-content-dark-hsl-s) var(--theme-color-primary-content-dark-hsl-l);--theme-color-secondary-hsl-h: 340;--theme-color-secondary-hsl-s: 82%;--theme-color-secondary-hsl-l: 52%;--theme-color-secondary: var(--theme-color-secondary-hsl-h) var(--theme-color-secondary-hsl-s) var(--theme-color-secondary-hsl-l);--theme-color-secondary-50-hsl-h: 352; --theme-color-secondary-50-hsl-s: 100%; --theme-color-secondary-50-hsl-l: 97%; --theme-color-secondary-100-hsl-h: 352; --theme-color-secondary-100-hsl-s: 100%; --theme-color-secondary-100-hsl-l: 91%; --theme-color-secondary-200-hsl-h: 351; --theme-color-secondary-200-hsl-s: 100%; --theme-color-secondary-200-hsl-l: 84%; --theme-color-secondary-300-hsl-h: 349; --theme-color-secondary-300-hsl-s: 94%; --theme-color-secondary-300-hsl-l: 76%; --theme-color-secondary-400-hsl-h: 346; --theme-color-secondary-400-hsl-s: 87%; --theme-color-secondary-400-hsl-l: 66%; --theme-color-secondary-500-hsl-h: 340; --theme-color-secondary-500-hsl-s: 82%; --theme-color-secondary-500-hsl-l: 52%; --theme-color-secondary-600-hsl-h: 339; --theme-color-secondary-600-hsl-s: 80%; --theme-color-secondary-600-hsl-l: 44%; --theme-color-secondary-700-hsl-h: 339; --theme-color-secondary-700-hsl-s: 85%; --theme-color-secondary-700-hsl-l: 36%; --theme-color-secondary-800-hsl-h: 338; --theme-color-secondary-800-hsl-s: 92%; --theme-color-secondary-800-hsl-l: 28%; --theme-color-secondary-900-hsl-h: 338; --theme-color-secondary-900-hsl-s: 98%; --theme-color-secondary-900-hsl-l: 22%;--theme-color-secondary-dark-hsl-h: 340;--theme-color-secondary-dark-hsl-s: 82%;--theme-color-secondary-dark-hsl-l: 52%;--theme-color-secondary-dark: var(--theme-color-secondary-dark-hsl-h) var(--theme-color-secondary-dark-hsl-s) var(--theme-color-secondary-dark-hsl-l);--theme-color-secondary-dark-50-hsl-h: 352; --theme-color-secondary-dark-50-hsl-s: 100%; --theme-color-secondary-dark-50-hsl-l: 97%; --theme-color-secondary-dark-100-hsl-h: 352; --theme-color-secondary-dark-100-hsl-s: 100%; --theme-color-secondary-dark-100-hsl-l: 91%; --theme-color-secondary-dark-200-hsl-h: 351; --theme-color-secondary-dark-200-hsl-s: 100%; --theme-color-secondary-dark-200-hsl-l: 84%; --theme-color-secondary-dark-300-hsl-h: 349; --theme-color-secondary-dark-300-hsl-s: 94%; --theme-color-secondary-dark-300-hsl-l: 76%; --theme-color-secondary-dark-400-hsl-h: 346; --theme-color-secondary-dark-400-hsl-s: 87%; --theme-color-secondary-dark-400-hsl-l: 66%; --theme-color-secondary-dark-500-hsl-h: 340; --theme-color-secondary-dark-500-hsl-s: 82%; --theme-color-secondary-dark-500-hsl-l: 52%; --theme-color-secondary-dark-600-hsl-h: 339; --theme-color-secondary-dark-600-hsl-s: 80%; --theme-color-secondary-dark-600-hsl-l: 44%; --theme-color-secondary-dark-700-hsl-h: 339; --theme-color-secondary-dark-700-hsl-s: 85%; --theme-color-secondary-dark-700-hsl-l: 36%; --theme-color-secondary-dark-800-hsl-h: 338; --theme-color-secondary-dark-800-hsl-s: 92%; --theme-color-secondary-dark-800-hsl-l: 28%; --theme-color-secondary-dark-900-hsl-h: 338; --theme-color-secondary-dark-900-hsl-s: 98%; --theme-color-secondary-dark-900-hsl-l: 22%;--theme-color-secondary-content-hsl-h: 0;--theme-color-secondary-content-hsl-s: 0%;--theme-color-secondary-content-hsl-l: 100%;--theme-color-secondary-content: var(--theme-color-secondary-content-hsl-h) var(--theme-color-secondary-content-hsl-s) var(--theme-color-secondary-content-hsl-l);--theme-color-secondary-content-dark-hsl-h: 0;--theme-color-secondary-content-dark-hsl-s: 0%;--theme-color-secondary-content-dark-hsl-l: 100%;--theme-color-secondary-content-dark: var(--theme-color-secondary-content-dark-hsl-h) var(--theme-color-secondary-content-dark-hsl-s) var(--theme-color-secondary-content-dark-hsl-l);--theme-color-accent-hsl-h: 0;--theme-color-accent-hsl-s: 0%;--theme-color-accent-hsl-l: 67%;--theme-color-accent: var(--theme-color-accent-hsl-h) var(--theme-color-accent-hsl-s) var(--theme-color-accent-hsl-l);--theme-color-accent-50-hsl-h: 0; --theme-color-accent-50-hsl-s: 0%; --theme-color-accent-50-hsl-l: 96%; --theme-color-accent-100-hsl-h: 0; --theme-color-accent-100-hsl-s: 0%; --theme-color-accent-100-hsl-l: 92%; --theme-color-accent-200-hsl-h: 0; --theme-color-accent-200-hsl-s: 0%; --theme-color-accent-200-hsl-l: 85%; --theme-color-accent-300-hsl-h: 0; --theme-color-accent-300-hsl-s: 0%; --theme-color-accent-300-hsl-l: 79%; --theme-color-accent-400-hsl-h: 0; --theme-color-accent-400-hsl-s: 0%; --theme-color-accent-400-hsl-l: 73%; --theme-color-accent-500-hsl-h: 0; --theme-color-accent-500-hsl-s: 0%; --theme-color-accent-500-hsl-l: 67%; --theme-color-accent-600-hsl-h: 0; --theme-color-accent-600-hsl-s: 0%; --theme-color-accent-600-hsl-l: 57%; --theme-color-accent-700-hsl-h: 0; --theme-color-accent-700-hsl-s: 0%; --theme-color-accent-700-hsl-l: 47%; --theme-color-accent-800-hsl-h: 0; --theme-color-accent-800-hsl-s: 0%; --theme-color-accent-800-hsl-l: 37%; --theme-color-accent-900-hsl-h: 0; --theme-color-accent-900-hsl-s: 0%; --theme-color-accent-900-hsl-l: 28%;--theme-color-accent-dark-hsl-h: 0;--theme-color-accent-dark-hsl-s: 0%;--theme-color-accent-dark-hsl-l: 67%;--theme-color-accent-dark: var(--theme-color-accent-dark-hsl-h) var(--theme-color-accent-dark-hsl-s) var(--theme-color-accent-dark-hsl-l);--theme-color-accent-dark-50-hsl-h: 0; --theme-color-accent-dark-50-hsl-s: 0%; --theme-color-accent-dark-50-hsl-l: 96%; --theme-color-accent-dark-100-hsl-h: 0; --theme-color-accent-dark-100-hsl-s: 0%; --theme-color-accent-dark-100-hsl-l: 92%; --theme-color-accent-dark-200-hsl-h: 0; --theme-color-accent-dark-200-hsl-s: 0%; --theme-color-accent-dark-200-hsl-l: 85%; --theme-color-accent-dark-300-hsl-h: 0; --theme-color-accent-dark-300-hsl-s: 0%; --theme-color-accent-dark-300-hsl-l: 79%; --theme-color-accent-dark-400-hsl-h: 0; --theme-color-accent-dark-400-hsl-s: 0%; --theme-color-accent-dark-400-hsl-l: 73%; --theme-color-accent-dark-500-hsl-h: 0; --theme-color-accent-dark-500-hsl-s: 0%; --theme-color-accent-dark-500-hsl-l: 67%; --theme-color-accent-dark-600-hsl-h: 0; --theme-color-accent-dark-600-hsl-s: 0%; --theme-color-accent-dark-600-hsl-l: 57%; --theme-color-accent-dark-700-hsl-h: 0; --theme-color-accent-dark-700-hsl-s: 0%; --theme-color-accent-dark-700-hsl-l: 47%; --theme-color-accent-dark-800-hsl-h: 0; --theme-color-accent-dark-800-hsl-s: 0%; --theme-color-accent-dark-800-hsl-l: 37%; --theme-color-accent-dark-900-hsl-h: 0; --theme-color-accent-dark-900-hsl-s: 0%; --theme-color-accent-dark-900-hsl-l: 28%;--theme-color-accent-content-hsl-h: 152;--theme-color-accent-content-hsl-s: 81%;--theme-color-accent-content-hsl-l: 96%;--theme-color-accent-content: var(--theme-color-accent-content-hsl-h) var(--theme-color-accent-content-hsl-s) var(--theme-color-accent-content-hsl-l);--theme-color-accent-content-dark-hsl-h: 177;--theme-color-accent-content-dark-hsl-s: 81%;--theme-color-accent-content-dark-hsl-l: 17%;--theme-color-accent-content-dark: var(--theme-color-accent-content-dark-hsl-h) var(--theme-color-accent-content-dark-hsl-s) var(--theme-color-accent-content-dark-hsl-l);--theme-color-neutral-hsl-h: 240;--theme-color-neutral-hsl-s: 4%;--theme-color-neutral-hsl-l: 16%;--theme-color-neutral: var(--theme-color-neutral-hsl-h) var(--theme-color-neutral-hsl-s) var(--theme-color-neutral-hsl-l);--theme-color-neutral-dark-hsl-h: 240;--theme-color-neutral-dark-hsl-s: 10%;--theme-color-neutral-dark-hsl-l: 4%;--theme-color-neutral-dark: var(--theme-color-neutral-dark-hsl-h) var(--theme-color-neutral-dark-hsl-s) var(--theme-color-neutral-dark-hsl-l);--theme-color-neutral-content-hsl-h: 240;--theme-color-neutral-content-hsl-s: 6%;--theme-color-neutral-content-hsl-l: 90%;--theme-color-neutral-content: var(--theme-color-neutral-content-hsl-h) var(--theme-color-neutral-content-hsl-s) var(--theme-color-neutral-content-hsl-l);--theme-color-neutral-content-dark-hsl-h: 240;--theme-color-neutral-content-dark-hsl-s: 6%;--theme-color-neutral-content-dark-hsl-l: 90%;--theme-color-neutral-content-dark: var(--theme-color-neutral-content-dark-hsl-h) var(--theme-color-neutral-content-dark-hsl-s) var(--theme-color-neutral-content-dark-hsl-l);--theme-color-info-hsl-h: 207;--theme-color-info-hsl-s: 90%;--theme-color-info-hsl-l: 54%;--theme-color-info: var(--theme-color-info-hsl-h) var(--theme-color-info-hsl-s) var(--theme-color-info-hsl-l);--theme-color-info-50-hsl-h: 210; --theme-color-info-50-hsl-s: 95%; --theme-color-info-50-hsl-l: 96%; --theme-color-info-100-hsl-h: 210; --theme-color-info-100-hsl-s: 96%; --theme-color-info-100-hsl-l: 91%; --theme-color-info-200-hsl-h: 210; --theme-color-info-200-hsl-s: 95%; --theme-color-info-200-hsl-l: 83%; --theme-color-info-300-hsl-h: 210; --theme-color-info-300-hsl-s: 93%; --theme-color-info-300-hsl-l: 75%; --theme-color-info-400-hsl-h: 209; --theme-color-info-400-hsl-s: 91%; --theme-color-info-400-hsl-l: 66%; --theme-color-info-500-hsl-h: 207; --theme-color-info-500-hsl-s: 90%; --theme-color-info-500-hsl-l: 54%; --theme-color-info-600-hsl-h: 206; --theme-color-info-600-hsl-s: 80%; --theme-color-info-600-hsl-l: 46%; --theme-color-info-700-hsl-h: 206; --theme-color-info-700-hsl-s: 85%; --theme-color-info-700-hsl-l: 37%; --theme-color-info-800-hsl-h: 206; --theme-color-info-800-hsl-s: 92%; --theme-color-info-800-hsl-l: 29%; --theme-color-info-900-hsl-h: 206; --theme-color-info-900-hsl-s: 100%; --theme-color-info-900-hsl-l: 22%;--theme-color-info-dark-hsl-h: 207;--theme-color-info-dark-hsl-s: 90%;--theme-color-info-dark-hsl-l: 54%;--theme-color-info-dark: var(--theme-color-info-dark-hsl-h) var(--theme-color-info-dark-hsl-s) var(--theme-color-info-dark-hsl-l);--theme-color-info-dark-50-hsl-h: 210; --theme-color-info-dark-50-hsl-s: 95%; --theme-color-info-dark-50-hsl-l: 96%; --theme-color-info-dark-100-hsl-h: 210; --theme-color-info-dark-100-hsl-s: 96%; --theme-color-info-dark-100-hsl-l: 91%; --theme-color-info-dark-200-hsl-h: 210; --theme-color-info-dark-200-hsl-s: 95%; --theme-color-info-dark-200-hsl-l: 83%; --theme-color-info-dark-300-hsl-h: 210; --theme-color-info-dark-300-hsl-s: 93%; --theme-color-info-dark-300-hsl-l: 75%; --theme-color-info-dark-400-hsl-h: 209; --theme-color-info-dark-400-hsl-s: 91%; --theme-color-info-dark-400-hsl-l: 66%; --theme-color-info-dark-500-hsl-h: 207; --theme-color-info-dark-500-hsl-s: 90%; --theme-color-info-dark-500-hsl-l: 54%; --theme-color-info-dark-600-hsl-h: 206; --theme-color-info-dark-600-hsl-s: 80%; --theme-color-info-dark-600-hsl-l: 46%; --theme-color-info-dark-700-hsl-h: 206; --theme-color-info-dark-700-hsl-s: 85%; --theme-color-info-dark-700-hsl-l: 37%; --theme-color-info-dark-800-hsl-h: 206; --theme-color-info-dark-800-hsl-s: 92%; --theme-color-info-dark-800-hsl-l: 29%; --theme-color-info-dark-900-hsl-h: 206; --theme-color-info-dark-900-hsl-s: 100%; --theme-color-info-dark-900-hsl-l: 22%;--theme-color-info-content-hsl-h: 203;--theme-color-info-content-hsl-s: 90%;--theme-color-info-content-hsl-l: 15%;--theme-color-info-content: var(--theme-color-info-content-hsl-h) var(--theme-color-info-content-hsl-s) var(--theme-color-info-content-hsl-l);--theme-color-info-content-dark-hsl-h: 203;--theme-color-info-content-dark-hsl-s: 90%;--theme-color-info-content-dark-hsl-l: 15%;--theme-color-info-content-dark: var(--theme-color-info-content-dark-hsl-h) var(--theme-color-info-content-dark-hsl-s) var(--theme-color-info-content-dark-hsl-l);--theme-color-success-hsl-h: 122;--theme-color-success-hsl-s: 39%;--theme-color-success-hsl-l: 49%;--theme-color-success: var(--theme-color-success-hsl-h) var(--theme-color-success-hsl-s) var(--theme-color-success-hsl-l);--theme-color-success-50-hsl-h: 117; --theme-color-success-50-hsl-s: 37%; --theme-color-success-50-hsl-l: 95%; --theme-color-success-100-hsl-h: 118; --theme-color-success-100-hsl-s: 38%; --theme-color-success-100-hsl-l: 88%; --theme-color-success-200-hsl-h: 118; --theme-color-success-200-hsl-s: 38%; --theme-color-success-200-hsl-l: 79%; --theme-color-success-300-hsl-h: 119; --theme-color-success-300-hsl-s: 37%; --theme-color-success-300-hsl-l: 70%; --theme-color-success-400-hsl-h: 120; --theme-color-success-400-hsl-s: 37%; --theme-color-success-400-hsl-l: 60%; --theme-color-success-500-hsl-h: 122; --theme-color-success-500-hsl-s: 39%; --theme-color-success-500-hsl-l: 49%; --theme-color-success-600-hsl-h: 123; --theme-color-success-600-hsl-s: 41%; --theme-color-success-600-hsl-l: 42%; --theme-color-success-700-hsl-h: 123; --theme-color-success-700-hsl-s: 43%; --theme-color-success-700-hsl-l: 34%; --theme-color-success-800-hsl-h: 123; --theme-color-success-800-hsl-s: 46%; --theme-color-success-800-hsl-l: 27%; --theme-color-success-900-hsl-h: 123; --theme-color-success-900-hsl-s: 51%; --theme-color-success-900-hsl-l: 20%;--theme-color-success-dark-hsl-h: 122;--theme-color-success-dark-hsl-s: 39%;--theme-color-success-dark-hsl-l: 49%;--theme-color-success-dark: var(--theme-color-success-dark-hsl-h) var(--theme-color-success-dark-hsl-s) var(--theme-color-success-dark-hsl-l);--theme-color-success-dark-50-hsl-h: 117; --theme-color-success-dark-50-hsl-s: 37%; --theme-color-success-dark-50-hsl-l: 95%; --theme-color-success-dark-100-hsl-h: 118; --theme-color-success-dark-100-hsl-s: 38%; --theme-color-success-dark-100-hsl-l: 88%; --theme-color-success-dark-200-hsl-h: 118; --theme-color-success-dark-200-hsl-s: 38%; --theme-color-success-dark-200-hsl-l: 79%; --theme-color-success-dark-300-hsl-h: 119; --theme-color-success-dark-300-hsl-s: 37%; --theme-color-success-dark-300-hsl-l: 70%; --theme-color-success-dark-400-hsl-h: 120; --theme-color-success-dark-400-hsl-s: 37%; --theme-color-success-dark-400-hsl-l: 60%; --theme-color-success-dark-500-hsl-h: 122; --theme-color-success-dark-500-hsl-s: 39%; --theme-color-success-dark-500-hsl-l: 49%; --theme-color-success-dark-600-hsl-h: 123; --theme-color-success-dark-600-hsl-s: 41%; --theme-color-success-dark-600-hsl-l: 42%; --theme-color-success-dark-700-hsl-h: 123; --theme-color-success-dark-700-hsl-s: 43%; --theme-color-success-dark-700-hsl-l: 34%; --theme-color-success-dark-800-hsl-h: 123; --theme-color-success-dark-800-hsl-s: 46%; --theme-color-success-dark-800-hsl-l: 27%; --theme-color-success-dark-900-hsl-h: 123; --theme-color-success-dark-900-hsl-s: 51%; --theme-color-success-dark-900-hsl-l: 20%;--theme-color-success-content-hsl-h: 165;--theme-color-success-content-hsl-s: 100%;--theme-color-success-content-hsl-l: 15%;--theme-color-success-content: var(--theme-color-success-content-hsl-h) var(--theme-color-success-content-hsl-s) var(--theme-color-success-content-hsl-l);--theme-color-success-content-dark-hsl-h: 165;--theme-color-success-content-dark-hsl-s: 100%;--theme-color-success-content-dark-hsl-l: 15%;--theme-color-success-content-dark: var(--theme-color-success-content-dark-hsl-h) var(--theme-color-success-content-dark-hsl-s) var(--theme-color-success-content-dark-hsl-l);--theme-color-warning-hsl-h: 45;--theme-color-warning-hsl-s: 100%;--theme-color-warning-hsl-l: 51%;--theme-color-warning: var(--theme-color-warning-hsl-h) var(--theme-color-warning-hsl-s) var(--theme-color-warning-hsl-l);--theme-color-warning-50-hsl-h: 40; --theme-color-warning-50-hsl-s: 76%; --theme-color-warning-50-hsl-l: 96%; --theme-color-warning-100-hsl-h: 40; --theme-color-warning-100-hsl-s: 92%; --theme-color-warning-100-hsl-l: 91%; --theme-color-warning-200-hsl-h: 40; --theme-color-warning-200-hsl-s: 98%; --theme-color-warning-200-hsl-l: 84%; --theme-color-warning-300-hsl-h: 41; --theme-color-warning-300-hsl-s: 99%; --theme-color-warning-300-hsl-l: 77%; --theme-color-warning-400-hsl-h: 41; --theme-color-warning-400-hsl-s: 100%; --theme-color-warning-400-hsl-l: 68%; --theme-color-warning-500-hsl-h: 45; --theme-color-warning-500-hsl-s: 100%; --theme-color-warning-500-hsl-l: 51%; --theme-color-warning-600-hsl-h: 45; --theme-color-warning-600-hsl-s: 100%; --theme-color-warning-600-hsl-l: 43%; --theme-color-warning-700-hsl-h: 45; --theme-color-warning-700-hsl-s: 100%; --theme-color-warning-700-hsl-l: 35%; --theme-color-warning-800-hsl-h: 44; --theme-color-warning-800-hsl-s: 100%; --theme-color-warning-800-hsl-l: 28%; --theme-color-warning-900-hsl-h: 43; --theme-color-warning-900-hsl-s: 100%; --theme-color-warning-900-hsl-l: 22%;--theme-color-warning-dark-hsl-h: 45;--theme-color-warning-dark-hsl-s: 100%;--theme-color-warning-dark-hsl-l: 51%;--theme-color-warning-dark: var(--theme-color-warning-dark-hsl-h) var(--theme-color-warning-dark-hsl-s) var(--theme-color-warning-dark-hsl-l);--theme-color-warning-dark-50-hsl-h: 40; --theme-color-warning-dark-50-hsl-s: 76%; --theme-color-warning-dark-50-hsl-l: 96%; --theme-color-warning-dark-100-hsl-h: 40; --theme-color-warning-dark-100-hsl-s: 92%; --theme-color-warning-dark-100-hsl-l: 91%; --theme-color-warning-dark-200-hsl-h: 40; --theme-color-warning-dark-200-hsl-s: 98%; --theme-color-warning-dark-200-hsl-l: 84%; --theme-color-warning-dark-300-hsl-h: 41; --theme-color-warning-dark-300-hsl-s: 99%; --theme-color-warning-dark-300-hsl-l: 77%; --theme-color-warning-dark-400-hsl-h: 41; --theme-color-warning-dark-400-hsl-s: 100%; --theme-color-warning-dark-400-hsl-l: 68%; --theme-color-warning-dark-500-hsl-h: 45; --theme-color-warning-dark-500-hsl-s: 100%; --theme-color-warning-dark-500-hsl-l: 51%; --theme-color-warning-dark-600-hsl-h: 45; --theme-color-warning-dark-600-hsl-s: 100%; --theme-color-warning-dark-600-hsl-l: 43%; --theme-color-warning-dark-700-hsl-h: 45; --theme-color-warning-dark-700-hsl-s: 100%; --theme-color-warning-dark-700-hsl-l: 35%; --theme-color-warning-dark-800-hsl-h: 44; --theme-color-warning-dark-800-hsl-s: 100%; --theme-color-warning-dark-800-hsl-l: 28%; --theme-color-warning-dark-900-hsl-h: 43; --theme-color-warning-dark-900-hsl-s: 100%; --theme-color-warning-dark-900-hsl-l: 22%;--theme-color-warning-content-hsl-h: 23;--theme-color-warning-content-hsl-s: 92%;--theme-color-warning-content-hsl-l: 25%;--theme-color-warning-content: var(--theme-color-warning-content-hsl-h) var(--theme-color-warning-content-hsl-s) var(--theme-color-warning-content-hsl-l);--theme-color-warning-content-dark-hsl-h: 23;--theme-color-warning-content-dark-hsl-s: 92%;--theme-color-warning-content-dark-hsl-l: 25%;--theme-color-warning-content-dark: var(--theme-color-warning-content-dark-hsl-h) var(--theme-color-warning-content-dark-hsl-s) var(--theme-color-warning-content-dark-hsl-l);--theme-color-error-hsl-h: 350;--theme-color-error-hsl-s: 100%;--theme-color-error-hsl-l: 69%;--theme-color-error: var(--theme-color-error-hsl-h) var(--theme-color-error-hsl-s) var(--theme-color-error-hsl-l);--theme-color-error-dark-hsl-h: 350;--theme-color-error-dark-hsl-s: 100%;--theme-color-error-dark-hsl-l: 69%;--theme-color-error-dark: var(--theme-color-error-dark-hsl-h) var(--theme-color-error-dark-hsl-s) var(--theme-color-error-dark-hsl-l);--theme-color-error-content-hsl-h: 342;--theme-color-error-content-hsl-s: 95%;--theme-color-error-content-hsl-l: 15%;--theme-color-error-content: var(--theme-color-error-content-hsl-h) var(--theme-color-error-content-hsl-s) var(--theme-color-error-content-hsl-l);--theme-color-error-content-dark-hsl-h: 342;--theme-color-error-content-dark-hsl-s: 95%;--theme-color-error-content-dark-hsl-l: 15%;--theme-color-error-content-dark: var(--theme-color-error-content-dark-hsl-h) var(--theme-color-error-content-dark-hsl-s) var(--theme-color-error-content-dark-hsl-l) }
+</style>
+
+
+
+
+    <link data-turbo-track="reload" rel="stylesheet" href="/studio/zh/-/theme-assets/eyJ0aGVtZV9zY29wZSI6Indpa2kiLCJ0aGVtZV9uYW1lIjoid2lraSIsImFzc2V0X29pZCI6ImQ0NjFhNDU5Yzg2MGVjYzhjMDU0ZTllZTNjMDY0YjNlMmJmMGU1YTciLCJwYXRoIjoic3R5bGVzaGVldHMvYXBwbGljYXRpb24uY3NzIn0--c806aba8ef7a6df0302c32e6805b97ccbe23e9a1cb7db69edaa393bffef66327/stylesheets/application.css"></link>
+    <link data-turbo-track="reload" rel="stylesheet" href="https://helpcdn.style3d.cn/assets/theme-shared/tailwind-2625abe7.css"></link>
+    <script data-turbo-track="reload" src="https://helpcdn.style3d.cn/assets/theme-shared/main-0428009d.js"></script>
+    <script defer="defer" data-turbo-track="reload" src="/studio/zh/-/theme-assets/eyJ0aGVtZV9zY29wZSI6Indpa2kiLCJ0aGVtZV9uYW1lIjoid2lraSIsImFzc2V0X29pZCI6ImIyNDMxMGFmZTgzOTdhMTQyNjY0ZDZmNzQ2Y2ZmYTFlYzI5MDNjMTciLCJwYXRoIjoiamF2YXNjcmlwdHMvYXBwbGljYXRpb24uanMifQ--31877e2b4b66080383b585b0d16347133c83e98856522d8e12cca71afcb9c8e8/javascripts/application.js"></script>
+
+    <style>
+      [x-cloak] { display: none !important; }
+      html[data-theme="light"] { color-scheme: light; }
+      html[data-theme="dark"] { color-scheme: dark; }:root {
+        --max-content-width: 1280px;
+        --left-sidebar-width: 240px;
+        --right-sidebar-width: 240px;
+        --header-height: 64px;
+      }
+    </style>
+
+    
+    
+
+    
+  </head>
+  <body id="js--body" class="grid grid-rows-[auto_1fr_auto] min-h-screen bg-base-100 text-base-content tracking-wide transition-colors duration-200" x-data="{ isHomePage: false }" x-init="isHomePage = location.pathname === '/studio/zh/'">
+    
+
+
+
+
+
+
+
+
+<header
+  class="js--header sticky top-0 z-50 flex flex-col h-16 w-full px-4 [transform:translate3d(0,0,0)] justify-center backdrop-blur transition-shadow duration-100 print:hidden shadow-xs
+         bg-[var(--header-bg)] text-[var(--header-text)]
+         dark:bg-[var(--header-bg-dark)] dark:text-[var(--header-text-dark)]"
+  style="
+    --header-bg: #ffffff;
+    --header-text: #000000;
+    --header-bg-dark: --color-primary;
+    --header-text-dark: --color-primary-content;
+  "
+>
+  <nav class="navbar py-0 max-w-[var(--max-content-width)] mx-auto px-0 flex items-center justify-between w-full space-x-4">
+    <div class="flex gap-2 justify-between items-center w-full min-w-0 lg:gap-4">
+      
+<div class="flex items-center">
+	<a href="/studio/zh/" class="flex gap-2 items-center">
+		
+		
+			
+			
+				<div class='w-8 h-8 avatar'>
+					<img src="/studio/zh/-/dam/assets/organization_lendcx--main-version--128x128/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MzMwNSwicGF0aCI6ImZhdmljb24iLCJ0aW1lc3RhbXAiOiIyMDI0LTA2LTE4VDE2OjMxOjA0LjkwOSswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbi0tMTI4eDEyOCJ9fQ--4bfad59357fdce6807edfe5dbf8d1a90509502e26813266cac53f6f4742dbe3c/favicon" class="rounded-md !object-contain" alt="Style3D Studio帮助中心" />
+				</div>
+			
+			<span class="hidden text-xl font-bold md:block">Style3D Studio帮助中心</span>
+		
+	</a>
+</div>
+
+      <div class="drawer md:hidden">
+    <input id="header-drawer-left" type="checkbox" class="drawer-toggle" x-init="$el.checked = false;" />
+    <div class="drawer-content">
+      <label for="header-drawer-left" class="drawer-button btn btn-ghost px-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="size-6 h-6 w-6"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </label>
+    </div>
+    <div class="drawer-side z-[999]">
+      <label
+        for="header-drawer-left"
+        aria-label="close sidebar"
+        class="drawer-overlay"
+      ></label>
+      <div class="bg-base-200 text-base-content min-h-full w-90">
+        <div class='card flex flex-col bg-white py-4 h-dvh rounded-l-none dark:bg-slate-800 dark:text-slate-200'>
+          <div class="px-4 flex-0 flex justify-center items-center space-x-2">
+            
+<div class="flex items-center">
+	<a href="/studio/zh/" class="flex gap-2 items-center">
+		
+		
+			
+			
+				<div class='w-8 h-8 avatar'>
+					<img src="/studio/zh/-/dam/assets/organization_lendcx--main-version--128x128/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MzMwNSwicGF0aCI6ImZhdmljb24iLCJ0aW1lc3RhbXAiOiIyMDI0LTA2LTE4VDE2OjMxOjA0LjkwOSswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbi0tMTI4eDEyOCJ9fQ--4bfad59357fdce6807edfe5dbf8d1a90509502e26813266cac53f6f4742dbe3c/favicon" class="rounded-md !object-contain" alt="Style3D Studio帮助中心" />
+				</div>
+			
+			<span class="hidden text-xl font-bold md:block">Style3D Studio帮助中心</span>
+		
+	</a>
+</div>
+
+		        <span class="md:hidden text-xl font-bold">Style3D Studio帮助中心</span>
+          </div>
+
+          
+
+          <div class='flex-1 overflow-y-auto min-h-0 border-t border-slate-200 dark:border-slate-700 mt-4 pt-2 custom-menu' @click="if($event.target.closest('a')) $event.target.closest('.drawer').querySelector('#header-drawer-left').checked = false">
+            <turbo-frame id="page_nav_tree_frame__" src="/studio/zh/s/page/nav_tree" loading="lazy" class='w-full'>
+              <div class="flex items-center justify-center h-20 text-base-content/60 w-full">
+                <span class="loading loading-spinner loading-md"></span>
+              </div>
+            </turbo-frame>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+      
+    </div>
+
+    
+    
+    
+    <div class="flex gap-2 items-center min-w-0 shrink-0 sm:gap-3">
+      <div class="hidden gap-2 items-center lg:flex">
+        <details class="dropdown dropdown-end" name="studio-help-header-menu">
+          <summary class="inline-flex h-10 min-w-24 cursor-pointer items-center justify-center rounded-lg bg-neutral px-4 text-sm font-medium text-neutral-content hover:bg-neutral/85 list-none">中文</summary>
+          <ul class="menu dropdown-content z-[60] mt-2 w-32 rounded-lg bg-base-100 p-2 text-base-content shadow-lg [&_a]:whitespace-nowrap [&_a]:text-base-content" style="min-width: 8rem;">
+            
+              <li><a href="https://help.style3d.com/studio/zh/">中文</a></li>
+              <li><a href="https://help.style3d.com/studio/en/">English</a></li>
+            
+          </ul>
+        </details>
+
+        <details class="dropdown dropdown-end" name="studio-help-header-menu">
+          <summary class="inline-flex h-10 min-w-24 cursor-pointer items-center justify-center rounded-lg bg-neutral px-4 text-sm font-medium text-neutral-content hover:bg-neutral/85 list-none">更多产品</summary>
+          <ul class="menu dropdown-content z-[60] mt-2 w-52 rounded-lg bg-base-100 p-2 text-base-content shadow-lg [&_a]:whitespace-nowrap [&_a]:text-base-content" style="min-width: 13rem;">
+            <li><a href="https://help.style3d.com/cloud/zh/" target="_blank" rel="noopener">Style3D Cloud</a></li>
+            <li><a href="https://help.style3d.com/fabric/zh/" target="_blank" rel="noopener">Style3D Fabric</a></li>
+            <li><a href="https://help.style3d.com/simulator/zh/" target="_blank" rel="noopener">Style3D Simulator</a></li>
+            <li><a href="https://help.style3d.com/mixmatch/zh/" target="_blank" rel="noopener">Style3D MixMatch</a></li>
+            <li><a href="https://help.style3d.com/goshop/zh/" target="_blank" rel="noopener">Style3D GoShop</a></li>
+          </ul>
+        </details>
+      </div>
+
+      <a
+        href="/studio/zh/-/search"
+        class="inline-flex size-10 shrink-0 cursor-pointer items-center justify-center rounded-lg p-1 hover:bg-base-200 hover:text-base-content"
+        aria-label="搜索..."
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-base-content/70" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M16.5 10.5A6 6 0 1 1 10.5 4.5a6 6 0 0 1 6 6z" />
+        </svg>
+      </a>
+
+      <style>
+        .studio-theme-switch--light { display: inline-flex; }
+        .studio-theme-switch--dark { display: none; }
+        [data-theme="dark"] .studio-theme-switch--light { display: none; }
+        [data-theme="dark"] .studio-theme-switch--dark { display: inline-flex; }
+      </style>
+
+      <button
+        type="button"
+        class="inline-flex size-10 shrink-0 cursor-pointer items-center justify-center rounded-lg p-1 hover:bg-base-200 hover:text-base-content studio-theme-switch--light"
+        data-action="theme#toggle"
+        data-theme-mode-param="dark"
+        aria-label="切换到暗色模式"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-amber-300" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M21.64 13.65A9 9 0 0110.35 2.36 9 9 0 1021.64 13.65z" />
+        </svg>
+      </button>
+
+      <button
+        type="button"
+        class="inline-flex size-10 shrink-0 cursor-pointer items-center justify-center rounded-lg p-1 hover:bg-base-200 hover:text-base-content studio-theme-switch--dark"
+        data-action="theme#toggle"
+        data-theme-mode-param="light"
+        aria-label="切换到亮色模式"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm3 1a1 1 0 100-2h-1a1 1 0 100 2h1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM11 16a1 1 0 10-2 0v1a1 1 0 102 0v-1zM4 11a1 1 0 100-2H3a1 1 0 000 2h1zm10.95 3.536a1 1 0 10-1.414 1.414l.707.707a1 1 0 001.414-1.414l-.707-.707zm.707-10.193a1 1 0 00-1.414 0l-.707.707a1 1 0 001.414 1.414l.707-.707a1 1 0 000-1.414z" clip-rule="evenodd" />
+        </svg>
+      </button>
+
+      
+    </div>
+  </nav>
+</header>
+    <div class="px-4" x-data="{ show_navtree: true }">
+	<div
+		class="w-full max-w-[var(--max-content-width)] mx-auto grid grid-cols-1 gap-6 group"
+		:class="show_navtree ? 'lg:grid-cols-[var(--left-sidebar-width)_1fr]' : 'lg:grid-cols-1'"
+	>
+		
+		
+
+<div
+  class="hidden min-w-0 lg:block"
+  x-show="show_navtree"
+  x-cloak
+>
+  <aside class="h-full min-w-0 border-r border-slate-200 dark:border-gray-700">
+    <div class="sticky top-[calc(var(--header-height)_+_1rem)] max-h-[calc(100vh-var(--header-height)-4rem)] max-w-full w-full overflow-auto custom-menu px-2 pt-5">
+      
+			<turbo-frame id="page_nav_tree_frame__" src="/studio/zh/s/page/nav_tree" loading="lazy">
+				<div class="flex items-center justify-center h-20 text-base-content/60">
+					<span class="loading loading-spinner loading-md"></span>
+				</div>
+			</turbo-frame>
+		
+    </div>
+  </aside>
+</div>
+
+<button
+  type="button"
+  class="page-sidebar-collapse-close fixed top-[calc(var(--header-height)+1rem)] z-50 hidden size-10 cursor-pointer items-center justify-center rounded-full border border-slate-200 bg-white text-slate-800 hover:bg-primary hover:text-white dark:border-gray-700 dark:bg-slate-900 dark:text-slate-500 dark:hover:text-white lg:flex"
+  style="left: calc((100vw - min(var(--max-content-width), 100vw - 2rem)) / 2 + var(--left-sidebar-width) - 1.25rem);"
+  x-show="show_navtree"
+  x-cloak
+  @click="show_navtree = false"
+  aria-label="关闭侧边栏"
+>
+  <svg class="size-5" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path fill="currentColor" d="M754.347 193.585l51.688 51.712-266.703 266.581 266.728 266.85-51.736 51.688-318.415-318.562L754.322 193.585zm-268.19 0l51.688 51.712-266.703 266.581 266.728 266.85-51.736 51.688L167.741 511.878 486.132 193.585z"/>
+  </svg>
+</button>
+
+<button
+  type="button"
+  class="fixed -left-px top-[calc(var(--header-height)+1rem)] z-50 hidden cursor-pointer items-center rounded-r-full border border-slate-200 bg-white px-3 py-1 text-slate-800 hover:bg-primary hover:text-white dark:border-gray-700 dark:bg-slate-900 dark:text-slate-500 lg:flex"
+  x-show="!show_navtree"
+  x-cloak
+  @click="show_navtree = true"
+  aria-label="展开侧边栏"
+>
+  <svg class="size-5 rotate-180" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path fill="currentColor" d="M754.347 193.585l51.688 51.712-266.703 266.581 266.728 266.85-51.736 51.688-318.415-318.562L754.322 193.585zm-268.19 0l51.688 51.712-266.703 266.581 266.728 266.85-51.736 51.688L167.741 511.878 486.132 193.585z"/>
+  </svg>
+</button>
+
+
+		<turbo-frame id="main-content-frame" class='w-full' x-init="
+               $el.addEventListener('turbo:before-fetch-request', () => {
+                 $el.scrollTop = 0
+                 window.scrollTo({ top: 0, behavior: 'instant' })
+               })
+             ">
+			<div
+				data-controller="toc"
+				data-toc-header-selector-value=".js--header"
+				data-toc-offset-value="10"
+				data-toc-clipboard-success-value="链接已复制"
+				class='w-full group'
+			>
+				<div class='grid grid-cols-1 gap-6 group-[.has-toc]:lg:grid-cols-[1fr_var(--right-sidebar-width)] pt-4'>
+					<!-- 中间内容 -->
+					<div class="px-0 lg:px-4 overflow-hidden">
+						
+
+
+
+
+  <div class="breadcrumbs text-sm text-gray-500 dark:text-gray-400 no-scrollbar">
+    <ul>
+      
+        <li>
+          
+            <svg class="size-4 mr-2 flex-shrink-0 stroke-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 20C20 20.5523 19.5523 21 19 21H5C4.44772 21 4 20.5523 4 20V11L1 11L11.3273 1.6115C11.7087 1.26475 12.2913 1.26475 12.6727 1.6115L23 11L20 11V20ZM12 15C13.3807 15 14.5 13.8807 14.5 12.5C14.5 11.1193 13.3807 9.99998 12 9.99998C10.6193 9.99998 9.5 11.1193 9.5 12.5C9.5 13.8807 10.6193 15 12 15Z"></path></svg>
+          
+          <a href="/studio/zh/" data-turbo-frame="_top" class="line-clamp-1">首页</a>
+        </li>
+      
+        <li>
+          
+          <a href="/studio/zh/751c" data-turbo-frame="_top" class="line-clamp-1">1. 快速上手指南</a>
+        </li>
+      
+        <li>
+          
+          <a href="/studio/zh/751c/b8b2a" data-turbo-frame="_top" class="line-clamp-1">首个工程文件完整工作流</a>
+        </li>
+      
+    </ul>
+  </div>
+
+						
+							<article class="flex flex-col h-full">
+  
+  
+
+  
+  
+  <header
+    class="mb-4 py-1 flex items-start justify-between gap-3"
+  >
+    <h1 class="text-xl font-bold md:text-3xl lg:text-4xl">
+      首个工程文件完整工作流
+    </h1>
+    
+      <div
+  class="join shrink-0 rounded-md border border-base-300 bg-base-100"
+  data-controller="copy-page page-tools"
+  data-copy-page-copying-text-value="复制中..."
+  data-copy-page-success-text-value="已复制"
+  data-copy-page-markdown-url-value="https://help.style3d.com/studio/zh/751c/b8b2a.md"
+  data-page-tools-markdown-url-value="https://help.style3d.com/studio/zh/751c/b8b2a.md"
+  data-page-tools-llm-prompt-value="读取 https://help.style3d.com/studio/zh/751c/b8b2a.md 的内容，以便我可以询问关于它的问题。"
+  data-page-tools-mcp-url-value="https://help.style3d.com/studio/zh/-/mcp"
+>
+  <button type="button" class="btn btn-ghost btn-sm join-item border-0 bg-transparent hover:bg-base-200 px-4"
+    data-action="copy-page#copyPage">
+    <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2">
+      <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+    </svg>
+    <span data-copy-page-target="buttonLabel">复制页面</span>
+  </button>
+  <div class="dropdown dropdown-end join-item">
+    <div tabindex="0" role="button"
+      class="btn btn-ghost btn-sm rounded-none border-0 border-l border-base-300 bg-transparent px-3 hover:bg-base-200">
+      <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"></path>
+      </svg>
+    </div>
+    <ul tabindex="-1"
+      class="dropdown-content menu bg-base-100 rounded-box z-10 mt-2 min-w-80 p-2 shadow-sm border border-base-300">
+      <li>
+        <button type="button" class="group flex items-start gap-2.5 rounded-xl p-2 text-left"
+          data-action="copy-page#copyPage">
+          <span
+            class="flex size-9 shrink-0 items-center justify-center rounded-xl border border-base-300 bg-base-100 text-base-content/50 transition-colors group-hover:text-base-content/70">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+          </span>
+          <span class="flex min-w-0 flex-1 flex-col">
+            <span class="font-semibold leading-tight">复制页面</span>
+            <span class="mt-0.5 text-xs text-base-content/60 leading-tight">将页面以 Markdown 格式复制给 LLMs</span>
+          </span>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="group flex w-full items-start gap-2.5 rounded-xl p-2 text-left"
+          data-action="page-tools#openExternal" data-page-tools-provider-param="chatgpt">
+          <span
+            class="flex size-9 shrink-0 items-center justify-center rounded-xl border border-base-300 bg-base-100 text-base-content/50 transition-colors group-hover:text-base-content/70">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 shrink-0" viewBox="0 0 24 24" fill="currentColor"
+              fill-rule="evenodd">
+              <path
+                d="M21.55 10.004a5.416 5.416 0 00-.478-4.501c-1.217-2.09-3.662-3.166-6.05-2.66A5.59 5.59 0 0010.831 1C8.39.995 6.224 2.546 5.473 4.838A5.553 5.553 0 001.76 7.496a5.487 5.487 0 00.691 6.5 5.416 5.416 0 00.477 4.502c1.217 2.09 3.662 3.165 6.05 2.66A5.586 5.586 0 0013.168 23c2.443.006 4.61-1.546 5.361-3.84a5.553 5.553 0 003.715-2.66 5.488 5.488 0 00-.693-6.497v.001zm-8.381 11.558a4.199 4.199 0 01-2.675-.954c.034-.018.093-.05.132-.074l4.44-2.53a.71.71 0 00.364-.623v-6.176l1.877 1.069c.02.01.033.029.036.05v5.115c-.003 2.274-1.87 4.118-4.174 4.123zM4.192 17.78a4.059 4.059 0 01-.498-2.763c.032.02.09.055.131.078l4.44 2.53c.225.13.504.13.73 0l5.42-3.088v2.138a.068.068 0 01-.027.057L9.9 19.288c-1.999 1.136-4.552.46-5.707-1.51h-.001zM3.023 8.216A4.15 4.15 0 015.198 6.41l-.002.151v5.06a.711.711 0 00.364.624l5.42 3.087-1.876 1.07a.067.067 0 01-.063.005l-4.489-2.559c-1.995-1.14-2.679-3.658-1.53-5.63h.001zm15.417 3.54l-5.42-3.088L14.896 7.6a.067.067 0 01.063-.006l4.489 2.557c1.998 1.14 2.683 3.662 1.529 5.633a4.163 4.163 0 01-2.174 1.807V12.38a.71.71 0 00-.363-.623zm1.867-2.773a6.04 6.04 0 00-.132-.078l-4.44-2.53a.731.731 0 00-.729 0l-5.42 3.088V7.325a.068.068 0 01.027-.057L14.1 4.713c2-1.137 4.555-.46 5.707 1.513.487.833.664 1.809.499 2.757h.001zm-11.741 3.81l-1.877-1.068a.065.065 0 01-.036-.051V6.559c.001-2.277 1.873-4.122 4.181-4.12.976 0 1.92.338 2.671.954-.034.018-.092.05-.131.073l-4.44 2.53a.71.71 0 00-.365.623l-.003 6.173v.002zm1.02-2.168L12 9.25l2.414 1.375v2.75L12 14.75l-2.415-1.375v-2.75z">
+              </path>
+            </svg>
+          </span>
+          <span class="flex min-w-0 flex-1 flex-col">
+            <span class="inline-flex items-center gap-1 font-semibold leading-tight">
+              在 ChatGPT 中打开
+              <svg xmlns="http://www.w3.org/2000/svg"
+                class="size-3 text-base-content/60 transition-colors group-hover:text-base-content/80"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7h9v9"></path>
+              </svg>
+            </span>
+            <span class="mt-0.5 text-xs text-base-content/60 leading-tight">询问有关此页面的问题</span>
+          </span>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="group flex w-full items-start gap-2.5 rounded-xl p-2 text-left"
+          data-action="page-tools#openExternal" data-page-tools-provider-param="claude">
+          <span
+            class="flex size-9 shrink-0 items-center justify-center rounded-xl border border-base-300 bg-base-100 text-base-content/50 transition-colors group-hover:text-base-content/70">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 shrink-0" viewBox="0 0 256 257" fill="currentColor"
+              fill-rule="evenodd" preserveAspectRatio="xMidYMid">
+              <path
+                d="m50.228 170.321 50.357-28.257.843-2.463-.843-1.361h-2.462l-8.426-.518-28.775-.778-24.952-1.037-24.175-1.296-6.092-1.297L0 125.796l.583-3.759 5.12-3.434 7.324.648 16.202 1.101 24.304 1.685 17.629 1.037 26.118 2.722h4.148l.583-1.685-1.426-1.037-1.101-1.037-25.147-17.045-27.22-18.017-14.258-10.37-7.713-5.25-3.888-4.925-1.685-10.758 7-7.713 9.397.649 2.398.648 9.527 7.323 20.35 15.75L94.817 91.9l3.889 3.24 1.555-1.102.195-.777-1.75-2.917-14.453-26.118-15.425-26.572-6.87-11.018-1.814-6.61c-.648-2.723-1.102-4.991-1.102-7.778l7.972-10.823L71.42 0 82.05 1.426l4.472 3.888 6.61 15.101 10.694 23.786 16.591 32.34 4.861 9.592 2.592 8.879.973 2.722h1.685v-1.556l1.36-18.211 2.528-22.36 2.463-28.776.843-8.1 4.018-9.722 7.971-5.25 6.222 2.981 5.12 7.324-.713 4.73-3.046 19.768-5.962 30.98-3.889 20.739h2.268l2.593-2.593 10.499-13.934 17.628-22.036 7.778-8.749 9.073-9.657 5.833-4.601h11.018l8.1 12.055-3.628 12.443-11.342 14.388-9.398 12.184-13.48 18.147-8.426 14.518.778 1.166 2.01-.194 30.46-6.481 16.462-2.982 19.637-3.37 8.88 4.148.971 4.213-3.5 8.62-20.998 5.184-24.628 4.926-36.682 8.685-.454.324.519.648 16.526 1.555 7.065.389h17.304l32.21 2.398 8.426 5.574 5.055 6.805-.843 5.184-12.962 6.611-17.498-4.148-40.83-9.721-14-3.5h-1.944v1.167l11.666 11.406 21.387 19.314 26.767 24.887 1.36 6.157-3.434 4.86-3.63-.518-23.526-17.693-9.073-7.972-20.545-17.304h-1.36v1.814l4.73 6.935 25.017 37.59 1.296 11.536-1.814 3.76-6.481 2.268-7.13-1.297-14.647-20.544-15.1-23.138-12.185-20.739-1.49.843-7.194 77.448-3.37 3.953-7.778 2.981-6.48-4.925-3.436-7.972 3.435-15.749 4.148-20.544 3.37-16.333 3.046-20.285 1.815-6.74-.13-.454-1.49.194-15.295 20.999-23.267 31.433-18.406 19.702-4.407 1.75-7.648-3.954.713-7.064 4.277-6.286 25.47-32.405 15.36-20.092 9.917-11.6-.065-1.686h-.583L44.07 198.125l-12.055 1.555-5.185-4.86.648-7.972 2.463-2.593 20.35-13.999-.064.065Z">
+              </path>
+            </svg>
+          </span>
+          <span class="flex min-w-0 flex-1 flex-col">
+            <span class="inline-flex items-center gap-1 font-semibold leading-tight">
+              在 Claude 中打开
+              <svg xmlns="http://www.w3.org/2000/svg"
+                class="size-3 text-base-content/60 transition-colors group-hover:text-base-content/80"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7h9v9"></path>
+              </svg>
+            </span>
+            <span class="mt-0.5 text-xs text-base-content/60 leading-tight">询问有关此页面的问题</span>
+          </span>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="group flex items-start gap-2.5 rounded-xl p-2 text-left"
+          data-action="page-tools#copyMcpCommand">
+          <span
+            class="flex size-9 shrink-0 items-center justify-center rounded-xl border border-base-300 bg-base-100 text-base-content/50 transition-colors group-hover:text-base-content/70">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+              <path d="m9 10 2 2-2 2M13 14h3"></path>
+            </svg>
+          </span>
+          <span class="flex min-w-0 flex-1 flex-col">
+            <span class="font-semibold leading-tight">复制 MCP 安装命令</span>
+            <span class="mt-0.5 text-xs text-base-content/60 leading-tight">复制 npx 命令以安装 MCP 服务器</span>
+          </span>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="group flex w-full items-start gap-2.5 rounded-xl p-2 text-left"
+          data-action="page-tools#openExternal" data-page-tools-provider-param="cursor">
+          <span
+            class="flex size-9 shrink-0 items-center justify-center rounded-xl border border-base-300 bg-base-100 text-base-content/50 transition-colors group-hover:text-base-content/70">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 shrink-0" viewBox="0 0 16 16" fill="none">
+              <path
+                d="M14.4734 3.9527L8.31773 0.398522C8.22052 0.342485 8.11029 0.312988 7.99809 0.312988C7.88589 0.312988 7.77566 0.342485 7.67846 0.398522L1.52355 3.9527C1.44182 3.99989 1.37394 4.06773 1.32671 4.14942C1.27948 4.23112 1.25457 4.32379 1.25446 4.41816V11.584C1.25457 11.6783 1.27948 11.771 1.32671 11.8527C1.37394 11.9344 1.44182 12.0022 1.52355 12.0494L7.67918 15.6036C7.77636 15.6597 7.8866 15.6893 7.99882 15.6893C8.11103 15.6893 8.22127 15.6597 8.31846 15.6036L14.4741 12.0502C14.5558 12.003 14.6237 11.9351 14.6709 11.8534C14.7182 11.7717 14.7431 11.6791 14.7432 11.5847V4.41743C14.7431 4.32307 14.7182 4.23039 14.6709 4.14869C14.6237 4.067 14.5558 3.99916 14.4741 3.95198L14.4734 3.9527ZM14.0872 4.70543L8.14464 14.9978C8.10464 15.0669 7.99846 15.0385 7.99846 14.9578V8.21889C7.99841 8.15254 7.98092 8.08738 7.94773 8.02993C7.91454 7.97249 7.86682 7.92478 7.80936 7.89161L1.97373 4.52361C1.90391 4.48289 1.93227 4.3767 2.013 4.3767H13.8966C14.0661 4.3767 14.1715 4.55925 14.0872 4.70543Z"
+                fill="currentColor"></path>
+            </svg>
+          </span>
+          <span class="flex min-w-0 flex-1 flex-col">
+            <span class="inline-flex items-center gap-1 font-semibold leading-tight">
+              连接到Cursor
+              <svg xmlns="http://www.w3.org/2000/svg"
+                class="size-3 text-base-content/60 transition-colors group-hover:text-base-content/80"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7h9v9"></path>
+              </svg>
+            </span>
+            <span class="mt-0.5 text-xs text-base-content/60 leading-tight">在 Cursor 中安装 MCP Server</span>
+          </span>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="group flex w-full items-start gap-2.5 rounded-xl p-2 text-left"
+          data-action="page-tools#openExternal" data-page-tools-provider-param="vscode">
+          <span
+            class="flex size-9 shrink-0 items-center justify-center rounded-xl border border-base-300 bg-base-100 text-base-content/50 transition-colors group-hover:text-base-content/70">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 shrink-0" viewBox="0 0 100 100" fill="currentColor">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M70.9119 99.3171C72.4869 99.9307 74.2828 99.8914 75.8725 99.1264L96.4608 89.2197C98.6242 88.1787 100 85.9892 100 83.5872V16.4133C100 14.0113 98.6243 11.8218 96.4609 10.7808L75.8725 0.873756C73.7862 -0.130129 71.3446 0.11576 69.5135 1.44695C69.252 1.63711 69.0028 1.84943 68.769 2.08341L29.3551 38.0415L12.1872 25.0096C10.589 23.7965 8.35363 23.8959 6.86933 25.2461L1.36303 30.2549C-0.452552 31.9064 -0.454633 34.7627 1.35853 36.417L16.2471 50.0001L1.35853 63.5832C-0.454633 65.2374 -0.452552 68.0938 1.36303 69.7453L6.86933 74.7541C8.35363 76.1043 10.589 76.2037 12.1872 74.9905L29.3551 61.9587L68.769 97.9167C69.3925 98.5406 70.1246 99.0104 70.9119 99.3171ZM75.0152 27.2989L45.1091 50.0001L75.0152 72.7012V27.2989Z">
+              </path>
+            </svg>
+          </span>
+          <span class="flex min-w-0 flex-1 flex-col">
+            <span class="inline-flex items-center gap-1 font-semibold leading-tight">
+              连接到VS Code
+              <svg xmlns="http://www.w3.org/2000/svg"
+                class="size-3 text-base-content/60 transition-colors group-hover:text-base-content/80"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7h9v9"></path>
+              </svg>
+            </span>
+            <span class="mt-0.5 text-xs text-base-content/60 leading-tight">在 VS Code 中安装 MCP Server</span>
+          </span>
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+    
+  </header>
+
+  
+  
+
+  
+  
+  
+
+  <hr class='text-base-content/10 mb-4'/>
+
+  
+  <section id="page-content" class="ProseMirror flex-1 min-h-[20vh]" data-controller="link-target images-viewer" data-toc-target="content">
+    <hr><div bke-uid="Whrcnpb2" bke-columns="2" bke-columns-layout="1:1" bke-role="columns"><div bke-role="column"><div bke-role="paragraph" bke-uid="1RSomle4"></div></div><div bke-role="column"><div bke-role="paragraph" bke-uid="YQyQhcyM"></div></div></div><h1 bke-uid="3VJopce0" bke-align="left" style="text-align: left;"><span style="color: rgb(31, 58, 95); font-size: 16px; line-height: 24px;"><strong>准备工作</strong></span></h1><ul bke-uid="y4OHgFfI"><li bke-uid="0jBIa49s"><div bke-role="paragraph" bke-uid="JbSgw1Kv"><span style="font-size: 16px; line-height: 24px;">已安装 Style3D Studio（推荐 V8.0 及以上版本）</span></div></li><li bke-uid="Afh2qDiY"><div bke-role="paragraph" bke-uid="UnvbOQ2r"><span style="font-size: 16px; line-height: 24px;">已登录账号，且本机内存 ≥ 8GB（模拟需要空闲内存 ≥ 1GB）</span></div></li><li bke-uid="1gom5dJY"><div bke-role="paragraph" bke-uid="eB6oCjO0"><span style="font-size: 16px; line-height: 24px;">准备一份 DXF 版片文件（来自 ET、富怡、力克、格博等 CAD 软件均可）</span></div></li></ul><div bke-role="paragraph" bke-uid="vNAT22AY"><span style="color: rgb(192, 96, 0); font-size: 16px; line-height: 24px;"><strong>� 提示：</strong></span><span style="font-size: 16px; line-height: 24px;">如果暂时没有 DXF，可在 Studio 资源库中下载示例工程的版片；本教程默认以一份基础短袖 T 恤的 DXF 为例。</span></div><h1 bke-uid="Dcnsarm7" bke-align="left" style="text-align: left;"><span style="color: rgb(31, 58, 95); font-size: 16px; line-height: 24px;"><strong>界面速览</strong></span></h1><div bke-role="paragraph" bke-uid="o4Mzs4vY"><span style="font-size: 16px; line-height: 24px;">Studio 工作区主要由三部分组成：</span></div><ul bke-uid="LTwT8EN3"><li bke-uid="NfFIJlLu"><div bke-role="paragraph" bke-uid="cPl0t0zc"><span style="font-size: 16px; line-height: 24px;">左侧 2D 窗口 — 显示版片，用于编辑形状、缝纫线</span></div></li><li bke-uid="aoeZWRoM"><div bke-role="paragraph" bke-uid="3tf3uD1G"><span style="font-size: 16px; line-height: 24px;">右侧 3D 窗口 — 显示穿着在模特上的服装，进行模拟与渲染</span></div></li><li bke-uid="s47Q5g3d"><div bke-role="paragraph" bke-uid="NhCMArai"><span style="font-size: 16px; line-height: 24px;">顶部工具栏 — 文件、开始（编辑工具）、素材等</span></div></li></ul><div bke-role="paragraph" bke-uid="yWgozzZj"><img bke-role="image" bke-uid="lg0b7s4Q" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MjgsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjUyOjAyLjY1NiswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--bebaac54ed9ab948c8218364da4aa7c6d68a69fed92c891815d41f8f3bd3516e/image.png" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MjgsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTI6MDIuNTEzKzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--c90fa56092a4e0bd22bc3de9245f53b84834cec9974c9ad95995694088782cd6" bke-dam-type="image" title="image.png"></div><div bke-role="paragraph" bke-uid="DdJbDNxS" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 顶部工具栏 - 开始栏工具一</em></span></div><div bke-role="paragraph" bke-uid="2eN9GTQD" bke-align="center" style="text-align: center;"><span style="font-size: 12px; line-height: 18px;"><img bke-role="image" bke-uid="OtaxYfRA" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MjgsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjUyOjAyLjY1NiswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--bebaac54ed9ab948c8218364da4aa7c6d68a69fed92c891815d41f8f3bd3516e/image.png" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MjgsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTI6MDIuNjU2KzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--f6de804e65e676a3e446a8007de9ac94849cdc249cdff150944e829f67346d8b" bke-dam-type="image" title="image.png"></span></div><div bke-role="paragraph" bke-uid="oP7pjq4t" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 2D 窗口：版片编辑区</em></span></div><div bke-role="paragraph" bke-uid="kBm5ZR86" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="ty7j7JOE" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MjksInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjUyOjIyLjUzMiswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--de753b8e7bd5cebb87ae330f97a73eb13dd01663632a3235b12039fad5e6c752/image.png" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MjksInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTI6MjIuNTMyKzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--17fff1f7e71c50f93547a1747c033761e60036183bbd3b89e136d2c5f3a3905d" bke-dam-type="image" title="image.png"></div><div bke-role="paragraph" bke-uid="Rs4Ae7FT" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 3D 窗口：模特与服装预览</em></span></div><div bke-uid="HvaLet9l" bke-columns="2" bke-columns-layout="1:1" bke-role="columns"><div bke-role="column"><div bke-role="paragraph" bke-uid="gmsa0QNu"></div></div><div bke-role="column"><div bke-role="paragraph" bke-uid="7tbMWlEk"></div></div></div><h1 bke-uid="iQnYnjP3" bke-align="left" style="text-align: left;"><span style="color: rgb(31, 58, 95); font-size: 16px; line-height: 24px;"><strong>步骤一：新建工程</strong></span></h1><ol bke-uid="Z09XeewI"><li bke-uid="hytoEEds"><div bke-role="paragraph" bke-uid="kNX1KQms"><span style="font-size: 16px; line-height: 24px;">打开 Studio 后，会自动创建一个空白工程。</span></div></li></ol><div bke-role="paragraph" bke-uid="oihOKGWa"><img bke-role="image" bke-uid="NYJQIVL3" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzAsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjUyOjQ3LjI2MCswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--030a88424c3c6a6bc01d18929bc2d9cc9cd75156be7caa06d0a7cd1eeead02ce/image.png" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzAsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTI6NDcuMTY4KzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--d2f6bdda944386b9bfe958904502bfc7ccd4c7e98d4b9be412a3468a2afd8ec1" bke-dam-type="image" title="image.png"></div><div bke-role="paragraph" bke-uid="mjifGaOX" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 打开后的空白工程</em></span></div><ol bke-uid="3gE2k68A" start="2"><li bke-uid="jyWGgzBg"><div bke-role="paragraph" bke-uid="IpbewkL5"><span style="font-size: 16px; line-height: 24px;">如当前已有工程文件，则需手动新建：</span></div><div bke-role="paragraph" bke-uid="LHNmNpHl"><span style="font-size: 16px; line-height: 24px;">1) 点击顶部菜单【文件】▶【新建】</span></div><div bke-role="paragraph" bke-uid="lgLisUTg"><img bke-role="image" bke-uid="s1C20vOT" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzEsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjUzOjA1LjExNSswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--4b5c918ee45eb99b63b5403c981ae0690a66f0f84d16f74c0ee8cc9591decd2f/image.png" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzEsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTM6MDUuMDAwKzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--5deddede19f3f4648a99f2513ffa077fafa34b1615180e5dbcab46f5e23bb596" bke-dam-type="image" title="image.png"></div><div bke-role="paragraph" bke-uid="nkGY8Yaz"><span style="font-size: 16px; line-height: 24px;">2) 在弹出的提示中选择是否保存当前的旧工程文件</span></div><div bke-role="paragraph" bke-uid="5rZ2fxjZ" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="HQekldvX" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzIsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjUzOjIwLjA3MiswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--b18869bbaef7c4fe8f7fe744094b41606e825a15ad39d1c1a60cfc8b5d54f5bf/image.png" bke-width="100%" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzIsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTM6MTkuOTM3KzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--f8ce66e0041ba93f91c5ff9e96852dfc5613cbfd99647dbb45acb77d5ba78b3a" bke-dam-type="image" style="width: 100%;" title="image.png"></div><div bke-role="paragraph" bke-uid="8fJy1Cwe"><span style="font-size: 16px; line-height: 24px;">3) 新建完成后，3D 窗口会显示模特，2D 窗口为空</span></div></li></ol><div bke-role="paragraph" bke-uid="es8TEymd"><span style="color: rgb(192, 96, 0); font-size: 16px; line-height: 24px;"><strong>� 提示：</strong></span><span style="font-size: 16px; line-height: 24px;">模特可后续从资源库中替换。</span></div><div bke-role="paragraph" bke-uid="W3DhfSDb" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="yKOH9Nf7" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzMsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjUzOjQwLjU0MyswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--28b0bf3918c0c36701be74003b8045b3d8873411551ef4ab0aa15dfe44287439/image.png" bke-width="94%" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzMsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTM6NDAuNDE2KzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--c9fcf4fa21f736bf711772977439191f92b3e2c7bb175a601683d2fa0d298339" bke-dam-type="image" style="width: 94%;" title="image.png"></div><div bke-role="paragraph" bke-uid="221KNELB" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="8a1PW4Cf" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzQsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjUzOjU1LjA5NSswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--c849edc5dce3f2793d46e61ace5716ce60f46c6f369b21d87391b480ebcfc631/image.png" bke-width="94%" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzQsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTM6NTUuMDk1KzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--9fd10387b3f82c3c08dca64b67d4b04b4c4548e3322c5398e209c189c7175637" bke-dam-type="image" style="width: 94%;" title="image.png"></div><div bke-role="paragraph" bke-uid="UQhabLvO" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 资源库替换模特操作</em></span></div><div bke-uid="N2cbMgPA" bke-columns="2" bke-columns-layout="1:1" bke-role="columns"><div bke-role="column"><div bke-role="paragraph" bke-uid="HmOiUfOd"></div></div><div bke-role="column"><div bke-role="paragraph" bke-uid="QHUUghDI"></div></div></div><h1 bke-uid="pSrmCNIU" bke-align="left" style="text-align: left;"><span style="color: rgb(31, 58, 95); font-size: 16px; line-height: 24px;"><strong>步骤二：导入 DXF 版片</strong></span></h1><h3 bke-uid="uXwdmotz" bke-align="left" style="text-align: left;"><span style="color: rgb(79, 129, 189); font-size: 16px; line-height: 24px;"><strong>操作路径</strong></span></h3><ol bke-uid="CxH58mfo"><li bke-uid="GfBUU4uQ"><div bke-role="paragraph" bke-uid="BrPinC75"><span style="font-size: 16px; line-height: 24px;">顶部菜单【文件】▶【导入】▶【导入 DXF文件】（或直接将 DXF 文件拖入 2D 窗口）</span></div></li><li bke-uid="8rdc7rk4"><div bke-role="paragraph" bke-uid="JXxZxI8a"><span style="font-size: 16px; line-height: 24px;">在导入选项弹窗中确认：单位（毫米/英寸）、是否导入版片缝边、是否反转布纹线等</span></div></li><li bke-uid="Dpkas48k"><div bke-role="paragraph" bke-uid="nhdFMPjt"><span style="font-size: 16px; line-height: 24px;">点击【确定】，版片即出现在 2D 窗口中</span></div></li></ol><div bke-role="paragraph" bke-uid="FnpcOpP2" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="6U5HOhoS" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzYsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjU0OjI0LjM5MyswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--dd03da59b71093260a4a7e77d4cbd5e69dd14ade60e89eb78da38d51c74d8341/image.png" bke-width="53%" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzYsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTQ6MjQuMjc5KzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--1ff853ac5678c27a707e27659f9f6e03ba9f73622cf5d9b6694c88ec879d5c80" bke-dam-type="image" style="width: 53%;" title="image.png"> <img bke-role="image" bke-uid="Ot8jX4gs" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzcsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjU0OjQ3LjE2NiswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--a403dfae3b26205839e58cd1c10d31cdee85d85cbcde387952e27c51f14d2850/image.png" bke-width="35%" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzcsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTQ6NDcuMDY4KzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--9a1a10291a0a89e865616ce8c2d24cb965e1044a6edd110df0d81a88f2bf5978" bke-dam-type="image" style="width: 35%;" title="image.png"></div><div bke-role="paragraph" bke-uid="51ke9GAv" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 资源库替换模特操作</em></span></div><h3 bke-uid="jUffrEk2" bke-align="left" style="text-align: left;"><span style="color: rgb(79, 129, 189); font-size: 16px; line-height: 24px;"><strong>常见问题</strong></span></h3><ul bke-uid="1g9b8f2Z"><li bke-uid="2SA1GUKh"><div bke-role="paragraph" bke-uid="PiRnlzbc"><span style="font-size: 16px; line-height: 24px;">版片轮廓变形 → 检查 CAD 端是否使用了样条曲线；建议先将曲线转为多段线再导出</span></div></li><li bke-uid="I7osuMaR"><div bke-role="paragraph" bke-uid="5f1UGfOT"><span style="font-size: 16px; line-height: 24px;">版片包含多余缝头 → 导入选项中取消勾选「保留缝份」，或在版片属性中手动调整</span></div></li><li bke-uid="JgPoRsZx"><div bke-role="paragraph" bke-uid="vaPKchvw"><span style="font-size: 16px; line-height: 24px;">版片有缺失 → 通常是 DXF 中部分图层未被识别，回到 CAD 检查图层命名与版片闭合</span></div></li></ul><div bke-uid="ALb7kMcC" bke-columns="2" bke-columns-layout="1:1" bke-role="columns"><div bke-role="column"><div bke-role="paragraph" bke-uid="DSwVcFGs"></div></div><div bke-role="column"><div bke-role="paragraph" bke-uid="9hrGuOZl"></div></div></div><h1 bke-uid="9xInes5w" bke-align="left" style="text-align: left;"><span style="color: rgb(31, 58, 95); font-size: 16px; line-height: 24px;"><strong>步骤三：缝制（缝纫与安排）</strong></span></h1><div bke-role="paragraph" bke-uid="FkIR0T5f"><span style="font-size: 16px; line-height: 24px;">缝纫的本质是告诉软件「哪条边和哪条边在模拟时要缝在一起」。Studio 提供 4 种缝纫方式：线缝纫、自由缝纫、多段线缝纫、多段自由缝纫。新手最常用前两种。</span></div><h3 bke-uid="49pCXwCr"><span style="color: rgb(79, 129, 189); font-size: 16px; line-height: 24px;"><strong>3.1 安排版片到模特</strong></span></h3><div bke-role="paragraph" bke-uid="qBvs4fkf"><span style="font-size: 16px; line-height: 24px;">版片刚导入时是平铺的，需要先「安排」到模特身上的大致位置：</span></div><ol bke-uid="bmaXn1Xo"><li bke-uid="GS37XkXV"><div bke-role="paragraph" bke-uid="p7Q8wZdi"><span style="font-size: 16px; line-height: 24px;">在 3D 窗口打开【显示安排点】（小蓝点会浮现在模特周围）</span></div></li><li bke-uid="OlyzSSZW"><div bke-role="paragraph" bke-uid="b2jdoe1v"><span style="font-size: 16px; line-height: 24px;">在 2D 窗口选中版片 → 点击 3D 窗口对应位置的安排点</span></div></li><li bke-uid="xqdfWyRw"><div bke-role="paragraph" bke-uid="3gCwzebj"><span style="font-size: 16px; line-height: 24px;">前片→ 胸前安排点；后片 → 背部安排点；袖片 → 手臂安排点</span></div></li><li bke-uid="ZxDaeXGg"><div bke-role="paragraph" bke-uid="gxuCzwP1"><span style="font-size: 16px; line-height: 24px;">重复直到所有版片都安排完毕</span></div></li></ol><div bke-role="paragraph" bke-uid="cE1OAIDv" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="cnaa2Due" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjMyNjQsInRpbWVzdGFtcCI6IjIwMjYtMDgtMTBUMTU6MDQ6MTcuMjEyKzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--60daa06a22d9d2b30557c7372da7a33c641b0de746df7e5a3ffa921366061a59" bke-dam-type="image" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjMyNjQsInBhdGgiOiI15pyIMjLml6UoMSkuZ2lmIiwidGltZXN0YW1wIjoiMjAyNi0wOC0xMFQxNTowNDoxNy4yMTIrMDg6MDAiLCJ0b2tlbiI6IiJ9LCJleHAiOiIyMDI2LTExLTEzVDE1OjU5OjU5Ljk5OVoiLCJwdXIiOiJvcmdhbml6YXRpb25fbGVuZGN4LS1tYWluLXZlcnNpb24ifX0--552c21415995a7d4d018142fdfd70ea88f08d5dc041d669a709ad60d8ab41b6e/5%E6%9C%8822%E6%97%A5(1).gif" title="5月22日(1).gif"></div><div bke-role="paragraph" bke-uid="7jBuyKqr" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 安排版片到模特操作示意</em></span></div><h3 bke-uid="WK7umUHc" bke-align="left" style="text-align: left;"><span style="color: rgb(79, 129, 189); font-size: 16px; line-height: 24px;"><strong>3.2 设置缝纫线</strong></span></h3><ol bke-uid="oMMR2e9u"><li bke-uid="oz8BTrUJ"><div bke-role="paragraph" bke-uid="J3kW6Z05"><span style="font-size: 16px; line-height: 24px;">在 2D 窗口先点击第一条要线的起点，再点击这条线的终点（注意箭头方向，代表缝合的起止）</span></div></li><li bke-uid="IAdGzUV8"><div bke-role="paragraph" bke-uid="cKb393Jd"><span style="font-size: 16px; line-height: 24px;">再点击第二条要缝合的边的起点和终点（</span><span style="color: rgb(44, 44, 43); font-size: 16px; line-height: 24px;"><strong>按住shift可依次选择多条</strong></span><span style="font-size: 16px; line-height: 24px;">），两条边即被关联为一组缝纫线</span></div></li><li bke-uid="qXV5NZ29"><div bke-role="paragraph" bke-uid="s3Zj4Pef"><span style="font-size: 16px; line-height: 24px;">重复操作，直到所有需要缝合的边都连好</span></div></li></ol><div bke-role="paragraph" bke-uid="gESuAti5" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="RlnuvL7W" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzgsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjU2OjQ4LjkwMSswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--053fb962d887b0f23ba806063e40c81c7aa18e04c92a05b40f8384bfed0258ee/image.png" bke-width="85%" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzgsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTY6NDguNzkxKzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--3a91b0e0a6c7d5ce2024b0530cb98b09dca723cdadb5b7fd3b2517aa01f7662f" bke-dam-type="image" style="width: 85%;" title="image.png"></div><div bke-role="paragraph" bke-uid="tcWfALau" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 调换缝纫线操作示意</em></span></div><div bke-role="paragraph" bke-uid="I4ZJ0U1e"><span style="color: rgb(192, 96, 0); font-size: 16px; line-height: 24px;"><strong>� 提示：</strong></span><span style="font-size: 16px; line-height: 24px;">缝纫线的方向必须一致，否则模拟后会出现拧麻花。如方向错了，右键缝纫线 ▶ 调换缝纫线。</span></div><div bke-role="paragraph" bke-uid="MGO0k0ym" bke-align="center" style="text-align: center;"></div><div bke-role="paragraph" bke-uid="KdwbMCfg" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="Le89wZTf" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjMyNjUsInBhdGgiOiI15pyIMjLml6UgKDEpKDEpLmdpZiIsInRpbWVzdGFtcCI6IjIwMjYtMDgtMTBUMTU6MDk6MzcuNDY0KzA4OjAwIiwidG9rZW4iOiIifSwiZXhwIjoiMjAyNi0xMS0xM1QxNTo1OTo1OS45OTlaIiwicHVyIjoib3JnYW5pemF0aW9uX2xlbmRjeC0tbWFpbi12ZXJzaW9uIn19--ba8e46cbd5acaed1258c99a4b8aa0e912c1de26f9613c74b31f226a539ace811/5%E6%9C%8822%E6%97%A5%20(1)(1).gif" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjMyNjUsInRpbWVzdGFtcCI6IjIwMjYtMDgtMTBUMTU6MDk6MzcuMTAyKzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--eb80aa37b8fcfc1cd5a85751f0a49c889b89285aabb7324de7e186b9c3218c90" bke-dam-type="image" title="5月22日 (1)(1).gif"></div><div bke-role="paragraph" bke-uid="Qr7vG2dU" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 设置缝纫线操作示意</em></span></div><div bke-uid="cmeZZhov" bke-columns="2" bke-columns-layout="1:1" bke-role="columns"><div bke-role="column"><div bke-role="paragraph" bke-uid="PnFK864G"></div></div><div bke-role="column"><div bke-role="paragraph" bke-uid="aQe0RazI"></div></div></div><h1 bke-uid="gheaoLxN" bke-align="left" style="text-align: left;"><span style="color: rgb(31, 58, 95); font-size: 16px; line-height: 24px;"><strong>步骤四：模拟</strong></span></h1><div bke-role="paragraph" bke-uid="AdzfDFTQ"><span style="font-size: 16px; line-height: 24px;">模拟（Simulation）是 Style3D 的核心功能——它会让安排好的版片按照缝纫关系真实地「穿」到模特身上。</span></div><h3 bke-uid="aKVkFy9n" bke-align="left" style="text-align: left;"><span style="color: rgb(79, 129, 189); font-size: 16px; line-height: 24px;"><strong>启动模拟</strong></span></h3><ol bke-uid="zenobsCO"><li bke-uid="8WIkGho4"><div bke-role="paragraph" bke-uid="xI4oBLPS"><span style="font-size: 16px; line-height: 24px;">确认所有版片都已安排在模特周围（不要重叠或穿透模特）</span></div></li><li bke-uid="BaynE85Q"><div bke-role="paragraph" bke-uid="QmbVw9uf"><span style="font-size: 16px; line-height: 24px;">点击 3D 窗口顶部的【模拟】按钮（或快捷键 空格键）</span></div></li><li bke-uid="NJVzTvwD"><div bke-role="paragraph" bke-uid="NEzCoN8y"><span style="font-size: 16px; line-height: 24px;">观察服装逐渐贴合模特，等待形态稳定后再次点击【模拟】停止</span></div></li></ol><div bke-role="paragraph" bke-uid="9BIBaZSu" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="sTA2RoqV" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzksInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjU3OjQzLjAxMCswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--84c5fa23ae3f446adf8baaa143f22dc6d5a651064a6b67cb81bdc1a645f23459/image.png" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5MzksInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTc6NDIuODc1KzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--d5e119faa351c08f3f436d259ca85ac1ad1400801cacd2b4192ad47b5f021ab2" bke-dam-type="image" title="image.png"></div><div bke-role="paragraph" bke-uid="xJe3n4xl" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 3D 窗口顶部 - 模拟按钮区域</em></span></div><div bke-role="paragraph" bke-uid="jsdu1JAb" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="OkNNfJjB" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjMyNjYsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA4LTEwVDE1OjEwOjA1LjU1NCswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--a76d5c99f529de58ecb59b0943935b20de6f8deae5024af9ff1406e57e2934af/image.png" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjMyNjYsInRpbWVzdGFtcCI6IjIwMjYtMDgtMTBUMTU6MTA6MDUuNTU0KzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--80737e7de057e9fef22c3d1b85c0c6424b57cd49459be356141c34164f3a267e" title="image.png"></div><div bke-role="paragraph" bke-uid="Zykp2SNA" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 设置缝纫线操作示意</em></span></div><h3 bke-uid="F2jBhnW5" bke-align="left" style="text-align: left;"><span style="color: rgb(79, 129, 189); font-size: 16px; line-height: 24px;"><strong>模拟调优</strong></span></h3><ul bke-uid="9cic7GDI"><li bke-uid="dDJISzO9"><div bke-role="paragraph" bke-uid="zTaid9g4"><span style="font-size: 16px; line-height: 24px;">第一次模拟建议粒子间距设为 15–20mm，快速看整体效果</span></div></li><li bke-uid="MSxifcpC"><div bke-role="paragraph" bke-uid="u5YgUtcF"><span style="font-size: 16px; line-height: 24px;">形态基本正确后，调低到 5–10mm 并开启【精确模拟】，获取真实褶皱</span></div></li><li bke-uid="1WbFhdAM"><div bke-role="paragraph" bke-uid="AOEjrfX8"><span style="font-size: 16px; line-height: 24px;">如遇版片穿透，暂停模拟 → 手动把穿透版片往外拖 → 重新启动</span></div></li><li bke-uid="M8zeRdWp"><div bke-role="paragraph" bke-uid="g3PJrkEn"><span style="font-size: 16px; line-height: 24px;">提示「模拟被终止 / illegal memory access」→ 通常是显存不足，关闭多余软件再试</span></div></li></ul><div bke-uid="iTGZyjCp" bke-columns="2" bke-columns-layout="1:1" bke-role="columns"><div bke-role="column"><div bke-role="paragraph" bke-uid="9nJlVvXg"></div></div><div bke-role="column"><div bke-role="paragraph" bke-uid="hcdraA2J"></div></div></div><h1 bke-uid="NbvqnsHp" bke-align="left" style="text-align: left;"><span style="color: rgb(31, 58, 95); font-size: 16px; line-height: 24px;"><strong>步骤五：保存与导出</strong></span></h1><h3 bke-uid="lcFoenj1" bke-align="left" style="text-align: left;"><span style="color: rgb(79, 129, 189); font-size: 16px; line-height: 24px;"><strong>5.1 保存工程</strong></span></h3><ol bke-uid="5ckQWQvj"><li bke-uid="bdD4qaa0"><div bke-role="paragraph" bke-uid="B8ekHAOV"><span style="font-size: 16px; line-height: 24px;">【文件】▶【保存项目】（Ctrl/Cmd + S），文件后缀 .sproj</span></div></li><li bke-uid="2P2R4x6K"><div bke-role="paragraph" bke-uid="fsQSY6oC"><span style="font-size: 16px; line-height: 24px;">首次保存会自动生成预览图；</span><span style="color: rgb(24, 28, 31); font-size: 16px; line-height: 24px;">系统会<strong>自动截取当前 3D 视窗的画面作为项目预览图</strong>，并随&nbsp;</span><code>.sproj</code><span style="color: rgb(24, 28, 31); font-size: 16px; line-height: 24px;">&nbsp;工程文件一同保存。该预览图将用于文件浏览器或资源库中快速识别项目内容。</span></div></li></ol><div bke-role="paragraph" bke-uid="SQytjTCv"><span style="color: rgb(192, 96, 0); font-size: 16px; line-height: 24px;"><strong>� 提示：</strong></span><span style="font-size: 16px; line-height: 24px;">Studio 默认开启自动保存。如软件闪退，到自动保存目录（偏好设置中查看路径）可找回。</span></div><h3 bke-uid="rUZGgROh" bke-align="left" style="text-align: left;"><span style="color: rgb(79, 129, 189); font-size: 16px; line-height: 24px;"><strong>5.2 导出 3D 模型</strong></span></h3><div bke-role="paragraph" bke-uid="LVWGNVO5"><span style="font-size: 16px; line-height: 24px;">根据下游用途选择格式：</span></div><ul bke-uid="LksYSmMY"><li bke-uid="exSGBe4P"><div bke-role="paragraph" bke-uid="iFYgdRJh"><span style="font-size: 16px; line-height: 24px;">OBJ — 通用 3D 格式，适合 C4D / Blender / 3ds Max 做后续渲染</span></div></li><li bke-uid="zS1sy8lb"><div bke-role="paragraph" bke-uid="c5y2WMkQ"><span style="font-size: 16px; line-height: 24px;">FBX — 带骨骼与动画，适合游戏引擎（Unity / Unreal Engine）</span></div></li><li bke-uid="AbVOO6nS"><div bke-role="paragraph" bke-uid="YVbqqFEU"><span style="font-size: 16px; line-height: 24px;">GLB / GLTF — 网页与移动端展示首选，体积小、加载快</span></div></li><li bke-uid="H8CaUvgR"><div bke-role="paragraph" bke-uid="gl5Vqmw7"><span style="font-size: 16px; line-height: 24px;">U3D / PDF — 客户预览与设计沟通</span></div><div bke-role="paragraph" bke-uid="fGMP61IR"><span style="font-size: 16px; line-height: 24px;">操作路径：【文件】▶【导出】▶ 选择目标格式 ▶ 确认坐标系、单位、是否合并贴图等选项 ▶ 点击【导出】。</span></div><div bke-role="paragraph" bke-uid="zqGc0nmP"><span style="color: rgb(192, 96, 0); font-size: 16px; line-height: 24px;"><strong>� 提示：</strong></span><span style="font-size: 16px; line-height: 24px;">导出 FBX 时人台变得很小？通常是单位不匹配——勾选「单位：m」或在接收端调整缩放即可。</span></div><h3 bke-uid="EfIEfALv" bke-align="left" style="text-align: left;"><span style="color: rgb(79, 129, 189); font-size: 16px; line-height: 24px;"><strong>5.3 导出 2D 工艺资料</strong></span></h3><div bke-role="paragraph" bke-uid="C1eco5pt"><span style="font-size: 16px; line-height: 24px;">如果还需要给打版师反馈修改后的版片：</span></div></li><li bke-uid="maILMKTz"><div bke-role="paragraph" bke-uid="yepehBV8"><span style="font-size: 16px; line-height: 24px;">【文件】▶【导出】▶【导出 DXF】— 输出修改后的纸样</span></div></li><li bke-uid="zp4Olg2U"><div bke-role="paragraph" bke-uid="zAfnY1ou"><span style="font-size: 16px; line-height: 24px;">【工具】▶【2D版片快照】▶【导出 PDF/PSD/PNG等】— 2D 快照，含尺寸标注与缝纫线</span></div></li></ul><div bke-role="paragraph" bke-uid="IEbl2i4l" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="cluoa5O8" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5NDAsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjU4OjEyLjIzMCswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--5b547bb8e4ae0d0edc4b1b4051755cab92243c95a83c73708464fca7a94d7b41/image.png" bke-width="100%" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5NDAsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTg6MTIuMTA3KzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--eabac3c3fd8805c938401e64aa8533dd4a60e6abd55294b20b0a907292f2f2cf" bke-dam-type="image" style="width: 100%;" title="image.png"></div><div bke-role="paragraph" bke-uid="pCFPqNPV" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 2D版片快照工具</em></span></div><div bke-role="paragraph" bke-uid="UcosExwR" bke-align="center" style="text-align: center;"><img bke-role="image" bke-uid="3Gbblhdg" src="/studio/zh/-/dam/assets/organization_lendcx--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5NDEsInBhdGgiOiJpbWFnZS5wbmciLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTIyVDEzOjU4OjIwLjc4OSswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMTEtMTNUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl9sZW5kY3gtLW1haW4tdmVyc2lvbiJ9fQ--4efa3f1888737c52c1cf2b8714fd64cba22786ac200933cf47bf1914658f40ad/image.png" bke-width="30%" bke-dam-id="eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjE5NDEsInRpbWVzdGFtcCI6IjIwMjYtMDYtMjJUMTM6NTg6MjAuNjkxKzA4OjAwIn0sInB1ciI6ImRhbS9lbnRpdHkvb3JnYW5pemF0aW9uX2xlbmRjeCJ9fQ--65c929bd91023aa3e1b0ea05a9c0e5a3b51c2f410da24d7c65baa4f753a287f3" bke-dam-type="image" style="width: 30%;" title="image.png"></div><div bke-role="paragraph" bke-uid="ajuez5hO" bke-align="center" style="text-align: center;"><span style="color: rgb(102, 102, 102); font-size: 12px; line-height: 18px;"><em>▲ 导出 PDF/PSD/PNG等操作示意</em></span></div><div bke-uid="iIjWaa8h" bke-columns="2" bke-columns-layout="1:1" bke-role="columns"><div bke-role="column"><div bke-role="paragraph" bke-uid="kkdzXTs2"></div></div><div bke-role="column"><div bke-role="paragraph" bke-uid="6BnrDvfG"></div></div></div><h1 bke-uid="8CcdWm4k" bke-align="left" style="text-align: left;"><span style="color: rgb(31, 55, 98); font-size: 16px; line-height: 24px;"><strong>流程总结</strong></span></h1><div bke-role="paragraph" bke-uid="pf6aZbPU"><span style="font-size: 16px; line-height: 24px;">把以上五步浓缩成一句话备忘：</span></div><div bke-role="paragraph" bke-uid="K6wfWvNZ" bke-align="center" style="text-align: center;"><span style="color: rgb(31, 55, 98); font-size: 16px; line-height: 24px;"><strong>新建工程 → 拖入 DXF → 连缝纫线 → 安排到模特 → 按空格模拟 → Ctrl+S 保存 → 导出</strong></span></div><div bke-role="paragraph" bke-uid="OSOJZnH7"><span style="font-size: 16px; line-height: 24px;">跑通一次完整链路后，再去深入每一步的高级技巧（精确模拟、明线设置、面料属性、放码、渲染出图），学习曲线会平缓很多。祝你上手愉快！</span></div>
+  </section>
+
+  
+  <section class="my-8">
+    <div id="js--feedback-znzhnqe" class="flex flex-col items-center justify-center w-full space-y-3 print:hidden">
+  <a
+    data-turbo-stream="true"
+    href="/studio/zh/-/feedback/new?page_path=%2F751c%2Fb8b2a"
+    class="flex items-center justify-center border-2 rounded-full cursor-pointer w-14 h-14 transition-all duration-300 hover:-translate-y-2
+    
+    border-slate-300 hover:border-slate-500 dark:border-slate-400 text-slate-400 hover:text-slate-500 dark:text-slate-400 dark:hover:text-slate-50
+    
+    "
+  >
+    <svg t="1698223767490" class="w-6 h-6 icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4875" >
+      <path d="M1000.59 407.182c-26.679-43.859-67.358-67.449-120.938-70.119-3.23-0.38-6.32-0.57-9.32-0.57l-172.356-0.59c7.819-34.839 11.979-70.079 11.979-102.798 0-33.489-3.66-67.259-10.89-100.388a41.025 41.025 0 0 0-2.36-7.35c-18.68-68.139-79.099-115.118-149.337-115.118-83.269 0-146.058 68.279-146.058 158.817l-0.061 2.28c-0.08 2.39-0.17 5.46 0.01 9.02-3.569 94.348-81.148 176.707-177.807 188.767l-136.178 2.19c-2.24-0.2-4.48-0.3-6.72-0.3-44.209 0-80.178 36.369-80.178 81.039l-0.37 481.182c0 44.369 35.989 80.479 80.229 80.479l149.368 0.03h0.08l567.93-0.98h0.011c31.429 0 51.139-8.8 74.589-24.02a158.319 158.319 0 0 0 54.589-60.578c4.33-6.98 7.55-14.44 9.59-22.22 0.13-0.511 0.26-1.021 0.37-1.521l84.648-381.714a81.977 81.977 0 0 0 2.33-22.699c1.82-32.89-6.16-64.939-23.15-92.839zM82.305 453.161c1.24 0.1 2.49 0.14 3.73 0.12l98.918-1.6v480.142l-103.028-0.02 0.38-478.642z m859.257 51.259l-84.419 380.673h-0.02a39.79 39.79 0 0 0-2.71 4.7c-6.15 12.5-15.2 22.699-26.84 30.27-14.989 9.729-19.319 10.79-30.369 10.79h-0.011l-530.321 0.915V444.231c122.238-30.1 212.877-137.708 216.337-263.466 0.05-1.68 0.03-2.8-0.13-4.48-0.021-0.78 0.02-1.56 0.05-2.35 0.05-1.61 0.09-3.23 0.09-4.87 0-38.22 22.04-76.899 64.149-76.899 34.129 0 63.408 24.02 71.208 58.399 0.44 1.92 1.011 3.78 1.7 5.57 5.15 25.48 7.76 51.339 7.76 76.969 0 40.479-8.31 87.989-22.789 130.318a40.914 40.914 0 0 0 5.39 37.02 40.906 40.906 0 0 0 33.22 17.2l226.506 0.81c1.36 0.19 2.72 0.31 4.09 0.37 26.83 1.1 43.63 10.34 56.159 30.949 8.561 14.06 12.45 30.35 11.25 47.109-0.15 2.02-0.12 4.12 0.04 6.14-0.121 0.47-0.241 0.93-0.34 1.4z" fill="currentColor" p-id="4876"></path>
+    </svg>
+  </a>
+  
+      <span class="w-full text-center text-sm">提交反馈</span>
+  
+</section>
+  </section>
+
+  
+  <section class="my-8">
+    
+    
+
+    <div class="items-center justify-between space-y-3 lg:flex lg:space-y-0 lg:space-x-6 print:hidden" data-controller="link-target">
+      
+        <a href="/studio/zh/751c/d33f" class="block flex-1 rounded-lg bg-base-200 p-3 hover:bg-base-300">
+          <div class="mb-2 text-base-content/40 text-sm">上一页</div>
+          <div class="text-base text-primary dark:text-primary-200">
+            <div class="flex items-center space-x-1 line-clamp-1">
+              <svg class="size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z"></path></svg>
+              <span class="line-clamp-1">软件下载与安装</span>
+            </div>
+          </div>
+        </a>
+      
+      <!-- Next link -->
+      
+        <div class="flex-1"></div>
+      
+    </div>
+  </section>
+</article>
+
+						
+					</div>
+
+					<!-- 右侧 TOC -->
+					<aside class="print:hidden hidden lg:block">
+						<div class="sticky top-[calc(var(--header-height)_+_1rem)] max-h-[calc(100vh-var(--header-height)-4rem)] max-w-full w-full overflow-auto rounded-box" data-toc-target="menu">
+							<div class="menu w-full">
+								<div class="menu-title">页内目录</div>
+								<div data-toc-target="links"></div>
+							</div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</turbo-frame>
+	</div>
+</div>
+
+
+    
+
+
+
+
+
+  
+    <footer
+      id="footer"
+      class="footer footer-center"
+    >
+      <div class="mx-auto items-center justify-between sm:flex-row">
+        
+        
+        
+        <div class="p-6">
+          <div class="flex justify-center space-x-3">
+            
+              <span>© Baklib.cn 版权所有</span>
+            
+            
+              <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" class="hover:underline">蜀ICP备xxxx号</a>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+
+
+
+
+  </body>
+</html>

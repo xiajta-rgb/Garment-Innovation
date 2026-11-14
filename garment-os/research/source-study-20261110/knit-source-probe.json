@@ -1,0 +1,1803 @@
+[
+  {
+    "engine": "aaron",
+    "measurements": [
+      "biceps",
+      "chest",
+      "hpsToBust",
+      "hpsToWaistBack",
+      "neck",
+      "shoulderToShoulder",
+      "shoulderSlope",
+      "waistToArmpit",
+      "waistToHips",
+      "hips"
+    ],
+    "options": {
+      "libraryFitSleeve": false,
+      "brianFitCollar": false,
+      "collarFactor": 4.8,
+      "bicepsEase": 0.05,
+      "chestEase": 0.08,
+      "collarEase": 0,
+      "cuffEase": 0,
+      "draftForHighBust": false,
+      "shoulderEase": 0,
+      "lengthBonus": 0.1,
+      "s3Collar": 0,
+      "s3Armhole": 0,
+      "acrossBackFactor": 0.97,
+      "armholeDepth": 0.02,
+      "armholeDepthFactor": 0.6,
+      "backNeckCutout": 0.05,
+      "frontArmholeDeeper": 0,
+      "shoulderSlopeReduction": 0,
+      "legacyArmholeDepth": false,
+      "hipsEase": 0.08,
+      "stretchFactor": 0.05,
+      "armholeDrop": 0.1,
+      "necklineBend": 1,
+      "necklineDrop": 0.2,
+      "shoulderStrapWidth": 0.15,
+      "shoulderStrapPlacement": 0.4,
+      "backlineBend": 0.5,
+      "knitBindingWidth": 6
+    },
+    "pieces": [
+      {
+        "id": "aaron.front",
+        "cutlist": {
+          "materials": {
+            "fabric": [
+              {
+                "cut": 1,
+                "identical": false,
+                "onBias": false,
+                "onFold": 1
+              }
+            ]
+          },
+          "cutOnFold": [
+            {
+              "x": -5.75583995599256e-15,
+              "y": 113,
+              "attributes": {
+                "list": {}
+              },
+              "name": "cfNeck"
+            },
+            {
+              "x": 0,
+              "y": 660,
+              "attributes": {
+                "list": {}
+              },
+              "name": "gridAnchor"
+            }
+          ],
+          "grainOrigin": "cutonfold",
+          "grain": 270
+        },
+        "points": [
+          "cbHps",
+          "cbNeck",
+          "cbChest",
+          "cbWaist",
+          "cbHips",
+          "neck",
+          "hps",
+          "shoulder",
+          "cbShoulder",
+          "cbArmhole",
+          "cbHem",
+          "armhole",
+          "waist",
+          "hips",
+          "hem",
+          "armholePitch",
+          "backArmholePitch",
+          "frontArmholePitch",
+          "armholeHollow",
+          "armholeCp2",
+          "armholeHollowCp1",
+          "armholeHollowCp2",
+          "armholePitchCp1",
+          "backArmholePitchCp1",
+          "frontArmholePitchCp1",
+          "armholePitchCp2",
+          "backArmholePitchCp2",
+          "frontArmholePitchCp2",
+          "shoulderCp1",
+          "neckCp2",
+          "cfNeck",
+          "frontNeckCpEdge",
+          "cfNeckCp1",
+          "neckCp2Front",
+          "gridAnchor",
+          "mirroredNeckCp2Front",
+          "mirroredCfNeckCp1",
+          "mirroredCfNeck",
+          "mirroredCbNeck",
+          "mirroredNeckCp2",
+          "mirroredFrontArmholePitch",
+          "mirroredFrontArmholePitchCp2",
+          "mirroredShoulderCp1",
+          "title",
+          "logo",
+          "cfShoulder",
+          "cfArmhole",
+          "cfHips",
+          "cfHem",
+          "strapCenter",
+          "strapLeft",
+          "strapRight",
+          "necklineCorner",
+          "strapLeftCp2",
+          "hipsCp2",
+          "armholeCorner",
+          "strapRightCp1",
+          "anchor",
+          "chest"
+        ],
+        "paths": {
+          "seam": {
+            "classes": [
+              "fabric"
+            ],
+            "d": "M 0,113 L 0,660 L 215.46,660 C 215.46,448.2 253.15,296.4 253.15,296.4 C 168.52,296.4 117.64,157.46 151.41,18.52 L 109.84,8.42 C 84.43,113 84.43,113 0,113 z"
+          },
+          "saShoulder": {
+            "classes": [
+              "fabric sa"
+            ],
+            "d": "M 151.41,18.52 L 153.77,8.8 L 112.21,-1.3 L 109.84,8.42"
+          },
+          "sa": {
+            "classes": [
+              "fabric sa"
+            ],
+            "d": "M 0,660 L 0,685 L 215.46,685 L 225.46,660 C 225.46,564.99 234.84,474.6 244.21,407.95 C 253.53,341.68 262.85,298.76 263.06,297.79 L 253.15,296.4"
+          },
+          "__macro_cutonfold_cutonfold_line": {
+            "classes": [
+              "note"
+            ],
+            "d": "M 0,140.35 L 15,140.35 L 15,632.65 L 0,632.65"
+          },
+          "chest": {
+            "classes": [
+              "contrast help"
+            ],
+            "d": "M 0,280 L 253.15,280"
+          },
+          "__macro_banner_chestLine_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 0,280 L 253.15,280"
+          },
+          "waist": {
+            "classes": [
+              "contrast help"
+            ],
+            "d": "M 0,470 L 215.46,470"
+          },
+          "__macro_banner_waistLine_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 0,470 L 215.46,470"
+          }
+        },
+        "edges": [
+          {
+            "type": "move",
+            "point": "cfNeck",
+            "to": {
+              "x": -5.75583995599256e-15,
+              "y": 113
+            }
+          },
+          {
+            "type": "line",
+            "point": "cbHem",
+            "to": {
+              "x": 0,
+              "y": 660
+            }
+          },
+          {
+            "type": "line",
+            "point": "hem",
+            "to": {
+              "x": 215.46,
+              "y": 660
+            }
+          },
+          {
+            "type": "curve",
+            "point": "armhole",
+            "to": {
+              "x": 253.15459748903342,
+              "y": 296.3950000000001
+            }
+          },
+          {
+            "type": "curve",
+            "point": "strapRight",
+            "to": {
+              "x": 151.40625,
+              "y": 18.517552829862908
+            }
+          },
+          {
+            "type": "line",
+            "point": "strapLeft",
+            "to": {
+              "x": 109.84375,
+              "y": 8.41706946811951
+            }
+          },
+          {
+            "type": "curve",
+            "point": "cfNeck",
+            "to": {
+              "x": -5.75583995599256e-15,
+              "y": 113
+            }
+          },
+          {
+            "type": "close"
+          }
+        ]
+      },
+      {
+        "id": "aaron.back",
+        "cutlist": {
+          "materials": {
+            "fabric": [
+              {
+                "cut": 1,
+                "identical": false,
+                "onBias": false,
+                "onFold": 1
+              }
+            ]
+          },
+          "cutOnFold": [
+            {
+              "x": -5.75583995599256e-15,
+              "y": 113,
+              "attributes": {
+                "list": {}
+              }
+            },
+            {
+              "x": 0,
+              "y": 660,
+              "attributes": {
+                "list": {}
+              },
+              "name": "gridAnchor"
+            }
+          ],
+          "grainOrigin": "cutonfold",
+          "grain": 270
+        },
+        "points": [
+          "cbHps",
+          "cbNeck",
+          "cbChest",
+          "cbWaist",
+          "cbHips",
+          "neck",
+          "hps",
+          "shoulder",
+          "cbShoulder",
+          "cbArmhole",
+          "cbHem",
+          "armhole",
+          "waist",
+          "hips",
+          "hem",
+          "armholePitch",
+          "backArmholePitch",
+          "frontArmholePitch",
+          "armholeHollow",
+          "armholeCp2",
+          "armholeHollowCp1",
+          "armholeHollowCp2",
+          "armholePitchCp1",
+          "backArmholePitchCp1",
+          "frontArmholePitchCp1",
+          "armholePitchCp2",
+          "backArmholePitchCp2",
+          "frontArmholePitchCp2",
+          "shoulderCp1",
+          "neckCp2",
+          "cfNeck",
+          "frontNeckCpEdge",
+          "cfNeckCp1",
+          "neckCp2Front",
+          "gridAnchor",
+          "mirroredNeckCp2Front",
+          "mirroredCfNeckCp1",
+          "mirroredCfNeck",
+          "mirroredCbNeck",
+          "mirroredNeckCp2",
+          "mirroredFrontArmholePitch",
+          "mirroredFrontArmholePitchCp2",
+          "mirroredShoulderCp1",
+          "title",
+          "logo",
+          "cfShoulder",
+          "cfArmhole",
+          "cfHips",
+          "cfHem",
+          "strapCenter",
+          "strapLeft",
+          "strapRight",
+          "necklineCorner",
+          "strapLeftCp2",
+          "hipsCp2",
+          "armholeCorner",
+          "strapRightCp1",
+          "anchor",
+          "chest",
+          "scalebox",
+          "scaleboxAnchor"
+        ],
+        "paths": {
+          "seam": {
+            "classes": [
+              "fabric"
+            ],
+            "d": "M 0,38 L 0,660 L 215.46,660 C 215.46,448.2 253.15,296.4 253.15,296.4 C 168.52,296.4 117.64,157.46 151.41,18.52 L 109.84,8.42 L 109.84,8.42 C 102.65,38 0,38 0,38 z"
+          },
+          "saShoulder": {
+            "classes": [
+              "fabric sa"
+            ],
+            "d": "M 151.41,18.52 L 153.77,8.8 L 112.21,-1.3 L 109.84,8.42"
+          },
+          "sa": {
+            "classes": [
+              "fabric sa"
+            ],
+            "d": "M 0,660 L 0,685 L 215.46,685 L 225.46,660 C 225.46,564.99 234.84,474.6 244.21,407.95 C 253.53,341.68 262.85,298.76 263.06,297.79 L 253.15,296.4"
+          },
+          "__macro_cutonfold_cutonfold_line": {
+            "classes": [
+              "note"
+            ],
+            "d": "M 0,140.35 L 15,140.35 L 15,632.65 L 0,632.65"
+          },
+          "chest": {
+            "classes": [
+              "contrast help"
+            ],
+            "d": "M 0,280 L 253.15,280"
+          },
+          "__macro_banner_chestLine_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 0,280 L 253.15,280"
+          },
+          "waist": {
+            "classes": [
+              "contrast help"
+            ],
+            "d": "M 0,470 L 215.46,470"
+          },
+          "__macro_banner_waistLine_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 0,470 L 215.46,470"
+          },
+          "__macro_scalebox_scalebox_imperial": {
+            "classes": [
+              "scalebox imperial fill-current"
+            ],
+            "d": "M 56.93,344.6 L 56.93,395.4 L 158.53,395.4 L 158.53,344.6 L 56.93,344.6 z"
+          },
+          "__macro_scalebox_scalebox_metric": {
+            "classes": [
+              "scalebox metric fill-bg"
+            ],
+            "d": "M 57.73,345 L 57.73,395 L 157.73,395 L 157.73,345 L 57.73,345 z"
+          }
+        },
+        "edges": [
+          {
+            "type": "move",
+            "point": "cbNeck",
+            "to": {
+              "x": 0,
+              "y": 38
+            }
+          },
+          {
+            "type": "line",
+            "point": "cbHem",
+            "to": {
+              "x": 0,
+              "y": 660
+            }
+          },
+          {
+            "type": "line",
+            "point": "hem",
+            "to": {
+              "x": 215.46,
+              "y": 660
+            }
+          },
+          {
+            "type": "curve",
+            "point": "armhole",
+            "to": {
+              "x": 253.15459748903342,
+              "y": 296.3950000000001
+            }
+          },
+          {
+            "type": "curve",
+            "point": "strapRight",
+            "to": {
+              "x": 151.40625,
+              "y": 18.517552829862908
+            }
+          },
+          {
+            "type": "line",
+            "point": "strapLeft",
+            "to": {
+              "x": 109.84375,
+              "y": 8.41706946811951
+            }
+          },
+          {
+            "type": "line",
+            "point": "strapLeft",
+            "to": {
+              "x": 109.84375,
+              "y": 8.41706946811951
+            }
+          },
+          {
+            "type": "curve",
+            "point": "cbNeck",
+            "to": {
+              "x": 0,
+              "y": 38
+            }
+          },
+          {
+            "type": "close"
+          }
+        ]
+      },
+      {
+        "id": "aaron.armBinding",
+        "cutlist": {
+          "materials": {
+            "fabric": [
+              {
+                "cut": 2,
+                "identical": false,
+                "onBias": false,
+                "onFold": false
+              }
+            ]
+          }
+        },
+        "points": [
+          "topLeft",
+          "bottomLeft",
+          "bottomRight",
+          "topRight",
+          "title",
+          "logo"
+        ],
+        "paths": {
+          "seam": {
+            "classes": [
+              "fabric"
+            ],
+            "d": "M 0,0 L 0,629.3 L 60,629.3 L 60,0 L 0,0 z"
+          },
+          "fold1": {
+            "classes": [
+              "note help"
+            ],
+            "d": "M 15,0 L 15,629.3"
+          },
+          "__macro_banner_foldHere1_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 15,0 L 15,629.3"
+          },
+          "fold2": {
+            "classes": [
+              "note help"
+            ],
+            "d": "M 30,0 L 30,629.3"
+          },
+          "__macro_banner_foldHere2_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 30,0 L 30,629.3"
+          },
+          "fold3": {
+            "classes": [
+              "note help"
+            ],
+            "d": "M 45,0 L 45,629.3"
+          },
+          "__macro_banner_foldHere3_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 45,0 L 45,629.3"
+          }
+        },
+        "edges": [
+          {
+            "type": "move",
+            "point": "topLeft",
+            "to": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "type": "line",
+            "point": "bottomLeft",
+            "to": {
+              "x": 0,
+              "y": 629.3001622068007
+            }
+          },
+          {
+            "type": "line",
+            "point": "bottomRight",
+            "to": {
+              "x": 60,
+              "y": 629.3001622068007
+            }
+          },
+          {
+            "type": "line",
+            "point": "topRight",
+            "to": {
+              "x": 60,
+              "y": 0
+            }
+          },
+          {
+            "type": "line",
+            "point": "topLeft",
+            "to": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "type": "close"
+          }
+        ]
+      },
+      {
+        "id": "aaron.neckBinding",
+        "cutlist": {
+          "materials": {
+            "fabric": [
+              {
+                "cut": 1,
+                "identical": false,
+                "onBias": false,
+                "onFold": false
+              }
+            ]
+          }
+        },
+        "points": [
+          "topLeft",
+          "bottomLeft",
+          "bottomRight",
+          "topRight",
+          "title",
+          "logo"
+        ],
+        "paths": {
+          "seam": {
+            "classes": [
+              "fabric"
+            ],
+            "d": "M 0,0 L 0,563.29 L 60,563.29 L 60,0 L 0,0 z"
+          },
+          "fold1": {
+            "classes": [
+              "note help"
+            ],
+            "d": "M 15,0 L 15,563.29"
+          },
+          "__macro_banner_foldHere1_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 15,0 L 15,563.29"
+          },
+          "fold2": {
+            "classes": [
+              "note help"
+            ],
+            "d": "M 30,0 L 30,563.29"
+          },
+          "__macro_banner_foldHere2_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 30,0 L 30,563.29"
+          },
+          "fold3": {
+            "classes": [
+              "note help"
+            ],
+            "d": "M 45,0 L 45,563.29"
+          },
+          "__macro_banner_foldHere3_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 45,0 L 45,563.29"
+          }
+        },
+        "edges": [
+          {
+            "type": "move",
+            "point": "topLeft",
+            "to": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "type": "line",
+            "point": "bottomLeft",
+            "to": {
+              "x": 0,
+              "y": 563.2908349314648
+            }
+          },
+          {
+            "type": "line",
+            "point": "bottomRight",
+            "to": {
+              "x": 60,
+              "y": 563.2908349314648
+            }
+          },
+          {
+            "type": "line",
+            "point": "topRight",
+            "to": {
+              "x": 60,
+              "y": 0
+            }
+          },
+          {
+            "type": "line",
+            "point": "topLeft",
+            "to": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "type": "close"
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "actual-neck-binding-ratio",
+        "actual": 563.2908349314648,
+        "target": 563.2908349314648,
+        "delta": 0
+      }
+    ]
+  },
+  {
+    "engine": "huey",
+    "measurements": [
+      "biceps",
+      "chest",
+      "hpsToBust",
+      "hpsToWaistBack",
+      "neck",
+      "shoulderToShoulder",
+      "shoulderSlope",
+      "waistToArmpit",
+      "waistToHips",
+      "hips",
+      "shoulderToWrist",
+      "wrist",
+      "head"
+    ],
+    "options": {
+      "libraryFitSleeve": true,
+      "brianFitCollar": true,
+      "collarFactor": 4.8,
+      "bicepsEase": 0.15,
+      "chestEase": 0.15,
+      "collarEase": 0.05,
+      "cuffEase": 0.2,
+      "draftForHighBust": false,
+      "shoulderEase": 0,
+      "lengthBonus": 0.15,
+      "s3Collar": 0,
+      "s3Armhole": 0,
+      "acrossBackFactor": 0.98,
+      "armholeDepth": 0.02,
+      "armholeDepthFactor": 0.55,
+      "backNeckCutout": 0.05,
+      "frontArmholeDeeper": 0.002,
+      "shoulderSlopeReduction": 0,
+      "legacyArmholeDepth": false,
+      "ribbing": true,
+      "ribbingHeight": 0.1,
+      "hipsEase": 0.08,
+      "pocket": true,
+      "pocketHeight": 0.3,
+      "pocketWidth": 0.6,
+      "pocketOpening": 0.9,
+      "optionPrefix": "",
+      "mockSleeve": false,
+      "sleevecapEase": 0,
+      "sleevecapTopFactorX": 0.5,
+      "sleevecapTopFactorY": 0.45,
+      "sleevecapBackFactorX": 0.6,
+      "sleevecapBackFactorY": 0.33,
+      "sleevecapFrontFactorX": 0.55,
+      "sleevecapFrontFactorY": 0.33,
+      "sleevecapQ1Offset": 0.017,
+      "sleevecapQ2Offset": 0.035,
+      "sleevecapQ3Offset": 0.025,
+      "sleevecapQ4Offset": 0.01,
+      "sleevecapQ1Spread1": 0.1,
+      "sleevecapQ1Spread2": 0.15,
+      "sleevecapQ2Spread1": 0.15,
+      "sleevecapQ2Spread2": 0.1,
+      "sleevecapQ3Spread1": 0.1,
+      "sleevecapQ3Spread2": 0.08,
+      "sleevecapQ4Spread1": 0.07,
+      "sleevecapQ4Spread2": 0.063,
+      "sleeveLengthBonus": 0,
+      "sleeveWidthGuarantee": 0.9,
+      "hoodHeight": 0.59,
+      "hoodCutback": 0.1,
+      "hoodClosure": 0.135,
+      "hoodDepth": 0.085,
+      "hoodAngle": 5,
+      "ribbingStretch": 0.15
+    },
+    "pieces": [
+      {
+        "id": "huey.back",
+        "cutlist": {
+          "cutOnFold": [
+            {
+              "x": 0,
+              "y": 19,
+              "attributes": {
+                "list": {}
+              },
+              "name": "cNeck"
+            },
+            {
+              "x": 1.1021821192326178e-14,
+              "y": 630,
+              "attributes": {
+                "list": {}
+              },
+              "name": "cHem"
+            }
+          ],
+          "grainOrigin": "cutonfold",
+          "grain": 270,
+          "materials": {
+            "fabric": [
+              {
+                "cut": 1,
+                "identical": false,
+                "onBias": false,
+                "onFold": true
+              }
+            ]
+          }
+        },
+        "points": [
+          "cbHps",
+          "cbNeck",
+          "cbChest",
+          "cbWaist",
+          "cbHips",
+          "neck",
+          "hps",
+          "shoulder",
+          "cbShoulder",
+          "cbArmhole",
+          "cbHem",
+          "armhole",
+          "waist",
+          "hips",
+          "hem",
+          "armholePitch",
+          "backArmholePitch",
+          "frontArmholePitch",
+          "armholeHollow",
+          "armholeCp2",
+          "armholeHollowCp1",
+          "armholeHollowCp2",
+          "armholePitchCp1",
+          "backArmholePitchCp1",
+          "frontArmholePitchCp1",
+          "armholePitchCp2",
+          "backArmholePitchCp2",
+          "frontArmholePitchCp2",
+          "shoulderCp1",
+          "neckCp2",
+          "cfNeck",
+          "frontNeckCpEdge",
+          "cfNeckCp1",
+          "neckCp2Front",
+          "gridAnchor",
+          "mirroredNeckCp2Front",
+          "mirroredCfNeckCp1",
+          "mirroredCfNeck",
+          "mirroredCbNeck",
+          "mirroredNeckCp2",
+          "mirroredFrontArmholePitch",
+          "mirroredFrontArmholePitchCp2",
+          "mirroredShoulderCp1",
+          "title",
+          "logo",
+          "anchor",
+          "s3CollarSplit",
+          "s3ArmholeSplit",
+          "chest",
+          "hemCp2",
+          "cHem",
+          "cNeck"
+        ],
+        "paths": {
+          "chest": {
+            "classes": [
+              "contrast help"
+            ],
+            "d": "M 0,280 L 287.5,280"
+          },
+          "waist": {
+            "classes": [
+              "contrast help"
+            ],
+            "d": "M 0,470 L 287.5,470"
+          },
+          "seam": {
+            "classes": [
+              "fabric"
+            ],
+            "d": "M 226.8,630 C 226.8,470 287.5,279.95 287.5,279.95 C 270.75,279.95 249.9,265.91 242.22,258.23 C 226.86,242.86 220.5,207.29 220.5,156.35 C 220.5,94.55 219.44,56.84 225,32.75 L 83.13,0 C 78.74,19 0,19 0,19 L 0,630 L 226.8,630 z"
+          },
+          "sa": {
+            "classes": [
+              "fabric sa"
+            ],
+            "d": "M 0,640 L 226.8,640 L 236.8,630 C 236.8,609.27 237.82,588.07 239.6,566.86 C 244.65,506.57 255.78,446.28 266.91,396.88 C 281.83,330.61 296.74,283.89 297.04,282.95 L 287.5,269.95 C 284.47,269.95 281.28,269.3 278.09,268.3 C 271.03,266.11 264,262.22 258.35,258.38 C 254.54,255.79 251.36,253.22 249.29,251.16 C 235,236.86 230.5,203.17 230.5,156.35 C 230.5,147.82 230.48,139.75 230.46,132.1 C 230.44,124.44 230.42,117.23 230.42,110.42 C 230.42,75.81 230.84,51.93 234.74,35 L 227.25,23.01 L 85.37,-9.74 L 73.38,-2.25 C 72.73,0.55 67.48,0.88 63.76,2.03 C 56.99,4.13 48.7,5.56 40.42,6.58 C 20.74,8.99 1.06,8.99 -0.06,9M -0.06,9 L 0,19M 0,640 L 0,630"
+          },
+          "__macro_banner_chestLine_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 0,280 L 287.5,280"
+          },
+          "__macro_banner_waistLine_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 0,470 L 287.5,470"
+          },
+          "__macro_cutonfold_cutonfold_line": {
+            "classes": [
+              "note"
+            ],
+            "d": "M 0,49.55 L 15,49.55 L 15,599.45 L 0,599.45"
+          },
+          "__macro_scalebox_scalebox_imperial": {
+            "classes": [
+              "scalebox imperial fill-current"
+            ],
+            "d": "M 59.45,444.6 L 59.45,495.4 L 161.05,495.4 L 161.05,444.6 L 59.45,444.6 z"
+          },
+          "__macro_scalebox_scalebox_metric": {
+            "classes": [
+              "scalebox metric fill-bg"
+            ],
+            "d": "M 60.25,445 L 60.25,495 L 160.25,495 L 160.25,445 L 60.25,445 z"
+          }
+        },
+        "edges": [
+          {
+            "type": "move",
+            "point": "hem",
+            "to": {
+              "x": 226.8,
+              "y": 630
+            }
+          },
+          {
+            "type": "curve",
+            "point": "armhole",
+            "to": {
+              "x": 287.5,
+              "y": 279.95
+            }
+          },
+          {
+            "type": "curve",
+            "point": "armholeHollow",
+            "to": {
+              "x": 242.22389269477418,
+              "y": 258.2261073052258
+            }
+          },
+          {
+            "type": "curve",
+            "point": "armholePitch",
+            "to": {
+              "x": 220.5,
+              "y": 156.35221230796964
+            }
+          },
+          {
+            "type": "curve",
+            "point": "shoulder",
+            "to": {
+              "x": 225,
+              "y": 32.75442461593929
+            }
+          },
+          {
+            "type": "line",
+            "point": "neck",
+            "to": {
+              "x": 83.125,
+              "y": 0
+            }
+          },
+          {
+            "type": "curve",
+            "point": "cbNeck",
+            "to": {
+              "x": 0,
+              "y": 19
+            }
+          },
+          {
+            "type": "line",
+            "point": "cbHem",
+            "to": {
+              "x": 1.1021821192326178e-14,
+              "y": 630
+            }
+          },
+          {
+            "type": "line",
+            "point": "hem",
+            "to": {
+              "x": 226.8,
+              "y": 630
+            }
+          },
+          {
+            "type": "close"
+          }
+        ]
+      },
+      {
+        "id": "huey.front",
+        "cutlist": {
+          "cutOnFold": [
+            {
+              "x": -1.0695733765015497e-15,
+              "y": 61.23915293915073,
+              "attributes": {
+                "list": {}
+              }
+            },
+            {
+              "x": 0,
+              "y": 600,
+              "attributes": {
+                "list": {}
+              },
+              "name": "cfHips"
+            }
+          ],
+          "grainOrigin": "cutonfold",
+          "grain": 270,
+          "materials": {
+            "fabric": [
+              {
+                "cut": 2,
+                "identical": false,
+                "onBias": false,
+                "onFold": false
+              }
+            ]
+          }
+        },
+        "points": [
+          "cbHps",
+          "cbNeck",
+          "cbChest",
+          "neck",
+          "hps",
+          "shoulder",
+          "armhole",
+          "waist",
+          "hips",
+          "hem",
+          "armholePitch",
+          "backArmholePitch",
+          "frontArmholePitch",
+          "armholeHollow",
+          "armholeCp2",
+          "armholeHollowCp1",
+          "armholeHollowCp2",
+          "armholePitchCp1",
+          "backArmholePitchCp1",
+          "frontArmholePitchCp1",
+          "armholePitchCp2",
+          "backArmholePitchCp2",
+          "frontArmholePitchCp2",
+          "shoulderCp1",
+          "neckCp2",
+          "cfNeck",
+          "frontNeckCpEdge",
+          "cfNeckCp1",
+          "neckCp2Front",
+          "gridAnchor",
+          "mirroredNeckCp2Front",
+          "mirroredCfNeckCp1",
+          "mirroredCfNeck",
+          "mirroredCbNeck",
+          "mirroredNeckCp2",
+          "mirroredFrontArmholePitch",
+          "mirroredFrontArmholePitchCp2",
+          "mirroredShoulderCp1",
+          "title",
+          "logo",
+          "anchor",
+          "s3CollarSplit",
+          "s3ArmholeSplit",
+          "chest",
+          "cfShoulder",
+          "cfArmhole",
+          "cfWaist",
+          "cfHips",
+          "cfHem",
+          "hemCp2",
+          "pocketCfTop",
+          "pocketTopRight",
+          "pocketTip",
+          "pocketHem",
+          "pocketTipCp2",
+          "cHem",
+          "cNeck"
+        ],
+        "paths": {
+          "chest": {
+            "classes": [
+              "contrast help"
+            ],
+            "d": "M 0,280 L 287.5,280"
+          },
+          "waist": {
+            "classes": [
+              "contrast help"
+            ],
+            "d": "M 0,470 L 287.5,470"
+          },
+          "seam": {
+            "classes": [
+              "fabric"
+            ],
+            "d": "M 226.8,630 C 226.8,470 287.5,279.95 287.5,279.95 C 270.75,279.95 249.9,265.91 242.22,258.23 C 226.86,242.86 218.5,207.29 218.5,156.35 C 218.5,94.55 219.44,56.84 225,32.75 L 83.13,0 C 73.94,39.81 37.94,61.24 0,61.24 L 0,630 L 226.8,630 z"
+          },
+          "pocket": {
+            "classes": [
+              "fabric dashed stroke-sm"
+            ],
+            "d": "M 149.69,630 L 163.3,612.94 C 136.08,591.23 136.08,459.37 136.08,459.37 L 0,459.37"
+          },
+          "sa": {
+            "classes": [
+              "fabric sa"
+            ],
+            "d": "M 0,640 L 226.8,640 L 236.8,630 C 236.8,609.27 237.82,588.07 239.6,566.86 C 244.65,506.57 255.78,446.28 266.91,396.88 C 281.83,330.61 296.74,283.89 297.04,282.95 L 287.5,269.95 C 284.47,269.95 281.28,269.3 278.09,268.3 C 271.03,266.11 264,262.22 258.35,258.38 C 254.54,255.79 251.36,253.22 249.29,251.16 C 235,236.86 228.5,203.23 228.5,156.35 C 228.5,95.69 229.28,58.65 234.74,35 L 227.25,23.01 L 85.37,-9.74 L 73.38,-2.25 C 67.48,23.32 48.83,40.09 26.3,47.24 C 17.94,49.89 9.03,51.24 0,51.24 L -10,61.24 L -10,630 L 0,640 z"
+          },
+          "__macro_banner_chestLine_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 0,280 L 287.5,280"
+          },
+          "__macro_banner_waistLine_banner": {
+            "classes": [
+              "hidden"
+            ],
+            "d": "M 0,470 L 287.5,470"
+          }
+        },
+        "edges": [
+          {
+            "type": "move",
+            "point": "hem",
+            "to": {
+              "x": 226.8,
+              "y": 630
+            }
+          },
+          {
+            "type": "curve",
+            "point": "armhole",
+            "to": {
+              "x": 287.5,
+              "y": 279.95
+            }
+          },
+          {
+            "type": "curve",
+            "point": "armholeHollow",
+            "to": {
+              "x": 242.22389269477418,
+              "y": 258.2261073052258
+            }
+          },
+          {
+            "type": "curve",
+            "point": "armholePitch",
+            "to": {
+              "x": 218.5,
+              "y": 156.35221230796964
+            }
+          },
+          {
+            "type": "curve",
+            "point": "shoulder",
+            "to": {
+              "x": 225,
+              "y": 32.75442461593929
+            }
+          },
+          {
+            "type": "line",
+            "point": "neck",
+            "to": {
+              "x": 83.125,
+              "y": 0
+            }
+          },
+          {
+            "type": "curve",
+            "point": "cfNeck",
+            "to": {
+              "x": -1.0695733765015497e-15,
+              "y": 61.23915293915073
+            }
+          },
+          {
+            "type": "line",
+            "point": "cfHem",
+            "to": {
+              "x": 1.1021821192326178e-14,
+              "y": 630
+            }
+          },
+          {
+            "type": "line",
+            "point": "hem",
+            "to": {
+              "x": 226.8,
+              "y": 630
+            }
+          },
+          {
+            "type": "close"
+          }
+        ]
+      },
+      {
+        "id": "huey.sleeve",
+        "cutlist": {
+          "grainOrigin": "grainline",
+          "grain": 90,
+          "materials": {
+            "fabric": [
+              {
+                "cut": 2,
+                "identical": false,
+                "onBias": false,
+                "onFold": false
+              }
+            ]
+          }
+        },
+        "points": [
+          "centerBiceps",
+          "centerCap",
+          "bicepsLeft",
+          "bicepsRight",
+          "capLeft",
+          "capRight",
+          "backPitch",
+          "frontPitch",
+          "capQ1Base",
+          "capQ2Base",
+          "capQ3Base",
+          "capQ4Base",
+          "capQ1",
+          "capQ2",
+          "capQ3",
+          "capQ4",
+          "capQ1Cp1",
+          "capQ1Cp2",
+          "capQ2Cp1",
+          "capQ2Cp2",
+          "capQ3Cp1",
+          "capQ3Cp2",
+          "capQ4Cp1",
+          "capQ4Cp2",
+          "sleeveTip",
+          "sleeveTop",
+          "centerWrist",
+          "wristRight",
+          "wristLeft",
+          "gridAnchor",
+          "logo",
+          "frontNotch",
+          "backNotch"
+        ],
+        "paths": {
+          "seam": {
+            "classes": [
+              "fabric"
+            ],
+            "d": "M 105,415.63 L 223.25,0 C 223.25,0 203.71,-3.99 169.43,-25.09 C 118.02,-56.73 113.68,-91.28 71.47,-134.44 C 43.32,-163.22 -44.49,-159.46 -73.86,-131.94 C -97.35,-109.92 -153.15,-43.64 -176.31,-27.61 C -197.16,-13.17 -223.25,0 -223.25,0 L -105,415.63 L 105,415.63 z"
+          },
+          "sa": {
+            "classes": [
+              "fabric sa"
+            ],
+            "d": "M 114.62,418.37 L 232.87,2.74 L 225.67,-9.7 C 223.8,-10.17 207.17,-13.6 174.68,-33.6 C 147.64,-50.24 134.4,-67.79 121.1,-87.03 C 109.52,-103.77 97.91,-121.71 78.61,-141.44 C 63.91,-156.47 34.77,-164.37 4.11,-164.37 C 2.19,-164.37 0.27,-164.34 -1.64,-164.27 C -33.6,-163.26 -64.85,-154.09 -80.69,-139.23 C -91.7,-128.92 -109.79,-108.9 -128.29,-88.88 L -128.8,-88.37 C -129.95,-87.13 -131.1,-85.88 -132.25,-84.64 C -151.51,-63.86 -170.71,-43.64 -182,-35.83 C -184.78,-33.9 -187.62,-32.02 -190.45,-30.2 C -208.23,-18.78 -226.3,-9.67 -227.82,-8.9 L -232.87,2.74 L -114.62,418.37 L -105,425.63 L 105,425.63 z"
+          },
+          "__macro_grainline_grainline_line": {
+            "classes": [
+              "note"
+            ],
+            "d": "M 0,391.76 L 0,-37.96"
+          }
+        },
+        "edges": [
+          {
+            "type": "move",
+            "point": "wristRight",
+            "to": {
+              "x": 104.99999999999997,
+              "y": 415.63323031892554
+            }
+          },
+          {
+            "type": "line",
+            "point": "bicepsRight",
+            "to": {
+              "x": 223.25228243247398,
+              "y": -5.4681038616654024e-14
+            }
+          },
+          {
+            "type": "curve",
+            "point": "capQ1",
+            "to": {
+              "x": 169.43418019489548,
+              "y": -25.086908132036058
+            }
+          },
+          {
+            "type": "curve",
+            "point": "capQ2",
+            "to": {
+              "x": 71.4651206342699,
+              "y": -134.44459513346862
+            }
+          },
+          {
+            "type": "curve",
+            "point": "capQ3",
+            "to": {
+              "x": -73.85641873612535,
+              "y": -131.9361213864573
+            }
+          },
+          {
+            "type": "curve",
+            "point": "capQ4",
+            "to": {
+              "x": -176.31063547307082,
+              "y": -27.60501553972153
+            }
+          },
+          {
+            "type": "curve",
+            "point": "bicepsLeft",
+            "to": {
+              "x": -223.25228243247398,
+              "y": -5.4681038616654024e-14
+            }
+          },
+          {
+            "type": "line",
+            "point": "wristLeft",
+            "to": {
+              "x": -105.00000000000003,
+              "y": 415.63323031892554
+            }
+          },
+          {
+            "type": "line",
+            "point": "wristRight",
+            "to": {
+              "x": 104.99999999999997,
+              "y": 415.63323031892554
+            }
+          },
+          {
+            "type": "close"
+          }
+        ]
+      },
+      {
+        "id": "huey.pocket",
+        "cutlist": {
+          "cutOnFold": [
+            {
+              "x": -1.0695733765015497e-15,
+              "y": 61.23915293915073,
+              "attributes": {
+                "list": {}
+              }
+            },
+            {
+              "x": 0,
+              "y": 600,
+              "attributes": {
+                "list": {}
+              },
+              "name": "cfHips"
+            }
+          ],
+          "grainOrigin": "grainline",
+          "grain": 90.00000000000006,
+          "materials": {
+            "fabric": [
+              {
+                "cut": 2,
+                "identical": false,
+                "onBias": false,
+                "onFold": false
+              }
+            ]
+          }
+        },
+        "points": [
+          "cbHps",
+          "cbNeck",
+          "cbChest",
+          "neck",
+          "hps",
+          "shoulder",
+          "armhole",
+          "waist",
+          "hips",
+          "hem",
+          "armholePitch",
+          "backArmholePitch",
+          "frontArmholePitch",
+          "armholeHollow",
+          "armholeCp2",
+          "armholeHollowCp1",
+          "armholeHollowCp2",
+          "armholePitchCp1",
+          "backArmholePitchCp1",
+          "frontArmholePitchCp1",
+          "armholePitchCp2",
+          "backArmholePitchCp2",
+          "frontArmholePitchCp2",
+          "shoulderCp1",
+          "neckCp2",
+          "cfNeck",
+          "frontNeckCpEdge",
+          "cfNeckCp1",
+          "neckCp2Front",
+          "gridAnchor",
+          "mirroredNeckCp2Front",
+          "mirroredCfNeckCp1",
+          "mirroredCfNeck",
+          "mirroredCbNeck",
+          "mirroredNeckCp2",
+          "mirroredFrontArmholePitch",
+          "mirroredFrontArmholePitchCp2",
+          "mirroredShoulderCp1",
+          "title",
+          "logo",
+          "anchor",
+          "s3CollarSplit",
+          "s3ArmholeSplit",
+          "chest",
+          "cfShoulder",
+          "cfArmhole",
+          "cfWaist",
+          "cfHips",
+          "cfHem",
+          "hemCp2",
+          "pocketCfTop",
+          "pocketTopRight",
+          "pocketTip",
+          "pocketHem",
+          "pocketTipCp2",
+          "cHem",
+          "cNeck"
+        ],
+        "paths": {
+          "seam": {
+            "classes": [
+              "fabric"
+            ],
+            "d": "M 0,630 L 149.69,630 L 163.3,612.94 C 136.08,591.23 136.08,459.37 136.08,459.37 L 0,459.37 L 0,630 z"
+          },
+          "sa": {
+            "classes": [
+              "fabric sa"
+            ],
+            "d": "M 0,640 L 149.69,640 L 157.51,636.24 L 171.11,619.17 L 169.53,605.12 C 143.69,584.51 146.09,461.21 146.08,459.32 L 136.08,449.37 L 0,449.37 L -10,459.37 L -10,630 z"
+          },
+          "__macro_grainline_grainline_line": {
+            "classes": [
+              "note"
+            ],
+            "d": "M 14.14,608.74 L 14.14,480.63"
+          }
+        },
+        "edges": [
+          {
+            "type": "move",
+            "point": "cfHem",
+            "to": {
+              "x": 1.1021821192326178e-14,
+              "y": 630
+            }
+          },
+          {
+            "type": "line",
+            "point": "pocketHem",
+            "to": {
+              "x": 149.68799999999987,
+              "y": 630
+            }
+          },
+          {
+            "type": "line",
+            "point": "pocketTip",
+            "to": {
+              "x": 163.29599999999988,
+              "y": 612.9371745881746
+            }
+          },
+          {
+            "type": "curve",
+            "point": "pocketTopRight",
+            "to": {
+              "x": 136.0799999999999,
+              "y": 459.37174588174526
+            }
+          },
+          {
+            "type": "line",
+            "point": "pocketCfTop",
+            "to": {
+              "x": -1.2296252477234767e-13,
+              "y": 459.37174588174526
+            }
+          },
+          {
+            "type": "line",
+            "point": "cfHem",
+            "to": {
+              "x": 1.1021821192326178e-14,
+              "y": 630
+            }
+          },
+          {
+            "type": "close"
+          }
+        ]
+      },
+      {
+        "id": "huey.hood",
+        "cutlist": {
+          "materials": {
+            "fabric": [
+              {
+                "cut": 4,
+                "identical": false,
+                "onBias": false,
+                "onFold": false
+              }
+            ]
+          }
+        },
+        "points": [
+          "cfBottom",
+          "cbBottom",
+          "cfHeightLeft",
+          "cfHeightRight",
+          "cfTop",
+          "frontTop",
+          "frontTopCp2",
+          "backPitch",
+          "backPitchCp1",
+          "backPitchCp2",
+          "logo",
+          "title"
+        ],
+        "paths": {
+          "seam": {
+            "classes": [
+              "fabric"
+            ],
+            "d": "M 0,0 L 199.17,-17.43 C 199.17,-17.43 249.32,-149.86 249.32,-208.86 C 249.32,-267.86 199.93,-348.1 59,-348.1 C 59,-79.35 -6.94,-79.35 -6.94,-79.35 L 0,0 z"
+          },
+          "sa": {
+            "classes": [
+              "fabric sa"
+            ],
+            "d": "M 0.87,9.96 L 200.04,-7.46 L 208.53,-13.92 C 209.25,-15.83 259.32,-148.81 259.32,-208.86 C 259.32,-248.53 238.87,-297.35 186.12,-328.28 C 155.59,-346.18 114.03,-358.1 59,-358.1 L 49,-348.1 C 49,-214.3 33.25,-148.36 17.06,-115.96 C 4.72,-91.27 -7.34,-89.38 -8.24,-89.26 L -16.9,-78.48 L -9.96,0.87 z"
+          }
+        },
+        "edges": [
+          {
+            "type": "move",
+            "point": "cfBottom",
+            "to": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "type": "line",
+            "point": "cbBottom",
+            "to": {
+              "x": 199.17004031042137,
+              "y": -17.42512064116313
+            }
+          },
+          {
+            "type": "curve",
+            "point": "backPitch",
+            "to": {
+              "x": 249.32004031042138,
+              "y": -208.85999999999999
+            }
+          },
+          {
+            "type": "curve",
+            "point": "frontTop",
+            "to": {
+              "x": 59.000000000000064,
+              "y": -348.09999999999997
+            }
+          },
+          {
+            "type": "curve",
+            "point": "cfTop",
+            "to": {
+              "x": -6.941954909850951,
+              "y": -79.34690770300755
+            }
+          },
+          {
+            "type": "line",
+            "point": "cfBottom",
+            "to": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "type": "close"
+          }
+        ]
+      },
+      {
+        "id": "huey.waistband",
+        "cutlist": {
+          "materials": {
+            "ribbing": [
+              {
+                "cut": 1,
+                "identical": false,
+                "onBias": false,
+                "onFold": false
+              }
+            ]
+          }
+        },
+        "points": [
+          "topLeft",
+          "topRight",
+          "bottomLeft",
+          "bottomRight",
+          "title"
+        ],
+        "paths": {
+          "seam": {
+            "classes": [
+              "various"
+            ],
+            "d": "M 120,771.12 L 120,0 L 0,0 L 0,771.12 L 120,771.12 z"
+          },
+          "sa": {
+            "classes": [
+              "various sa"
+            ],
+            "d": "M 130,771.12 L 130,0 L 120,-10 L 0,-10 L -10,0 L -10,771.12 L 0,781.12 L 120,781.12 z"
+          }
+        },
+        "edges": [
+          {
+            "type": "move",
+            "point": "bottomRight",
+            "to": {
+              "x": 120,
+              "y": 771.12
+            }
+          },
+          {
+            "type": "line",
+            "point": "topRight",
+            "to": {
+              "x": 120,
+              "y": 0
+            }
+          },
+          {
+            "type": "line",
+            "point": "topLeft",
+            "to": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "type": "line",
+            "point": "bottomLeft",
+            "to": {
+              "x": 0,
+              "y": 771.12
+            }
+          },
+          {
+            "type": "line",
+            "point": "bottomRight",
+            "to": {
+              "x": 120,
+              "y": 771.12
+            }
+          },
+          {
+            "type": "close"
+          }
+        ]
+      },
+      {
+        "id": "huey.cuff",
+        "cutlist": {
+          "materials": {
+            "ribbing": [
+              {
+                "cut": 2,
+                "identical": false,
+                "onBias": false,
+                "onFold": false
+              }
+            ]
+          }
+        },
+        "points": [
+          "topLeft",
+          "topRight",
+          "bottomLeft",
+          "bottomRight",
+          "title"
+        ],
+        "paths": {
+          "seam": {
+            "classes": [
+              "various"
+            ],
+            "d": "M 120,178.5 L 120,0 L 0,0 L 0,178.5 L 120,178.5 z"
+          },
+          "sa": {
+            "classes": [
+              "various sa"
+            ],
+            "d": "M 130,178.5 L 130,0 L 120,-10 L 0,-10 L -10,0 L -10,178.5 L 0,188.5 L 120,188.5 z"
+          }
+        },
+        "edges": [
+          {
+            "type": "move",
+            "point": "bottomRight",
+            "to": {
+              "x": 120,
+              "y": 178.5
+            }
+          },
+          {
+            "type": "line",
+            "point": "topRight",
+            "to": {
+              "x": 120,
+              "y": 0
+            }
+          },
+          {
+            "type": "line",
+            "point": "topLeft",
+            "to": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "type": "line",
+            "point": "bottomLeft",
+            "to": {
+              "x": 0,
+              "y": 178.5
+            }
+          },
+          {
+            "type": "line",
+            "point": "bottomRight",
+            "to": {
+              "x": 120,
+              "y": 178.5
+            }
+          },
+          {
+            "type": "close"
+          }
+        ]
+      }
+    ],
+    "checks": []
+  }
+]

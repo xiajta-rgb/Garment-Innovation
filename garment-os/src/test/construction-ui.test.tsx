@@ -1,0 +1,82 @@
+import { afterEach, beforeEach, expect, it, vi } from 'vitest';
+import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+import { PieceLibraryView } from '@/features/piece-library/PieceLibraryView';
+import { ConstructionPanel } from '@/features/piece-library/ConstructionPanel';
+import { StandardGeneratorPanel } from '@/features/piece-library/StandardGeneratorPanel';
+import { useDesignStore } from '@/store/useDesignStore';
+import { usePieceLibraryStore } from '@/store/pieceLibraryStore';
+import { downloadText } from '@/features/files/browser-files';
+
+vi.mock('@/features/files/browser-files',()=>({downloadText:vi.fn()}));
+beforeEach(()=>{const s=useDesignStore.getState();s.newDesign();s.applyPattern('button-up-shirt');usePieceLibraryStore.getState().clearTagFilter();});
+afterEach(()=>{cleanup();vi.clearAllMocks();});
+it('opens component choices from the library and switches long/short sleeves with actual inventory changes',()=>{
+  const {container}=render(<PieceLibraryView/>);fireEvent.click(screen.getByRole('button',{name:'部件组合'}));
+  expect(screen.getByTestId('construction-summary')).toHaveTextContent('10 种裁片');
+  const before=useDesignStore.getState().draft.gateKey;
+  fireEvent.change(screen.getByRole('combobox',{name:'袖型'}),{target:{value:'short'}});
+  expect(screen.getByTestId('construction-summary')).toHaveTextContent('7 种裁片');
+  expect(screen.queryByRole('combobox',{name:'袖口造型'})).toBeNull();
+  expect(container.querySelector('[data-construction-operation="cuff-pleats"]')).toBeNull();
+  expect(container.querySelector('[data-construction-operation="short-sleeve-hem"]')).toHaveAttribute('data-status','dimensioned');
+  expect(useDesignStore.getState().draft.gateKey).not.toBe(before);
+  fireEvent.click(screen.getByRole('button',{name:'裁片生成器'}));
+  expect(container.querySelectorAll('[data-standard-piece]')).toHaveLength(7);
+  fireEvent.click(screen.getByRole('button',{name:'裁片组成'}));
+  expect(screen.getByTestId('assembly-summary')).toHaveTextContent('7 种源裁片');
+  expect(container.querySelector('[data-assembly-piece="simon.cuff"]')).toBeNull();
+});
+it('changing collar and cuff inputs recomputes their real source paths; the generator uses the same choices',()=>{
+  render(<ConstructionPanel/>);const before=useDesignStore.getState().draft.paths;
+  fireEvent.change(screen.getByRole('combobox',{name:'袖口造型'}),{target:{value:'roundedBarrelCuff'}});
+  fireEvent.change(screen.getByRole('spinbutton',{name:'领尖角'}),{target:{value:'100'}});
+  fireEvent.blur(screen.getByRole('spinbutton',{name:'领尖角'}));
+  const changed=useDesignStore.getState().draft.paths;
+  for(const id of ['simon.cuff','simon.collar'])expect(changed.find(p=>p.pieceId===id&&p.layer==='seam-line')!.data).not.toBe(before.find(p=>p.pieceId===id&&p.layer==='seam-line')!.data);
+  cleanup();const {container}=render(<StandardGeneratorPanel/>);
+  fireEvent.click(container.querySelector('[data-standard-piece="simon.cuff"]')!);
+  expect(container.querySelector('[data-source-path="simon.cuff:seam"]')).toHaveAttribute('d',changed.find(p=>p.pieceId==='simon.cuff'&&p.layer==='seam-line')!.data);
+});
+it('filters actual construction cards and renders exact source guide paths',()=>{
+  const {container}=render(<ConstructionPanel/>);
+  const nav=screen.getByRole('navigation',{name:'构造规则分类'});
+  fireEvent.click(within(nav).getByRole('button',{name:'袖口'}));
+  expect(container.querySelectorAll('[data-construction-operation]')).toHaveLength(1);
+  const card=container.querySelector('[data-construction-operation="cuff-pleats"]')!;
+  expect(card).toHaveAttribute('data-status','needs-redraft');expect(card).toHaveTextContent('去褶后尚余差值');
+  const guide=useDesignStore.getState().draft.assembly!.construction!.operations.find(o=>o.id==='cuff-pleats')!.guides[0];
+  expect(container.querySelector('[data-construction-guide]')).toHaveAttribute('d',guide.pathD);
+  fireEvent.click(within(nav).getByRole('button',{name:'领部'}));
+  expect(container.querySelector('[data-construction-operation="cuff-pleats"]')).toBeNull();
+  expect(container.querySelectorAll('[data-construction-operation]')).toHaveLength(3);
+});
+it('out-of-range choices are explained and never silently clamped or installed',()=>{
+  render(<ConstructionPanel/>);const before=useDesignStore.getState().draft;
+  fireEvent.change(screen.getByRole('spinbutton',{name:'领座宽比例'}),{target:{value:'0.9'}});
+  fireEvent.blur(screen.getByRole('spinbutton',{name:'领座宽比例'}));
+  expect(screen.getByRole('alert')).toHaveTextContent('禁止静默截断');
+  expect(useDesignStore.getState().draft).toBe(before);
+  expect(useDesignStore.getState().construction).toBeUndefined();
+});
+it('numeric editing accepts intermediate typing and commits only a complete value on blur',()=>{
+  render(<ConstructionPanel/>);const before=useDesignStore.getState().draft;
+  const input=screen.getByRole('spinbutton',{name:'领座宽比例'});
+  for(const value of ['','0','0.1'])fireEvent.change(input,{target:{value}});
+  expect(useDesignStore.getState().draft).toBe(before);
+  expect(input).toHaveValue(.1);fireEvent.blur(input);
+  expect(useDesignStore.getState().construction!.options.collarStandWidth).toBe(.1);
+  expect(useDesignStore.getState().draft).not.toBe(before);
+});
+it('exports current composition with its computed gaps, supports undo, and resets on a new design',()=>{
+  render(<ConstructionPanel/>);
+  fireEvent.change(screen.getByRole('combobox',{name:'袖型'}),{target:{value:'short'}});
+  fireEvent.click(screen.getByRole('button',{name:'导出组合与规则'}));
+  const [content]=vi.mocked(downloadText).mock.calls[0],record=JSON.parse(content);
+  expect(record.configuration.construction.options.sleeveStyle).toBe('short');
+  expect(record.assembly.construction.selection).toEqual(record.configuration.construction);
+  expect(record.assembly.construction.readyForAssembly).toBe(false);
+  act(()=>useDesignStore.getState().undo());expect(screen.getByTestId('construction-summary')).toHaveTextContent('10 种裁片');
+  act(()=>useDesignStore.getState().redo());expect(screen.getByTestId('construction-summary')).toHaveTextContent('7 种裁片');
+  act(()=>useDesignStore.getState().newDesign());expect(useDesignStore.getState().construction).toBeUndefined();
+  expect(screen.queryByRole('combobox',{name:'袖型'})).toBeNull();
+});

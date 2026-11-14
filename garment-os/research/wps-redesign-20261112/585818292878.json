@@ -1,0 +1,1214 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "【精心整理】商业设计公式思维导图（延伸、改款、出款）",
+                  "type": "text"
+                }
+              ],
+              "id": "wHsYpPnVSXKzwBms",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/xMas1YThhJFQvpCw94JILg"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "GMFmNgTSXUQeqRRT",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "点 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#102270"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "卡片 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "关注，并 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#FFA900"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "星标",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "，不错过每期精华推送",
+                  "type": "text"
+                }
+              ],
+              "id": "rKHiEthIyvdLcHVI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 442,
+                "renderHeight": 302.85,
+                "renderWidth": 740,
+                "sourceKey": "627544c43f78831eeb6fd0ebdbac78a44f58fce2",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "CxnsObjEZIbJRzbI",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "QMbigAIeYHrkfgnZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#585858"
+                    }
+                  },
+                  "content": "从事服",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#585858"
+                    }
+                  },
+                  "content": "装设计的初期，可能设计思路和方法，没有多年经验的设计师娴熟，那如何能在0-5年这段时间，尽可能提升商业设计的实战能力呢？",
+                  "type": "text"
+                }
+              ],
+              "id": "xfcBMtJmbUDWPVlm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "RDoStExNRwKxLtQl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#585858"
+                    }
+                  },
+                  "content": "我将自己总结的",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#585858"
+                    }
+                  },
+                  "content": "实用设计思路，",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#585858"
+                    }
+                  },
+                  "content": "提炼的思维和方法，融合方法论，",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#585858"
+                    }
+                  },
+                  "content": "整理成简洁明了的思维导图",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#585858"
+                    }
+                  },
+                  "content": "。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#585858"
+                    }
+                  },
+                  "content": "在实际工作",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#585858"
+                    }
+                  },
+                  "content": "中，比如出款没有思路的时候，可以参考思维导图提供的变化公式。",
+                  "type": "text"
+                }
+              ],
+              "id": "TTIgNctSasxTMqkc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "YyqLOZfJTSXSQtVU",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#D92142"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "F先生原创，抄袭必究",
+                  "type": "text"
+                }
+              ],
+              "id": "ubcYMcJgLvqDEzoW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 80,
+                "renderHeight": 79.55,
+                "renderWidth": 636.4,
+                "sourceKey": "0561b66cae8a9593d4a7b452d6d69679e12d9230",
+                "version": 2,
+                "width": 640
+              },
+              "id": "GlkysyLroiVTbAcS",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "【系列延伸变化公式汇总】",
+                  "type": "text"
+                }
+              ],
+              "id": "PAzZChyyZOrGpina",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 618,
+                "renderHeight": 478.87,
+                "renderWidth": 740,
+                "sourceKey": "5876d02388cce2bb5bb822f5b7a7e35526af35b1",
+                "version": 2,
+                "width": 955
+              },
+              "id": "rrQrGHnTqOTjGEOU",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 643,
+                "renderHeight": 440.57,
+                "renderWidth": 740,
+                "sourceKey": "466350b82b16feee638ddbd8de1db3b72313fe82",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "UPBOdMODoxrloDRt",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 677,
+                "renderHeight": 463.87,
+                "renderWidth": 740,
+                "sourceKey": "c581403790c757cf177b6582b2897585b96376ea",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "dmEaiREvhLHcNClA",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 767,
+                "renderHeight": 612.28,
+                "renderWidth": 740,
+                "sourceKey": "1c2fb494820530d05408b7c43ec1dd70a6f66bf0",
+                "version": 2,
+                "width": 927
+              },
+              "id": "giMYdjXWPfuULDJA",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 673,
+                "renderHeight": 461.13,
+                "renderWidth": 740,
+                "sourceKey": "ddc294c1066655eb4fbcfbacf06bd259be104222",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "EcxPvMVfaHFMWzRe",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 628,
+                "renderHeight": 430.3,
+                "renderWidth": 740,
+                "sourceKey": "65ecbb059cd12dd5491ea928115740b806abf794",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "GeyNZqQsBJpjnfbG",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "id": "YNRahphKsJtWXrod",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "【单款改款变化公式汇总】",
+                  "type": "text"
+                }
+              ],
+              "id": "esZCXntpGtZObcaS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 912,
+                "renderHeight": 763.44,
+                "renderWidth": 740,
+                "sourceKey": "46ec7296ede798d792a0a84450769eeb04b424ae",
+                "version": 2,
+                "width": 884
+              },
+              "id": "GjhrfuCsnRRsAICY",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 768,
+                "renderHeight": 551.77,
+                "renderWidth": 740,
+                "sourceKey": "1db271948c4c541d9852ad6be388a751215821d2",
+                "version": 2,
+                "width": 1030
+              },
+              "id": "uquIXNPUlxTCNpHy",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 715,
+                "renderHeight": 489.91,
+                "renderWidth": 740,
+                "sourceKey": "e51c802e2a0926b848b3093ef19837b496d51fe3",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "nAAyLDXFNEfHqJsW",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 758,
+                "renderHeight": 539.35,
+                "renderWidth": 740,
+                "sourceKey": "9556118fd2e9790ac99671eaf266c2f335a9f1ab",
+                "version": 2,
+                "width": 1040
+              },
+              "id": "ZgxULfehrDpRiwSt",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 758,
+                "renderHeight": 543.53,
+                "renderWidth": 740,
+                "sourceKey": "23490b623036ad8b82b0677e86e222095e754bd6",
+                "version": 2,
+                "width": 1032
+              },
+              "id": "HyBfaKgHPNAcWYKG",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "id": "oHpghfYCjZNPVytE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "【商业设计出款方法与公式】",
+                  "type": "text"
+                }
+              ],
+              "id": "fJVJrxMamDFWoPWs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 727,
+                "renderHeight": 583.49,
+                "renderWidth": 740,
+                "sourceKey": "618e27a04867bdfd5a6b43510c0ed83eb4b22a6e",
+                "version": 2,
+                "width": 922
+              },
+              "id": "CNPTUzmYpvcarcRK",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "id": "WQywTHFCPTHJKqHX",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#D92142"
+                    }
+                  },
+                  "content": "1. 确定常规款式",
+                  "type": "text"
+                }
+              ],
+              "id": "MtsZnJbPtPDtUzjF",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "比如，做羽绒服的品类，通常都是有个基本型的。无非就是更短或更长，或更贴身还是更宽大的区别，这个基本型通常就是常规款式。",
+                  "type": "text"
+                }
+              ],
+              "id": "ojczBgfRXSGhjHwW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 753,
+                "renderHeight": 692.2,
+                "renderWidth": 740,
+                "sourceKey": "59f469383057c4ef353e6cc34481cf693e0c2f22",
+                "version": 2,
+                "width": 805
+              },
+              "id": "glMdATFBMEyAKcko",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "EpvkMGPyvYsqdfrR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#D92142"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "2. 搜集风格特征",
+                  "type": "text"
+                }
+              ],
+              "id": "KgbQIYwqrbbgPugW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "比如你是做这类风格，还是那类风格，形色质图细节都是有区别的，先把每个风格组成元素的设计规则都归纳出来。再",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "根据设计规则去搜集各种各样的设计手法。",
+                  "type": "text"
+                }
+              ],
+              "id": "xfiBcQAyPAZkAIBK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 618,
+                "renderHeight": 423.44,
+                "renderWidth": 740,
+                "sourceKey": "2323f5fb36812e5ae7daf8ff7686feaea11e71b7",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "eOmQhzJBaaednVXY",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#D92142"
+                    }
+                  },
+                  "content": "3. 结合流行元素",
+                  "type": "text"
+                }
+              ],
+              "id": "DqirQgsNSMazgepS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "注意，结合流行元素",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "这一步",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "，一定是最后才做的。因为，不是说流行什么，就一定要做什么。而是先要 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "确定好品类的基型，再批上风格的外衣，最后，点缀上适合的流行元素",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "，就OK了。",
+                  "type": "text"
+                }
+              ],
+              "id": "dvJlZLwQwORXDFfl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 734,
+                "renderHeight": 502.93,
+                "renderWidth": 740,
+                "sourceKey": "79b8acee8fac383c5a973136df651d9471bcd495",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "pKhGukJlBOvVBEMJ",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "id": "BLhINXwrjgeBaBHc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#D92142"
+                    }
+                  },
+                  "content": "我总结的出款通用公式：",
+                  "type": "text"
+                }
+              ],
+              "id": "RAUwmsJTygKsMEIu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "基本单品+风格特性+流行元素（通常适用于风格流行款）",
+                  "type": "text"
+                }
+              ],
+              "id": "HsFtGTTgawSravdR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "基本单品+风格特性",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "（通常适用于风格款）",
+                  "type": "text"
+                }
+              ],
+              "id": "dufckFpyJVBFtrsK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "基本单品+",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "流行元素",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF"
+                    }
+                  },
+                  "content": "（通常适用于流行款）",
+                  "type": "text"
+                }
+              ],
+              "id": "mZJOkogDXGgTMhuW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 1528,
+                "renderHeight": 1046.96,
+                "renderWidth": 740,
+                "sourceKey": "69d3fe87eb769fb562688c6afc1c7bf881555424",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "HUcZHRVNXhTZhEPw",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "id": "HrgDyHdeIFkQTQFi",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "THE END",
+                  "type": "text"
+                }
+              ],
+              "id": "EnxioIKdDByEBNBG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " -  用心去做的，永远不会浪费 -",
+                  "type": "text"
+                }
+              ],
+              "id": "SdUpXbHmiTgDvXAu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 205,
+                "renderHeight": 203.85,
+                "renderWidth": 636.4,
+                "sourceKey": "e8b6b7446ab2ba86447e2e5e2089b7f9fd5a9d01",
+                "version": 2,
+                "width": 640
+              },
+              "id": "UvZlpkmUYgsVFyHb",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "qkDgJfLFjZmTVTFy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "F 先 生 绘 公 众 号",
+                  "type": "text"
+                }
+              ],
+              "id": "QufBCSxihVPmJGtx",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "Take  heart  without  taking  detours ",
+                  "type": "text"
+                }
+              ],
+              "id": "XzzVQCPXTCyXdMAw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "“走心，不走弯路",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "”",
+                  "type": "text"
+                }
+              ],
+              "id": "MMRHkFJhlfhnAMDv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 464,
+                "renderHeight": 463.14,
+                "renderWidth": 643.8,
+                "sourceKey": "4fe491e4968bf82ebfd4d7f73cc8dd88cc8f6f09",
+                "version": 2,
+                "width": 645
+              },
+              "id": "cJIXdbjXLQcaaMBm",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "▲",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " 关注F先生视频号",
+                  "type": "text"
+                }
+              ],
+              "id": "cuxlvZNRdlkiFEzw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "《F先生精品课》直播间（千聊平台统称直播间，其实课程均为永久录播），至今总学习次数已经超过80000次，学习过的学员已超过7500人。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "长按识别下方二维码",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "。升级认知、提升能力、增强自己的核心竞争力。我，与你同在。",
+                  "type": "text"
+                }
+              ],
+              "id": "AmvldDdOgxiIZhoB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "id": "HrDADkqqSGPSOaOy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "content": "修改于",
+                  "type": "text"
+                }
+              ],
+              "id": "fFRVgomtmuwYphPa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "不喜欢",
+                  "type": "text"
+                }
+              ],
+              "id": "WdswhDzPJpjVMdEq",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 22
+    }
+  },
+  "result": "ok"
+}

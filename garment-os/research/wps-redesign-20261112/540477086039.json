@@ -1,0 +1,580 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "不要凭感觉了，女装爆款设计都有工具表可用",
+                  "type": "text"
+                }
+              ],
+              "id": "oiEwDIfBABVApZQx",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/oUD93mglyqEbnQs8l7wXnA"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年07月09日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "ZgSCvKAnmTZAjMCP",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "00057bf2bf334aba6edcb1cca2253404f28da4fc",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "LnzGAPhiaUEepRwh",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "7ffdce6efc1f95e6136fd13bef1384feeaeebdc8",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "BkXrRGBwTdYgUWzE",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "e70a13f19dcf8eee77de30f54ee4578249a10741",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "PzVmeEqGpTBEshlz",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "1889a9f26ac8a873987bc13118ce6eb0137513ea",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "jXohuDRAxkdPDwAq",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "90a82a306d4bf166683dda343d19642fbbb3bef6",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "forPSzKhioCdAGdw",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1443,
+                "renderHeight": 988.72,
+                "renderWidth": 740,
+                "sourceKey": "72369303d0b2ae765c01f88ed6d1739818536488",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "dxdtXLCzzDzEaVXE",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1443,
+                "renderHeight": 988.72,
+                "renderWidth": 740,
+                "sourceKey": "f2092cd68e25bf08d59f47038923d10da436d070",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "cwQvJCwUsQbWHIwY",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1443,
+                "renderHeight": 988.72,
+                "renderWidth": 740,
+                "sourceKey": "3dc8c1dcce97078e4e1976f984f87a8b30b3d869",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "YrzysbwDlFUstYAw",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1443,
+                "renderHeight": 988.72,
+                "renderWidth": 740,
+                "sourceKey": "fd9ad4b9404548242f8e06aab7c7d05a6ea224d1",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "qmfLacchaWrgpalx",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1443,
+                "renderHeight": 988.72,
+                "renderWidth": 740,
+                "sourceKey": "64fcfc9dac2ee48f684c114833231f7f0032331c",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "mVWZqrjGknYAbEEq",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "c585f1b76dab38cacf9be940f09f9bd487ce5b90",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "vdEYtQlBUonuJEzO",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "f3e78f59f66ba489ef715688172398fc682cbd44",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "GLneRfmwDUIlTiHU",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "b94b2c2b79dc76b239ea0814d920a4a327caf1d1",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "YcCpEBeprvAxWvms",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "3825759959b972ae7e9f6efb458a93c1e9cc19e3",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "ZKSPTtHBxJBlNFkQ",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "ed237535ebae198abbcdc6e21e8a0a1d362eb815",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "vqkQFigCbcuiMNME",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "0641e7a9291db421a819d90140e85e3e99c84d82",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "dNlZPMFQtIEXfYfV",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "uknohZeAsumYxiah",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "用了几周时间，我系统整理了这些爆款工具和方法，收录于爆款参考学习资料。",
+                  "type": "text"
+                }
+              ],
+              "id": "BpforxYoBjxrETSe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "egGdhtiVsqLZcJiW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "✅ 内含：",
+                  "type": "text"
+                }
+              ],
+              "id": "DCKhVDdpwMznYnYA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "爆款基因分析表",
+                  "type": "text"
+                }
+              ],
+              "id": "GywVstORkntDSvmQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "趋势元素周期分析",
+                  "type": "text"
+                }
+              ],
+              "id": "DtSVBPHiiVCegonN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "六大品类改款延伸方向指导",
+                  "type": "text"
+                }
+              ],
+              "id": "SnukhcyTvYTbLDhk",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "几十个小品类原型延伸路线表",
+                  "type": "text"
+                }
+              ],
+              "id": "YfvajFCLVmgsMYQK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "秀场提取爆款设计点",
+                  "type": "text"
+                }
+              ],
+              "id": "BkgYGjVXtNlAQblC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "爆款打法与公式",
+                  "type": "text"
+                }
+              ],
+              "id": "dzpwCVPWjSIFzVIu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "爆款廓形延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "NjzzmCxMyATaDjob",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "爆款卖点打造",
+                  "type": "text"
+                }
+              ],
+              "id": "jzQNpkFmhKHfVzfI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "……",
+                  "type": "text"
+                }
+              ],
+              "id": "yxXJVgodRBOZtzwJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "共近四十份学习与工具资料💾",
+                  "type": "text"
+                }
+              ],
+              "id": "bEPoWtlFmdkOPLAJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "fNGMzwqaqplvmMTS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "相关内容见图片，可👉滑动。",
+                  "type": "text"
+                }
+              ],
+              "id": "OZCyoKGQOoXyMLST",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "hvJxIBhgHgtAvjHi",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "所有表格原件及更多内容，可于末页扫链接购买。",
+                  "type": "text"
+                }
+              ],
+              "id": "rxcrIgXomALrHrvK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "收录于",
+                  "type": "text"
+                },
+                {
+                  "content": "服装设计开发",
+                  "type": "text"
+                }
+              ],
+              "id": "MorUdzFuBRJkyZGB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "作者提示: 个人观点，仅供参考",
+                  "type": "text"
+                }
+              ],
+              "id": "mpPrXGPxqHRANvin",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 150,
+                "renderHeight": 148,
+                "renderWidth": 148,
+                "sourceKey": "72ca36c52c294eb47e5a651b9bd73bcd3eefb0b7",
+                "version": 2,
+                "width": 150
+              },
+              "id": "fXYcvjONLvxglNux",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "EXFtnViIficdrWOp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "F先生绘",
+                  "type": "text"
+                }
+              ],
+              "id": "LSxmALqhTEhwIYsV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "tffywXtUaHxrtazU",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 19
+    }
+  },
+  "result": "ok"
+}

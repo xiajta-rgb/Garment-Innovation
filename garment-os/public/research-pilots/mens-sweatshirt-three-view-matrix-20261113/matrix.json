@@ -1,0 +1,234 @@
+{
+  "schema": "garment-os/three-view-redesign-matrix/v1",
+  "runId": "mens-sweatshirt-three-view-matrix-20261113",
+  "baseStyle": "AT25M3295",
+  "evidence_provenance": "company-reference-plus-historical-market-sources-plus-LAB-method-application; candidate-only",
+  "methods": [
+    "廓形限定",
+    "组合更换",
+    "细节延伸",
+    "增加部位",
+    "逆向改款",
+    "款式组合",
+    "结构替换"
+  ],
+  "candidates": [
+    {
+      "id": "A0",
+      "name": "基款锁定",
+      "method": "廓形限定",
+      "master": "AT25M3295",
+      "evidence": "D1 / D2 / M1",
+      "status": "baseline-only",
+      "statusLabel": "基准对照",
+      "statusColor": "#65736a",
+      "why": "先把我司卫衣识别点锁住，给所有延展提供同尺度、同视角对照。",
+      "keep": "微落肩、圆领、净面无袋、宽罗纹、原稿比例",
+      "change": "无；仅做基款继承复核",
+      "verify": "对照原稿、工艺单、同款实物和版师记录，确认领弧、肩袖、罗纹高度与侧面体量。",
+      "gate": "不构成创新机会；不代表毫米净样或生产批准。",
+      "visualAsset": "A0.svg"
+    },
+    {
+      "id": "A1",
+      "name": "轻层搭材料",
+      "method": "组合更换",
+      "master": "AT25M3295",
+      "evidence": "D1 / E2 / S3 / M1",
+      "status": "candidate-opportunity",
+      "statusLabel": "机会候选",
+      "statusColor": "#506c38",
+      "why": "把评论中的材料不一致、洗后变长、掉絮和起球问题转成单变量材料验证。",
+      "keep": "AT25M3295 全部形态、领部和罗纹关系",
+      "change": "主体材料替换为 FC063 260g；不改结构",
+      "verify": "S0/S1 同版型同尺码样衣；主体—罗纹伸长回弹、洗缩、起球/落毛、缝口平整和同体型试穿。",
+      "gate": "260g 不等于轻盈、透气或耐久；没有真实样衣与授权记录不提升为采用。",
+      "visualAsset": "A1.svg"
+    },
+    {
+      "id": "A2",
+      "name": "领缘微对比罗纹",
+      "method": "细节延伸",
+      "master": "AT25M3295",
+      "evidence": "D1 / S3 / M1",
+      "status": "visual-hypothesis-only",
+      "statusLabel": "视觉假设",
+      "statusColor": "#80633e",
+      "why": "先用领缘的同色系对比建立小差异，保留办公和净面场景的克制感；袖口和下摆只作为配套开发意向。",
+      "keep": "我司微落肩、圆领、净面无袋和宽罗纹结构",
+      "change": "只改变领部配套部件的低对比色表达；袖口/下摆不在本图中冒充已完成配套",
+      "verify": "确认实际罗纹色号、供应链、洗后沾色/色牢度与小范围偏好；图稿不替代配色打样。",
+      "gate": "没有直接需求证据，不能写成市场机会或溢价依据。",
+      "visualAsset": "A2.svg"
+    },
+    {
+      "id": "A3",
+      "name": "侧向安全置物",
+      "method": "增加部位",
+      "master": "AT25M3295",
+      "evidence": "D1 / M1 / research-only",
+      "status": "functional-hypothesis-only",
+      "statusLabel": "功能假设",
+      "statusColor": "#4d6b86",
+      "why": "把“需要置物”的产品问题拆成口袋位置、开口方向和拉链耐用性，而不是直接宣称功能收益。",
+      "keep": "原款衣身比例、圆领、肩袖、宽罗纹",
+      "change": "增加两侧斜向拉链袋；不叠加图案或拼片",
+      "verify": "确认袋布、袋口加固、拉链规格、手机载荷、坐姿压迫、洗后波浪和拉链外观；当前没有直接VOC。",
+      "gate": "这是结构试验假设；软件图示不能证明安全置物、舒适性或耐久。",
+      "visualAsset": "A3.svg"
+    },
+    {
+      "id": "A4",
+      "name": "袖体逆向撞色",
+      "method": "逆向改款",
+      "master": "AT25M3295",
+      "evidence": "D1 / S01 / M1",
+      "status": "visual-hypothesis-only",
+      "statusLabel": "视觉假设",
+      "statusColor": "#80633e",
+      "why": "只交换主体与袖体的明暗关系，让肩袖成为识别重点；保持领、下摆和主体比例不变。",
+      "keep": "微落肩肩袖连接、圆领、宽罗纹和净面",
+      "change": "仅袖体使用低饱和辅色；不增加拼片线",
+      "verify": "检查前后侧色块连续、袖口与主体色牢度、采购可得性和目标人群偏好。",
+      "gate": "颜色关系不等于市场机会；真实色号与批次未闭合前保持视觉假设。",
+      "visualAsset": "A4.svg"
+    },
+    {
+      "id": "A5",
+      "name": "同系列连帽延展",
+      "method": "款式组合",
+      "master": "AT25M3288",
+      "evidence": "D2 / M1 / company-series",
+      "status": "series-extension-only",
+      "statusLabel": "系列延展",
+      "statusColor": "#6c5a86",
+      "why": "使用我司同系列 AT25M3288 的连帽、袋鼠袋和宽罗纹语言，测试系列扩展，而非把圆领母版硬改成无来源半拉链。",
+      "keep": "我司系列的微落肩、长袖、宽罗纹与运动休闲语法",
+      "change": "采用 AT25M3288 的帽体与袋鼠袋组合；独立做构型复核",
+      "verify": "取得 AT25M3288 净样/完整帽袋裁片，复核帽口、帽绳、袋口、肩袖和洗后结构；不直接复用圆领净样。",
+      "gate": "这是有公司来源的系列延展，不代表 AT25M3295 的直接版型复用或市场机会成立。",
+      "visualAsset": "A5.svg"
+    },
+    {
+      "id": "A6",
+      "name": "插肩袖运动延展",
+      "method": "结构替换 / 廓形限定",
+      "master": "AT25M3295 → AT25M3275 / AT24M3248 结构来源",
+      "evidence": "D1 / D3 / D4 / S01 / M1",
+      "status": "structural-hypothesis-only",
+      "statusLabel": "结构假设",
+      "statusColor": "#4d6b86",
+      "why": "把我司微落肩圆领卫衣的运动休闲语法，迁移到公司已有插肩结构经验上，形成真正的结构延展，而不是在装袖图上补一条斜线。",
+      "keep": "AT25M3295 的圆领、长袖、微落肩体量、55mm宽2×2罗纹和净面克制感",
+      "change": "前后衣身重建插肩边；袖片同时形成前插肩边、后插肩边、袖底合缝；袖片上端参与领圈分段；腋下重新对位",
+      "verify": "取得AT25M3275/AT24M3248相关净样与工艺单；重建前身、后身、左右配套袖片和领圈分段；核对前后插肩配缝、袖底合缝、腋下活动量、领圈净长、洗后扭斜与试穿抬臂。",
+      "gate": "插肩结构图只支持结构开发假设；未完成短卫衣配套纸样、样衣和专业版型审核前，不进入生产候选。",
+      "visualAsset": "A6.svg"
+    }
+  ],
+  "blockedDirection": {
+    "id": "Q0",
+    "status": "blocked-pending-source-pattern",
+    "reason": "半拉链公司来源结构未闭合；不生成伪三视图。"
+  },
+  "productionApproved": false,
+  "physicalTestCompleted": false,
+  "formalQualified": false,
+  "outputs": {
+    "matrixSvg": "three-view-matrix.svg",
+    "matrixPng": "three-view-matrix.png",
+    "candidateFolder": "."
+  },
+  "competitors": [
+    {
+      "id": "C1",
+      "name": "BELLA+CANVAS 3901",
+      "brand": "BELLA+CANVAS",
+      "kind": "raglan",
+      "url": "https://www.bellacanvas.com/product/3901/unisex-sponge-fleece-raglan-sweatshirt.html",
+      "image": "https://www.bellacanvas.com/bella/product/hires/39010311_1.jpg",
+      "fact": "官方产品页直接写明：crew neck、raglan sleeves、ribbed cuffs and waistband；并标注日常穿着和叠穿场景。",
+      "insight": "证明插肩圆领本身可以成为基础款差异点；A6可优先走“圆领 + 插肩 + 宽罗纹”，避免一上来叠加半拉链。",
+      "limit": "公开页面不能证明我司版型适体、销量或工艺可直接复用。"
+    },
+    {
+      "id": "C2",
+      "name": "Royal Apparel Organic Raglan Crew",
+      "brand": "Royal Apparel",
+      "kind": "raglan",
+      "url": "https://royalapparel.com/organic-raglan-crew-neck-sweatshirt.html",
+      "image": "",
+      "fact": "公开检索结果中的产品标题和摘要将产品定义为 classic crew neck、raglan sleeves、unisex fleece sweatshirt；本轮未能重新读取其产品页正文。",
+      "insight": "说明插肩结构可承载经典、日常和中性运动休闲语法；我司可以把差异放在微落肩体量、罗纹比例和袖体线条。",
+      "limit": "当前只作为公开检索线索；未取得其纸样、尺码表或实物验证，不能据此推断人体工学和成本。"
+    },
+    {
+      "id": "C3",
+      "name": "Carhartt Paxton 1/4 Zip",
+      "brand": "Carhartt",
+      "kind": "zip",
+      "url": "https://www.carhartt.com/product/100617/paxton-14-zip-sweatshirt",
+      "image": "",
+      "fact": "品牌站公开产品页作为 1/4 zip sweatshirt 先例留存；它提供的是开口方向对标，不是插肩版型来源。",
+      "insight": "半拉链可以作为另一条结构轴单独研究；A6不应因为竞品存在就把拉链叠到插肩上。",
+      "limit": "公开评论和页面不能替代我司B23M2009/AT25M3275完整领部来源、净样和责任人。"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "D1",
+      "label": "我司 AT25M3295 原设计稿",
+      "nature": "二维款式与工艺标注；无毫米净样"
+    },
+    {
+      "id": "D2",
+      "label": "我司 AT25M3288 原设计稿",
+      "nature": "同系列连帽与宽罗纹参考；不替代半拉链来源"
+    },
+    {
+      "id": "D3",
+      "label": "我司 AT25M3275 原设计稿",
+      "nature": "立领、插肩、1/4拉链结构稿；用于插肩接口和工艺先例，不替代A6净样"
+    },
+    {
+      "id": "D4",
+      "label": "我司 AT24M3248 原设计稿",
+      "nature": "三片帽、插肩、短拉链结构稿；用于前后插肩及帽领接口先例，不替代A6净样"
+    },
+    {
+      "id": "E2",
+      "label": "我司启用卫衣面料",
+      "nature": "材料主数据；无试样性能证明"
+    },
+    {
+      "id": "S3",
+      "label": "消费者评论样本",
+      "nature": "历史购买者自述；含正反反例，不代表总体"
+    },
+    {
+      "id": "S01",
+      "label": "LAB 改款方法卡",
+      "nature": "方法来源与应用推导，不是企业生产标准"
+    },
+    {
+      "id": "M1",
+      "label": "男卫衣校正经验卡",
+      "nature": "项目评审后的 candidate-only 经验"
+    },
+    {
+      "id": "C1",
+      "label": "BELLA+CANVAS 3901 外部公开产品页",
+      "nature": "公开产品页；结构观察与设计启发，不是我司版型来源"
+    },
+    {
+      "id": "C2",
+      "label": "Royal Apparel Organic Raglan Crew 外部公开产品页",
+      "nature": "公开产品页；结构观察与设计启发，不是我司版型来源"
+    },
+    {
+      "id": "C3",
+      "label": "Carhartt Paxton 1/4 Zip 外部公开产品页",
+      "nature": "公开产品页；结构观察与设计启发，不是我司版型来源"
+    }
+  ]
+}

@@ -1,193 +1,39 @@
-/**
- * Pattern Library (模式库)
- *
- * 真实服装模板, 每个都是一组 Block 的具体组合
- * 与旧版"geneLibrary" (preset → parameterValues) 根本不同:
- *  - 不同 Pattern → 不同 Block 集合 → 不同几何 → 视觉清晰不同
- *  - 共享 Bodice Block 仍可定制参数
- */
-
+/** Canonical template catalogue. Retired/blocked entries contain no executable legacy blocks. */
 import type { PatternDefinition } from '@/lib/patterns/types';
+import { PATTERN_REVIEWS, isReferencePattern } from './patternReview';
 
-/**
- * 通用默认参数 (从 size chart 推导后的男女默认值)
- * UI 切换 size 时会被 setSize action 覆盖
- */
-const MENS_REGULAR_DEFAULTS = {
-  gender: 'male' as const,
-  shoulderWidth: 38,
-  armholeDepth: 96,
-  waistY: 140,
-  hipY: 172,
-  hemLength: 224,
-  hemWidth: 42,
-  neckFrontY: 34,
-  shoulderY: 48,
-  waistSuppression: 4,
-  collarType: 'round',
-  collarSpread: 28,
-  collarHeight: 3,
-  sleeveLength: 60,
-  cuffWidth: 14,
-  sleeveType: 'short',
-  cuffType: 'plain',
-  cuffHeight: 3,
-  placketType: 'none',
-  placketWidth: 0,
-  buttonCount: 0,
-  pocketType: 'none',
-  pocketWidth: 13,
-  pocketHeight: 15,
-  pocketY: 0,
-};
-
-const WOMENS_REGULAR_DEFAULTS = {
-  gender: 'female' as const,
-  shoulderWidth: 35,
-  armholeDepth: 88,
-  waistY: 132,
-  hipY: 168,
-  hemLength: 200,
-  hemWidth: 40,
-  neckFrontY: 32,
-  shoulderY: 46,
-  waistSuppression: 8,
-  collarType: 'round',
-  collarSpread: 26,
-  collarHeight: 2.5,
-  sleeveLength: 55,
-  cuffWidth: 12,
-  sleeveType: 'short',
-  cuffType: 'plain',
-  cuffHeight: 2,
-  placketType: 'none',
-  placketWidth: 0,
-  buttonCount: 0,
-  pocketType: 'none',
-  pocketWidth: 12,
-  pocketHeight: 14,
-  pocketY: 0,
-};
-
-/**
- * 1. T-Shirt (圆领短袖) - 最基础模板
- *  - Bodice + Short Sleeve + Round Neck
- *  - 无门襟, 无袖口
- */
-const T_SHIRT: PatternDefinition = {
-  id: 't-shirt',
-  name: 'T-Shirt',
-  description: '圆领短袖 T 恤, 最基础的上装模板',
-  category: 't-shirt',
-  blocks: [
-    { blockId: 'bodice-basic' },
-    { blockId: 'sleeve-set-in' },
-    { blockId: 'collar-mandarin', params: { collarType: 'round', collarHeight: 0 } },
-    { blockId: 'pocket-none' },
-  ],
-  defaultParams: MENS_REGULAR_DEFAULTS,
-};
-
-/**
- * 2. V-Neck T-Shirt (V 领短袖)
- *  - Bodice + Short Sleeve + V Neck
- *  - V 领由 Bodice 轮廓直接整合
- */
-const V_NECK_TEE: PatternDefinition = {
-  id: 'v-neck-tee',
-  name: 'V-Neck T-Shirt',
-  description: 'V 领短袖 T 恤, 大身轮廓直接整合 V 形领口',
-  category: 't-shirt',
-  blocks: [
-    { blockId: 'bodice-basic', params: { collarType: 'v' } },
-    { blockId: 'sleeve-set-in' },
-    { blockId: 'pocket-none' },
-  ],
-  defaultParams: MENS_REGULAR_DEFAULTS,
-};
-
-/**
- * 3. Polo Shirt (Polo 衫)
- *  - Bodice + Short Sleeve + Mandarin Collar + Center Placket
- *  - 有门襟 (3 粒扣) + 立领 + 短袖
- */
-const POLO: PatternDefinition = {
-  id: 'polo-shirt',
-  name: 'Polo Shirt',
-  description: '立领 + 中开襟 + 短袖, 含门襟结构和立领独立部件',
-  category: 'polo',
-  blocks: [
-    { blockId: 'bodice-basic', params: { collarType: 'mandarin' } },
-    { blockId: 'sleeve-set-in' },
-    { blockId: 'collar-mandarin', params: { collarType: 'mandarin', collarHeight: 5 } },
-    { blockId: 'placket-center', params: { placketType: 'center', placketWidth: 8, buttonCount: 3 } },
-    { blockId: 'pocket-none' },
-  ],
-  defaultParams: MENS_REGULAR_DEFAULTS,
-};
-
-/**
- * 4. Button-Up Shirt (纽扣衬衫)
- *  - Bodice + Long Sleeve + Mandarin Collar + Plain Cuff + Center Placket
- *  - 完整衬衫结构: 长袖 + 袖口 + 立领 + 5 粒扣门襟
- */
-const BUTTON_UP: PatternDefinition = {
-  id: 'button-up-shirt',
-  name: 'Button-Up Shirt',
-  description: '立领 + 长袖 + 袖口 + 5 粒扣门襟, 完整衬衫结构',
-  category: 'shirt',
-  blocks: [
-    { blockId: 'bodice-basic', params: { collarType: 'mandarin', hemLength: 260 } },
-    { blockId: 'sleeve-set-in', params: { sleeveType: 'long', sleeveLength: 180 } },
-    { blockId: 'collar-mandarin', params: { collarType: 'mandarin', collarHeight: 7 } },
-    { blockId: 'cuff-plain', params: { cuffType: 'plain', cuffHeight: 5 } },
-    { blockId: 'placket-center', params: { placketType: 'center', placketWidth: 10, buttonCount: 5 } },
-    { blockId: 'pocket-patch', params: { pocketType: 'patch', pocketWidth: 12, pocketHeight: 14 } },
-  ],
-  defaultParams: MENS_REGULAR_DEFAULTS,
-};
-
-/**
- * 5. Womens Blouse (女衬衫)
- *  - Bodice + Short Sleeve + Round Neck + 无门襟 + 贴袋
- *  - 女款专用参数 (含腰省)
- */
-const WOMENS_BLOUSE: PatternDefinition = {
-  id: 'womens-blouse',
-  name: "Women's Blouse",
-  description: '女款圆领短袖衬衫, 含腰省修身 + 贴袋',
-  category: 'shirt',
-  blocks: [
-    { blockId: 'bodice-basic', params: { collarType: 'round' } },
-    { blockId: 'sleeve-set-in', params: { sleeveType: 'short' } },
-    { blockId: 'collar-mandarin', params: { collarType: 'round', collarHeight: 0 } },
-    { blockId: 'pocket-patch', params: { pocketType: 'patch' } },
-  ],
-  defaultParams: WOMENS_REGULAR_DEFAULTS,
-};
-
-/** 模式库 (按 ID 索引) */
-export const PATTERN_LIBRARY: Record<string, PatternDefinition> = {
-  [T_SHIRT.id]:        T_SHIRT,
-  [V_NECK_TEE.id]:     V_NECK_TEE,
-  [POLO.id]:           POLO,
-  [BUTTON_UP.id]:      BUTTON_UP,
-  [WOMENS_BLOUSE.id]:  WOMENS_BLOUSE,
-};
-
-/** 列出所有模式 */
-export function listPatterns(): PatternDefinition[] {
-  return Object.values(PATTERN_LIBRARY);
-}
-
-/** 按类别列出 */
-export function listPatternsByCategory(cat: PatternDefinition['category']): PatternDefinition[] {
-  return listPatterns().filter((p) => p.category === cat);
-}
-
-/** 模式库分类汇总 (UI 渲染用) - 只列出实际有 pattern 的分类 */
-export const PATTERN_CATEGORIES: Array<{ id: PatternDefinition['category']; label: string }> = [
-  { id: 't-shirt', label: 'T-Shirt' },
-  { id: 'polo',    label: 'Polo' },
-  { id: 'shirt',   label: 'Shirt' },
+const definitions: Array<[string, string, PatternDefinition['category'], string[]]> = [
+  ['elastic-waist-pants','松紧腰直筒基础裤 · Paco','pants',['paco.front','paco.back','paco.waistband']],
+  ['panel-circle-skirt','分幅圆裙 · Sandy','skirt',['sandy.skirt','sandy.waistband']],
+  ['bound-tank','包边背心 · Aaron','t-shirt',['aaron.front','aaron.back','aaron.neckBinding','aaron.armBinding']],
+  ['hooded-zip-sweatshirt','开襟连帽卫衣 · Huey','hoodie',['huey.front','huey.back','huey.sleeve','huey.pocket','huey.hood','huey.waistband','huey.cuff']],
+  ['brian-reference', 'Brian 参数化参考基型', 't-shirt', ['bodice-brian', 'sleeve-brian']],
+  ['t-shirt', '圆领短袖 T 恤 · Teagan', 't-shirt', ['teagan.front', 'teagan.back', 'teagan.sleeve']],
+  ['womens-basic-tee', '收腰针织 T 恤 · Teagan', 't-shirt', ['teagan.front', 'teagan.back', 'teagan.sleeve']],
+  ['long-sleeve-tee', '长袖针织上衣 · Sven', 't-shirt', ['sven.front', 'sven.back', 'sven.sleeve']],
+  ['button-up-shirt', '男装长袖衬衫 · Simon', 'shirt', ['simon.frontRight', 'simon.frontLeft', 'simon.back', 'simon.yoke', 'simon.sleeve', 'simon.collar', 'simon.collarStand', 'simon.cuff', 'simon.sleevePlacketOverlap', 'simon.sleevePlacketUnderlap']],
+  ['t-shirt-pro', '旧 T-Shirt Pro · 已合并', 't-shirt', []],
+  ['v-neck-tee', 'V 领 T 恤 · 待重建', 't-shirt', []],
+  ['polo-shirt', '短袖 Polo · 待重建', 'polo', []],
+  ['long-sleeve-polo', '长袖 Polo · 待重建', 'polo', []],
+  ['womens-blouse', '女装梭织衬衫 · 待重建', 'shirt', []],
 ];
+export const PATTERN_LIBRARY: Readonly<Record<string, PatternDefinition>> = Object.freeze(Object.fromEntries(definitions.map(([id, name, category, blockIds]) => {
+  const review = PATTERN_REVIEWS[id];
+  const blocks = blockIds.map(blockId => Object.freeze({ blockId }));
+  const def: PatternDefinition = { id, name, category, description: `${review.reason} ${review.limitations}`, blocks, defaultParams: { fit: 'regular', seamAllowance: 10 } };
+  Object.freeze(blocks); Object.freeze(def.defaultParams);
+  return [id, Object.freeze(def)];
+})));
+export const PATTERN_CATEGORIES: Array<{ id: PatternDefinition['category']; label: string }> = [
+  { id: 't-shirt', label: '针织 / 基型' }, { id: 'polo', label: 'Polo' }, { id: 'shirt', label: '衬衫' },
+  { id:'hoodie',label:'连帽卫衣' },
+  { id:'skirt',label:'裙装' },{id:'pants',label:'基础裤装'},
+];
+export function listPatterns(): PatternDefinition[] { return Object.values(PATTERN_LIBRARY); }
+export function listExecutablePatterns(): PatternDefinition[] { return listPatterns().filter(p => isReferencePattern(p.id)); }
+export function assertCanonicalPattern(pattern: PatternDefinition): void {
+  if (!PATTERN_LIBRARY[pattern.id] || JSON.stringify(pattern) !== JSON.stringify(PATTERN_LIBRARY[pattern.id])) {
+    throw new Error('导入模板与已审查定义不同，不能覆盖标准库；请先完成构型审查');
+  }
+}

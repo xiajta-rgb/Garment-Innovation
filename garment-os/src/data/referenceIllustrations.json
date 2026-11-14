@@ -1,0 +1,20 @@
+[
+  {
+    "id": "commons-140403603",
+    "family": "hand-foot",
+    "roleIds": [
+      "hand-foot.palm",
+      "hand-foot.back",
+      "hand-foot.thumb"
+    ],
+    "title": "连指手套：手部主片与拇指参考",
+    "src": "/reference-catalogue/mitten-cc0.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schnittmuster_f%C3%BCr_einen_einfachen_Pelz-Fausthandschuh.jpg",
+    "license": "CC0 1.0",
+    "author": "Kürschner / Kollektion Kuhn",
+    "description": "裘皮制作者的连指手套纸样。源说明为按实际手型取样，加入放量和拇指开口。此图无可核验的毫米标尺。",
+    "dimensionalStatus": "unscaled-reference",
+    "availableCad": false,
+    "sha256": "c0dcd1b1eb15b5d8610f7f7934d6e18810a19f7f982ec78fc6c4be600200fcfe"
+  }
+]

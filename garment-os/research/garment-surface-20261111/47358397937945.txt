@@ -1,0 +1,3 @@
+https://support.marvelousdesigner.com/hc/en-us/articles/47358397937945-3D-Seamline
+3D Seamline
+Objective Adjust Intensity and Thickness of 3D seamlines to render a realistic Garment. Location Select Sewing Line ▶ Property Editor ▶ 3D Seamline Operation Select the Edit Sewing tool from the 2D/3D toolbar. Follow the indicated guideline below: Select Sewing Line ▶ Property Editor ▶ 3D Seamline Adjust the settings below as needed: Option Description Normal Map Intensity (%) Adjust the intensity of the Normal Map applied to the seamline. Thickness Adjust the thickness of the Normal Map applied to the seamline.

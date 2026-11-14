@@ -1,0 +1,294 @@
+{
+  "schema": "garment-os/designer-study-briefs/v1",
+  "id": "short-tee-study-20261113",
+  "title": "短T设计验证 · 结构与肌理",
+  "date": "2026-11-13",
+  "baseNotice": "基于公司COT25M002短T轮廓参考与现有男士短T模板；未读取用户当前未保存方案。",
+  "sharedIntent": "利落短T为母体，用肩袖、开合、肌理和袋工艺形成可辨认的系列；保留基础主要规格。",
+  "groups": [
+    {
+      "id": "A",
+      "name": "复古运动",
+      "intent": "用肩袖结构、窄线条与收束感建立运动语汇，不声称功能性。",
+      "sources": [
+        "S01",
+        "S13",
+        "S17"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "城市轻商务",
+      "intent": "用Polo、亨利与半拉链改变领口重心，保留短袖衣身轮廓。",
+      "sources": [
+        "S03",
+        "S15",
+        "S19"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "自然肌理",
+      "intent": "让坑条、华夫格与竹节成为主视觉，减少装饰干扰。",
+      "sources": [
+        "S04",
+        "S09",
+        "S14"
+      ]
+    },
+    {
+      "id": "D",
+      "name": "都市工装",
+      "intent": "用不同袋结构、侧片和开合建立功能细节差异。",
+      "sources": [
+        "S06",
+        "S18",
+        "S19"
+      ]
+    }
+  ],
+  "designs": [
+    {
+      "id": "A01",
+      "group": "A",
+      "name": "石墨拼袖",
+      "neck": "neck.crew",
+      "shoulder": "shoulder.raglan",
+      "fabric": "fabric.jersey",
+      "finish": "finish.piping",
+      "contrast": "contrast.sleeve",
+      "bodyColor": "#374449",
+      "accentColor": "#b9c1bb",
+      "panelColor": "#73817c",
+      "trimColor": "#e2ded0",
+      "intent": "插肩为主结构，浅灰袖片与窄嵌边让领口至腋下的线条清楚。",
+      "method": "组合更换 + 细节延伸",
+      "checks": [
+        "前后插肩线与领圈分段接口",
+        "嵌边露出宽与腋下交汇厚度"
+      ],
+      "compare": "相对原款看插肩连续性与袖片面积，不靠图案制造差异。"
+    },
+    {
+      "id": "A02",
+      "group": "A",
+      "name": "沙砾运动",
+      "neck": "neck.crew",
+      "shoulder": "shoulder.raglan",
+      "fabric": "fabric.waffle",
+      "finish": "finish.topstitch",
+      "contrast": "contrast.neck-cuff",
+      "bodyColor": "#c5b699",
+      "accentColor": "#586b61",
+      "trimColor": "#6d776a",
+      "intent": "华夫格大身配插肩线，领袖窄撞色收住视觉边界。",
+      "method": "廓形延续 + 组合更换",
+      "checks": [
+        "华夫格实料弹性、洗缩与接缝平服",
+        "领条及袖口成品宽/回弹"
+      ],
+      "compare": "与A01比较同插肩下的材料体量和领袖收束关系。"
+    },
+    {
+      "id": "A03",
+      "group": "A",
+      "name": "学院收摆",
+      "neck": "neck.crew",
+      "shoulder": "shoulder.drop",
+      "fabric": "fabric.jersey",
+      "finish": "finish.hem-rib",
+      "contrast": "contrast.neck-cuff",
+      "bodyColor": "#748b79",
+      "accentColor": "#e0d8bf",
+      "panelColor": "#4c6253",
+      "intent": "微落肩配罗纹下摆，形成比常规折边更有收束感的短袖运动款。",
+      "method": "组合更换 + 增加部位",
+      "checks": [
+        "肩点外移、袖窿/袖山联动",
+        "衣身下口与罗纹摆缩量及洗后回缩"
+      ],
+      "compare": "与A01/A02比较装袖连接方式及下摆体积；为短袖衍生款。"
+    },
+    {
+      "id": "B01",
+      "group": "B",
+      "name": "深海珠地Polo",
+      "neck": "neck.polo",
+      "shoulder": "shoulder.set-in",
+      "fabric": "fabric.pique",
+      "finish": "finish.topstitch",
+      "contrast": "contrast.neck",
+      "bodyColor": "#344e60",
+      "accentColor": "#c0b594",
+      "intent": "用干净翻领与低面积撞色形成领部焦点，珠地承担大身料感。",
+      "method": "组合更换",
+      "checks": [
+        "领材料方案、领圈与门襟搭接",
+        "珠地及领面材料的缩水和翻折"
+      ],
+      "compare": "翻领轮廓与短纽扣襟应区别于B02/B03，不增加图案争焦。"
+    },
+    {
+      "id": "B02",
+      "group": "B",
+      "name": "砂岩亨利",
+      "neck": "neck.henley",
+      "shoulder": "shoulder.set-in",
+      "fabric": "fabric.slub",
+      "pocket": "pocket.patch",
+      "finish": "finish.slit",
+      "bodyColor": "#bea98c",
+      "accentColor": "#eadfcd",
+      "pocketColor": "#ae977a",
+      "intent": "竹节面料降低正式感，亨利短襟、同调胸袋和侧衩提供日常层次。",
+      "method": "组合更换 + 增加部位",
+      "checks": [
+        "短襟面底、扣眼和末端加固",
+        "袋口折边及侧衩顶补强"
+      ],
+      "compare": "袋与门襟错开，观察侧面开衩与前后摆衔接。"
+    },
+    {
+      "id": "B03",
+      "group": "B",
+      "name": "雾灰半拉链",
+      "neck": "opening.quarter",
+      "shoulder": "shoulder.raglan",
+      "fabric": "fabric.jersey",
+      "panel": "panel.side",
+      "finish": "finish.topstitch",
+      "bodyColor": "#a7b4b0",
+      "accentColor": "#40544d",
+      "panelColor": "#637a70",
+      "trimColor": "#50645b",
+      "intent": "立领半拉链提高领部结构感，侧片用相近深色建立竖向分割。",
+      "method": "款式部位重组 + 分割延伸",
+      "checks": [
+        "拉链贴边/底挡、开口末端与领拉头关系",
+        "插肩和侧片腋下交汇、前后侧缝连接"
+      ],
+      "compare": "对照B01翻领与B02短襟，看开合结构和侧片轮廓。"
+    },
+    {
+      "id": "C01",
+      "group": "C",
+      "name": "米白坑条V领",
+      "neck": "neck.v",
+      "shoulder": "shoulder.set-in",
+      "fabric": "fabric.rib",
+      "bodyColor": "#ddd4c2",
+      "accentColor": "#a89e87",
+      "intent": "用V形领线配纵向坑条，保持净面，让组织方向成为主体。",
+      "method": "减少装饰 + 组合更换",
+      "checks": [
+        "V尖叠合/补强与领条净样",
+        "罗纹伸长回弹、松量和洗后扭曲"
+      ],
+      "compare": "检查V深与领宽意图，坑条视觉不能当作已实现贴体效果。"
+    },
+    {
+      "id": "C02",
+      "group": "C",
+      "name": "本色华夫格",
+      "neck": "neck.crew",
+      "shoulder": "shoulder.drop",
+      "fabric": "fabric.waffle",
+      "pocket": "pocket.patch",
+      "finish": "finish.binding",
+      "bodyColor": "#cdc3ac",
+      "accentColor": "#afa287",
+      "pocketColor": "#b6a88e",
+      "intent": "微落肩与同调胸贴袋保持松弛，圆领窄包边减少厚重领圈。",
+      "method": "组合更换 + 局部细节",
+      "checks": [
+        "窄包边折叠层厚与拉伸量",
+        "袋口稳定及组织纹向"
+      ],
+      "compare": "与C01比较领线、肩部连接和肌理颗粒；不以换色代替结构差异。"
+    },
+    {
+      "id": "C03",
+      "group": "C",
+      "name": "竹节弧线拼接",
+      "neck": "neck.crew",
+      "shoulder": "shoulder.set-in",
+      "fabric": "fabric.slub",
+      "panel": "panel.yoke",
+      "finish": "finish.topstitch",
+      "bodyColor": "#748995",
+      "accentColor": "#c6cbbb",
+      "panelColor": "#c3cabf",
+      "trimColor": "#677c82",
+      "intent": "竹节底料配浅色弧线育克，把材料面积关系作为系列差异。",
+      "method": "廓形限定 + 面料面积延伸",
+      "checks": [
+        "前后育克共享边及侧面接续",
+        "异色/异料缩水差与拼缝平服"
+      ],
+      "compare": "先判断育克弧度和面积，再比较与C02整片肌理的视觉节奏。"
+    },
+    {
+      "id": "D01",
+      "group": "D",
+      "name": "苔绿机能袋",
+      "neck": "neck.crew",
+      "shoulder": "shoulder.set-in",
+      "fabric": "fabric.jersey",
+      "pocket": "pocket.zip-welt",
+      "panel": "panel.side",
+      "finish": "finish.cuff-rib",
+      "bodyColor": "#7b8570",
+      "accentColor": "#35483b",
+      "panelColor": "#465847",
+      "pocketColor": "#43513f",
+      "intent": "拉链嵌线胸袋是功能焦点，深侧片和罗纹袖口形成内敛边界。",
+      "method": "增加部位 + 分割延伸",
+      "checks": [
+        "袋布/嵌线/闭尾拉链及开口补强",
+        "袋口避开侧片、罗纹袖口缩量"
+      ],
+      "compare": "袋型要与贴袋有清楚区别；机能是设计语汇，功能指标待证。"
+    },
+    {
+      "id": "D02",
+      "group": "D",
+      "name": "沙色嵌线",
+      "neck": "neck.crew",
+      "shoulder": "shoulder.drop",
+      "fabric": "fabric.pique",
+      "pocket": "pocket.welt",
+      "contrast": "contrast.neck",
+      "bodyColor": "#b19d79",
+      "accentColor": "#3c5147",
+      "pocketColor": "#665e4c",
+      "intent": "珠地微落肩配单嵌线袋，以低面积领边对比替代大块拼色。",
+      "method": "减少装饰 + 口袋替换",
+      "checks": [
+        "嵌条宽、袋布深度和袋口开剪",
+        "珠地袋口稳定与微落肩配套"
+      ],
+      "compare": "与D01比较有无拉链，与B02比较嵌线袋和贴袋的结构表达。"
+    },
+    {
+      "id": "D03",
+      "group": "D",
+      "name": "夜蓝全开短袖",
+      "neck": "opening.full",
+      "shoulder": "shoulder.drop",
+      "fabric": "fabric.pique",
+      "pocket": "pocket.patch",
+      "finish": "finish.topstitch",
+      "bodyColor": "#3d515b",
+      "accentColor": "#afb8b0",
+      "pocketColor": "#87968d",
+      "trimColor": "#768a8c",
+      "intent": "将短T延伸为全开短袖衫，浅色贴袋与前中开口形成清楚的工装层次。",
+      "method": "品类边界延伸 + 部位重组",
+      "checks": [
+        "左右独立前片净样、开尾拉链/贴边/下摆端点",
+        "袋与前襟距离、内搭活动量"
+      ],
+      "compare": "这是全开短袖衍生方向，区别于套头基款；新类别生产配套待核。"
+    }
+  ]
+}

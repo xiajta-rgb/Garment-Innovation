@@ -11,6 +11,11 @@ node_modules
 dist
 dist-ssr
 *.local
+scripts/__pycache__/
+
+# Browser/render evidence is reproducible output. Keep it locally for review
+# and screenshots, but do not make every run a repository change.
+doc/evidence/
 
 # Environment files (绝不能提交 API 密钥)
 .env

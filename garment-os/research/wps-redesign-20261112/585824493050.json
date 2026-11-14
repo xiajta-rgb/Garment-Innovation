@@ -1,0 +1,934 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "市场服装设计延伸公式与开发规划",
+                  "type": "text"
+                }
+              ],
+              "id": "VswwnYSJWOjENfgV",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/VrVYFlFAnzj0lOw0bl5pxA"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "XJijxXFrOUWrXxHH",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "height": 308,
+                "renderHeight": 308.69,
+                "renderWidth": 540.2,
+                "sourceKey": "13f0210ab2b54d7f9c406344961a1b0321b30f51",
+                "version": 2,
+                "width": 539
+              },
+              "id": "AnMdwvNCfPBcvSTa",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 792,
+                "renderHeight": 793.98,
+                "renderWidth": 562.4,
+                "sourceKey": "5dd5aeb680037e6d669d6e13cd969fd3f7c090c4",
+                "version": 2,
+                "width": 561
+              },
+              "id": "uGfMxObMxfANgJhp",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 795,
+                "renderHeight": 795.57,
+                "renderWidth": 562.4,
+                "sourceKey": "d442737a77ecb32d4d826b4c795cb7ab81c878e2",
+                "version": 2,
+                "width": 562
+              },
+              "id": "sibOArTzvArsZQuv",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 794,
+                "renderHeight": 797.4,
+                "renderWidth": 562.4,
+                "sourceKey": "2c4c3642ad8328962557b9bc4963cd71491e2d33",
+                "version": 2,
+                "width": 560
+              },
+              "id": "VUCQQIqNUHzemlLE",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 795,
+                "renderHeight": 796.98,
+                "renderWidth": 562.4,
+                "sourceKey": "241a29d6a547cae7d22c86976f93ce0b19b4e27f",
+                "version": 2,
+                "width": 561
+              },
+              "id": "adFvInDoOXjuqDzr",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 792,
+                "renderHeight": 793.98,
+                "renderWidth": 562.4,
+                "sourceKey": "86b71ce22af8350eed695bd3e65791c9ac9a06bf",
+                "version": 2,
+                "width": 561
+              },
+              "id": "joxYcKQVlWXnHLPE",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "sohXeKiMnzUyjxSU",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "————————",
+                  "type": "text"
+                }
+              ],
+              "id": "vUkGJHxGEVZGEYtH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "OGRPAdYoXpnjJpRy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "以十三行某市场品牌的开发方式为例：",
+                  "type": "text"
+                }
+              ],
+              "id": "EhgIZcEJambzOdLs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "同一廓形A设计法：主打款式部位变化，比如领子款式相同，只对下摆与袖口设计变化，或下摆相同，只对领口与袖口设计，出草图后排列重组，自由组合。",
+                  "type": "text"
+                }
+              ],
+              "id": "itslYCLFpRuFSHVT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "TchzdqBpFwJHqPtN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "同一廓形B设计法：主打分割方式变化，比如横向分割一系列，竖向分割一系列。",
+                  "type": "text"
+                }
+              ],
+              "id": "ntopCTkIUJEPqkbO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "EhUhCkjfVqoCpIqz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "同一廓形C设计法：主打面料选择变化，比如全针织一款，全梭织一款，针织拼梭织一款，花面料一款，花面料拼净色一款。",
+                  "type": "text"
+                }
+              ],
+              "id": "dTJbVecdqJYalmjO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "VhctsvGCTZLxVtLg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "同一廓形D设计法：主打细节工艺变化，比如相似的3个款，可以分别用压花花边，捏摺手法和拉链外贴三种手法设计。",
+                  "type": "text"
+                }
+              ],
+              "id": "LRnCXueIgeiDIKMQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "QamMwjVbrjwPPDUe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "整个产品线用廓形来统一，用部位、分割、面料、细节来丰富。",
+                  "type": "text"
+                }
+              ],
+              "id": "BRMdjXZniQgOyShG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "jFmiSHyLBLVDXPdy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "————————",
+                  "type": "text"
+                }
+              ],
+              "id": "IcwmkjhCGQxNjrFJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "NsliplUQJYScmaWv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "以南油某市场品牌A的开发延伸方式为例：",
+                  "type": "text"
+                }
+              ],
+              "id": "rfdeKKWVuizyHgfM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "小外套设计手法：",
+                  "type": "text"
+                }
+              ],
+              "id": "BfknmpSqNtLMzLSQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "1，方形口袋。2，金属拉链。3，特色肩部。4，皮带袢带。5，蕾丝，缎面拼贴。6，撞色捆边。8，皮革镶嵌。9，铆钉装饰。",
+                  "type": "text"
+                }
+              ],
+              "id": "TLMevqhRfGwkDBUP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "EdXNKqyRtWeWrKTd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "衬衫设计手法：",
+                  "type": "text"
+                }
+              ],
+              "id": "LLLjRyNoQrmBtuVh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "1，肩部装饰。2，抽象印染图案拼接。3，局部无规律衍缝。4，蕾丝拼贴。5，羊腿袖。6，花色梭织拼净色针织。7，拼仿皮袖子。8，雪纺拼丝绒袖子。9，净色真两件套，外厚里薄。10，蕾丝与仿皮拼接。",
+                  "type": "text"
+                }
+              ],
+              "id": "CCSWeGEvEtZRaiBJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "OmwohSjunbOcUGCu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "————————",
+                  "type": "text"
+                }
+              ],
+              "id": "XNlCRiIiYCYtnUYV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "XeXaOXKQIAdjHhHP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "以南油某市场品牌B的开发延伸方式为例：",
+                  "type": "text"
+                }
+              ],
+              "id": "KWKQObeoepSUPtXI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "净色款设计手法：",
+                  "type": "text"
+                }
+              ],
+              "id": "IvwcbOsoUlkplhDD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "A。针织拼仿皮，薄呢，缎面，编织料，雪纺等，造成面料对比肌理。（面料变化）",
+                  "type": "text"
+                }
+              ],
+              "id": "KAtcCnxXDopzYiVN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "TcWDKEEdxRkQlnkY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "B。纯针织料：裁片印花加款式变化，加细腻辅料，如纽扣，拉链，织带，扣袢。（细节变化）",
+                  "type": "text"
+                }
+              ],
+              "id": "eIWBdijhXgflxjQT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "QFIWaWbLmjPoecip",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "C。净色拼色款：两种到三种不同颜色和质地的针织拼接。（色彩变化）  ",
+                  "type": "text"
+                }
+              ],
+              "id": "LuJmINmrzfpVnHmA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "hgfkcnOwVTswBkyi",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "花色款设计手法：",
+                  "type": "text"
+                }
+              ],
+              "id": "VFwfDHDjHKDUXGhu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "A。针织拼仿皮，薄呢，缎面，编织料，雪纺等，造成面料对比肌理。（面料变化）",
+                  "type": "text"
+                }
+              ],
+              "id": "XiyUPlgCoeYHKUCO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "GvpLcRzYSZxIiqYd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "B。竖向分割拼接。（拼接变化）",
+                  "type": "text"
+                }
+              ],
+              "id": "PRibfJtDjcoOslJa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "GMkNvBXzokNUFMXt",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "C。横向分割拼接。（拼接变化）",
+                  "type": "text"
+                }
+              ],
+              "id": "FQyBjaRZiiixvDgb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "SEGWeLErIaKaOYWg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "D。条纹，花料与裁片净色印花的拼接。（拼接变化）",
+                  "type": "text"
+                }
+              ],
+              "id": "xAmEZkxHZMNQDwdz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "uWQSqqDvDokLRRvn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "款式用料细分：",
+                  "type": "text"
+                }
+              ],
+              "id": "jbqKCysRmfphgvbA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "T恤：",
+                  "type": "text"
+                }
+              ],
+              "id": "ZxQLnfMApoBoPkCD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "A类：主料为：花料/条纹/网布",
+                  "type": "text"
+                }
+              ],
+              "id": "dbjPBVIyAZxZcVBX",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "B类：主料为：净色棉/蕾丝",
+                  "type": "text"
+                }
+              ],
+              "id": "rzLWFAgwcpSrTpic",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "A、B类搭配料为：雪纺类/仿皮/蕾丝/网纱",
+                  "type": "text"
+                }
+              ],
+              "id": "BULfCSVoVHWDoAtQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "SjMdayHYOsemuKcx",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "辅料为：五金/蕾丝花边/立体花边",
+                  "type": "text"
+                }
+              ],
+              "id": "rJOhBFgIWHhShRYL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "yDwkzdWnzXUGHJWY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "外搭：",
+                  "type": "text"
+                }
+              ],
+              "id": "CUIEulujBWIIAFdX",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "A类：主料为：花料/条纹/网布",
+                  "type": "text"
+                }
+              ],
+              "id": "PmlcTyUKrqNwAWbM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "B类：主料为：花料/条纹/净色梭织",
+                  "type": "text"
+                }
+              ],
+              "id": "jAeHoVokryfdHLod",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "A、B类搭配料为：雪纺类/仿皮/蕾丝/网纱",
+                  "type": "text"
+                }
+              ],
+              "id": "dFEpVbeSvXIdnNFj",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "btYaasZkpxCsdAhE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "辅料为：五金/蕾丝花边/立体花边",
+                  "type": "text"
+                }
+              ],
+              "id": "LxNnDsDberCsTwCB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "chssnBUImGyvbMLG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "更多专业文章干货：",
+                  "type": "text"
+                }
+              ],
+              "id": "ANIuEgmUPkzgVQKt",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "http://mp.weixin.qq.com/s?__biz=MzIzMzkxNzg0NA==&mid=2247528439&idx=1&sn=ca0f2dde0872a32879cdb5fad4eae8a6&chksm=e8fc730cdf8bfa1a930081be7b3bc3b71bf5ee4850b06b89623110814d1de3f2929a663c9b80&scene=142#wechat_redirect"
+                    }
+                  },
+                  "content": "【收藏】400篇服装精华干货合集",
+                  "type": "text"
+                }
+              ],
+              "id": "rrDpqXTBuZOzbUWU",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "微信扫一扫赞赏作者",
+                  "type": "text"
+                },
+                {
+                  "content": "Like Author",
+                  "type": "text"
+                }
+              ],
+              "id": "PLuvsPmwaTxhZeyc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "cAdSBmIlyKGTgUtq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "F先生",
+                  "type": "text"
+                }
+              ],
+              "id": "AcGUrqBcqAnrnpfA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "Collected in",
+                  "type": "text"
+                },
+                {
+                  "content": "服装设计开发",
+                  "type": "text"
+                }
+              ],
+              "id": "FLpknpSYlfesMIaA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "Author's tip: 个人观点，仅供参",
+                  "type": "text"
+                },
+                {
+                  "content": "考",
+                  "type": "text"
+                }
+              ],
+              "id": "VFslxQeGQPTaukKR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 272,
+                "renderHeight": 273.8,
+                "renderWidth": 273.8,
+                "sourceKey": "76ca0ae4203aa8c115d0c3424d824d2e4ff36e08",
+                "version": 2,
+                "width": 272
+              },
+              "id": "LLCywukxrtMFKdfi",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "sQEqVVQwdrgnZLWn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "F先生绘",
+                  "type": "text"
+                }
+              ],
+              "id": "hXgfxAOIQBnRSzPh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "fjCxvjZNZZAroGSB",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 9
+    }
+  },
+  "result": "ok"
+}

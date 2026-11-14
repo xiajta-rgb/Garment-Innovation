@@ -1,0 +1,493 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "服装设计开发怎样有效改款",
+                  "type": "text"
+                }
+              ],
+              "id": "CFGQrsdTAEBitSNH",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/dI4RsMmidF4uWnbBjHW_Kg"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "MYVrzrDaWXwITSVP",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "6911d96dfc5965ec53f1c3baf5a5834093fb1e87",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "AjnoJerKZXukALdt",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "2619b2afd519e9abef760b725489e994726aca5b",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "TROWFkEFpUYjSMGM",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "73183942196338f18b7997d79e362207c161be3c",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "lAzqxOkVcGGhCnPY",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "ea504a25b9500e5258bab12388d16da47902a0cf",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "yFnjnFxRLOiMmzff",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "e5cdc62678c42b53d11a633f3cb3839f15b06632",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "CKlEzAebQJGXUtcm",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "3c9300eea314677a7a8fd5b7b5bbaba117cf8f45",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "SskDcLGzNGxVNnil",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "VqrGhfwURGASbmHJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "针对畅销款方向去改款，一定要先抓住畅销款重要特征，一般能达到其中3点以上就能达到基本标准：",
+                  "type": "text"
+                }
+              ],
+              "id": "ftoWFjtYfkCxbtFO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "1.价格，消费者都喜欢性价比高的东西，每个人都喜欢小便宜，能占大便宜更好。",
+                  "type": "text"
+                }
+              ],
+              "id": "mbtXVvijREiwQDno",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "JWYqUQrDhDfWARha",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "2.面料，不是最好的，但一定是实惠的。因为较好的面料成本较高，这样会导致利润空间变小。",
+                  "type": "text"
+                }
+              ],
+              "id": "XWxYBnyuSotyMNWr",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ffvixoLOdEgoIxuC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "3.色彩，有一定的流行特征，跟着主流走。",
+                  "type": "text"
+                }
+              ],
+              "id": "RuWJEauhIiNLfvLl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "A、过去几季畅销色彩；",
+                  "type": "text"
+                }
+              ],
+              "id": "ntkIVfnufNteVxfl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "B、参考和竞争品牌或店铺畅销的色彩；",
+                  "type": "text"
+                }
+              ],
+              "id": "RiHWQDSPbUQJWtXP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "C、结合流行和自己品牌或店铺预计的流行色。",
+                  "type": "text"
+                }
+              ],
+              "id": "WLcZbUEUNDFaJmNH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "MZNiFctwvVLHgWYW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "4.创新与非创新保持平衡。没有创新的设计元素款式容易沦为平销款甚至滞销款，但创新设计元素过火或过多，那受众面就会变窄。所以一定要把握平衡！",
+                  "type": "text"
+                }
+              ],
+              "id": "cLZwVOqMYuncNVIG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "rnKgljpFDmIMGeHL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "5. 跨季节性强、销售周期长。",
+                  "type": "text"
+                }
+              ],
+              "id": "ZktCmkXDdCxaAncs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "uxYxZEIIxZFbQjDV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "6. 相对独立，不容易撞款，非市场大众款。",
+                  "type": "text"
+                }
+              ],
+              "id": "qkqZnaoELOJKHjBu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "TSjbUfoloPkhmKUT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "7.处于市场上升期，处于增量市场（比如品类）。",
+                  "type": "text"
+                }
+              ],
+              "id": "AdkePhyUQPgobbLw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "cpeXwOyDPJBoQsXP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "相关内容见图片，可👉滑动。",
+                  "type": "text"
+                }
+              ],
+              "id": "rzqMXmaTTgUvyZVQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "hMudmIMSfnzvpItr",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "如需更多电子版学习资料，可于最后一页扫码购买。",
+                  "type": "text"
+                }
+              ],
+              "id": "OAqVAxjWprqQDZlK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "bWAcsDiLavcDvOjP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "Collected in",
+                  "type": "text"
+                },
+                {
+                  "content": "服装设计开发",
+                  "type": "text"
+                }
+              ],
+              "id": "caoHanoeyHUFOmgz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "Author's tip: 个人观点，仅供参",
+                  "type": "text"
+                },
+                {
+                  "content": "考",
+                  "type": "text"
+                }
+              ],
+              "id": "KXNYJdiduvAogGyL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 272,
+                "renderHeight": 273.8,
+                "renderWidth": 273.8,
+                "sourceKey": "76ca0ae4203aa8c115d0c3424d824d2e4ff36e08",
+                "version": 2,
+                "width": 272
+              },
+              "id": "TtosdRAhLVWYXZFF",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "wepqWLUtfzcAFEPy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "F先生绘",
+                  "type": "text"
+                }
+              ],
+              "id": "GYgALoTmvBTAFgnh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "rRhOzNBtIEVhNvQv",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 9
+    }
+  },
+  "result": "ok"
+}

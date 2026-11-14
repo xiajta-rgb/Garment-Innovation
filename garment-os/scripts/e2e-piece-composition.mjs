@@ -1,0 +1,58 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import puppeteer from 'puppeteer-core';
+const out='doc/evidence/piece-composition-20261112';fs.mkdirSync(out,{recursive:true});
+const browser=await puppeteer.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true}),page=await browser.newPage(),steps=[],errors=[];
+page.on('pageerror',e=>errors.push(String(e)));
+const mark=(name,detail)=>{steps.push({name,pass:true,detail});console.log(name);};
+const click=async(text,scope='')=>{for(const b of await page.$$(`${scope} button`))if((await b.evaluate(e=>e.textContent.trim()))===text){await b.evaluate(e=>e.scrollIntoView({block:'center'}));await b.click();return;}throw Error('Missing '+text);};
+const count=()=>page.$$eval('.composition-stage [data-composition-piece]',es=>es.length);
+const data=()=>page.$eval('.composition-stage metadata',e=>JSON.parse(e.textContent));
+const field=async(label,value)=>{const el=await page.$(`[aria-label="${label}"]`);await el.click();await page.keyboard.down('Control');await page.keyboard.press('KeyA');await page.keyboard.up('Control');await page.keyboard.type(String(value));await page.keyboard.press('Tab');};
+try{
+ await page.setViewport({width:1416,height:1147});await page.goto('http://localhost:5341/',{waitUntil:'networkidle0'});await page.waitForSelector('[data-composition-asset]');
+ assert.equal(await count(),0);await page.screenshot({path:`${out}/empty-workbench.png`});mark('empty-workbench-exposes-template-pieces-and-editable-three-view-canvas');
+ await click('从男士短T起稿');await page.waitForFunction(()=>document.querySelectorAll('.composition-stage [data-composition-piece]').length===11);
+ await page.screenshot({path:`${out}/tee-starter.png`});mark('professional-company-guided-starter-is-eleven-independently-editable-pieces');
+ const before=await data();await page.click('[data-testid="template-long-sleeve-tee"]');await page.waitForSelector('[data-composition-asset="sven.sleeve"]');assert.equal(await count(),11);
+ await page.click('[data-composition-asset="sven.sleeve"]');assert.equal(await count(),12);let current=await data(),sleeve=current.plan.pieces.at(-1);assert.equal(sleeve.source.templateId,'long-sleeve-tee');
+ assert.deepEqual(current.plan.pieces.slice(0,11),before.plan.pieces);mark('left-template-selection-keeps-existing-pieces-and-adds-another-source-sleeve');
+ await field('宽度 mm',260);await field('高度 mm',290);await field('水平位置',365);await field('垂直位置',260);await field('旋转角度 °',-23);
+ await page.select('[aria-label="裁片所在视图"]','back');current=await data();sleeve=current.plan.pieces.at(-1);assert.equal(sleeve.widthMm,260);assert.equal(sleeve.heightMm,290);assert.equal(sleeve.rotation,-23);assert.equal(sleeve.view,'back');
+ await click('水平镜像');assert.equal((await data()).plan.pieces.at(-1).mirrored,true);await click('复制裁片');assert.equal(await count(),13);await click('删除裁片');assert.equal(await count(),12);mark('numeric-dimensions-position-rotation-view-mirror-copy-delete-change-real-canvas');
+ await page.click('[data-testid="template-t-shirt"]');await page.waitForSelector('[data-composition-asset="design.patch-pocket"]');await click('加入正面');await page.click('[data-composition-asset="design.patch-pocket"]');
+ await field('水平位置',260);await field('垂直位置',300);await field('宽度 mm',112);await field('高度 mm',125);
+ const pocket=(await data()).plan.pieces.at(-1),selector=`.composition-stage [data-composition-piece="${pocket.id}"]`;
+ await page.$eval(selector,e=>e.scrollIntoView({block:'center'}));let box=await page.$eval(selector,e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height};});
+ await page.mouse.move(box.x+box.w*.4,box.y+box.h*.4);await page.mouse.down();await page.mouse.move(box.x+box.w*.4+35,box.y+box.h*.4+22,{steps:8});await page.mouse.up();
+ let moved=(await data()).plan.pieces.find(p=>p.id===pocket.id);assert(moved.x>pocket.x);assert(moved.y>pocket.y);
+ const oldW=moved.widthMm,handle=`${selector} [data-editor-handle="resize"]`;box=await page.$eval(handle,e=>{const r=e.getBoundingClientRect();return{x:r.x+r.width/2,y:r.y+r.height/2};});
+ await page.mouse.move(box.x,box.y);await page.mouse.down();await page.mouse.move(box.x+10,box.y+9,{steps:6});await page.mouse.up();moved=(await data()).plan.pieces.find(p=>p.id===pocket.id);assert(moved.widthMm>oldW);
+ await page.screenshot({path:`${out}/edited-piece.png`});mark('real-pointer-drag-and-corner-resize-persist-piece-transforms',{before:pocket,after:moved});
+ await click('复制改款');assert.equal((await data()).plan.pieces.length,13);await page.waitForSelector('[data-composition-piece]');
+ const copy=(await data()).plan;const copiedPocket=copy.pieces.find(p=>p.assetKey==='design.patch-pocket');await page.click(`[data-layer-id="${copiedPocket.id}"] button:last-child`);await field('宽度 mm',145);await field('旋转角度 °',12);
+ await click('并排比对');assert.equal(await page.$$eval('.composition-comparison article',es=>es.length),2);const compared=await page.$$eval('.composition-comparison svg',es=>es.map(e=>({vb:e.getAttribute('viewBox'),plan:JSON.parse(e.querySelector('metadata').textContent).plan})));
+ assert.equal(compared[0].vb,compared[1].vb);assert.notEqual(compared[0].plan.pieces.find(p=>p.assetKey==='design.patch-pocket').widthMm,compared[1].plan.pieces.find(p=>p.assetKey==='design.patch-pocket').widthMm);
+ await page.screenshot({path:`${out}/compare-front.png`});await click('比对背面');assert(await page.$$eval('.composition-comparison svg',es=>es.every(e=>e.getAttribute('viewBox')==='500 0 500 760')));await page.screenshot({path:`${out}/compare-back.png`});await click('返回编辑');mark('independent-plan-copy-and-equal-scale-front-back-comparison');
+ const beforeDrop=await count();await page.$eval('.composition-stage',e=>e.scrollIntoView({block:'center'}));
+ await page.evaluate(()=>{const svg=document.querySelector('.composition-stage svg'),rect=svg.getBoundingClientRect(),dt=new DataTransfer();dt.setData('application/x-garment-template','t-shirt');dt.setData('application/x-garment-piece','design.patch-pocket');svg.dispatchEvent(new DragEvent('drop',{bubbles:true,cancelable:true,dataTransfer:dt,clientX:rect.left+rect.width*.84,clientY:rect.top+rect.height*.4}));});
+ assert.equal(await count(),beforeDrop+1);assert.equal((await data()).plan.pieces.at(-1).view,'side');await click('删除裁片');assert.equal(await count(),beforeDrop);mark('palette-drop-target-places-a-new-piece-in-the-chosen-view');
+ const downloads=path.resolve(`${out}/downloads`);fs.mkdirSync(downloads,{recursive:true});const client=await page.createCDPSession();await client.send('Page.setDownloadBehavior',{behavior:'allow',downloadPath:downloads});
+ const oldDownload=path.join(downloads,'方案 02-三视图.svg');if(fs.existsSync(oldDownload))fs.unlinkSync(oldDownload);
+ await click('下载组合三视图');const filename=path.join(downloads,'方案 02-三视图.svg');for(let i=0;i<50&&!fs.existsSync(filename);i++)await new Promise(r=>setTimeout(r,100));
+ const downloaded=fs.readFileSync(filename,'utf8');assert(downloaded.includes('sven.sleeve'));assert(!downloaded.includes('data-editor-handle'));mark('download-includes-composed-source-pieces-and-excludes-edit-handles');
+ const saved=await data();await click('Save','.top-nav');await page.waitForFunction(()=>!document.querySelector('.top-nav [aria-busy="true"]'));
+ await page.click('[title="New Design"]');await page.waitForFunction(()=>document.querySelectorAll('.composition-stage [data-composition-piece]').length===0);
+ await click('List');await page.waitForFunction(()=>[...document.querySelectorAll('button')].some(e=>e.textContent.includes('Untitled Design')&&e.textContent.includes('男')));
+ for(const b of await page.$$('button'))if(await b.evaluate(e=>e.textContent.includes('Untitled Design')&&e.textContent.includes('男'))){await b.click();break;}
+ await page.waitForFunction(()=>document.querySelectorAll('.composition-stage [data-composition-piece]').length===13);assert.deepEqual((await data()).plan,saved.plan);mark('save-new-design-list-reopen-preserves-all-source-pieces-plans-and-transforms');
+ const selected=(await data()).plan.pieces.at(-1);await page.click(`[data-layer-id="${selected.id}"] button:last-child`);const oldWidth=selected.widthMm;await field('宽度 mm',oldWidth+20);await page.click('[title="撤销 (Ctrl+Z)"]');assert.equal((await data()).plan.pieces.at(-1).widthMm,oldWidth);await page.click('[title="重做 (Ctrl+Shift+Z)"]');assert.equal((await data()).plan.pieces.at(-1).widthMm,oldWidth+20);mark('global-undo-redo-restores-single-piece-dimension');
+ await click('配套尺寸与配缝');await click('创建直身T恤裁片组合');await page.waitForSelector('[data-testid="piece-design-three-view"] svg',{timeout:90000});await click('返回自由裁片组合');assert.equal(await count(),13);mark('paired-cad-workflow-remains-accessible-and-does-not-clear-creative-plans');
+ await page.setViewport({width:390,height:844});await page.screenshot({path:`${out}/mobile.png`});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.setViewport({width:1416,height:1147});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ const catalogues=await page.evaluate(async()=>{const {compositionCatalogue,compositionSource}=await import('/src/application/composition-catalogue.ts');const {listPatterns}=await import('/src/data/patternLibrary.ts');const {isReferencePattern}=await import('/src/data/patternReview.ts');const url=performance.getEntriesByType('resource').map(e=>e.name).filter(n=>/\/src\/store\/useDesignStore\.ts(?:\?|$)/.test(n)).at(-1);const {useDesignStore}=await import(url);return listPatterns().filter(p=>isReferencePattern(p.id)).map(p=>({id:p.id,count:compositionCatalogue(compositionSource(useDesignStore.getState().getConfiguration(),p.id)).assets.length}));});
+ assert.equal(catalogues.length,9);assert(catalogues.every(c=>c.count>0));fs.writeFileSync(`${out}/catalogues.json`,JSON.stringify(catalogues,null,2));mark('all-nine-reviewed-template-catalogues-produce-available-pieces',catalogues);
+ fs.writeFileSync(`${out}/saved-composition.json`,JSON.stringify(saved,null,2));assert.deepEqual(errors,[]);mark('desktop-mobile-no-horizontal-overflow-and-no-page-errors');
+}catch(e){process.exitCode=1;steps.push({name:'failure',pass:false,error:String(e)});console.error(e);await page.screenshot({path:`${out}/failure.png`});}
+finally{fs.writeFileSync(`${out}/browser.json`,JSON.stringify({steps,errors},null,2));await browser.close();}

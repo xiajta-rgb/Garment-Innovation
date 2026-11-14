@@ -12,54 +12,53 @@
  */
 
 import { useEffect } from 'react';
-import { useParametricStore } from '@/store/parametricStore';
+import { useDesignStore } from '@/store/useDesignStore';
 
 export function useGlobalShortcuts() {
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
+      if(e.defaultPrevented||e.isComposing)return;
       const target = e.target as HTMLElement;
-      // 在输入框中不拦截
-      if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable) return;
-
+      if(document.querySelector('dialog[open],[aria-modal="true"]'))return;
       const ctrl = e.ctrlKey || e.metaKey;
+      // Save also works while a field is focused; blur first commits its draft.
+      if(ctrl&&e.key.toLowerCase()==='s'){
+        e.preventDefault();target.blur?.();
+        void useDesignStore.getState().saveDesign().catch(()=>{});return;
+      }
+      // 在输入框中不拦截
+      if (target.closest?.('input,textarea,select,[contenteditable]:not([contenteditable="false"]),[role="textbox"],[role="dialog"],[role="alertdialog"]') || target.isContentEditable || document.querySelector('dialog[open],[aria-modal="true"]')) return;
 
       // Ctrl+Z: 撤销
       if (ctrl && !e.shiftKey && e.key === 'z') {
         e.preventDefault();
-        useParametricStore.getState().undo();
+        useDesignStore.getState().undo();
         return;
       }
 
       // Ctrl+Shift+Z / Ctrl+Y: 重做
       if ((ctrl && e.shiftKey && e.key === 'Z') || (ctrl && e.key === 'y')) {
         e.preventDefault();
-        useParametricStore.getState().redo();
-        return;
-      }
-
-      // Ctrl+S: 保存
-      if (ctrl && e.key === 's') {
-        e.preventDefault();
-        void useParametricStore.getState().saveDesign();
+        useDesignStore.getState().redo();
         return;
       }
 
       // F: 切换前/后视图
       if (e.key === 'f' && !ctrl) {
-        const { view, setView } = useParametricStore.getState();
+        const { view, setView } = useDesignStore.getState();
         setView(view === 'front' ? 'back' : 'front');
         return;
       }
 
       // 1: Clean 视图
       if (e.key === '1' && !ctrl) {
-        useParametricStore.getState().setViewMode('clean');
+        useDesignStore.getState().setViewMode('clean');
         return;
       }
 
       // 2: Industrial 视图
       if (e.key === '2' && !ctrl) {
-        useParametricStore.getState().setViewMode('industrial');
+        useDesignStore.getState().setViewMode('industrial');
         return;
       }
     };

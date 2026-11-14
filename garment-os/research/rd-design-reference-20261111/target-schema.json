@@ -1,0 +1,2807 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "base_token": "ZMY8brxraaCBfhseuIFccVe0n8g",
+    "block_id": "tbl3lvwyeOg7DpYT",
+    "block_name": "研发货盘数据源_20261110",
+    "block_type": "table",
+    "hint": {
+      "fields": {
+        "fields": [
+          {
+            "default_value": null,
+            "id": "fld5bIm6bL",
+            "name": "参考元素2",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld1y970bW",
+            "name": "辅开发",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld1AUqkr4",
+            "name": "面料风格",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld577LPHI",
+            "name": "运营立项意见原因",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld5bHS6Pr",
+            "multiple": false,
+            "name": "商品组别",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "男休闲"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "男运动"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "女运动"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "女休闲"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld6J28Y2j",
+            "multiple": false,
+            "name": "研发组别",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "男休闲"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "登山组"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "女休闲"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "女运动"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "创新组"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "男运动"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "内衣睡衣"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "国内组"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "运动裤子组"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld2urKcjq",
+            "multiple": false,
+            "name": "商品品类",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "软壳马甲/保暖马甲/马甲/上装"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "圆领背心/背心/T恤/上装"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "牛仔喇叭长裤/牛仔长裤/长裤/下装"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "休闲直筒中裤/休闲中裤/中裤/下装"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "梭织外套/轻薄外套/外套/上装"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "休闲直筒长裤/休闲长裤/长裤/下装"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "圆领短T/短袖T恤/T恤/上装"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "连帽套头卫衣/抓绒卫衣/卫衣/上装"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "V领短T/短袖T恤/T恤/上装"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "8-12\"短裤/运动梭织短裤/短裤/下装"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "套装/套装/睡衣/内饰&配饰"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "全开襟连帽卫衣/非抓绒卫衣/卫衣/上装"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "亨利领背心/背心/T恤/上装"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "圆领长袖T/长袖T恤/T恤/上装"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "工装直筒长裤/工装长裤/长裤/下装"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "直筒运动长裤/其他运动长裤/长裤/下装"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "长裤/泳裤/下装/泳装"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "紧身连体衣/连体衣/连体衣/连体/套装"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "5-7\"短裤/运动梭织短裤/短裤/下装"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "连帽长袖T/长袖T恤/T恤/上装"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "抓绒马甲/保暖马甲/马甲/上装"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "短袖Polo/polo/T恤/上装"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "直筒徒步长裤/徒步长裤/长裤/下装"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "圆领七分袖T/七分袖T恤/T恤/上装"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "U领背心/背心/T恤/上装"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "常规短裙/伞裙/运动短裙/下装"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "5-7\"短裤/沙滩短裤/下装/泳装"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "5-7\"短裤/休闲短裤/短裤/下装"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "5-7\"短裤/高尔夫短裤/短裤/下装"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "针织外套/轻薄外套/外套/上装"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "摇粒外套/运动抓绒外套/外套/上装"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "5-7\"短裤/工装短裤/短裤/下装"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "束脚卫裤/抓绒卫裤/长裤/下装"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "长袖Polo/polo/T恤/上装"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "半开襟连帽卫衣/抓绒卫衣/卫衣/上装"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "直筒卫裤/抓绒卫裤/长裤/下装"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "休闲套装/休闲套装/休闲套装/连体/套装"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "长袖衬衫/钓鱼衬衫/衬衫/上装"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "抓绒夹克/休闲夹克/外套/上装"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "U领短T/短袖T恤/T恤/上装"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "连帽短T/短袖T恤/T恤/上装"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "休闲阔腿长裤/休闲长裤/长裤/下装"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "休闲短袖衬衫/休闲衬衫/衬衫/上装"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "休闲阔腿中裤/休闲中裤/中裤/下装"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "8-12\"短裤/休闲短裤/短裤/下装"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "全开襟连帽卫衣/抓绒卫衣/卫衣/上装"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "短袖衬衫/战术衬衫/衬衫/上装"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "8-12\"短裤/工装短裤/短裤/下装"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "5\"以下短裤/工装短裤/短裤/下装"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "休闲长袖衬衫/休闲衬衫/衬衫/上装"
+              }
+            ],
+            "remaining_options_count": 134,
+            "truncated": true,
+            "truncated_options_count": 134,
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fldsdtA2zJ",
+            "name": "设计卖点",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld3VGz65a",
+            "name": "设计组负责人",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld5PQUa8b",
+            "name": "参考链接1",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld6MVTYrK",
+            "name": "竞品上架时间",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld1Oxzah4",
+            "multiple": false,
+            "name": "研发产品等级",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "深度增量"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "潜力款"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld6ucvP6z",
+            "name": "预估退货损失占比",
+            "style": {
+              "percentage": false,
+              "precision": 2,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fldyqj2TiX",
+            "name": "实物图2",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld2YhVU9u",
+            "multiple": false,
+            "name": "面料类型",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "梭织"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "针织"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "针织-毛织"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "其他"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "棉类"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "绒类"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld5YwPdLG",
+            "name": "设计稿",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld6Pnu4mC",
+            "name": "预估日销售额(USD)",
+            "style": {
+              "percentage": false,
+              "precision": 1,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld6EtieTF",
+            "name": "子类别",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fldHtFOj9K",
+            "name": "预估派送费(USD)",
+            "style": {
+              "percentage": false,
+              "precision": 2,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld3npsZ1U",
+            "name": "竞品销售情况",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld6EmKV5o",
+            "name": "类目",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld5vY2MLc",
+            "name": "参考元素3",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld4c0uXrc",
+            "multiple": true,
+            "name": "进度",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "设计稿审批通过"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "版型处理完成"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "工艺处理完成"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "提交打样情况"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "打样完成"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "提交开款信息"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "研发完成"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "提交样衣评审"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "确认样批版意见完成"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "设计稿审批驳回"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "提交试穿评审"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "完成成本核算"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "版型工艺处理完成"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "提交设计稿"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "12/16一次样批版"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "12/9一次样评估"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "效果不理想。"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "10.20一次样评审"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "10.20评审棉绳效果较差"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "沟通后确认换做法找新辅料"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "维度尺寸待GTM调研后确认"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "无新进度不再更新"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "已取消"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "测试样OK"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "在原样衣上修改后安排试穿"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "换新面料后测试样OK"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "待运营试穿"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "试穿结束前不再更新"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "已下单"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "运营试穿OK"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "调研已完成"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "待反馈"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "已确认取消"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "11/12新测试样批版完毕"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "里布右片绒布有些起扭（无需重做）。"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "运营取消下单"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "版型和面料已完成优化并确认"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "下摆做到56-58会更适合休闲时装的风格版型"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "测试样完成后可以评估一下"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "重新找POLO面料"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "文锋再检测后签板"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "等OK后修改稿件和BOM即可下单"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "开发优先级2272＞2275＞2250"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "面料带弹力"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "不适合做大面积破洞"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "后续版型进行微调"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "辅料品质和毛领质感是重点"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "此款建议用差异化大肌理面料做（比如2320面料）"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "虽然款比较常见但半门襟+分割的数据站内站外都是很好的"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "九分裤直筒或阔腿版型比微喇的效果更好（保留口袋设计元素）"
+              }
+            ],
+            "remaining_options_count": 18,
+            "truncated": true,
+            "truncated_options_count": 18,
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld53KSJMx",
+            "name": "设计主开发",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld4vzzx0z",
+            "multiple": false,
+            "name": "版型",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "常规"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "宽松"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "修身"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "紧身"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "超宽松"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld3e04crg",
+            "name": "参考链接3",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld1GMaXfs",
+            "name": "实物图1",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fldSqqz5qU",
+            "name": "极限活动价格(USD)",
+            "style": {
+              "percentage": false,
+              "precision": 2,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld7CiFnri",
+            "name": "预估年销售额(USD)",
+            "style": {
+              "percentage": false,
+              "precision": 1,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fldmsVuPSs",
+            "name": "预估日销量",
+            "style": {
+              "percentage": false,
+              "precision": 1,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld7IuVb8a",
+            "name": "目标成本",
+            "style": {
+              "percentage": false,
+              "precision": 2,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld40sOrXt",
+            "name": "规划年份",
+            "style": {
+              "percentage": false,
+              "precision": 1,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld28dUGAE",
+            "name": "预估退货率",
+            "style": {
+              "percentage": false,
+              "precision": 2,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld5QTyInV",
+            "multiple": false,
+            "name": "GTM企划部负责人",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "黄鑫梅"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "林云婷"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "洪美凉"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "唐露露"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "李熙洛"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "吴承志"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "胡佳凤"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "童雪剑"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld4JQTW4S",
+            "name": "预估年销量",
+            "style": {
+              "percentage": false,
+              "precision": 1,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld6gVV9iS",
+            "multiple": false,
+            "name": "运营立项意见",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "同意"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "不同意"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld6c9Qkc8",
+            "name": "成本单价(USD)",
+            "style": {
+              "percentage": false,
+              "precision": 2,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld1t0mQXX",
+            "multiple": false,
+            "name": "产品类别",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "男裤子"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "中性上衣"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "女裤子"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "女上衣"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "中性裤子"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "男上衣"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "女套装"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "男套装"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "女裙子"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "男配饰"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld2HCS3qD",
+            "multiple": true,
+            "name": "审核备注",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "评分和退货率要分析问题点改善才能打样"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "要补AI图"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "1"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "补AI图"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "补充AI图"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "版型要优化完"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "找出问题再打样"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "1029已存在"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "价格在优化"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "重新看下款"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "成本要控制好"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "款式偏基础"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "毛利偏低"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "打样先储备。"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "打样先储备"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "落肩尺寸"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "衣长"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "袖长要标注清楚"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "同版师沟通到位。"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "32.99 的卖价 成不了3类"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "这类的3类要19.99左右或是 20左右"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "核心卖点补充"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "这个类目退货率太高"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "战略等级太低"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "先测试一款"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "跟3259 很接近 而且还没有数据证明这个花纹 有卖点"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "这个设计先不要大量铺开"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "男生 长袖T恤的应该没有 拇指洞的需求"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "先做老款失败分析"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "为什么不先做 常规款"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "异常数据修复"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "估计售价太高"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "没有优势"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "LOGO 太难看"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "羽绒 成分没对"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "袖口材质没对"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "羽绒材质 和袖口设计 没对"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "羽绒材质 和袖口材质（要类似波司登 有弹力的材质）"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "已在售产品手动通过-202501071810"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "已在售产品手动通过-20250107"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "32.99 的卖价 成不了3类，这类的3类要19.99左右或是 20左右"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "估计售价太高，没有优势，LOGO 太难看"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "成本要控制好，款式偏基础，毛利偏低"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "版型要优化完，找出问题再打样"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "羽绒 成分没对，袖口材质没对"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "落肩尺寸，衣长，袖长要标注清楚，同版师沟通到位。"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "这个类目退货率太高，战略等级太低"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "无此款式需求"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "和运营立项通过确认款式"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "和运营立项确认通过"
+              }
+            ],
+            "remaining_options_count": 1,
+            "truncated": true,
+            "truncated_options_count": 1,
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld52zZs7X",
+            "multiple": false,
+            "name": "预估战略类型",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "2类"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "5类"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "4类"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "1类"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "6类"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "3类"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fldZlSPLIY",
+            "name": "面料企划",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld7BJK6vw",
+            "multiple": false,
+            "name": "产品类型",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "标品款"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "创新款"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "半标品款"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "强基计划"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld26HC18z",
+            "name": "计划单量",
+            "style": {
+              "percentage": false,
+              "precision": 1,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld4qd7FpE",
+            "name": "仓储费+坏货损失占比",
+            "style": {
+              "percentage": false,
+              "precision": 2,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld3p0N8IK",
+            "name": "预估售价",
+            "style": {
+              "percentage": false,
+              "precision": 2,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld4FALzzj",
+            "multiple": false,
+            "name": "季节",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "夏季"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "冬四季"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "夏四季"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "冬季"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld2WRQBau",
+            "name": "是否重点类目",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld2UvIr3s",
+            "name": "已有面料",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld6S7tSa6",
+            "name": "创建时间",
+            "style": {
+              "format": "yyyy/MM/dd HH:mm"
+            },
+            "type": "datetime"
+          },
+          {
+            "default_value": null,
+            "id": "fld1xUIGxv",
+            "name": "GTM企划组负责人",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld7JpzJgz",
+            "multiple": false,
+            "name": "研发部负责人",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "孙锦平"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "林云婷"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "李熙洛"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "洪美凉"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "黄鑫梅"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "田泽麒"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "刘艳1"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fldwfi3UMv",
+            "multiple": false,
+            "name": "场景",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "休闲-男装"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "运动-登山"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "休闲-女装"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "运动-休闲"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "运动-战术"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "休闲-工装"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "运动-瑜伽"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "休闲-工作服"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "休闲-牛仔"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "内衣和睡衣"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "服饰配饰"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fldSUgzN7V",
+            "multiple": false,
+            "name": "新老面料",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "新面料"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "老面料"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld1lELrY0",
+            "name": "SPU主图",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld5q3n92X",
+            "multiple": false,
+            "name": "TK品牌",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "TK-MAG"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "TK-YUC"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "TK-CAV"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "TK-DOK"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "TK-COT"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "TK-SME"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "TK-MAG,TK-YUC"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "TK-YUC,TK-MAG"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "TK-YUC,TK-MAG,TK-COT"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld1zGtw9s",
+            "name": "参考元素1",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld4Y9mkpG",
+            "name": "参考图片3",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld3K1hAyv",
+            "multiple": false,
+            "name": "审核状态",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "GTM规划待审批"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "GTM规划通过"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "暂存"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "GTM规划初审通过"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "GTM规划未通过"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "下单通过"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "下单待审核"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "下单未通过"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "设计稿通过"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "设计稿未通过"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "设计稿待审核"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld3jsifhf",
+            "name": "预估日广告比",
+            "style": {
+              "percentage": false,
+              "precision": 1,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld1YD7rg2",
+            "name": "备注",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld1KDvSaF",
+            "multiple": false,
+            "name": "面料开发人员",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "温军辉"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "陈仁宇"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "林泽帅"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fldQ3xykNf",
+            "name": "参考图片2",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld1cRLikM",
+            "name": "GTM企划理由",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "bidirectional": false,
+            "id": "fldrjNX3Jg",
+            "link_table": "tbl3lvwyeOg7DpYT",
+            "name": "父记录",
+            "type": "link"
+          },
+          {
+            "default_value": null,
+            "id": "fld1f3W9X8",
+            "multiple": false,
+            "name": "是否TK货盘",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "否"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "是"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld149eISx",
+            "name": "预估净利润(全海运)",
+            "style": {
+              "percentage": false,
+              "precision": 2,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld14JU7yr",
+            "name": "GTM企划主开发",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld1TvDkGv",
+            "multiple": false,
+            "name": "GTM创新部总负责人",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "谭万霞"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "洪美凉"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "黄鑫梅"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "孙锦平"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld6hJNeWy",
+            "multiple": false,
+            "name": "设计创新部总负责人",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "黄鑫梅"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "孙锦平"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "蔡婷婷"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "童雪剑"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld23nDew8",
+            "multiple": false,
+            "name": "运营下单意见",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "同意"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "不同意"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fldviiOS3M",
+            "multiple": true,
+            "name": "平台",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "Amazon"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "国内平台"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "TikTok"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "TikTokShop"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "外贸平台"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "Shopify"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld5hQ4DEW",
+            "name": "运营下单意见原因附件",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld7eCXu41",
+            "name": "预估大类排名",
+            "style": {
+              "percentage": false,
+              "precision": 1,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld6yXhas0",
+            "multiple": false,
+            "name": "受众程度",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "所有受众"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "受众广"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "受众不够大"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "受众中"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "受众小"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld6NOko7r",
+            "name": "设计建议",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld3gxQejk",
+            "name": "GTM产品名称",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld23csWyB",
+            "name": "标准bom名称",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld6tB9NVa",
+            "name": "新面料需求",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld12GM855",
+            "multiple": false,
+            "name": "分类",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "男款"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "中性款"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "女款"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld21LJXMK",
+            "name": "预估重量",
+            "style": {
+              "percentage": false,
+              "precision": 3,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fldH0gO9dX",
+            "name": "参考链接大类排名",
+            "style": {
+              "percentage": false,
+              "precision": 1,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld5TR0tE4",
+            "multiple": false,
+            "name": "战略类型",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "4类"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "3类"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "5类"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "2类"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "1类"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "6类"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fldD7Mi5ig",
+            "name": "面料成分",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "id": "fld3EtAvMZ",
+            "name": "图片",
+            "style": {
+              "type": "plain"
+            },
+            "type": "attachment"
+          },
+          {
+            "default_value": null,
+            "id": "fld3AI2c3R",
+            "name": "运营负责人",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld1RpS9tQ",
+            "multiple": false,
+            "name": "面料研究工程师",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "修振锋"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "林泽帅"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld20WDwLT",
+            "name": "极限全海运利润率(%)",
+            "style": {
+              "percentage": false,
+              "precision": 2,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld3nmaHLL",
+            "name": "设计部负责人",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld3r1XWZO",
+            "name": "预估月销售额(USD)",
+            "style": {
+              "percentage": false,
+              "precision": 2,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fldfSNUbeH",
+            "name": "新品审批通过时间",
+            "style": {
+              "format": "yyyy-MM-dd HH:mm"
+            },
+            "type": "datetime"
+          },
+          {
+            "default_value": null,
+            "id": "fld5AWajbZ",
+            "multiple": true,
+            "name": "面料建议",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "接触凉感≥0.15"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "抗UPF50+"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "防水指数8000透湿指数3000"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "防泼水洗前四级"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "C8防泼水洗前4级+低透（超柔透明膜）"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "防水C8洗前4级+TPU底透膜"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "防泼水"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "防水透湿3000*1000"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "30D仿棉贴膜（梭织）、仿羊驼绒布（针织）"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "水压10000 透湿5000+防泼水洗前4级"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "防水透湿10000*5000"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "防晒50+"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "吸湿速干"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "吸湿排汗"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "该面料部分浅色有透明风险"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "正在优化。"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "防晒"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "防风"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "防水"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "2/28仿莫代尔包芯纱"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "绞花编织"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "防泼水4级"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "150D消光高弹贴膜 防泼水4级"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "镂空编织"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "防水透气"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "增加三防功能"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "12.2OZ人棉弹力牛仔（ 67%cotton27%polyester 4%rayon 2%spandex）"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "12.3OZ涤棉弹力牛仔（152cm*417g"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "79%cotton+20%polyester+1%spandex）"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "防泼水洗前4级"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "主面料刷毛印花格子"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "内里长毛舒棉绒"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "防泼水功能"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "防水指数3000透湿指数1000"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "弹力面料"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "珠地面料"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "底抓绒"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "四向弹力"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "防晒UPF50+"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "防泼水洗前4级 UPF50+"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "抓绒面料"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "抗静电"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "软壳抓绒"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "UPF50+"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "防泼水洗前4级 5000/3000"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "升级的高防水软壳面料"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "竖条纹肌理面料"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "格子纹理"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "微弹"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "毛织肌理感纹理"
+              }
+            ],
+            "remaining_options_count": 31,
+            "truncated": true,
+            "truncated_options_count": 31,
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld3xxgN61",
+            "name": "大货批版意见",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld6ZTLjLk",
+            "multiple": true,
+            "name": "可售品牌",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "全部品牌"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "方向感"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "MAGCOMSEN"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "YUCOLEN"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "多平台"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "TACVASEN"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "Cotrasen"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "TK-YUC"
+              },
+              {
+                "hue": "Carmine",
+                "lightness": "Lighter",
+                "name": "SMENG"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "TikTok"
+              },
+              {
+                "hue": "Gray",
+                "lightness": "Lighter",
+                "name": "TK-MAG"
+              },
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "MAGNIVIT"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "EKLENTSON"
+              },
+              {
+                "hue": "Wathet",
+                "lightness": "Lighter",
+                "name": "Gofeat"
+              },
+              {
+                "hue": "Yellow",
+                "lightness": "Lighter",
+                "name": "Cavva"
+              },
+              {
+                "hue": "Turquoise",
+                "lightness": "Lighter",
+                "name": "KEFITEVD"
+              },
+              {
+                "hue": "Red",
+                "lightness": "Lighter",
+                "name": "TK-CAV"
+              },
+              {
+                "hue": "Purple",
+                "lightness": "Lighter",
+                "name": "TK-DOK"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "DOKASIN"
+              },
+              {
+                "hue": "Lime",
+                "lightness": "Lighter",
+                "name": "Shopify"
+              },
+              {
+                "hue": "Green",
+                "lightness": "Lighter",
+                "name": "TK-COT"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld2CUkE5p",
+            "name": "参考图片1",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "button_config": {
+              "title": "添加到款式跟进"
+            },
+            "id": "fldiuBS961",
+            "name": "添加到款式跟进",
+            "type": "button"
+          },
+          {
+            "default_value": null,
+            "id": "fldWQUUNzb",
+            "name": "参考品牌3",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld75eDA84",
+            "multiple": false,
+            "name": "面料|设计",
+            "options": [
+              {
+                "hue": "Blue",
+                "lightness": "Lighter",
+                "name": "面料/设计创新"
+              },
+              {
+                "hue": "Orange",
+                "lightness": "Lighter",
+                "name": "面料/设计基础"
+              }
+            ],
+            "type": "select"
+          },
+          {
+            "default_value": null,
+            "id": "fld6ZyaLyc",
+            "name": "爆款等级",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          },
+          {
+            "default_value": null,
+            "id": "fld6VmxiSS",
+            "name": "预估小类排名",
+            "style": {
+              "percentage": false,
+              "precision": 1,
+              "thousands_separator": false,
+              "type": "plain"
+            },
+            "type": "number"
+          },
+          {
+            "default_value": null,
+            "id": "fld4i6JmBz",
+            "name": "参考品牌1",
+            "style": {
+              "type": "plain"
+            },
+            "type": "text"
+          }
+        ],
+        "total": 117
+      },
+      "next_step": "use +record-list to list records in the resolved table"
+    },
+    "input_type": "wiki_url",
+    "resource_type": "bitable",
+    "selection_source": "url_query",
+    "table_id": "tbl3lvwyeOg7DpYT",
+    "title": "研发部下单情况统计表",
+    "view_id": "vewzEmT3cb",
+    "wiki_node_token": "IFexwA30piTbkFkjwl9cn77pnKg"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.98",
+      "latest": "1.0.100",
+      "message": "lark-cli 1.0.100 available, current 1.0.98, run: lark-cli update"
+    }
+  }
+}

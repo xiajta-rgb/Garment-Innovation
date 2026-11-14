@@ -1,0 +1,78 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import puppeteer from 'puppeteer-core';
+
+const out='doc/evidence/piece-slots-20261112';fs.mkdirSync(out,{recursive:true});
+const browser=await puppeteer.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
+const page=await browser.newPage(),steps=[],errors=[];
+page.on('pageerror',e=>errors.push(String(e)));
+const mark=(name,detail)=>{steps.push({name,pass:true,detail});console.log(name);};
+const click=async(text,scope='')=>{for(const b of await page.$$(`${scope} button`))if(await b.evaluate(e=>e.textContent.trim())===text){await b.evaluate(e=>e.scrollIntoView({block:'center'}));await b.click();return;}throw Error('Missing '+text);};
+const data=()=>page.$eval('.composition-stage metadata',e=>JSON.parse(e.textContent));
+const field=async(label,value)=>{const e=await page.$(`[aria-label="${label}"]`);assert(e,label);await e.click();await page.keyboard.down('Control');await page.keyboard.press('KeyA');await page.keyboard.up('Control');await page.keyboard.type(String(value));await page.keyboard.press('Tab');};
+const select=async(id)=>{await page.$eval('.composition-layer-details',e=>e.open=true);await page.click(`[data-layer-id="${id}"] button:last-child`);};
+const drag=async(selector,dx,dy)=>{
+ await page.$eval(selector,e=>e.scrollIntoView({block:'center'}));
+ const b=await page.$eval(selector,e=>{const r=e.getBoundingClientRect();return{x:r.x+r.width*.8,y:r.y+r.height*.3};});
+ await page.mouse.move(b.x,b.y);await page.mouse.down();await page.mouse.move(b.x+dx,b.y+dy,{steps:8});await page.mouse.up();
+};
+const shot=async name=>{await page.$eval('.composition-stage',e=>e.scrollIntoView({block:'center'}));await page.screenshot({path:`${out}/${name}.png`});};
+try{
+ await page.setViewport({width:1416,height:1147});await page.goto('http://localhost:5341/',{waitUntil:'networkidle0'});await page.waitForSelector('[data-composition-asset]');
+ await click('从男士短T起稿');await page.waitForFunction(()=>document.querySelectorAll('.composition-stage [data-composition-piece]').length===11);
+ await page.$eval('.composition-source-catalogue',e=>e.open=true);
+ const initial=(await data()).plan;await shot('fixed-three-view');mark('starter-keeps-company-guided-proportions-and-fixed-three-view-placement');
+ const sleeve=initial.pieces.find(p=>p.assetKey==='sleeve'&&p.view==='front'&&!p.mirrored);
+ await select(sleeve.id);assert(await page.$('[data-testid="fixed-placement-note"]'));
+ for(const label of ['水平位置','垂直位置','旋转角度 °','裁片所在视图'])assert.equal(await page.$(`[aria-label="${label}"]`),null);
+ assert.equal(await page.$('.composition-stage [data-editor-handle]'),null);
+ await drag(`.composition-stage [data-composition-piece="${sleeve.id}"]`,45,30);
+ assert.deepEqual((await data()).plan,initial);
+ await page.$eval('.composition-stage svg',e=>e.focus());await page.keyboard.press('ArrowRight');await page.keyboard.press('ArrowDown');assert.deepEqual((await data()).plan,initial);
+ mark('structural-pieces-have-no-position-rotation-view-copy-or-drag-controls-and-ignore-drag-and-arrow-keys');
+ const left=initial.pieces.find(p=>p.assetKey==='sleeve'&&p.view==='front'&&p.mirrored);await select(left.id);
+ await field('宽度 mm',left.widthMm*1.15);await field('高度 mm',left.heightMm*1.1);
+ let edited=(await data()).plan.pieces.find(p=>p.id===left.id);assert.equal(edited.mirrored,true);assert.equal(edited.rotation,0);assert(edited.widthMm>left.widthMm);
+ await click('恢复源尺寸');assert.deepEqual((await data()).plan,initial);mark('structural-dimensions-remain-editable-and-restoring-size-keeps-left-sleeve-orientation');
+ for(let i=0;i<3;i++)await page.click('[data-composition-asset="sleeve"]');
+ for(const key of ['neck-front','neck-back','body-front','body-back'])await page.click(`[data-composition-asset="${key}"]`);
+ assert.deepEqual((await data()).plan,initial);mark('repeated-sleeve-neck-and-body-replacement-retains-count-ids-and-fixed-positions');
+ await page.$eval('.composition-stage',e=>e.scrollIntoView({block:'center'}));
+ await page.evaluate(()=>{const svg=document.querySelector('.composition-stage svg'),r=svg.getBoundingClientRect(),dt=new DataTransfer();dt.setData('application/x-garment-template','t-shirt');dt.setData('application/x-garment-piece','sleeve');svg.dispatchEvent(new DragEvent('drop',{bubbles:true,cancelable:true,dataTransfer:dt,clientX:r.left+r.width*.9,clientY:r.top+r.height*.8}));});
+ assert.deepEqual((await data()).plan,initial);mark('dropping-structural-template-at-arbitrary-coordinates-still-replaces-fixed-slots');
+ await page.click('[data-testid="template-long-sleeve-tee"]');await page.waitForSelector('[data-composition-asset="sven.sleeve"]');
+ assert(await page.$eval('[data-composition-asset="sven.sleeve"]',e=>e.disabled&&e.textContent.includes('待款式映射')));assert.deepEqual((await data()).plan,initial);
+ await page.click('[data-testid="template-t-shirt"]');await page.waitForSelector('[data-composition-asset="design.patch-pocket"]');mark('unmapped-source-net-is-labelled-and-cannot-be-used-as-an-assembled-garment-sleeve');
+ await click('附件放置：正面');await page.click('[data-composition-asset="design.patch-pocket"]');
+ let pocket=(await data()).plan.pieces.at(-1);assert.equal((await data()).plan.pieces.length,12);
+ await field('水平位置',300);await field('垂直位置',290);await field('旋转角度 °',8);
+ pocket=(await data()).plan.pieces.at(-1);await drag(`.composition-stage [data-composition-piece="${pocket.id}"]`,15,10);
+ let moved=(await data()).plan.pieces.at(-1);assert(moved.x>pocket.x);assert(moved.y>pocket.y);
+ await page.$eval('.composition-stage svg',e=>e.focus());await page.keyboard.press('ArrowRight');assert.equal((await data()).plan.pieces.at(-1).x,moved.x+1);
+ await click('复制裁片');assert.equal((await data()).plan.pieces.length,13);await click('删除裁片');assert.equal((await data()).plan.pieces.length,12);
+ await select(pocket.id);await shot('pocket-placement');mark('pockets-retain-numeric-position-rotation-real-pointer-drag-keyboard-copy-and-delete');
+ await click('复制改款');const copy=(await data()).plan,copiedPocket=copy.pieces.find(p=>p.assetKey==='design.patch-pocket');await select(copiedPocket.id);await field('宽度 mm',145);
+ await click('并排比对');let compared=await page.$$eval('.composition-comparison svg',es=>es.map(e=>({view:e.getAttribute('viewBox'),plan:JSON.parse(e.querySelector('metadata').textContent).plan})));
+ assert.equal(compared.length,2);assert.equal(compared[0].view,compared[1].view);
+ assert.notEqual(compared[0].plan.pieces.at(-1).widthMm,compared[1].plan.pieces.at(-1).widthMm);
+ for(let i=0;i<11;i++)assert.deepEqual(compared[0].plan.pieces[i],{...compared[1].plan.pieces[i],id:compared[0].plan.pieces[i].id});
+ await page.$eval('.composition-comparison',e=>e.scrollIntoView({block:'center'}));await page.screenshot({path:`${out}/compare-front.png`});
+ await click('比对背面');assert(await page.$$eval('.composition-comparison svg',es=>es.every(e=>e.getAttribute('viewBox')==='500 0 500 760')));await page.screenshot({path:`${out}/compare-back.png`});await click('返回编辑');mark('independent-plan-copy-and-identical-fixed-garment-positions-in-front-and-back-comparison');
+ const downloads=path.resolve(`${out}/downloads`);fs.mkdirSync(downloads,{recursive:true});const client=await page.createCDPSession();await client.send('Page.setDownloadBehavior',{behavior:'allow',downloadPath:downloads});
+ const filename=path.join(downloads,'方案 02-三视图.svg');if(fs.existsSync(filename))fs.unlinkSync(filename);
+ await click('下载组合三视图');for(let i=0;i<50&&!fs.existsSync(filename);i++)await new Promise(r=>setTimeout(r,100));
+ const svg=fs.readFileSync(filename,'utf8');assert(svg.includes('data-placement="fixed"'));assert(svg.includes('data-placement="movable"'));assert(!svg.includes('data-editor-handle'));mark('export-retains-fixed-and-movable-parts-without-edit-handles');
+ const saved=await data(),name=`固定部位验收-${Date.now()}`;
+ await page.evaluate(async(name)=>{const url=performance.getEntriesByType('resource').map(e=>e.name).filter(n=>/\/src\/store\/useDesignStore\.ts(?:\?|$)/.test(n)).at(-1);const {useDesignStore}=await import(url);useDesignStore.getState().setDesignName(name);},name);
+ await click('Save','.top-nav');await page.waitForFunction(()=>!document.querySelector('.top-nav [aria-busy="true"]'));
+ await page.click('[title="New Design"]');await page.waitForFunction(()=>document.querySelectorAll('.composition-stage [data-composition-piece]').length===0);
+ await click('List');await page.waitForFunction(name=>[...document.querySelectorAll('button')].some(e=>e.textContent.includes(name)),{},name);
+ for(const b of await page.$$('button'))if(await b.evaluate((e,name)=>e.textContent.includes(name),name)){await b.click();break;}
+ await page.waitForFunction(()=>document.querySelectorAll('.composition-stage [data-composition-piece]').length===12);assert.deepEqual((await data()).plan,saved.plan);mark('save-new-design-list-reopen-preserves-fixed-slots-and-pocket-placement');
+ const last=(await data()).plan.pieces.at(-1);await select(last.id);await field('宽度 mm',last.widthMm+20);await page.click('[title="撤销 (Ctrl+Z)"]');assert.equal((await data()).plan.pieces.at(-1).widthMm,last.widthMm);await page.click('[title="重做 (Ctrl+Shift+Z)"]');assert.equal((await data()).plan.pieces.at(-1).widthMm,last.widthMm+20);mark('global-undo-redo-still-restores-dimensions');
+ await page.setViewport({width:390,height:844});await shot('mobile');assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.setViewport({width:1416,height:1147});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));assert.deepEqual(errors,[]);mark('desktop-mobile-no-horizontal-overflow-and-no-page-errors');
+ fs.writeFileSync(`${out}/saved-composition.json`,JSON.stringify(saved,null,2));
+}catch(e){process.exitCode=1;steps.push({name:'failure',pass:false,error:String(e)});console.error(e);await page.screenshot({path:`${out}/failure.png`});}
+finally{fs.writeFileSync(`${out}/browser.json`,JSON.stringify({steps,errors},null,2));await browser.close();}

@@ -1,0 +1,1157 @@
+{
+  "schema": "garment-os/designer-study/v1",
+  "id": "mens-pants-20261113",
+  "title": "男裤结构改款 · 首轮审查样本",
+  "baseNotice": "以Paco松紧腰直筒基础裤为唯一基款。前后裤片、腰头和三视图位置固定；当前只开放源制图参数变化，口袋、腰袢、门襟和结构膝片必须补齐同源素材后再进入批量矩阵。",
+  "groups": [
+    {
+      "id": "A",
+      "name": "基础廓形审查",
+      "intent": "先比较裤腿轮廓与腰头比例，确认基础裤片可用于后续改款。"
+    },
+    {
+      "id": "B",
+      "name": "商业延伸审查",
+      "intent": "宽腿与九分长度建立明显差异，但仍沿用同源前后裤片和固定视图。"
+    },
+    {
+      "id": "C",
+      "name": "功能开发审查",
+      "intent": "微锥与偏高腰头为工装/户外袋型开发留下结构空间，袋型素材暂列缺口。"
+    }
+  ],
+  "base": {
+    "id": "BASE",
+    "name": "基款 · 男士松紧腰直筒裤",
+    "pieces": [
+      {
+        "id": "BASE-front",
+        "source": {
+          "templateId": "elastic-waist-pants",
+          "gender": "male",
+          "standardSize": "M",
+          "fit": "regular",
+          "measurements": {
+            "waist": 810,
+            "waistBack": 410,
+            "seat": 1020,
+            "seatBack": 560,
+            "crossSeam": 870,
+            "crossSeamFront": 410,
+            "hipDepth": 130,
+            "waistToSeat": 270,
+            "waistToUpperLeg": 340,
+            "waistToKnee": 640,
+            "waistToFloor": 1160,
+            "knee": 410,
+            "heel": 360
+          },
+          "construction": {
+            "schema": "garment-os/construction/v1",
+            "options": {
+              "seatEase": 0.05,
+              "heelEase": 0.05,
+              "lengthBonus": 0,
+              "waistbandWidth": 0.03
+            }
+          }
+        },
+        "assetKey": "paco.front",
+        "name": "前裤片",
+        "view": "front",
+        "x": 250,
+        "y": 360,
+        "widthMm": 620,
+        "heightMm": 980,
+        "rotation": 0,
+        "mirrored": false,
+        "color": "#33423e",
+        "visible": true
+      },
+      {
+        "id": "BASE-back",
+        "source": {
+          "templateId": "elastic-waist-pants",
+          "gender": "male",
+          "standardSize": "M",
+          "fit": "regular",
+          "measurements": {
+            "waist": 810,
+            "waistBack": 410,
+            "seat": 1020,
+            "seatBack": 560,
+            "crossSeam": 870,
+            "crossSeamFront": 410,
+            "hipDepth": 130,
+            "waistToSeat": 270,
+            "waistToUpperLeg": 340,
+            "waistToKnee": 640,
+            "waistToFloor": 1160,
+            "knee": 410,
+            "heel": 360
+          },
+          "construction": {
+            "schema": "garment-os/construction/v1",
+            "options": {
+              "seatEase": 0.05,
+              "heelEase": 0.05,
+              "lengthBonus": 0,
+              "waistbandWidth": 0.03
+            }
+          }
+        },
+        "assetKey": "paco.back",
+        "name": "后裤片",
+        "view": "back",
+        "x": 250,
+        "y": 360,
+        "widthMm": 620,
+        "heightMm": 980,
+        "rotation": 0,
+        "mirrored": false,
+        "color": "#33423e",
+        "visible": true
+      },
+      {
+        "id": "BASE-side",
+        "source": {
+          "templateId": "elastic-waist-pants",
+          "gender": "male",
+          "standardSize": "M",
+          "fit": "regular",
+          "measurements": {
+            "waist": 810,
+            "waistBack": 410,
+            "seat": 1020,
+            "seatBack": 560,
+            "crossSeam": 870,
+            "crossSeamFront": 410,
+            "hipDepth": 130,
+            "waistToSeat": 270,
+            "waistToUpperLeg": 340,
+            "waistToKnee": 640,
+            "waistToFloor": 1160,
+            "knee": 410,
+            "heel": 360
+          },
+          "construction": {
+            "schema": "garment-os/construction/v1",
+            "options": {
+              "seatEase": 0.05,
+              "heelEase": 0.05,
+              "lengthBonus": 0,
+              "waistbandWidth": 0.03
+            }
+          }
+        },
+        "assetKey": "paco.front",
+        "name": "侧面裤腿轮廓",
+        "view": "side",
+        "x": 250,
+        "y": 360,
+        "widthMm": 620,
+        "heightMm": 980,
+        "rotation": 0,
+        "mirrored": false,
+        "color": "#33423e",
+        "visible": true
+      },
+      {
+        "id": "BASE-waist-front",
+        "source": {
+          "templateId": "elastic-waist-pants",
+          "gender": "male",
+          "standardSize": "M",
+          "fit": "regular",
+          "measurements": {
+            "waist": 810,
+            "waistBack": 410,
+            "seat": 1020,
+            "seatBack": 560,
+            "crossSeam": 870,
+            "crossSeamFront": 410,
+            "hipDepth": 130,
+            "waistToSeat": 270,
+            "waistToUpperLeg": 340,
+            "waistToKnee": 640,
+            "waistToFloor": 1160,
+            "knee": 410,
+            "heel": 360
+          },
+          "construction": {
+            "schema": "garment-os/construction/v1",
+            "options": {
+              "seatEase": 0.05,
+              "heelEase": 0.05,
+              "lengthBonus": 0,
+              "waistbandWidth": 0.03
+            }
+          }
+        },
+        "assetKey": "paco.waistband",
+        "name": "前腰头",
+        "view": "front",
+        "x": 250,
+        "y": 360,
+        "widthMm": 620,
+        "heightMm": 980,
+        "rotation": 0,
+        "mirrored": false,
+        "color": "#b7c0b9",
+        "visible": true
+      },
+      {
+        "id": "BASE-waist-back",
+        "source": {
+          "templateId": "elastic-waist-pants",
+          "gender": "male",
+          "standardSize": "M",
+          "fit": "regular",
+          "measurements": {
+            "waist": 810,
+            "waistBack": 410,
+            "seat": 1020,
+            "seatBack": 560,
+            "crossSeam": 870,
+            "crossSeamFront": 410,
+            "hipDepth": 130,
+            "waistToSeat": 270,
+            "waistToUpperLeg": 340,
+            "waistToKnee": 640,
+            "waistToFloor": 1160,
+            "knee": 410,
+            "heel": 360
+          },
+          "construction": {
+            "schema": "garment-os/construction/v1",
+            "options": {
+              "seatEase": 0.05,
+              "heelEase": 0.05,
+              "lengthBonus": 0,
+              "waistbandWidth": 0.03
+            }
+          }
+        },
+        "assetKey": "paco.waistband",
+        "name": "后腰头",
+        "view": "back",
+        "x": 250,
+        "y": 360,
+        "widthMm": 620,
+        "heightMm": 980,
+        "rotation": 0,
+        "mirrored": false,
+        "color": "#b7c0b9",
+        "visible": true
+      },
+      {
+        "id": "BASE-waist-side",
+        "source": {
+          "templateId": "elastic-waist-pants",
+          "gender": "male",
+          "standardSize": "M",
+          "fit": "regular",
+          "measurements": {
+            "waist": 810,
+            "waistBack": 410,
+            "seat": 1020,
+            "seatBack": 560,
+            "crossSeam": 870,
+            "crossSeamFront": 410,
+            "hipDepth": 130,
+            "waistToSeat": 270,
+            "waistToUpperLeg": 340,
+            "waistToKnee": 640,
+            "waistToFloor": 1160,
+            "knee": 410,
+            "heel": 360
+          },
+          "construction": {
+            "schema": "garment-os/construction/v1",
+            "options": {
+              "seatEase": 0.05,
+              "heelEase": 0.05,
+              "lengthBonus": 0,
+              "waistbandWidth": 0.03
+            }
+          }
+        },
+        "assetKey": "paco.waistband",
+        "name": "侧面腰头",
+        "view": "side",
+        "x": 250,
+        "y": 360,
+        "widthMm": 620,
+        "heightMm": 980,
+        "rotation": 0,
+        "mirrored": false,
+        "color": "#b7c0b9",
+        "visible": true
+      }
+    ]
+  },
+  "designs": [
+    {
+      "id": "P01",
+      "group": "A",
+      "name": "标准直筒通勤裤",
+      "intent": "保留松紧腰基础识别，校正直筒裤腿的前后平衡，作为男裤矩阵的比较基线。",
+      "method": "廓形限定 + 组合更换",
+      "checks": [
+        "前后裆弧与内外侧缝的同源配套",
+        "腰头折返、完成高与穿脱回弹",
+        "正背侧脚口宽度是否保持同一视觉尺度"
+      ],
+      "compare": "与基款保持同视角同尺度，比较腰头高度、膝下直线与脚口净围。",
+      "plan": {
+        "id": "P01",
+        "name": "P01 · 标准直筒通勤裤",
+        "pieces": [
+          {
+            "id": "P01-front",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.05,
+                  "heelEase": 0.05,
+                  "lengthBonus": 0,
+                  "waistbandWidth": 0.03
+                }
+              }
+            },
+            "assetKey": "paco.front",
+            "name": "前裤片",
+            "view": "front",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#33423e",
+            "visible": true
+          },
+          {
+            "id": "P01-back",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.05,
+                  "heelEase": 0.05,
+                  "lengthBonus": 0,
+                  "waistbandWidth": 0.03
+                }
+              }
+            },
+            "assetKey": "paco.back",
+            "name": "后裤片",
+            "view": "back",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#33423e",
+            "visible": true
+          },
+          {
+            "id": "P01-side",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.05,
+                  "heelEase": 0.05,
+                  "lengthBonus": 0,
+                  "waistbandWidth": 0.03
+                }
+              }
+            },
+            "assetKey": "paco.front",
+            "name": "侧面裤腿轮廓",
+            "view": "side",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#33423e",
+            "visible": true
+          },
+          {
+            "id": "P01-waist-front",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.05,
+                  "heelEase": 0.05,
+                  "lengthBonus": 0,
+                  "waistbandWidth": 0.03
+                }
+              }
+            },
+            "assetKey": "paco.waistband",
+            "name": "前腰头",
+            "view": "front",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#b7c0b9",
+            "visible": true
+          },
+          {
+            "id": "P01-waist-back",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.05,
+                  "heelEase": 0.05,
+                  "lengthBonus": 0,
+                  "waistbandWidth": 0.03
+                }
+              }
+            },
+            "assetKey": "paco.waistband",
+            "name": "后腰头",
+            "view": "back",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#b7c0b9",
+            "visible": true
+          },
+          {
+            "id": "P01-waist-side",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.05,
+                  "heelEase": 0.05,
+                  "lengthBonus": 0,
+                  "waistbandWidth": 0.03
+                }
+              }
+            },
+            "assetKey": "paco.waistband",
+            "name": "侧面腰头",
+            "view": "side",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#b7c0b9",
+            "visible": true
+          }
+        ]
+      },
+      "reviewStatus": "审查样本：待版师核对",
+      "evidenceLevel": "E0/E1/E2"
+    },
+    {
+      "id": "P02",
+      "group": "B",
+      "name": "宽腿九分休闲裤",
+      "intent": "通过脚口通过松量与裤长同时变化建立宽腿九分比例，保留腰头和裆部基因。",
+      "method": "廓形限定 + 减少长度",
+      "checks": [
+        "宽腿脚口与臀部松量的连续轮廓",
+        "九分长度在正背侧的落点一致",
+        "腰头折返不被短裤长误读为低腰"
+      ],
+      "compare": "与P01比较膝线以下外扩量、裤口留白和腰头视觉占比。",
+      "plan": {
+        "id": "P02",
+        "name": "P02 · 宽腿九分休闲裤",
+        "pieces": [
+          {
+            "id": "P02-front",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.06,
+                  "heelEase": 0.3,
+                  "lengthBonus": -0.1,
+                  "waistbandWidth": 0.04
+                }
+              }
+            },
+            "assetKey": "paco.front",
+            "name": "前裤片",
+            "view": "front",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#56686d",
+            "visible": true
+          },
+          {
+            "id": "P02-back",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.06,
+                  "heelEase": 0.3,
+                  "lengthBonus": -0.1,
+                  "waistbandWidth": 0.04
+                }
+              }
+            },
+            "assetKey": "paco.back",
+            "name": "后裤片",
+            "view": "back",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#56686d",
+            "visible": true
+          },
+          {
+            "id": "P02-side",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.06,
+                  "heelEase": 0.3,
+                  "lengthBonus": -0.1,
+                  "waistbandWidth": 0.04
+                }
+              }
+            },
+            "assetKey": "paco.front",
+            "name": "侧面裤腿轮廓",
+            "view": "side",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#56686d",
+            "visible": true
+          },
+          {
+            "id": "P02-waist-front",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.06,
+                  "heelEase": 0.3,
+                  "lengthBonus": -0.1,
+                  "waistbandWidth": 0.04
+                }
+              }
+            },
+            "assetKey": "paco.waistband",
+            "name": "前腰头",
+            "view": "front",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#b7c0b9",
+            "visible": true
+          },
+          {
+            "id": "P02-waist-back",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.06,
+                  "heelEase": 0.3,
+                  "lengthBonus": -0.1,
+                  "waistbandWidth": 0.04
+                }
+              }
+            },
+            "assetKey": "paco.waistband",
+            "name": "后腰头",
+            "view": "back",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#b7c0b9",
+            "visible": true
+          },
+          {
+            "id": "P02-waist-side",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.06,
+                  "heelEase": 0.3,
+                  "lengthBonus": -0.1,
+                  "waistbandWidth": 0.04
+                }
+              }
+            },
+            "assetKey": "paco.waistband",
+            "name": "侧面腰头",
+            "view": "side",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#b7c0b9",
+            "visible": true
+          }
+        ]
+      },
+      "reviewStatus": "审查样本：待版师核对",
+      "evidenceLevel": "E0/E1/E2"
+    },
+    {
+      "id": "P03",
+      "group": "C",
+      "name": "微锥加长工装基型",
+      "intent": "用微锥裤口与偏高腰头形成更利落的下装骨架，为后续侧袋、膝部分割和腰袢开发留出结构空间。",
+      "method": "廓形限定 + 增加功能部位（开发单）",
+      "checks": [
+        "微锥裤腿从臀峰到脚口的过渡",
+        "偏高腰头与前后裆的比例",
+        "侧袋/口袋、膝片、腰袢尚无同源净样，必须先补素材"
+      ],
+      "compare": "与P01比较裤口收窄、腰头高度和侧面体量；不把待开发口袋画成已接通裁片。",
+      "plan": {
+        "id": "P03",
+        "name": "P03 · 微锥加长工装基型",
+        "pieces": [
+          {
+            "id": "P03-front",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.08,
+                  "heelEase": 0,
+                  "lengthBonus": 0.05,
+                  "waistbandWidth": 0.05
+                }
+              }
+            },
+            "assetKey": "paco.front",
+            "name": "前裤片",
+            "view": "front",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#4a463e",
+            "visible": true
+          },
+          {
+            "id": "P03-back",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.08,
+                  "heelEase": 0,
+                  "lengthBonus": 0.05,
+                  "waistbandWidth": 0.05
+                }
+              }
+            },
+            "assetKey": "paco.back",
+            "name": "后裤片",
+            "view": "back",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#4a463e",
+            "visible": true
+          },
+          {
+            "id": "P03-side",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.08,
+                  "heelEase": 0,
+                  "lengthBonus": 0.05,
+                  "waistbandWidth": 0.05
+                }
+              }
+            },
+            "assetKey": "paco.front",
+            "name": "侧面裤腿轮廓",
+            "view": "side",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#4a463e",
+            "visible": true
+          },
+          {
+            "id": "P03-waist-front",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.08,
+                  "heelEase": 0,
+                  "lengthBonus": 0.05,
+                  "waistbandWidth": 0.05
+                }
+              }
+            },
+            "assetKey": "paco.waistband",
+            "name": "前腰头",
+            "view": "front",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#b7c0b9",
+            "visible": true
+          },
+          {
+            "id": "P03-waist-back",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.08,
+                  "heelEase": 0,
+                  "lengthBonus": 0.05,
+                  "waistbandWidth": 0.05
+                }
+              }
+            },
+            "assetKey": "paco.waistband",
+            "name": "后腰头",
+            "view": "back",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#b7c0b9",
+            "visible": true
+          },
+          {
+            "id": "P03-waist-side",
+            "source": {
+              "templateId": "elastic-waist-pants",
+              "gender": "male",
+              "standardSize": "M",
+              "fit": "regular",
+              "measurements": {
+                "waist": 810,
+                "waistBack": 410,
+                "seat": 1020,
+                "seatBack": 560,
+                "crossSeam": 870,
+                "crossSeamFront": 410,
+                "hipDepth": 130,
+                "waistToSeat": 270,
+                "waistToUpperLeg": 340,
+                "waistToKnee": 640,
+                "waistToFloor": 1160,
+                "knee": 410,
+                "heel": 360
+              },
+              "construction": {
+                "schema": "garment-os/construction/v1",
+                "options": {
+                  "seatEase": 0.08,
+                  "heelEase": 0,
+                  "lengthBonus": 0.05,
+                  "waistbandWidth": 0.05
+                }
+              }
+            },
+            "assetKey": "paco.waistband",
+            "name": "侧面腰头",
+            "view": "side",
+            "x": 250,
+            "y": 360,
+            "widthMm": 620,
+            "heightMm": 980,
+            "rotation": 0,
+            "mirrored": false,
+            "color": "#b7c0b9",
+            "visible": true
+          }
+        ]
+      },
+      "reviewStatus": "审查样本：结构素材待补",
+      "evidenceLevel": "E0/E1/E2"
+    }
+  ],
+  "knowledge": {
+    "read": 16,
+    "indexed": 19,
+    "complete": false
+  },
+  "productionApproved": false
+}
+

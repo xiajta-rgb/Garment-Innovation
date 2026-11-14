@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useParametricStore } from '@/store/parametricStore';
+import { useDesignStore } from '@/store/useDesignStore';
 import { SavedDesignsList } from '@/features/design-sheet/SavedDesignsList';
 
 /**
@@ -9,10 +9,11 @@ import { SavedDesignsList } from '@/features/design-sheet/SavedDesignsList';
  * - 内嵌已保存设计列表 (展开态)
  */
 export function DesignToolbar() {
-  const designName = useParametricStore((s) => s.designName);
-  const setDesignName = useParametricStore((s) => s.setDesignName);
-  const saveDesign = useParametricStore((s) => s.saveDesign);
-  const newDesign = useParametricStore((s) => s.newDesign);
+  const designName = useDesignStore((s) => s.designName);
+  const setDesignName = useDesignStore((s) => s.setDesignName);
+  const saveDesign = useDesignStore((s) => s.saveDesign);
+  const isSaving = useDesignStore(s => s.isSaving);
+  const newDesign = useDesignStore((s) => s.newDesign);
   const [showSaved, setShowSaved] = useState(false);
 
   return (
@@ -67,8 +68,9 @@ export function DesignToolbar() {
           New
         </button>
         <button
-          onClick={() => saveDesign()}
+          onClick={() => { void saveDesign().catch(() => {}); }}
           title="Save Design"
+          data-testid="design-save" disabled={isSaving} aria-busy={isSaving}
           style={{
             flex: 1,
             padding: '4px 6px',
@@ -86,7 +88,7 @@ export function DesignToolbar() {
           }}
         >
           <svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"><path d="M2 2h6l2 2v6H2V2z" /><polyline points="5,2 5,4 8,4" /></svg>
-          Save
+          {isSaving ? '保存中…' : 'Save'}
         </button>
         <button
           onClick={() => setShowSaved(!showSaved)}

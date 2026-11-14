@@ -1,0 +1,39 @@
+{
+  "schema": "garment-os/competitor-benchmark/v1",
+  "evidence_provenance": "public-product-pages; observation-only",
+  "competitors": [
+    {
+      "id": "C1",
+      "name": "BELLA+CANVAS 3901",
+      "brand": "BELLA+CANVAS",
+      "kind": "raglan",
+      "url": "https://www.bellacanvas.com/product/3901/unisex-sponge-fleece-raglan-sweatshirt.html",
+      "image": "https://www.bellacanvas.com/bella/product/hires/39010311_1.jpg",
+      "fact": "官方产品页直接写明：crew neck、raglan sleeves、ribbed cuffs and waistband；并标注日常穿着和叠穿场景。",
+      "insight": "证明插肩圆领本身可以成为基础款差异点；A6可优先走“圆领 + 插肩 + 宽罗纹”，避免一上来叠加半拉链。",
+      "limit": "公开页面不能证明我司版型适体、销量或工艺可直接复用。"
+    },
+    {
+      "id": "C2",
+      "name": "Royal Apparel Organic Raglan Crew",
+      "brand": "Royal Apparel",
+      "kind": "raglan",
+      "url": "https://royalapparel.com/organic-raglan-crew-neck-sweatshirt.html",
+      "image": "",
+      "fact": "公开检索结果中的产品标题和摘要将产品定义为 classic crew neck、raglan sleeves、unisex fleece sweatshirt；本轮未能重新读取其产品页正文。",
+      "insight": "说明插肩结构可承载经典、日常和中性运动休闲语法；我司可以把差异放在微落肩体量、罗纹比例和袖体线条。",
+      "limit": "当前只作为公开检索线索；未取得其纸样、尺码表或实物验证，不能据此推断人体工学和成本。"
+    },
+    {
+      "id": "C3",
+      "name": "Carhartt Paxton 1/4 Zip",
+      "brand": "Carhartt",
+      "kind": "zip",
+      "url": "https://www.carhartt.com/product/100617/paxton-14-zip-sweatshirt",
+      "image": "",
+      "fact": "品牌站公开产品页作为 1/4 zip sweatshirt 先例留存；它提供的是开口方向对标，不是插肩版型来源。",
+      "insight": "半拉链可以作为另一条结构轴单独研究；A6不应因为竞品存在就把拉链叠到插肩上。",
+      "limit": "公开评论和页面不能替代我司B23M2009/AT25M3275完整领部来源、净样和责任人。"
+    }
+  ]
+}

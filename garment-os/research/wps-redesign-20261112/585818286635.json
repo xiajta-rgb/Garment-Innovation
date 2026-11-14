@@ -1,0 +1,376 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "服装延伸改款的7个设计思路",
+                  "type": "text"
+                }
+              ],
+              "id": "pQnLuNJOfRfSNYPv",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/KMCGDsBbgxttrl6e_msZSQ"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "jZVwteRHwHyHFqEo",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "cbb7244d6634a7a85af1c5b04969ab51572cb6f2",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "JMFZElnwBwOAzBie",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "9f9e1ab692c1ffb42f417235566383f2cf02229c",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "crSkHnxcEjdJOKNP",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "a388ba010730fcea0328c87f2345907975611ffb",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "gMbvmyHsyYFuJDvn",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "e118b681c5516a16fa19e4388e7f70994060e25b",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "kZyhbXGduIciWBOA",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "b18f743b02681c2d0e44320c3f1aad0757fed5fd",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "gfEeXPiZYMZBGjce",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 2245,
+                "renderHeight": 1046.82,
+                "renderWidth": 740,
+                "sourceKey": "c84b20a8f55fd70a2b87f2be7c31966cf8ab841e",
+                "version": 2,
+                "width": 1587
+              },
+              "id": "tjKstDrZGtkJEkOz",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "iIXStcgozmizRHMN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "⭕设计出款改款学习资料高清电子版合集",
+                  "type": "text"
+                }
+              ],
+              "id": "sXAbZpMphHsPinba",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "————",
+                  "type": "text"
+                }
+              ],
+              "id": "ItTLCMywODvyJjTL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "包括： 【56份设计出款类PDF格式超清学习资料】 【6张高清PDF导图】",
+                  "type": "text"
+                }
+              ],
+              "id": "QjUkmOxnAltsVVKY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "pBMpcsGGWwvnvhDE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "⭕️资料包大小共900M左右💾",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/javascript:;"
+                    }
+                  },
+                  "content": "#服装单品延伸设计",
+                  "type": "text"
+                }
+              ],
+              "id": "nLSLOSdbKItljnYj",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "EFouSHuLtdfiSijG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "相关内容见图片，可👉滑动。",
+                  "type": "text"
+                }
+              ],
+              "id": "WOZELoBVexgyvAZw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KCtfdNfgdBXAHGJK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "更多高清原件，可于末页扫码购买。",
+                  "type": "text"
+                }
+              ],
+              "id": "rUREgicXIOqohAYn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "nZYghnVJCqBLbyun",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "Collected in",
+                  "type": "text"
+                },
+                {
+                  "content": "服装设计开发",
+                  "type": "text"
+                }
+              ],
+              "id": "BtKVnFUEcPTOJmrD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "Author's tip: 个人观点，仅供参",
+                  "type": "text"
+                },
+                {
+                  "content": "考",
+                  "type": "text"
+                }
+              ],
+              "id": "GTKQqjpkmlTwxqbJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 272,
+                "renderHeight": 273.8,
+                "renderWidth": 273.8,
+                "sourceKey": "76ca0ae4203aa8c115d0c3424d824d2e4ff36e08",
+                "version": 2,
+                "width": 272
+              },
+              "id": "mWdvpsHExYiigJhF",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ZBCBfXmMtdLyTBYp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "F先生绘",
+                  "type": "text"
+                }
+              ],
+              "id": "ukNNUaUVMHXVFzuh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "PWNOrbToEmZZEWyz",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 9
+    }
+  },
+  "result": "ok"
+}

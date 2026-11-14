@@ -1,0 +1,4468 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "女装改款：方法、步骤与背后逻辑",
+                  "type": "text"
+                }
+              ],
+              "id": "lNZUNVjBKBVOMpVy",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/oKSMyj-KPkh6QdvKN6cBQw"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "gnZwzhfxCOvyTTRA",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "点 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#102270"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "卡片",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "关注，并 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#FFA900"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "星标",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "，不错过每期精华推送",
+                  "type": "text"
+                }
+              ],
+              "id": "SFDlNVBygoNnVbZM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 498,
+                "renderHeight": 341.22,
+                "renderWidth": 740,
+                "sourceKey": "d9637907dd87544f1ac3f3142e9857de0fe62fad",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "KOvjWWYlpEtGJuoE",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "oleoxzaoooEplBNj",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "做商业设计开发，新款大多不是凭空长出来的。每个季度真正从零开始的原创款占比很小，大部分款是在市场已经验证过的借鉴款上，做有选择的变化。",
+                  "type": "text"
+                }
+              ],
+              "id": "RUJhhXmmcuFUCkDa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "CbCtTCIrvKzuMfhs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "照搬是抄，改款是拆。",
+                  "type": "text"
+                }
+              ],
+              "id": "EcmjLTvWkkXbgSVL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "YgkikrLKyTTDujPT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一件成熟的衣服，拆开看无非四个维度：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "形",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "（廓形、版型、结构）、",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "色",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "（色彩、图案）、",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "质",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "（面料、肌理）、",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "细节",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "（工艺、装饰、辅料、部位）。",
+                  "type": "text"
+                }
+              ],
+              "id": "QqOcxsEOqlElQCJY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "tzSTeGyHZcigoVGM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "所谓改款，就是把这四个维度里的某一项或几项拿出来，重新组合、迁移、增减，让它变成一件既熟悉、又能立得住的新衣服。",
+                  "type": "text"
+                }
+              ],
+              "id": "XkwdMwrAldssQqqv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ptsGLXtiHuiQEnMp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "【F先生原创，抄袭必究",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "】",
+                  "type": "text"
+                }
+              ],
+              "id": "VvJczSACXmMidcZe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 80,
+                "renderHeight": 79.55,
+                "renderWidth": 636.4,
+                "sourceKey": "6f2c784c99d7e43014f5587f8105bde20502fd8c",
+                "version": 2,
+                "width": 640
+              },
+              "id": "MPVclisSgtUCxhBF",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "VNsndBqPPFhsUiXV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这套方法把改款的动作归纳成十二种，按操作方式分成四类：",
+                  "type": "text"
+                }
+              ],
+              "id": "yZDuSToKUBFliNLB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "迁移类",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "——把元素或品类从一个款挪到另一个款：",
+                  "type": "text"
+                }
+              ],
+              "id": "uiAaqftbYYmbNlyx",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "细节转移、品类转移",
+                  "type": "text"
+                }
+              ],
+              "id": "ZSBqtFcenJqZlkFQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "重组类",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "——拆部件、换维度，或把两个款各取一部分：",
+                  "type": "text"
+                }
+              ],
+              "id": "IuGDjOjkxpdpwYzu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "组合更换、廓形限定、款式组合",
+                  "type": "text"
+                }
+              ],
+              "id": "VOIlofAtgHaPtNfm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "生长类",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "——围绕一个细节或装饰做延伸、反用、换工艺：",
+                  "type": "text"
+                }
+              ],
+              "id": "gLimgpxAvQKRjBSd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "细节延伸、逆向改款、改变形式",
+                  "type": "text"
+                }
+              ],
+              "id": "NUqtpBlRxTGZmFfD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "加减类",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "——在原款上做加法或减法：",
+                  "type": "text"
+                }
+              ],
+              "id": "HLIUAfiuxqlNLBob",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "部位增加、部位减少、装饰减少、图案减少",
+                  "type": "text"
+                }
+              ],
+              "id": "wkUMJBEkgcMctWuH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "VSZzIPEoMaSXcJLW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一、迁移类改款 ",
+                  "type": "text"
+                }
+              ],
+              "id": "VHMpKpFTKhKTGrjA",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "方法01：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "细节转移",
+                  "type": "text"
+                }
+              ],
+              "id": "sDhmonRyssxWkPCk",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "把一个款身上成立的设计元素，转移到另一个款上。",
+                  "type": "text"
+                }
+              ],
+              "id": "kQxQvSWfqcwEfnzn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "WVASbLndCJjQeqBg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 先辨认借鉴款里最出彩、最有记忆点的是哪一个点---不是整件衣服，而是其中一个元素，比如一个蝴蝶结、一条撞色边、一种刺绣、一个金属扣。",
+                  "type": "text"
+                }
+              ],
+              "id": "jGggPtjIZVTZxVdu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 把这个元素单独抽出来，脱离原来的载体，找一个能承接它的新载体：别的品类、别的部位都可以。",
+                  "type": "text"
+                }
+              ],
+              "id": "sKCfhwvNGRoNXfaL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 元素尽量保持原样，载体重新做版型。",
+                  "type": "text"
+                }
+              ],
+              "id": "ReisDGmnCYfbbTql",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 860,
+                "renderHeight": 761.24,
+                "renderWidth": 740,
+                "sourceKey": "778bb269a4dbdaa167b3bba8c152110aef4836c7",
+                "version": 2,
+                "width": 836
+              },
+              "id": "YGslZxdycAfbAmOO",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "odqjtfVzuVFHFnmz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "tziNOAgHYwfdbrFQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KIHXALmufaiMqLCL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "某个元素已被市场验证好看，想放大利用率；或想用同一元素做上下装、内外搭的系列呼应。转移的是元素不是整件，新载体的气质和分量要接得住。",
+                  "type": "text"
+                }
+              ],
+              "id": "KfDcmRbeQHmaIlEx",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "BrCSYYIfcAADWaGv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "方法02：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "品类转移",
+                  "type": "text"
+                }
+              ],
+              "id": "ttZZAoqYpwHSINvz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "转移品类，把一个款的设计元素整体转移到另一个款上。",
+                  "type": "text"
+                }
+              ],
+              "id": "xIKuGtbYZKQxedBs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "xRWuIRDcMtvHoOoJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 识别借鉴款的核心元素：印花、面料、色彩、廓形、装饰，哪一组是这个款的灵魂。",
+                  "type": "text"
+                }
+              ],
+              "id": "BPhphbZwGTYJAtiD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 判断这组元素换一个品类是否成立，卖给同一批客人、出现在同一个场合能不能顺。",
+                  "type": "text"
+                }
+              ],
+              "id": "yozvYvCQplsYLoXJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 元素搬到新品类后，按新品类的版型、尺寸、工艺重新开发。常见路径：连衣裙转套装、外套转连衣裙、上衣转半裙。",
+                  "type": "text"
+                }
+              ],
+              "id": "PPtSuiaZEXrZFDHd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 696,
+                "renderHeight": 545.59,
+                "renderWidth": 740,
+                "sourceKey": "2934a91f9dd23f0abfd28688b84fcc8a76c9c69e",
+                "version": 2,
+                "width": 944
+              },
+              "id": "dbdgWECsemWNRsLp",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "eXLqxDkOrcqSCRGu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "要注意的是",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "花型要重新排版，面料要重新评估，不能只改个品名。",
+                  "type": "text"
+                }
+              ],
+              "id": "GjRBEqhXWdCidQTp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "mpOGIqfkaqtXzXcI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "GSvMvioNCQexjYGZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一个款很受欢迎，想让它在更多品类上继续卖；或连衣裙的元素拆开做成套装更好穿、更好搭。",
+                  "type": "text"
+                }
+              ],
+              "id": "nARNjOoHOVYCAiLy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "和细节转移的区别：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "细节转移挪的是一个元素点，品类转移是整组设计语言跟着换品类。",
+                  "type": "text"
+                }
+              ],
+              "id": "DlFvlnzlnfarvASV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "uJQlvukUsUuQjoTd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "二、重组类改款",
+                  "type": "text"
+                }
+              ],
+              "id": "PIYiyjTDmvndOvaO",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "方法03 ：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "组合更换",
+                  "type": "text"
+                }
+              ],
+              "id": "eEDXyUCzVFAqyfZT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "在借鉴款的基础上，通过对形、色、质以及其它组合形式，做有选择的改变。",
+                  "type": "text"
+                }
+              ],
+              "id": "veDIezsxZWfiOXJO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "bQmQjLXUZqMNvlZV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 把借鉴款拆成两个部分：一部分是要保留的，一部分是要更换的。",
+                  "type": "text"
+                }
+              ],
+              "id": "NkfEXYGvKcomCmhB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 要保留的通常是廓形、结构、关键细节，比如口袋、腰带、门襟、分割。",
+                  "type": "text"
+                }
+              ],
+              "id": "FVMfWeuusqZeFahw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 要更换的通常是品类、面料、颜色、领型、袖型、辅料。",
+                  "type": "text"
+                }
+              ],
+              "id": "GqYKhAVQuFAVbjnO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 749,
+                "renderHeight": 535.52,
+                "renderWidth": 740,
+                "sourceKey": "33488bd93f861473c1ecc1bb5246fd7f66926504",
+                "version": 2,
+                "width": 1035
+              },
+              "id": "IezXWotvNCuJTXyR",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "swImCOxyKhvUwqUe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一次主要改一到两个维度，不要同时把形、色、质全换掉，那就不是改款而是另起炉灶。",
+                  "type": "text"
+                }
+              ],
+              "id": "rCxworYQeHmvAqyg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ToUjVshmcffpwGzb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "XIoGSkEDPHezClqy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "YMIqRyNySKQVZUmE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "借鉴款版型成熟、市场反馈好，但品类、颜色或面料不适合自己的波段、价格带或客群。",
+                  "type": "text"
+                }
+              ],
+              "id": "KiqFzcOWwSzRiilD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "和款式组合的区别：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "组合更换是一件款内部换部件、换维度；款式组合是拆两件款、各取一部分。",
+                  "type": "text"
+                }
+              ],
+              "id": "FVjQxvNWDapuCyVW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "kXhEESqPsMuXQJpX",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "方法04：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "廓形限定",
+                  "type": "text"
+                }
+              ],
+              "id": "yonjuhRgmdacCdri",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "根据服装的廓形限定，来设计服装的内部结构。",
+                  "type": "text"
+                }
+              ],
+              "id": "whgLuLpxnJNLqsox",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "EtMzngOfoeDSSrrc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 先定外轮廓：是 H、A、X、O、T 哪一种，领线是 V 领、方领还是圆领，肩部是平肩还是落肩。",
+                  "type": "text"
+                }
+              ],
+              "id": "uVeCNXXhQjLyBmUn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 内部的领、门襟、分割线、省道、内搭，都以强化这条外轮廓为原则。比如 V 领西装，内搭和马甲也做 V 领，分割线顺着 V 的方向往下收。",
+                  "type": "text"
+                }
+              ],
+              "id": "UZHeAQdQmMBFkdRg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 凡是和外轮廓打架的内部结构，一律让位。",
+                  "type": "text"
+                }
+              ],
+              "id": "YZsAkTjAmPOXKvmS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 965,
+                "renderHeight": 746.97,
+                "renderWidth": 740,
+                "sourceKey": "7657fc200bf2225f27056216371cd2d1b8b124e0",
+                "version": 2,
+                "width": 956
+              },
+              "id": "vAxONNVrcimCudCA",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "FYXvbwCrgZcLnoTe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "FPctMXpmGiqcXqtY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "drEoykPXIgYjeCqe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "做套装、做内外搭、做廓形感强的款；想让一组款轮廓语言统一，摆在一起、穿在身上都协调。",
+                  "type": "text"
+                }
+              ],
+              "id": "vAUFIbfQCPGYquaV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "要注意的是",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "廓形是骨架，内部结构为骨架服务。改款先看廓形能不能留，再决定内部怎么做。",
+                  "type": "text"
+                }
+              ],
+              "id": "CvFyIYozfsdiXRUp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "pphbTQVxScdSmjjC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "方法05： ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "款式组合",
+                  "type": "text"
+                }
+              ],
+              "id": "gYdjPiJoLcwyYLaw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "在借鉴款的基础上，组合不同部位。",
+                  "type": "text"
+                }
+              ],
+              "id": "tzofkLloCSiwzmFs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "vIcHNkYSDOOvuZbR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 选一个主款，让它提供整体造型：廓形、版型、品类。",
+                  "type": "text"
+                }
+              ],
+              "id": "PmwNrxdIMrJoJINA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 再选一个或多个款，让它们提供局部：领子、袖子、花边、门襟、口袋、腰头。",
+                  "type": "text"
+                }
+              ],
+              "id": "LqtjhekhAcAWUEnP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 把各部位嫁接到主款上，统一尺寸、比例、松量和风格，再整体打版，不能把两块纸样硬拼。拼接处是重点，要顺、要干净、要能量产。",
+                  "type": "text"
+                }
+              ],
+              "id": "qMEJBamlzmdZYAbg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 567,
+                "renderHeight": 564.14,
+                "renderWidth": 473.6,
+                "sourceKey": "f1f4e1c6e52c2b735d3875fdcf969315a807ae5a",
+                "version": 2,
+                "width": 476
+              },
+              "id": "YlQNqZLADhrGFsrx",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "WxlTNclbgrCLKFci",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "fTTitjlMGzrbxeAJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "YgqBTvMmRnMDqaUG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "两个借鉴款各有遗憾、单独用都不够满意，想取各家之长；或要快速产出带复合卖点的款。",
+                  "type": "text"
+                }
+              ],
+              "id": "nCxEGWjNNbZKjWsZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "和组合更换的区别：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "组合更换是一件款内部换维度，款式组合是拆两件以上款、把部位重组。",
+                  "type": "text"
+                }
+              ],
+              "id": "JXkLZkjjDgfAqQgw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "uNbUcyRMiMPvohbC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "三、生长类改款",
+                  "type": "text"
+                }
+              ],
+              "id": "kSuukSlJTayCROIh",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "方法06 ：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "细节延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "fIaEkQehEeTBGsvd",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "根据细节（工艺、图案、饰品）进行款式延伸扩展。",
+                  "type": "text"
+                }
+              ],
+              "id": "nsbIvBHDehKeWXXL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "XBqDmGCKJbuGewWm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 锁定一个可复制的细节母题：V 领蕾丝、木耳花边、一种刺绣、一个扣饰、一条织带都可以。",
+                  "type": "text"
+                }
+              ],
+              "id": "PoKKGgWHFIRGxdSJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 想清楚这个细节能在哪些品类、哪些部位重复：领口、袖口、门襟、下摆、袋口。",
+                  "type": "text"
+                }
+              ],
+              "id": "ArSaYwgtzFyAWOcq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 在统一细节的前提下，变换廓形、长度、面料，形成衬衫、小衫、连衣裙的小系列。",
+                  "type": "text"
+                }
+              ],
+              "id": "BmyXwDNHWyKXWzqN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "qagqDvDZRHQnbvsv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "要注意的是",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "重复不等于照搬，细节要随部位调整比例和工艺。",
+                  "type": "text"
+                }
+              ],
+              "id": "TxwrYdKZdIGbJZMB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 651,
+                "renderHeight": 446.06,
+                "renderWidth": 740,
+                "sourceKey": "812f5b83d2dad847944df1005f7002b1ccba86b4",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "mAIrRVBmVLFXZPlx",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "hNXIQGcmubSRlGGu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "FWBEhUUbUONRCXSM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "GcVnbTNGiciMlUkC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "想做一组有记忆点的小系列、橱窗故事或波段主推；这个细节工艺稳定、成本可控。延伸出来的每一件，都要让这个细节在新品类上依然成立。",
+                  "type": "text"
+                }
+              ],
+              "id": "LwgjptgkuaTzTYPN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "YprIQmsovQRLOAka",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "方法07 ：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "逆向改款",
+                  "type": "text"
+                }
+              ],
+              "id": "sUTdrDgYdEUGiSvD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "把设计元素反过来用。",
+                  "type": "text"
+                }
+              ],
+              "id": "XUpcRMFTtZAspyjH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "MdYpeYshuSKryJDm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 找到借鉴款里的元素关系：条纹与圆点、上与下、疏与密、大与小、横与竖、正与反。",
+                  "type": "text"
+                }
+              ],
+              "id": "geqktEtJYYCYCSyK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 把其中一组关系对调：原来在袖口的元素放到领部，原来圆点做主改成条纹做主，原来上繁下简改成上简下繁，横向的改成纵向的。",
+                  "type": "text"
+                }
+              ],
+              "id": "FtPeYSlLWPQIiGlW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 反用之后重新检查整体平衡，看视觉重心是否还稳。",
+                  "type": "text"
+                }
+              ],
+              "id": "bEVmKrsUOdytINYH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 1074,
+                "renderHeight": 735.89,
+                "renderWidth": 740,
+                "sourceKey": "ea791e8d767c80b8b96bb9db1bb2d43b9cc71421",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "bRqEpCKMOhGAGksN",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "pmJehYbNtoKRrgpV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "GuhEhcfVbbyVgZtD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "RGsJNdDBaTczGknr",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "借鉴款元素关系清晰，但原样做太像，想保留同一套设计语言又要做出差异。",
+                  "type": "text"
+                }
+              ],
+              "id": "chkhoAVZwEHEVLat",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "要注意的是",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "反用是有逻辑的对调，不是乱翻。一次只反一组主要关系，几组同时对调，画面容易乱。",
+                  "type": "text"
+                }
+              ],
+              "id": "PxOUcrixOCUqSODM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "qahYahYGQZpMnOva",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "方法08 ：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "改变形式",
+                  "type": "text"
+                }
+              ],
+              "id": "jUUhCvtjCJNAcqed",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "同一种装饰，用不同的工艺形式表现。",
+                  "type": "text"
+                }
+              ],
+              "id": "LyxMoELfoYIHJlau",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "ZbExMOEJuWdMZFEq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 先确定要保留的装饰内容：一个图案、一个领部装饰、一个标识感的纹样。",
+                  "type": "text"
+                }
+              ],
+              "id": "YjhzTxCPTkGrsRxg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 列出能实现它的不同工艺：钉钻、烫钻、钉珠、亮片、刺绣、印花、提花、压褶。",
+                  "type": "text"
+                }
+              ],
+              "id": "scTyeVMPDIdIWdkC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 按成本、面料、洗水、穿着场合选工艺：礼服款用手工钉钻，日常款用烫钻，跑量平价款用印花或提花模拟。",
+                  "type": "text"
+                }
+              ],
+              "id": "ndEspfpQbjXMJVLa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 661,
+                "renderHeight": 658.12,
+                "renderWidth": 547.6,
+                "sourceKey": "7ae6311ee1638650c2df0f728bd9c3c615a516d7",
+                "version": 2,
+                "width": 550
+              },
+              "id": "TcoRmczFJAIujWju",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "iWtfyZOnbjfJZEgz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "要注意工艺换了，牢度、洗水、单耗、工价都要重新核算。",
+                  "type": "text"
+                }
+              ],
+              "id": "HhNbEUXumEhXzjAY",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "ePhkBXEbytGSHYhL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "gaaZIHGWRzuvOlUz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "同一装饰卖点要覆盖不同价格带、不同波段；或想让一个元素拉出成本梯度，从形象款做到基础款。",
+                  "type": "text"
+                }
+              ],
+              "id": "KTIRtqVxBODexyln",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "注意！",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "不同工艺视觉分量不一样，钉珠的厚重感和印花的轻感差别很大，换工艺后要重新平衡装饰的面积和位置。",
+                  "type": "text"
+                }
+              ],
+              "id": "ZICuUqBrbZgZPJji",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "nSuENkmYxxZuyzll",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "四、加减类改款",
+                  "type": "text"
+                }
+              ],
+              "id": "rAJspmJeXxjNfERx",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "方法09：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "增加",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "部位",
+                  "type": "text"
+                }
+              ],
+              "id": "QRFdwWxHIijHSCZG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "对过于裸露、过于简单的款，局部增加部位。",
+                  "type": "text"
+                }
+              ],
+              "id": "yGSnSoNGXNzFiRJE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "SgayvqeFyLlbrnYj",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 先判断问题出在哪：领口太露、肩臂太空、腰腹太单、下装太短。",
+                  "type": "text"
+                }
+              ],
+              "id": "URjCcruUxcwzEFNi",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 在对应部位加东西：加袖子、加飘带、加披肩或披肩袖、加领部饰片、加腰封、加荷叶边。",
+                  "type": "text"
+                }
+              ],
+              "id": "KkiSSvcWnuRYOHQs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 每一次增加都要解决一个具体问题，同时和原款风格统一。新增部位要补算用布量、单耗和工艺。",
+                  "type": "text"
+                }
+              ],
+              "id": "uFkGYCwEqNEPYXXI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 965,
+                "renderHeight": 673.04,
+                "renderWidth": 740,
+                "sourceKey": "6449a6e3f0e2ae545b4072210fcdc44b4f73c85a",
+                "version": 2,
+                "width": 1061
+              },
+              "id": "YxiNfcnFvCvKiqBe",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "llgOerktRORuuWQg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "hNqVYuFEqlUIIYPW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "cxBOxNYgDQnwjkYR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "借鉴款好看但太露、太简单，不适合自己客群或上市季节；要把场合款改成可日常、更得体的款。",
+                  "type": "text"
+                }
+              ],
+              "id": "akBAQQsEjpZbqnhO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "要注意的是加法要有度，增加的部位要服务版型、解决问题，不能为加而加。",
+                  "type": "text"
+                }
+              ],
+              "id": "WoJoIQlBcJLkOqLL",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "方法10：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "减少",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "部位",
+                  "type": "text"
+                }
+              ],
+              "id": "mUbKouLTaSyEUJJZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "改复杂款更适合做减法。",
+                  "type": "text"
+                }
+              ],
+              "id": "EcWhOGCnAKxatIBF",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "vDWKuXrMDHwMAQea",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 看复杂款里哪些部位多余、重复：多余的层叠、分割、拼接、饰片、下摆。",
+                  "type": "text"
+                }
+              ],
+              "id": "wNJRBaeVJqNKFTFp",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 保留最能体现廓形和卖点的部分，砍掉其余。",
+                  "type": "text"
+                }
+              ],
+              "id": "SFJwtiTRIfsIeLpq",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 减法可以改变品类：复杂连衣裙去掉上半段，直接做成一条简洁半裙。",
+                  "type": "text"
+                }
+              ],
+              "id": "dlzcvdzYEjTvCxsw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "BZwTaahVpDlMrmUo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "注意去掉部位后，对应的放量、缝份、锁边、工艺要重新处理，保证剩下的部分能独立成衣。",
+                  "type": "text"
+                }
+              ],
+              "id": "xOGSrBzheAzJXrjO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ehoMAKguIcNXkMPO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "NYpksDGdsAfhgjvz",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "QLXImUEjGHsAfzjn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "借鉴款结构太复杂、用料和工费太高、不适合自己客群；要把复杂款改成日常款、基础款。",
+                  "type": "text"
+                }
+              ],
+              "id": "rQzRuWvIirvysPsA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "vOonMBVCCrRNUYMW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "方法11 ：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "减少",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "装饰",
+                  "type": "text"
+                }
+              ],
+              "id": "vBUqRGMDHleMwAXu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "延伸装饰款更适合做减法。",
+                  "type": "text"
+                }
+              ],
+              "id": "hbeqRngvJqxgmrAa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "OXUoUPoOvqxmEQYe",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 把装饰分级处理：廉价感强的撞色、大颗珠饰、大面积亮片先去掉。",
+                  "type": "text"
+                }
+              ],
+              "id": "yynCasUWhOalapgC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 保留能体现品质感的部分：罗纹、缝线、版型、整体外形。",
+                  "type": "text"
+                }
+              ],
+              "id": "HwkVoevQWLBGZmjW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 装饰拿掉之后，用面料质感和版型把设计感补回来。外形一定要守住，不能减完以后认不出原来的款。",
+                  "type": "text"
+                }
+              ],
+              "id": "zgcQDfPimUXdmwhA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KIhlipHLcyJADBjo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "HrlbUYeppUbyMwxn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "WdfauFzOfhIMucIZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "装饰很重的款要延伸出更日常、好搭、耐穿的版本；高装饰款需要配一组基础款来承接。",
+                  "type": "text"
+                }
+              ],
+              "id": "GfzsNOlOwJJMnVkB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "要注意的是，",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "装饰减下去，对面料和版型的要求反而提高。没有装饰撑场面，就得靠克重、垂感、手感和剪裁撑住整件衣服。",
+                  "type": "text"
+                }
+              ],
+              "id": "wQKTedjtUrXubvIo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "UgQYRPJDeorYGhIR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "方法12 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "减少",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "图案",
+                  "type": "text"
+                }
+              ],
+              "id": "kxvnGvYkGqqWUguF",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "改形象款更适合减少图案面积。",
+                  "type": "text"
+                }
+              ],
+              "id": "ZMeAfMvlrcYpSHow",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "方法步骤：",
+                  "type": "text"
+                }
+              ],
+              "id": "vUGkwWsnHyZuVFdb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "1. 判断满幅图案的问题：太花、太挑人、太难搭、显廉价。",
+                  "type": "text"
+                }
+              ],
+              "id": "BtaJlvfynsoezDWZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "2. 三种处理：把满幅改成局部，只留在肩、领、裙片或下摆；把大面积图案缩小、降低对比；或上半身素色、下半身保留少量图案。",
+                  "type": "text"
+                }
+              ],
+              "id": "qmcigObmyJsIujqn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "3. 必要时彻底去除图案，只留底色，靠面料和廓形说话。",
+                  "type": "text"
+                }
+              ],
+              "id": "MmAkRWllKrmSnGNQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 856,
+                "renderHeight": 586.52,
+                "renderWidth": 740,
+                "sourceKey": "af307309171e564c13af8334cb919669ea1a94fd",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "oWvWiIJEcgIPkMig",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "FnesHgaattZRPqki",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "---什么时候用？",
+                  "type": "text"
+                }
+              ],
+              "id": "RaXRjaRAgqdCzQOH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "DTigAliZPAWAacRR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "形象款、橱窗款、走秀款要转成日常销售款；大图案款需要做一个更能穿、更好卖的版本。",
+                  "type": "text"
+                }
+              ],
+              "id": "fazLxMwXgQgOBcpv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "要点：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "italic": true
+                  },
+                  "content": "图案面积变化后，视觉重心和上下比例要重新平衡，不能只是把花裁掉一半。",
+                  "type": "text"
+                }
+              ],
+              "id": "QzfdKXTvLUBTeMpP",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "nHJnILqLDAdrbzGV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "italic": true,
+                    "underline": true
+                  },
+                  "content": "总结要点：",
+                  "type": "text"
+                }
+              ],
+              "id": "mdEkcJLFzYWfjXRj",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "改款前需要先把借鉴款看透，再决定动作，不要一上来就改，给你总结了8个运用不同方法的思路：",
+                  "type": "text"
+                }
+              ],
+              "id": "OqpAqBGmrwmJkvNG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 1,
+                  "type": 1
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "款本身不错，只是品类、颜色、面料不对",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "——用",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "组合更换法",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "；",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "WTSxCUoHhxdhtdAC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 1,
+                  "type": 1
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "某个元素特别好，想让它多出现、做呼应",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "——用",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "细节转移法、细节延伸法",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "，换品类用",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "品类转移法",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "；",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "fzxbcieegPKAMSlb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 1,
+                  "type": 1
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "手里两个款各有所长",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "——用",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "款式组合法",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "；",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "hQyaArVhnchTDwzM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 1,
+                  "type": 1
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "廓形是最大卖点、要内外统一",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "——用",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "廓形限定法",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "；",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "dRBjnlaKmzRzVviU",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 1,
+                  "type": 1
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "原样太像、要做出差异",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "——用",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "逆向改款法",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "；",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "gyCdySAxxRUILYwa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 1,
+                  "type": 1
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "一个装饰要铺到不同价格带",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "——用",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "改变形式法",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "；",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "awEUCaPaQGlDRrGH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 1,
+                  "type": 1
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "款太露、太单",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "——用",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "部位增加法",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "；",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "meeQDEBnQXNbzesA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "contentIndent": 1,
+                "listAttrs": {
+                  "level": 0,
+                  "styleFormat": 1,
+                  "styleType": 1,
+                  "type": 1
+                }
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "款太复杂、装饰太重、图案太满",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "——分别用",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "部位减少法、装饰减少法、图案减少法",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "。",
+                  "type": "text"
+                },
+                {
+                  "content": " ",
+                  "type": "text"
+                }
+              ],
+              "id": "zooNFkDAfYDzYKFt",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KGjnfDavdrwNRjlQ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "最后要说的是，",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "建议改款",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一次只动一个主要维度，改完之后一定要回到版型和穿着本身---所有方法最后都要落到一件人穿着舒服、看着成立、还能批量做出来的衣服上。",
+                  "type": "text"
+                }
+              ],
+              "id": "tphyehuHAAJNGnYi",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "mAyljduTIpxKsHMF",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "THE END",
+                  "type": "text"
+                }
+              ],
+              "id": "QyposdwTwgcAassm",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " -  用心去做的，永远不会浪费 -",
+                  "type": "text"
+                }
+              ],
+              "id": "oNcgLCnQTXevYHbW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 205,
+                "renderHeight": 203.85,
+                "renderWidth": 636.4,
+                "sourceKey": "e8b6b7446ab2ba86447e2e5e2089b7f9fd5a9d01",
+                "version": 2,
+                "width": 640
+              },
+              "id": "OHKwRaFWXxhUCpfU",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "NmRiLuSQwqbVzgOc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "F 先 生 绘 公 众 号",
+                  "type": "text"
+                }
+              ],
+              "id": "dcafyqxwjUJxsszf",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "Take  heart  without  taking  detours ",
+                  "type": "text"
+                }
+              ],
+              "id": "FTJJoLOdJeemggwW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "“走心，不走弯路",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "”",
+                  "type": "text"
+                }
+              ],
+              "id": "TSvaAdeLnjZSyPQB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 464,
+                "renderHeight": 463.14,
+                "renderWidth": 643.8,
+                "sourceKey": "a79e0cad9ed14478095a0178a5de0cd1343d490d",
+                "version": 2,
+                "width": 645
+              },
+              "id": "HjtnMAZXMesPwjcB",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#D92142"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "▲",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#222222"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " 关注F先生视频号",
+                  "type": "text"
+                }
+              ],
+              "id": "bjnnLFzXQDiGkNGx",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "不喜欢",
+                  "type": "text"
+                }
+              ],
+              "id": "tVQaTJbRoxpCzIhB",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 16
+    }
+  },
+  "result": "ok"
+}

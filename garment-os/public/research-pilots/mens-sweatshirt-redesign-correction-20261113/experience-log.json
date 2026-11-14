@@ -1,0 +1,48 @@
+{
+  "schema": "garment-os/redesign-experience/v1",
+  "runId": "mens-sweatshirt-redesign-correction-20261113",
+  "status": "candidate-only",
+  "capturedAt": "2026-11-13T00:49:32.892Z",
+  "feedback": "上一轮卫衣形态不正常：图稿虽引用我司母版编号，但领部、罗纹收口、版型比例和画稿语法没有充分继承。",
+  "baseDNA": [
+    "微落肩",
+    "圆领",
+    "长袖",
+    "净面无袋",
+    "55mm宽2×2罗纹袖口与下摆",
+    "前后比例与侧面袖体量"
+  ],
+  "learned": [
+    "引用母版编号不等于继承版型",
+    "卫衣宽罗纹是识别结构而非装饰线",
+    "领型变化必须带完整开合配套",
+    "无来源结构不落图",
+    "每款必须把证据摘要、机会判断、反例和验证闸门绑定到设计动作",
+    "市场方向判断与公司结构准入必须分开"
+  ],
+  "matrixRun": {
+    "candidateDisposition": {
+      "S0": "baseline-only",
+      "S1": "candidate-opportunity",
+      "S2": "visual-hypothesis-only",
+      "Q0": "blocked-pending-source-pattern"
+    },
+    "reviewRule": "每款先绑定证据和机会边界，再决定是否进入设计台；软件结果不替代版师、样衣、洗后、商品或生产责任人结论。",
+    "priority": "S0 基款复核 → S1 材料单项样衣 → S2 视觉补证 → Q0 补齐半拉链来源结构"
+  },
+  "discarded": [
+    "通用轮廓直接叠加高领",
+    "六组结构候选一次性展开",
+    "把市场词趋势当成我司半拉链结构证据",
+    "把软件通过当成版型成立"
+  ],
+  "nextGates": [
+    "基款原稿复核",
+    "单变量材料对照",
+    "材料—罗纹配套",
+    "版师/面料/工艺责任人",
+    "真实样衣和洗后结果",
+    "来源结构补齐后再做半拉链"
+  ],
+  "evidenceProvenance": "assistant-project-review; no_real_sample; no_production_approval"
+}

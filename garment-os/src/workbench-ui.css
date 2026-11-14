@@ -1,0 +1,142 @@
+/* Shared workbench language. Drawing sheets keep their white paper surface. */
+.workbench-shell { --ui-radius: 7px; --ui-gap: 16px; font-family: 'DM Sans', 'Microsoft YaHei', sans-serif; font-size: 13px; color: var(--text-primary); }
+.workbench-shell button, .workbench-shell input, .workbench-shell select, .workbench-shell textarea { font-family: inherit; }
+.workbench-primary-nav, .workbench-secondary-nav { display: flex; align-items: center; flex-shrink: 0; gap: 8px; padding: 0 20px; background: var(--bg-secondary); border-bottom: 1px solid var(--border); }
+.workbench-primary-nav { min-height: 52px; }
+.workbench-primary-nav > .workbench-sidebar-toggle { align-items: center; justify-content: center; }
+.workbench-primary-nav > button { align-self: stretch; padding: 0 18px; font-size: 13px; font-weight: 600; border: 0; border-bottom: 2px solid transparent; background: transparent; color: var(--text-secondary); cursor: pointer; white-space: nowrap; }
+.workbench-primary-nav > button[aria-pressed=true] { color: var(--accent); border-bottom-color: var(--accent); }
+.workbench-nav-status { margin-left: auto; font-size: 11px; }
+.workbench-secondary-nav { min-height: 46px; gap: 8px; font-size: 12px; }
+.workbench-secondary-nav > button, .workbench-view-options > summary, .workbench-view-options button { padding: 7px 11px; border: 1px solid var(--border); border-radius: 5px; background: var(--bg-secondary); color: var(--text-secondary); cursor: pointer; white-space: nowrap; font-size: 12px; }
+.workbench-secondary-nav > button[aria-pressed=true] { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+.workbench-secondary-nav > span { color: var(--text-muted); margin-right: auto; white-space: nowrap; }
+.workbench-view-options { margin-left: auto; position: relative; }
+.workbench-view-options > div { position: absolute; right: 0; top: 36px; z-index: 20; display: flex; padding: 10px; gap: 6px; border: 1px solid var(--border); border-radius: var(--ui-radius); background: var(--bg-secondary); box-shadow: 0 6px 18px #0001; }
+.workbench-shell :is(.asset-heading,.company-heading,.piece-design-heading) { padding: 18px 20px; gap: 12px; min-height: 76px; box-sizing: border-box; }
+.workbench-shell :is(.asset-heading,.company-heading,.piece-design-heading) h2 { font-size: 18px; font-weight: 600; letter-spacing: 0; }
+.workbench-shell :is(.asset-heading,.company-heading,.piece-design-heading) p { font-size: 12px; line-height: 1.6; margin: 5px 0 0; }
+.workbench-shell :is(.asset-library,.company-board,.piece-design-board,.template-review,.tee-foundation,.category-workbench,.design-desk) { background: var(--bg-primary); color: var(--text-primary); font-family: inherit; font-size: 13px; min-width: 0; }
+.workbench-shell :is(.asset-library,.company-board,.piece-design-board,.template-review,.tee-foundation) :is(button,select,input,textarea) { border-color: var(--border); border-radius: 5px; background-color: var(--bg-secondary); color: var(--text-primary); font-family: inherit; }
+.workbench-shell :is(.asset-library,.company-board,.piece-design-board,.template-review,.tee-foundation) button:not(:disabled):hover { border-color: var(--accent); }
+.workbench-shell :is(.asset-library,.company-board,.piece-design-board,.template-review,.tee-foundation) button[aria-pressed=true] { border-color: var(--accent); background: var(--accent-dim); color: var(--accent); box-shadow: none; }
+.workbench-shell :is(.piece-primary,.company-primary,.foundation-use:not(:disabled)) { background: var(--accent); border-color: var(--accent); color: #fff; }
+.workbench-shell :is(.piece-muted,.piece-section-title span,.piece-pattern-card span,.company-source,.foundation-hint,.tee-foundation small,.tee-foundation footer,.review-list small) { color: var(--text-muted); }
+.workbench-shell :is(.piece-design-inspector,.company-inspector,.asset-inspector) { padding: 20px; font-size: 12px; }
+.workbench-shell :is(.piece-design-main,.company-main,.asset-main) { padding: 20px; }
+.workbench-shell :is(.piece-design-layout,.company-layout,.asset-content) { grid-template-columns: minmax(0,1fr) 264px; }
+.workbench-shell :is(.piece-pattern-card,.asset-grid article,.company-master-picker button) { border-radius: var(--ui-radius); padding: 14px; background: var(--bg-secondary); border-color: var(--border); }
+.workbench-shell :is(.asset-grid,.piece-pattern-grid) { gap: 14px; }
+.workbench-shell :is(.piece-three-view,.piece-placement,.company-sheet,.company-reference,.asset-preview) { border-color: var(--border); border-radius: var(--ui-radius); overflow: hidden; box-shadow: none; }
+.workbench-shell :is(.piece-join-table,.piece-pattern-card svg) { background: var(--bg-secondary); color: var(--text-primary); }
+.workbench-shell .piece-join-table :is(th,td) { border-color: var(--border); }
+.workbench-shell .asset-context { background: var(--bg-secondary); padding: 12px 20px; }
+.workbench-shell .asset-context summary { cursor: pointer; color: var(--text-secondary); font-size: 12px; }
+.workbench-shell .asset-context > div { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding-top: 12px; }
+.workbench-shell .asset-tabs, .workbench-shell .asset-tools { padding: 12px 20px; }
+.workbench-shell .asset-tabs button[aria-pressed=true] { border-color: var(--accent); }
+.workbench-shell .piece-start { margin: 24px; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--ui-radius); }
+.workbench-shell :is(.template-review,.tee-foundation) { padding: 20px; min-height: 0; }
+.workbench-shell :is(.template-review,.tee-foundation) h1 { font-size: 20px; margin: 0 0 8px; }
+.workbench-shell :is(.template-review > header > div > span,.foundation-eyebrow) { display: none; }
+.workbench-shell :is(.review-list,.review-detail,.foundation-drawing,.foundation-workspace aside,.review-criteria article) { background: var(--bg-secondary); border-color: var(--border); color: var(--text-primary); }
+.workbench-shell :is(.review-hold,.foundation-withdrawn,.foundation-structure-note,.foundation-state) { background: var(--bg-tertiary); color: var(--text-secondary); border-color: var(--border); }
+.workbench-shell :is(.review-detail-title p,.review-list > p,.review-candidates,.tee-foundation ul,.foundation-intro p) { color: var(--text-muted); }
+.workbench-shell .foundation-workspace { grid-template-columns: minmax(0,1fr) 320px; }
+.workbench-shell .foundation-board-toolbar { border-color: var(--border); }
+.workbench-shell .tee-foundation nav button { background: var(--bg-secondary); color: var(--text-primary); }
+.workbench-shell .foundation-svg-scroll, .workbench-shell .template-audit-cad { background: #fff; }
+.workbench-shell .desk-drawing { height: auto; aspect-ratio: 1500 / 760; }
+.workbench-shell .desk-drawing.small { height: auto; aspect-ratio: 1500 / 760; min-height: 130px; }
+.workbench-shell .desk-card-placeholder { aspect-ratio: 1500 / 760; height: auto; min-height: 130px; }
+.workbench-shell .desk-stage-placeholder { aspect-ratio: 1500 / 760; min-height: 0; }
+.workbench-shell .desk-panel-heading { margin-bottom: 16px; }
+.workbench-shell .desk-main { padding: 20px; }
+.workbench-shell .desk-embedded .desk-customization { padding: 20px; }
+.workbench-shell .desk-layout { grid-template-columns: minmax(0,1fr) 264px; }
+.workbench-shell .left-panel { scrollbar-gutter: stable; }
+.workbench-shell :is(button,a,input,select,summary):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.workbench-shell [data-testid=piece-library] { min-width: 0; }
+.workbench-shell .piece-library-heading { padding: 18px 20px; background: var(--bg-secondary); border-bottom: 1px solid var(--border); }
+.workbench-shell .piece-library-heading h2 { margin: 0; font-size: 18px; font-weight: 600; }
+.workbench-shell .piece-library-heading p { margin: 5px 0 0; color: var(--text-muted); font-size: 12px; line-height: 1.6; }
+.workbench-shell .piece-library-tabs { padding: 12px 20px !important; gap: 8px !important; background: var(--bg-secondary); }
+.workbench-shell .piece-library-tabs button { padding: 7px 11px !important; border-radius: 5px !important; font-size: 12px !important; font-weight: 500 !important; }
+.workbench-shell .piece-library-tabs button[aria-pressed=true] { background: var(--accent-dim) !important; color: var(--accent) !important; }
+.workbench-material-summary { display: flex; align-items: center; gap: 10px; flex-shrink: 0; padding: 8px 20px; background: var(--bg-secondary); border-bottom: 1px solid var(--border); font-size: 11px; color: var(--text-secondary); }
+.workbench-material-summary span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.workbench-material-summary button { margin-left: auto; background: transparent; color: var(--accent); border: 0; cursor: pointer; white-space: nowrap; }
+.workbench-shell .piece-filter-controls button[aria-pressed=true] { color: var(--accent); border-color: var(--accent); background: var(--accent-dim); }
+.workbench-shell :is(.reference-catalogue,.style-flow) { padding: 20px; font-family: inherit; }
+.workbench-shell :is(.reference-catalogue,.style-flow) h2 { font-size: 18px; font-weight: 600; }
+.workbench-shell .reference-catalogue__eyebrow { display: none; }
+.workbench-shell .mesh-workbench { --mesh-bg: #25262a; --mesh-panel: #303136; --mesh-control: #383a41; --mesh-hover: #484b55; --mesh-text: #e1e3e9; --mesh-muted: #9b9faa; --mesh-border: #45464e; --mesh-accent: #edac64; font-family: inherit; background: var(--mesh-bg); color: var(--mesh-text); }
+.workbench-shell :is(.mesh-workbench-header,.mesh-command-bar,.mesh-inspector,.mesh-render-status,.mesh-workbench-status) { background: var(--mesh-panel); color: var(--mesh-text); border-color: var(--mesh-border); }
+.workbench-shell .mesh-inspector { width: 264px; scrollbar-color: var(--mesh-border) var(--mesh-panel); }
+.workbench-shell .mesh-inspector-section { padding: 14px; border-color: #202125; }
+.workbench-shell .mesh-inspector-section :is(h4,summary,strong,code) { color: var(--mesh-text); }
+.workbench-shell .mesh-inspector-section :is(p,small,li) { color: var(--mesh-muted); }
+.workbench-shell .mesh-workbench :is(button,input,select) { color: var(--mesh-text); border-color: var(--mesh-border); background: var(--mesh-control); accent-color: var(--mesh-accent); }
+.workbench-shell .mesh-workbench button:hover { background: var(--mesh-hover); }
+.workbench-shell .mesh-workbench button[aria-pressed=true],.workbench-shell .mesh-outliner-row.selected { background: #554639; color: #ffc384; border-color: #a77a4b; }
+.workbench-shell :is(.mesh-stage-badge,.mesh-render-notice,.garment-upload) { background: #3c342d; color: #efbf89; border-color: #a77a4b; }
+.workbench-shell .mesh-outliner-row button:first-child span,.workbench-shell .mesh-outliner header span { color: #aab0bc; }
+.workbench-shell .mesh-workbench .mesh-measure-result { color: var(--mesh-accent) !important; }
+.workbench-shell .mesh-table-scroll :is(td,th) { border-color: var(--border); }
+.workbench-shell .mesh-viewport-label { color: #e1e3e9; }
+.workbench-shell .mesh-empty-state { color: #bcc2cd; }
+.workbench-shell :is(.pattern-generator-controls,.pattern-generator-preview) { box-sizing: border-box; }
+.workbench-shell .pattern-generator-preview details { max-width: 100%; overflow-x: auto; }
+.workbench-shell .piece-qc-detail > div:first-child { flex-wrap: wrap; }
+@media(max-width:1100px) {
+  .workbench-shell :is(.piece-design-layout,.company-layout,.asset-content,.desk-layout) { grid-template-columns: minmax(0,1fr) 230px; }
+  .workbench-shell .foundation-workspace { grid-template-columns: minmax(0,1fr); }
+  .workbench-nav-status { display: none; }
+}
+@media(max-width:700px) {
+  .workbench-shell .piece-library-tabs { flex-wrap: nowrap !important; overflow-x: auto; }
+  .workbench-shell .piece-library-tabs button { flex-shrink: 0; }
+  .workbench-shell .piece-generator-host { overflow-y: auto !important; }
+  .workbench-shell :is([data-testid=standard-generator],[data-testid=brian-generator]) { height: auto !important; min-height: 100%; flex-shrink: 0; }
+  .workbench-shell [data-testid=standard-generator] > div:first-child { flex-wrap: wrap; }
+  .workbench-shell .pattern-generator-layout { flex-direction: column; flex: none !important; }
+  .workbench-shell .pattern-generator-controls { width: 100% !important; overflow: visible !important; border-right: 0 !important; border-bottom: 1px solid var(--border); }
+  .workbench-shell .pattern-generator-preview { flex: none !important; width: 100%; overflow: visible !important; }
+  .workbench-shell .pattern-generator-preview svg { max-width: 100%; }
+  .workbench-shell .pattern-generator-preview pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+  .workbench-shell .piece-qc-layout { flex-direction: column; overflow-y: auto !important; }
+  .workbench-shell .piece-qc-list { width: 100% !important; max-height: 300px; border-bottom: 1px solid var(--border); }
+  .workbench-shell .piece-qc-detail { flex: none !important; overflow: visible !important; }
+  .workbench-shell .piece-qc-preview-layout { flex-direction: column; overflow: visible !important; }
+  .workbench-shell .piece-qc-canvas { flex: none !important; height: 420px; }
+  .workbench-shell .piece-qc-inspector { width: 100% !important; box-sizing: border-box; border-left: 0 !important; }
+  .workbench-shell .mesh-inspector { width: 100%; }
+  .workbench-primary-nav { min-height: 48px; padding: 0 8px; gap: 0; }
+  .workbench-primary-nav > button { font-size: 12px; padding: 0 10px; }
+  .workbench-primary-nav > .workbench-sidebar-toggle { font-size: 10px; padding: 0 6px; }
+  .workbench-secondary-nav { padding: 6px 10px; gap: 6px; overflow-x: auto; min-height: 45px; }
+  .workbench-secondary-nav > button { padding: 6px 9px; font-size: 11px; }
+  .workbench-view-options { display: none; }
+  .workbench-shell :is(.piece-design-layout,.company-layout,.asset-content) { display: flex; flex-direction: column; overflow: auto; }
+  .workbench-shell :is(.piece-design-main,.company-main,.asset-main) { flex-shrink: 0; overflow: visible; padding: 14px; }
+  .workbench-shell :is(.piece-design-inspector,.company-inspector,.asset-inspector) { flex-shrink: 0; overflow: visible; padding: 16px; border-left: 0; border-top: 1px solid var(--border); }
+  .workbench-shell :is(.asset-heading,.company-heading,.piece-design-heading) { padding: 14px; min-height: 0; }
+  .workbench-shell :is(.asset-heading,.company-heading,.piece-design-heading) h2 { font-size: 17px; }
+  .workbench-shell .asset-heading > button { font-size: 11px; }
+  .workbench-shell .asset-tabs { padding: 10px 14px; flex-wrap: nowrap; overflow-x: auto; }
+  .workbench-shell .asset-tabs > button { flex-shrink: 0; }
+  .workbench-shell .asset-context, .workbench-shell .asset-tools { padding: 10px 14px; }
+  .workbench-shell .asset-context > div { align-items: start; }
+  .workbench-shell .asset-tools input[type=search] { width: 100%; }
+  .workbench-shell .asset-grid { grid-template-columns: minmax(0,1fr); }
+  .workbench-shell .piece-pattern-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .workbench-shell .piece-section-title { flex-wrap: wrap; }
+  .workbench-shell .piece-join-table { display: block; overflow-x: auto; }
+  .workbench-shell .piece-design-actions button { font-size: 11px; padding: 6px 8px; }
+  .workbench-shell .piece-placement { height: 340px; }
+  .workbench-shell .piece-start { margin: 14px; padding: 18px; }
+  .workbench-shell .desk-layout { display: flex; flex-direction: column; }
+  .workbench-shell .desk-main { padding: 14px; }
+  .workbench-shell .desk-module-toolbar { flex-wrap: wrap; position: static; }
+  .workbench-shell .desk-module-toolbar > div { margin-left: auto; }
+}

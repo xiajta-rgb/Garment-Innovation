@@ -2,7 +2,7 @@
  * 画布三点菜单
  *
  * 商业化基础功能:
- *  - Export PNG / SVG / Pattern Sheet / Pattern JSON
+ *  - Export PNG / SVG / Reference Sheet / Pattern JSON
  *  - Import Pattern JSON
  *  - Copy SVG
  *
@@ -53,12 +53,12 @@ export function CanvasMenu({ canvasId, capabilities }: CanvasMenuProps) {
 
   const handleExportSheet = useCallback(() => {
     setOpen(false);
-    exportPatternSheet();
+    try { exportPatternSheet(); } catch (error) { setImportStatus({ msg: error instanceof Error ? error.message : String(error), ok: false }); }
   }, []);
 
   const handleExportJSON = useCallback(() => {
     setOpen(false);
-    exportPatternJSON();
+    try { exportPatternJSON(); } catch (error) { setImportStatus({ msg: error instanceof Error ? error.message : String(error), ok: false }); }
   }, []);
 
   const handleImportJSON = useCallback(async () => {
@@ -138,7 +138,7 @@ export function CanvasMenu({ canvasId, capabilities }: CanvasMenuProps) {
             <div style={{ padding: '4px 12px', fontSize: 9, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: 0.5, fontWeight: 600 }}>
               Export
             </div>
-            {caps.sheet && <MenuItem label="技术图 SVG (1:1 可打印)" onClick={handleExportSheet} />}
+            {caps.sheet && <MenuItem label="参考整幅图 SVG (1:1 可打印)" onClick={handleExportSheet} />}
             <MenuItem label="Pattern JSON (模板分享)" onClick={handleExportJSON} />
             {(caps.svg || caps.png) && <MenuDivider />}
             {(caps.svg || caps.png) && (

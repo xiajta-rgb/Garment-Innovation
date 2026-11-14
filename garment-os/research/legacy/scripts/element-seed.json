@@ -1,0 +1,34 @@
+{
+  "elements": [
+    { "sourceId": "garment-os://pattern/t-shirt-pro", "name": "T-Shirt Pro · mm 制版基型", "domain": "服装造型域", "type": "版型模板", "categories": "T恤", "description": "Aldrich 公式驱动的专业纸样模板: 真实 mm 坐标 + 缝份 + 布纹线/剪口对位, 袖山吃势数值求解。经制版约束引擎校验。" },
+    { "sourceId": "garment-os://pattern/t-shirt", "name": "T-Shirt 基础版型", "domain": "服装造型域", "type": "版型模板", "categories": "T恤", "description": "圆领短袖 T 恤基础模板 (渲染坐标近似制图)。" },
+    { "sourceId": "garment-os://pattern/v-neck-tee", "name": "V-Neck Tee 版型", "domain": "服装造型域", "type": "版型模板", "categories": "T恤", "description": "V 领短袖 T 恤模板, V 领由大身轮廓整合。" },
+    { "sourceId": "garment-os://pattern/polo-shirt", "name": "Polo Shirt 版型", "domain": "服装造型域", "type": "版型模板", "categories": "Polo衫", "description": "立领 + 三粒扣中开襟 + 短袖 Polo 模板。" },
+    { "sourceId": "garment-os://pattern/button-up-shirt", "name": "Button-Up Shirt 版型", "domain": "服装造型域", "type": "版型模板", "categories": "衬衫", "description": "立领 + 长袖 + 袖口 + 五粒扣门襟 + 贴袋完整衬衫模板。" },
+    { "sourceId": "garment-os://pattern/womens-blouse", "name": "Women's Blouse 版型", "domain": "服装造型域", "type": "版型模板", "categories": "衬衫", "description": "女款圆领短袖衬衫模板, 含腰省修身与贴袋。" },
+    { "sourceId": "garment-os://pattern/long-sleeve-tee", "name": "Long-Sleeve Tee 版型", "domain": "服装造型域", "type": "版型模板", "categories": "T恤", "description": "圆领长袖 T 恤模板。" },
+    { "sourceId": "garment-os://pattern/long-sleeve-polo", "name": "Long-Sleeve Polo 版型", "domain": "服装造型域", "type": "版型模板", "categories": "Polo衫", "description": "长袖 Polo 模板: 立领 + 门襟 + 袖口完整结构。" },
+    { "sourceId": "garment-os://pattern/womens-basic-tee", "name": "Women's Basic Tee 版型", "domain": "服装造型域", "type": "版型模板", "categories": "T恤", "description": "女装圆领短袖 T 恤修身基础模板。" },
+    { "sourceId": "garment-os://block/bodice-aldrich", "name": "Aldrich mm 衣身原型", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "衣身原型 Block: 输入直接读人体测量值 (mm), 公式: 袖窿深=B/8+105+松量/4, 领宽=N/5-5, 肩斜15°。输出毛样+净样+对折线+布纹线+剪口。" },
+    { "sourceId": "garment-os://block/sleeve-aldrich", "name": "Aldrich mm 装袖原型", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "装袖原型 Block: 袖山高=袖窿深×0.75, 袖肥数值迭代求解使袖山弧长=袖窿弧长+吃势8mm。" },
+    { "sourceId": "garment-os://block/bodice-basic", "name": "基础身片 Block", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "渲染坐标近似制图的身片部件, 支持 8 种领型轮廓整合。" },
+    { "sourceId": "garment-os://block/sleeve-set-in", "name": "装袖 Block", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "装袖部件, 消费衣身肩点/袖窿锚点驱动几何。" },
+    { "sourceId": "garment-os://block/collar-mandarin", "name": "立领 Block", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "立领/圆领部件, collarHeight=0 时不产几何 (圆领贴边)。" },
+    { "sourceId": "garment-os://block/cuff-plain", "name": "平袖口 Block", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "平面袖口部件。" },
+    { "sourceId": "garment-os://block/placket-center", "name": "中开门襟 Block", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "中开襟部件, 支持门襟宽度与扣数参数。" },
+    { "sourceId": "garment-os://block/pocket-patch", "name": "贴袋 Block", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "贴袋部件。" },
+    { "sourceId": "garment-os://block/collar-aldrich", "name": "立领 (mm 制版)", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "立领弯条: 内口长=前后领口弧长之和(对折半片), 外口起翘 12mm, 领高参数化。" },
+    { "sourceId": "garment-os://block/placket-aldrich", "name": "中开门襟 (mm 制版)", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "门襟对折长条: 裁片宽=成品宽×2+10mm, 长度参数化。" },
+    { "sourceId": "garment-os://block/cuff-aldrich", "name": "平袖口 (mm 制版)", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "袖口对折矩形: 长=腕围+40mm 松量(+男装 10mm), 高=成品高×2。" },
+    { "sourceId": "garment-os://block/pocket-aldrich", "name": "贴袋 (mm 制版)", "domain": "服装造型域", "type": "结构部件模板", "categories": "上装", "description": "圆角贴袋 R15mm, 含袋口折边参考线。" },
+    { "sourceId": "garment-os://fit/slim", "name": "紧身廓形 (Slim)", "domain": "服装造型域", "type": "廓形模板", "categories": "上装", "description": "放松量配置: 胸围 2cm / 腰围 1cm / 臀围 2cm / 上臂 1.5cm / 腕围 0.5cm。" },
+    { "sourceId": "garment-os://fit/regular", "name": "合身廓形 (Regular)", "domain": "服装造型域", "type": "廓形模板", "categories": "上装", "description": "放松量配置: 胸围 6cm / 腰围 4cm / 臀围 4cm / 上臂 2cm / 腕围 1cm。" },
+    { "sourceId": "garment-os://fit/loose", "name": "宽松廓形 (Loose)", "domain": "服装造型域", "type": "廓形模板", "categories": "上装", "description": "放松量配置: 胸围 12cm / 腰围 8cm / 臀围 10cm / 上臂 4cm / 腕围 1.5cm。" },
+    { "sourceId": "garment-os://fabric/FAB-001", "name": "全棉府绸", "domain": "面料材质域", "type": "面料样卡", "categories": "衬衫\nT恤", "description": "梭织 100% Cotton, 门幅 1450mm, 克重 120gsm, 参考价 18.5 元/m, 损耗率 12%。" },
+    { "sourceId": "garment-os://fabric/FAB-002", "name": "涤棉斜纹", "domain": "面料材质域", "type": "面料样卡", "categories": "衬衫\n外套", "description": "梭织 65% Polyester 35% Cotton, 门幅 1500mm, 克重 180gsm, 参考价 22 元/m, 损耗率 10%。" },
+    { "sourceId": "garment-os://fabric/FAB-003", "name": "真丝缎面", "domain": "面料材质域", "type": "面料样卡", "categories": "衬衫\n连衣裙", "description": "梭织 100% Silk, 门幅 1140mm, 克重 80gsm, 参考价 68 元/m, 损耗率 15%。" },
+    { "sourceId": "garment-os://palette/fabric-colors-30", "name": "标准面料色卡 30 色", "domain": "色彩图案域", "type": "色彩与配色", "categories": "上装", "description": "应用内 30 色标准面料色卡 (含中文色名与 12 色系分组), HEX 值见应用 fabrics.ts。" },
+    { "sourceId": "garment-os://process/seam-industrial", "name": "工业缝份标准", "domain": "细节工艺域", "type": "缝制工艺", "categories": "上装", "description": "默认缝份 10mm (肩线/侧缝/袖缝), 领口 6mm, 下摆折边 25mm; 缝份引擎按净样轮廓等距外偏生成毛样裁剪线。" }
+  ]
+}
+

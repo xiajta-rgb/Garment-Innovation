@@ -1,0 +1,34 @@
+{
+  "schema": "garment-os/company-style/v1",
+  "masterId": "company-at25m3295",
+  "masterRevision": 1,
+  "styleCode": "PILOT-Q1",
+  "name": "日常层搭半拉链",
+  "color": "#283b3a",
+  "fabric": "FC063 32支棉盖丝拉架卫衣260g",
+  "composition": "68%Cotton,27%Polyester5%Spandex",
+  "weight": "260g/m²（料库标称，待实测）",
+  "notes": "Q0仅改260g候选材料；无帽、无图案、保持原稿轮廓。与Q0、C1相比，换料和开领各自贡献多少？。本轮研究设计草案，材料效果、净样与成本待验证。",
+  "finish": {
+    "enabled": true,
+    "neckWidthMm": 20,
+    "neckRatio": 0.9,
+    "seamAllowanceMm": 6,
+    "bodyHemMm": 20,
+    "sleeveHemMm": 20,
+    "needleGaugeMm": 4,
+    "stitchPitchMm": 3
+  },
+  "cadApplied": false,
+  "design": {
+    "neckline": "quarter-zip",
+    "sleeve": "source",
+    "fit": "source",
+    "length": "source",
+    "pocket": "none",
+    "hem": "rib",
+    "blocking": "none",
+    "graphic": "none",
+    "accentColor": "#b8b5a8"
+  }
+}

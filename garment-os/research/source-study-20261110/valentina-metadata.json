@@ -1,0 +1,9 @@
+{
+  "retrievedAt": "2026-11-10T16:02:29.4453846Z",
+  "commit": "ec902563f2af0eae526e38b5a99638969f64fc4e",
+  "license": "GPL-3.0",
+  "archived": false,
+  "branch": "develop",
+  "description": "DON'T FORK! This is a mirror for Valentina develop branch on GitHub and it's meant to be read-only. The main repo is https://gitlab.com/smart-pattern/valentina",
+  "repository": "https://github.com/dismine/valentina"
+}

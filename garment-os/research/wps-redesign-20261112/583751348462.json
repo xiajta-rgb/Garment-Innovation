@@ -1,0 +1,1378 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "服装设计怎么做减法 4条思路",
+                  "type": "text"
+                }
+              ],
+              "id": "zAJwJQHIbcnREufJ",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/2I-5tSdpnMyETmVWpqPAbQ"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月08日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "AUtiYJBBOjgEiqcG",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "点 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#102270"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "卡片",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "关注，并 ",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#FFA900"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "星标",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#888888"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "，不错过每期精华推送",
+                  "type": "text"
+                }
+              ],
+              "id": "mllmHSsknDVKgIEw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 531,
+                "renderHeight": 363.83,
+                "renderWidth": 740,
+                "sourceKey": "5b4e79ba7e9ae280f2798f0518efbd0ca88b1493",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "YgzGgAHwHkEkDqVo",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ZrYLjOWTERuXOLBi",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "很多设计新手，天性都是做加法：这里加个分割线，那里加个口袋，领子换个造型，下摆再来个开衩，背后再贴图案......结果款式越改越满。",
+                  "type": "text"
+                }
+              ],
+              "id": "RXWdIPtcePTgoYWK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "tGYqiQthkWYUqoag",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "但一件衣服能承载的视觉信息是有限的，其实细节越多，视觉噪音越大，设计的语言反而越模糊。",
+                  "type": "text"
+                }
+              ],
+              "id": "emZatCZzcNrfzjFN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "VixykRdefyqgQecJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "我认为，减法并不是抠门，而是设计本身的需要：把多余的所谓设计创意去掉，让该表达的表达清楚。",
+                  "type": "text"
+                }
+              ],
+              "id": "sbOrbuLmcfTENloR",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "NPmQNyPErlvmsfZM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    },
+                    "italic": true
+                  },
+                  "content": "一个细节该不该留，判断标准只有一个--- 删掉它，你原先的设计意图还在不在？",
+                  "type": "text"
+                }
+              ],
+              "id": "YhdfpcOodiWRqVRK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 80,
+                "renderHeight": 79.55,
+                "renderWidth": 636.4,
+                "sourceKey": "ab88d10eac757d5dd2e832954d9707559d0cea46",
+                "version": 2,
+                "width": 640
+              },
+              "id": "qWcdSXzXByykdJvx",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KtRWpJgMtFhHcUuF",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "从设计本身出发，我总结了4个做减法的思路。",
+                  "type": "text"
+                }
+              ],
+              "id": "viLGOGzLzfmtImEo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "思路1，结构线的减法：删掉 \"看不出为什么存在\" 的多余分割线。",
+                  "type": "text"
+                }
+              ],
+              "id": "nuGZwjBKEPAZruGd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "很多分割线其实并不是造型需要，而是类似省道转移、工艺拼缝这些版型内部的需要，被顺手做成显性的线。",
+                  "type": "text"
+                }
+              ],
+              "id": "ulTeWHylSvXAZDgv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "NykvYijwOANXTUaA",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "很多新手喜欢在服装平面上画各种各样奇奇怪怪的线（因为思维停留在二维平面上），我每次看了都很无语。",
+                  "type": "text"
+                }
+              ],
+              "id": "biAsGQhWqQHZHLNT",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "KOAzLpPdRxTdvPSd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "具体的判断思路是这样：这条线删掉，版型变不变？不变，它在造型上大概率就是多余的。",
+                  "type": "text"
+                }
+              ],
+              "id": "IJnSmywRQoVHmEdx",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "版型内部的省道转移留在里面处理，不该在表面刷存在感。",
+                  "type": "text"
+                }
+              ],
+              "id": "tWzMUxuiIZzSPPEu",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "meDyXYckVrAEvdGE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "真正该留的结构线，是删掉后会让比例失衡、让廓形垮掉的线，那才是设计真正关键的部分。",
+                  "type": "text"
+                }
+              ],
+              "id": "GHcoKJtnGVDRcXRy",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "关于这点可以去观察迪奥经典外套对结构线的运用，它的结构线没有一条是多余的：",
+                  "type": "text"
+                }
+              ],
+              "id": "pNfXFWlvpOZyrQSw",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 783,
+                "renderHeight": 536.5,
+                "renderWidth": 740,
+                "sourceKey": "3d347561617e39f88b9e547a73735eb792c76f0c",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "MYMwAOsbRItGtLRm",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "aiiLSkccRBHPQOBd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "这里要注意，结构线不等于装饰线，对装饰线的运用更宽松。",
+                  "type": "text"
+                }
+              ],
+              "id": "KtykyaKWCYNYZoVb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "思路2，",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "设计焦点的减法：一个款，只留一个主设计点。",
+                  "type": "text"
+                }
+              ],
+              "id": "CEGroTrfcYESSYwl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "领型、袖子、衣身、下摆，每个部位都来一个设计点，四个点互相影响打架，穿的人肯定一个都没印象。",
+                  "type": "text"
+                }
+              ],
+              "id": "MmMPSFONdhQfOdgW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "TDCxBhCzLyKNPyyg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "出款的时候问自己：第一眼看到这件衣服，视线落在哪里？",
+                  "type": "text"
+                }
+              ],
+              "id": "AUdiTjrRwmcSokdV",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "落在超过两个地方，就是焦点失焦。",
+                  "type": "text"
+                }
+              ],
+              "id": "oMetGYdmmDZjVtmW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ihFQnaFDqwvEJbhW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "把主设计点定在一个部位，其他部位退回基础形态---领子是焦点，袖子就做正常袖；下摆是焦点，领口就干干净净。",
+                  "type": "text"
+                }
+              ],
+              "id": "vGJtHOToHhGEwfnN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "vgEYgLXjtuChfUWf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "焦点只留一个，记忆点反而清晰。",
+                  "type": "text"
+                }
+              ],
+              "id": "XSNMILHkpqpitqiI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "zDUfhsPgkRlQlXOh",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "比如下面这个款，设计焦点是袖子的图案，前胸就不要画蛇添足了，很多新手设计师会犯这样的错误：",
+                  "type": "text"
+                }
+              ],
+              "id": "RYtHmEGxPGjfdIlW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 401,
+                "renderHeight": 400.53,
+                "renderWidth": 688.2,
+                "sourceKey": "1955765ff9f8042c20ee6f9441eb25c87ffa79bc",
+                "version": 2,
+                "width": 689
+              },
+              "id": "PjnOkmwODhcLYtwj",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "VKkkxVGKIxvnXPaf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "思路3，",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "装饰元素的减法：一种装饰手法为主。",
+                  "type": "text"
+                }
+              ],
+              "id": "llgPvfiIzlTrisDf",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "印花绣花、烫钻、压褶、拼接、撞色滚边，五个手法堆在一个款上，元素互相打架。",
+                  "type": "text"
+                }
+              ],
+              "id": "DtHtgpJAGAokmaeb",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ZJvyKFjXthZplHhc",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "问自己：去掉其中某一种装饰，风格还在不在？",
+                  "type": "text"
+                }
+              ],
+              "id": "REIDlHnPCvmsRvhN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "在，它就是多余的，装饰是风格的语言，同一种语言说一遍就够，其余的手法让位，或者用同质材料呼应。",
+                  "type": "text"
+                }
+              ],
+              "id": "PvVanrrHuYHqCdGJ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "nRzttgkMtIYScCHH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "装饰堆得越满，越看不出设计意图，只剩 \"做得很多\"。",
+                  "type": "text"
+                }
+              ],
+              "id": "qzQaBcFLPiimpScS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "比如下面这两款，本来挺完整，但有些新手做了压褶后，又把前胸做个装饰，或者把压褶的款式上又绣花什么的，反复添加无必要的设计元素，都是画蛇添足：",
+                  "type": "text"
+                }
+              ],
+              "id": "VCOvuYjZRlspMsxv",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 676,
+                "renderHeight": 463.19,
+                "renderWidth": 740,
+                "sourceKey": "9ad12545f6647efdbda63a3e30d5df17de9087e5",
+                "version": 2,
+                "width": 1080
+              },
+              "id": "EUrSQMDCiGGSaxKL",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "fVYkjrMJmRjcQhyn",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "思路4，",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "面料层次的减法：主面料之外，一两层封顶。",
+                  "type": "text"
+                }
+              ],
+              "id": "IuOpEyYLVfwVdtvW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "有些新手会一个款拼四五种面料，不同质地、不同颜色，层次多了就会乱。（除了特意做这类风格的）",
+                  "type": "text"
+                }
+              ],
+              "id": "GrGCTAJmzYBBqbkO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "HgrGDtqHocnmWhYg",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "面料层次的减法原则：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "主面料承担廓形和质感，辅助面料最多一两种，用来点睛或做功能区分，其余回到单面料",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "。",
+                  "type": "text"
+                }
+              ],
+              "id": "OLvdGZYeHOakFriK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 708,
+                "renderHeight": 539.57,
+                "renderWidth": 740,
+                "sourceKey": "41d5e4dc726e632d8fd1d0763670e2c125b1d12c",
+                "version": 2,
+                "width": 971
+              },
+              "id": "KReJThgtSfoQQBik",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "dZZaVtszfRVJpJce",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    },
+                    "fontSize": {
+                      "fontSize": 13
+                    }
+                  },
+                  "content": "最后，我认为给设计做减法有两条底线。",
+                  "type": "text"
+                }
+              ],
+              "id": "ARVnQsfqsZEExvst",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "一是减完之后，设计意图还在：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "焦点仍然成立、风格仍然可辨",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "italic": true
+                  },
+                  "content": "。",
+                  "type": "text"
+                }
+              ],
+              "id": "zoTwoEMuDguDRopN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "二是减完之后要过版型不受影响：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    }
+                  },
+                  "content": "廓形、上身效果没变。",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "如果减完",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "发现比例不对了、上身效果不对了就不行。",
+                  "type": "text"
+                }
+              ],
+              "id": "YmCgmfRWByErWUGC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ygpvkGQfKdRbPCmd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "我认为，设计的完成度从来不是细节上的堆砌，而是细节上的取舍。",
+                  "type": "text"
+                }
+              ],
+              "id": "bhrddujufbQqFSZd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#191919"
+                    }
+                  },
+                  "content": "省下来的不全是成本，而是视觉上的呼吸空间：",
+                  "type": "text"
+                }
+              ],
+              "id": "FslwGuXRDUtfQlWs",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "fontColor": "#AB1942"
+                    },
+                    "italic": true,
+                    "underline": true
+                  },
+                  "content": "让一个焦点站得住，让廓形被一眼记住，让风格一句话说清楚。",
+                  "type": "text"
+                }
+              ],
+              "id": "szxOzZxoYODCbwgH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "lFPOZIMbdUDZRYzB",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "THE END",
+                  "type": "text"
+                }
+              ],
+              "id": "pxBqTdFsTZUbqDFG",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#4E4E4E"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": " -  用心去做的，永远不会浪费 -",
+                  "type": "text"
+                }
+              ],
+              "id": "bYnRzWDrHefgsAQW",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 191,
+                "renderHeight": 191.77,
+                "renderWidth": 599.4,
+                "sourceKey": "e8b6b7446ab2ba86447e2e5e2089b7f9fd5a9d01",
+                "version": 2,
+                "width": 597
+              },
+              "id": "cWfhWprFrBfxdFuR",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "HUbxogMZETysQMsO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1,
+                "level": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    }
+                  },
+                  "content": "F 先 生 绘 公 众 号",
+                  "type": "text"
+                }
+              ],
+              "id": "BCXHoebhppgDMxMk",
+              "type": "heading"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "Take  heart  without  taking  detours ",
+                  "type": "text"
+                }
+              ],
+              "id": "EGBLRGnuyEDwrtec",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "“走心，不走弯路",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#000000"
+                    },
+                    "fontSize": {
+                      "fontSize": 9
+                    }
+                  },
+                  "content": "”",
+                  "type": "text"
+                }
+              ],
+              "id": "znZgLuxonfQTHitO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true,
+                    "color": {
+                      "backgroundColor": "#FFFFFF",
+                      "fontColor": "#222222"
+                    }
+                  },
+                  "content": "服装设计、企划、管理等专业课程",
+                  "type": "text"
+                }
+              ],
+              "id": "fwlhJlZQdqcGTcRC",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 2,
+                "height": 820,
+                "renderHeight": 825.08,
+                "renderWidth": 584.6,
+                "sourceKey": "8150fedd542811efd31ab75ff7ae19f96d865774",
+                "version": 2,
+                "width": 581
+              },
+              "id": "tsUmHDuKCiVzDyyS",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 2
+              },
+              "id": "UBobgxDxjvdCZsav",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "不喜欢",
+                  "type": "text"
+                }
+              ],
+              "id": "RwoFcuaeIpqEglEx",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 10
+    }
+  },
+  "result": "ok"
+}

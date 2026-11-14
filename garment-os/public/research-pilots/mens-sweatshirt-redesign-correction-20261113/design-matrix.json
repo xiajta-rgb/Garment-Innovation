@@ -1,0 +1,364 @@
+{
+  "schema": "garment-os/redesign-correction-matrix/v2",
+  "runId": "mens-sweatshirt-redesign-correction-20261113",
+  "evidence_provenance": "historical-market-sources-plus-live-enterprise-read; candidate-only; no_real_sample; no_production_approval",
+  "baseStyle": {
+    "styleCode": "AT25M3295",
+    "masterId": "company-at25m3295",
+    "sourceImage": "/company-reference/AT25M3295.webp",
+    "lockedDNA": [
+      "微落肩",
+      "圆领",
+      "长袖",
+      "净面无袋",
+      "55mm宽2×2罗纹袖口与下摆",
+      "前后比例与侧面袖体量"
+    ],
+    "sourcePatternStatus": "unconnected",
+    "sourceNote": "AT25M3295 基款硬锁：微落肩、圆领、长袖、净面无袋、55mm宽2×2罗纹袖口与下摆；原稿比例，不是毫米净样。"
+  },
+  "candidateOrder": [
+    "S0",
+    "S1",
+    "S2",
+    "Q0"
+  ],
+  "candidates": [
+    {
+      "id": "S0",
+      "name": "AT25M3295 原稿基线",
+      "role": "基款锁定",
+      "canApply": true,
+      "change": "保留我司原稿的微落肩、圆领、长袖、净面无袋与宽罗纹收口",
+      "question": "基款的版型比例和工艺识别是否被完整保留？",
+      "falsifier": "如果图稿仍表现成普通T恤窄收口或通用直肩，基款复核不通过。",
+      "evidenceIds": [
+        "D1",
+        "D2",
+        "M1"
+      ],
+      "evidenceSummary": [
+        {
+          "id": "D1",
+          "finding": "AT25M3295 原稿显示微落肩、圆领、长袖、净面无袋和宽罗纹收口。",
+          "boundary": "二维原稿能证明视觉与工艺标注来源，不能替代毫米净样。"
+        },
+        {
+          "id": "D2",
+          "finding": "AT25M3288 证明同系列共用微落肩、长袖和宽罗纹骨架。",
+          "boundary": "连帽的双层帽、帽襟和帽绳不能转成半拉链领部依据。"
+        },
+        {
+          "id": "M1",
+          "finding": "本轮经验要求先锁外轮廓、肩袖连接、罗纹高度和前后比例，再做单变量改款。",
+          "boundary": "这是项目评审经验，不是企业通用版型标准。"
+        }
+      ],
+      "opportunityJudgment": "这是基准对照，不构成创新机会主张。它的价值是确认我司基款被正确继承，并为 S1/S2 的单变量归因提供对照。",
+      "opportunityStatus": "baseline-only",
+      "opportunityBoundary": "没有新的需求、价格、成本或市场增量证据；不进入正式机会资格，也不代表生产批准。",
+      "designDecision": {
+        "keep": [
+          "微落肩、圆领、长袖、净面无袋",
+          "55mm 宽 2×2 罗纹袖口与下摆",
+          "原稿正背比例和侧面袖体量"
+        ],
+        "change": [],
+        "prohibited": [
+          "不得画成普通T恤窄收口",
+          "不得用通用直肩替代我司微落肩"
+        ]
+      },
+      "validationGate": {
+        "stage": "设计复核前置",
+        "evidenceNeeded": [
+          "AT25M3295 原始设计稿/工艺单",
+          "原始毫米净样或同款实物",
+          "版师或设计责任人复核记录"
+        ],
+        "sequence": [
+          "逐项对照正面、背面、侧面和宽罗纹表达",
+          "记录领条、罗纹、缝份和针距等未闭合字段",
+          "由授权责任人确认是否达到基款继承要求"
+        ],
+        "decisionRule": "任一锁定 DNA 未被继承则退回修正；原稿、净样或责任人未补齐时保持 baseline-only。"
+      },
+      "nextAction": "先完成 AT25M3295 基款继承复核，形成带责任人的缺口清单；不把 S0 当成新款机会。",
+      "material": {
+        "code": "FC174",
+        "ingredients": "66%Polyester34%Cotton",
+        "nominalGsm": "310",
+        "source": "E2",
+        "testStatus": "not-tested"
+      },
+      "svg": "S0-company-master.svg",
+      "image": "S0-company-master.png",
+      "patternStatus": "company-master-trace",
+      "needs": [
+        "原始毫米净样、放码和同款实物未取得。",
+        "55mm罗纹高度、领条长度、缝份和针距需按原稿/工艺单/样衣复核。"
+      ]
+    },
+    {
+      "id": "S1",
+      "name": "轻材料同版型",
+      "role": "材料单项改款",
+      "canApply": true,
+      "change": "只替换主体材料为 FC063 260g 候选；全部基款轮廓、领、袖口、下摆和净面关系保持",
+      "question": "较轻材料能否改善日常层搭，同时保持基款外观与洗后稳定？",
+      "falsifier": "如果换料后收口波浪、领口失稳、表面起球/落毛或洗后形态退化，则否定材料分支。",
+      "evidenceIds": [
+        "D1",
+        "E2",
+        "S3",
+        "M1"
+      ],
+      "evidenceSummary": [
+        {
+          "id": "D1",
+          "finding": "AT25M3295 提供必须保持的版型、领部和罗纹基准。",
+          "boundary": "原稿比例不是成衣尺寸，不能单独证明换料后的版型表现。"
+        },
+        {
+          "id": "E2",
+          "finding": "FC063 是我司材料主数据中的 260g、68%棉/27%涤/5%氨纶候选。",
+          "boundary": "只有材料主数据，暂无本轮试样物性、洗后或成衣性能证明；260g 不等于轻盈、透气或耐久。"
+        },
+        {
+          "id": "S3",
+          "finding": "评论样本出现不同颜色/材料体验、洗后变长、掉絮和起球等问题，也有不缩水不起球的正例。",
+          "boundary": "购买者历史自述有正反反例，不代表总体发生率，也不能替代我司样衣数据。"
+        },
+        {
+          "id": "M1",
+          "finding": "本轮方法要求材料变化同步检查罗纹匹配、回弹、洗缩、表面和缝口平整。",
+          "boundary": "方法卡没有企业阈值，需由授权责任人指定测试条件。"
+        }
+      ],
+      "opportunityJudgment": "这是当前最值得做的材料单项机会候选：它把评论中的材料不一致、洗后保持和表面质量问题转成可验证假设，同时保留我司版型语法。证据支持“值得做对照”，尚不支持“较轻一定更舒适”或“市场机会已成立”。",
+      "opportunityStatus": "candidate-opportunity",
+      "opportunityBoundary": "未取得 FC063 实物性能、同版型样衣、同体型试穿、洗后记录、成本和商品判断前，不提升为 adopted、正式机会或生产候选。",
+      "designDecision": {
+        "keep": [
+          "AT25M3295 全部轮廓、圆领、肩袖、净面无袋和 55mm 罗纹关系"
+        ],
+        "change": [
+          "只替换主体材料为 FC063 260g 候选"
+        ],
+        "prohibited": [
+          "不叠加领型、口袋、拼片或图案变化",
+          "不把克重直接写成透气、轻盈、耐穿结论"
+        ]
+      },
+      "validationGate": {
+        "stage": "材料单项样衣前置",
+        "evidenceNeeded": [
+          "FC063 与原款主体材料实物批次",
+          "与主体材料匹配的罗纹批次",
+          "版师、面料技术、质量和商品责任人",
+          "洗前后尺寸、表面和穿着记录"
+        ],
+        "sequence": [
+          "冻结 S0/S1 同版型、同尺码和同结构对照",
+          "成对检查主体—罗纹伸长回弹、洗缩、缝口平整、起球和落毛",
+          "做同体型日常层搭与办公场景对照试穿",
+          "回写成本、可得性和商品判断"
+        ],
+        "decisionRule": "只有真实对照记录、授权测试条件、责任人结论和商品成本判断同时形成后，才可讨论保留；关键证据缺失则保持 candidate-opportunity。"
+      },
+      "nextAction": "优先取得 FC063 和原款材料/罗纹对照批次，建立 S0/S1 单变量样衣与洗后记录；暂不扩大到结构改款。",
+      "material": {
+        "code": "FC063",
+        "ingredients": "68%Cotton,27%Polyester5%Spandex",
+        "nominalGsm": "260",
+        "source": "E2",
+        "testStatus": "not-tested"
+      },
+      "svg": "S1-company-master.svg",
+      "image": "S1-company-master.png",
+      "patternStatus": "company-master-trace",
+      "needs": [
+        "FC063 与原 420g 罗纹的伸长、回弹、洗缩和缝口平整需成对测试。",
+        "不能沿用原款罗纹规格而跳过材料联动。"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "微对比罗纹同版型",
+      "role": "视觉单项改款",
+      "canApply": false,
+      "change": "只改变领、袖口和下摆的视觉对比关系；不改变基款轮廓、结构、口袋和主身材料",
+      "question": "在保留我司卫衣骨架的前提下，微弱收口对比是否足以形成可识别差异？",
+      "falsifier": "如果对比色抢过基款识别、色牢度/沾色不稳定或用户偏好无改善，则回退原款。",
+      "evidenceIds": [
+        "D1",
+        "S3",
+        "M1"
+      ],
+      "evidenceSummary": [
+        {
+          "id": "D1",
+          "finding": "AT25M3295 提供微落肩圆领、宽罗纹和净面关系，能约束视觉变化范围。",
+          "boundary": "原稿没有证明对比罗纹会带来市场偏好或溢价。"
+        },
+        {
+          "id": "S3",
+          "finding": "评论中有办公或工作场景不便穿连帽、带图案服装的自述，支持保持净面和克制表达。",
+          "boundary": "这是少量历史购买者自述，不能外推为对比罗纹需求。"
+        },
+        {
+          "id": "M1",
+          "finding": "本轮经验支持低风险单变量视觉探索，但要求保留基款结构识别。",
+          "boundary": "方法经验不提供色号、色牢度、起订量或价格结论。"
+        }
+      ],
+      "opportunityJudgment": "这是视觉差异假设，不是已被市场证实的机会。它可以检验“保留我司卫衣骨架、只改变收口对比”是否提高识别度或偏好，但当前没有直接需求结果证据。",
+      "opportunityStatus": "visual-hypothesis-only",
+      "opportunityBoundary": "未有色号/供应链可得性、洗后沾色与色牢度、目标人群偏好和成本证据；不能计入正式机会或设计台可执行款。",
+      "designDecision": {
+        "keep": [
+          "AT25M3295 轮廓、圆领、肩袖、净面无袋、主身材料和罗纹高度"
+        ],
+        "change": [
+          "只提出领、袖口和下摆的微对比视觉关系"
+        ],
+        "prohibited": [
+          "不得借对比色叠加新结构",
+          "不得把办公场景自述写成普遍需求"
+        ]
+      },
+      "validationGate": {
+        "stage": "视觉提案审查",
+        "evidenceNeeded": [
+          "实际罗纹色号与供应链确认",
+          "洗后沾色/色牢度条件与记录",
+          "目标人群偏好或选款结果",
+          "采购起订量与成本信息"
+        ],
+        "sequence": [
+          "先以同版型视觉稿确认对比强度和基款识别",
+          "补齐配套罗纹来源与色号",
+          "再做小范围偏好/选款记录和洗后色彩检查",
+          "根据责任人结论决定回退或进入下一轮"
+        ],
+        "decisionRule": "在视觉、供应链、色牢度和偏好证据没有同时闭合前，保持 visual-hypothesis-only，不送入当前设计台。"
+      },
+      "nextAction": "保留为视觉讨论稿，先补对比罗纹色号、供应链和验证条件；不继续叠加图案、拼片或领型。",
+      "material": {
+        "code": "FC174",
+        "ingredients": "66%Polyester34%Cotton",
+        "nominalGsm": "310",
+        "source": "E2",
+        "testStatus": "not-tested"
+      },
+      "svg": "S2-contrast-rib-proposal.svg",
+      "image": "S2-contrast-rib-proposal.png",
+      "patternStatus": "visual-proposal-only",
+      "needs": [
+        "领/袖口/下摆实际罗纹色号与供应链匹配待定。",
+        "洗后沾色、色牢度和采购起订量待核。",
+        "平台需要新增“基款配套部件对比色”字段后才可保留该设计状态。"
+      ]
+    },
+    {
+      "id": "Q0",
+      "name": "半拉链方向（暂不落图）",
+      "role": "结构开发单",
+      "canApply": false,
+      "change": "市场假设仍保留为研究方向，但不在没有我司半拉链原稿/净样时生成伪三视图",
+      "question": "我司是否有可核验的半开襟领部结构、版型规格和真实穿着反馈？",
+      "falsifier": "没有原稿、净样、结构责任人和样衣验证时，不能把半拉链列入可执行改款。",
+      "evidenceIds": [
+        "S1",
+        "S2",
+        "E1",
+        "D1",
+        "D2"
+      ],
+      "evidenceSummary": [
+        {
+          "id": "S1",
+          "finding": "半拉链相关词走势相互矛盾：quarter zip men、mens quarter zip 上升，但带 pullover 的近义词下降。",
+          "boundary": "逐词工具估算，不支持整个半拉链赛道爆发或白地结论。"
+        },
+        {
+          "id": "S2",
+          "finding": "半拉链评论既有穿脱灵活的正面反馈，也有材料差异、腹围和拉链外观质量问题。",
+          "boundary": "购买者自述有正反反例，不能替代我司目标人群验证。"
+        },
+        {
+          "id": "E1",
+          "finding": "我司商品表现记录包含 B23M2009 半开襟立领卫衣，近30日记录合计 2254 件。",
+          "boundary": "按款号查询未返回完整原稿，不等于我司不存在该构型；销量记录也不证明设计机会成立。"
+        },
+        {
+          "id": "D1",
+          "finding": "AT25M3295 可作为公司圆领基款来源。",
+          "boundary": "圆领原稿不能直接提供半拉链领面、领底、挡片和止点结构。"
+        },
+        {
+          "id": "D2",
+          "finding": "AT25M3288 可作为同系列宽罗纹与肩袖骨架参考。",
+          "boundary": "连帽裁片不能替代半拉链结构来源。"
+        }
+      ],
+      "opportunityJudgment": "半拉链仍是需要研究的市场方向，但当前不能认定为市场白地或公司新增机会。现有证据同时出现趋势反例、我司已有相关构型和结构来源缺口，因此先阻断落图，待补齐来源后再做结构对照。",
+      "opportunityStatus": "blocked-pending-source-pattern",
+      "opportunityBoundary": "缺少我司半拉链原稿/净样、完整领部配套、版型规格、结构责任人和真实穿着数据；本轮不生成可执行三视图，也不计入设计台候选。",
+      "designDecision": {
+        "keep": [
+          "保留半拉链作为待核研究问题",
+          "保留 AT25M3295 作为未来对照基款"
+        ],
+        "change": [
+          "待来源补齐后，单独建立领部结构轴和材料轴的分步对照"
+        ],
+        "prohibited": [
+          "不得把关键词上涨写成机会成立",
+          "不得把圆领母版加一条拉链当作完成的半拉链结构",
+          "不得在来源未闭合时生成伪三视图"
+        ]
+      },
+      "validationGate": {
+        "stage": "结构开发来源门禁",
+        "evidenceNeeded": [
+          "B23M2009 完整原稿或同构型授权母版",
+          "半拉链净样/裁片或工艺资料",
+          "领面领底、领座/贴边、护颏、挡片、止点和末端加固信息",
+          "版师、工艺和商品责任人"
+        ],
+        "sequence": [
+          "先核实我司既有构型与具体版本",
+          "建立领部裁片和配缝清单",
+          "在公司版型骨架上做单结构对照",
+          "再做样衣、试穿和拉链/洗后验证"
+        ],
+        "decisionRule": "来源结构、责任人和真实样衣未补齐前，保持 blocked-pending-source-pattern；市场趋势不能解除该阻断。"
+      },
+      "nextAction": "补查 B23M2009 原稿、净样和责任人；在资料返回前只保留开发单，不再生成半拉链图稿。",
+      "material": {
+        "code": "FC174",
+        "ingredients": "66%Polyester34%Cotton",
+        "nominalGsm": "310",
+        "source": "E2",
+        "testStatus": "not-tested"
+      },
+      "svg": "Q0-blocked-brief.svg",
+      "image": "Q0-blocked-brief.png",
+      "patternStatus": "blocked-source-pattern",
+      "needs": [
+        "B23M2009 具体款号查询未返回，不能解释为公司不存在该款。",
+        "需取得我司半拉链原稿、净样或可授权的同构型母版后再进入结构试验。"
+      ]
+    }
+  ],
+  "recommendation": "先复核 S0 的基款继承程度；再做 S1 材料单项样衣。S2 只能作为视觉讨论稿，Q0 保留为阻断的结构开发单。没有同款净样、样衣与责任人，不扩大结构矩阵。",
+  "matrix": {
+    "json": "/research-pilots/mens-sweatshirt-redesign-correction-20261113/design-matrix.json",
+    "markdown": "/research-pilots/mens-sweatshirt-redesign-correction-20261113/design-matrix.md",
+    "image": "/research-pilots/mens-sweatshirt-redesign-correction-20261113/design-matrix.png"
+  },
+  "productionApproved": false,
+  "physicalTestCompleted": false,
+  "formalQualified": false
+}

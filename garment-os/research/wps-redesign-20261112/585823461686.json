@@ -1,0 +1,441 @@
+{
+  "detail": {
+    "name": "block.query",
+    "params": {
+      "blockIds": [
+        "doc"
+      ]
+    },
+    "result": {
+      "blocks": [
+        {
+          "attrs": {
+            "cover": {}
+          },
+          "content": [
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "女装系列延伸改款秀场实例",
+                  "type": "text"
+                }
+              ],
+              "id": "uUgJRYPPLOKnxZEI",
+              "type": "title"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "📌 原文链接：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "color": {
+                      "fontColor": "#AEB5C0"
+                    },
+                    "link": {
+                      "href": "https://mp.weixin.qq.com/s/-9arbhB_aSbZqzzFfRQyPA"
+                    },
+                    "underline": true
+                  },
+                  "content": "https://mp.weixin.qq.com/...",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "🕘 收藏时间：",
+                  "type": "text"
+                },
+                {
+                  "content": "2026年11月12日",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📂 文档目录：",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "我的云文档/应用/金山收藏助手",
+                  "type": "text"
+                },
+                {
+                  "type": "br"
+                },
+                {
+                  "content": "📑 本文档由",
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "link": {
+                      "href": "https://kdocs.cn/l/cpRidR7kBnn3"
+                    }
+                  },
+                  "content": "【金山收藏助手】",
+                  "type": "text"
+                },
+                {
+                  "content": "一键生成",
+                  "type": "text"
+                }
+              ],
+              "id": "yBWQtJUQcAfOWexT",
+              "type": "blockQuote"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "8101f0ea9ce1377223bc1adecd50bdee38486fba",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "zZjVHQFIUtuSDsgV",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "fd3f3a7ff6f1b09eefe79a7cd1388bfaefa3198a",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "VGXFpokNmyUDVesS",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "8a55a42a4b759a3e6a002d7a98a4eca2b60321bb",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "gLELGotIJuLnYxIN",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "784ce4d6522e1f8a8d3453fa6352f1a7087d3646",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "xiJKEfZRpzTjeuor",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1660,
+                "renderHeight": 989.05,
+                "renderWidth": 740,
+                "sourceKey": "ecb36f2551f0ac57b8b9248a6188c094c1ecd98e",
+                "version": 2,
+                "width": 1242
+              },
+              "id": "BrrsEKoOfDzGYaJz",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "height": 1421,
+                "renderHeight": 1050.49,
+                "renderWidth": 740,
+                "sourceKey": "e74ce447c26d6b4c865807c1cd070c44c964bf89",
+                "version": 2,
+                "width": 1001
+              },
+              "id": "DApgYJIZlOxlBkDZ",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "ThTbRSCERpGKAhet",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "1.造型长度变化延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "OoEUxHcaGLyumdUZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "2.搭配单品变化延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "EdXiThmuNLtrdXfE",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "3.图案面积大小变化延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "kMSpmGJgJbKDXfMo",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "4.面料面积大小变化延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "JFXlItHHmvSqAjVl",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "5.同类图案不同单品延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "MPkZvMrpdqbIfNTU",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "6.同一廓形不同单品延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "VLnEvxWoHhXTKoDD",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "7.外形缩减变化延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "ChQGKyRbfmYDxooK",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "8.外形聚拢变化延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "OPUlbUNFKaIxPHzH",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "9.长度与款式变化延伸",
+                  "type": "text"
+                }
+              ],
+              "id": "YduoBzymqPOEMdyS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "FdgQSeYPdtecUKfN",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "相关内容见图片，可👉滑动。",
+                  "type": "text"
+                }
+              ],
+              "id": "CYhuscyjHsnJRrRa",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "FFlrGrlMeIHccNZI",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "如需本内容及更多高清干货电子版资料，可于文中扫码购买。",
+                  "type": "text"
+                }
+              ],
+              "id": "KGANzgikkAJzmtdS",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "attrs": {
+                    "bold": true
+                  },
+                  "content": "微信扫一扫赞赏作者",
+                  "type": "text"
+                },
+                {
+                  "content": "Like Author",
+                  "type": "text"
+                }
+              ],
+              "id": "QoVhXriDCyXgqyXd",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "GcpjsvhLTcLmLGNM",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "F先生",
+                  "type": "text"
+                }
+              ],
+              "id": "MqNVWSJfcGeihZgO",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "Collected in",
+                  "type": "text"
+                },
+                {
+                  "content": "服装设计开发",
+                  "type": "text"
+                }
+              ],
+              "id": "TLLDOQQzxNsDSQDU",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "height": 272,
+                "renderHeight": 273.8,
+                "renderWidth": 273.8,
+                "sourceKey": "76ca0ae4203aa8c115d0c3424d824d2e4ff36e08",
+                "version": 2,
+                "width": 272
+              },
+              "id": "FCocXrLkifNLzQCN",
+              "type": "picture"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "vVNkJccscLjcmpJZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "content": [
+                {
+                  "content": "F先生绘",
+                  "type": "text"
+                }
+              ],
+              "id": "JPKNWCuoZQHTLBsZ",
+              "type": "paragraph"
+            },
+            {
+              "attrs": {
+                "align": 1
+              },
+              "id": "frFbQUcDcoVJwfKU",
+              "type": "paragraph"
+            }
+          ],
+          "id": "doc",
+          "type": "doc"
+        }
+      ],
+      "version": 9
+    }
+  },
+  "result": "ok"
+}

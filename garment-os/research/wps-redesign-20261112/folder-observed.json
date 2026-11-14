@@ -1,0 +1,1482 @@
+[
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/411054285332/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 411054285332,
+        "groupid": 382050174,
+        "parentid": 395960071679,
+        "fname": "传输助手",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1748920235,
+        "mtime": 1748920237,
+        "user_nickname": "夏",
+        "link_id": "ckihHr94qjz9"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/417213760794/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 417213760794,
+        "groupid": 382050174,
+        "parentid": 395960071679,
+        "fname": "微信文件",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1750076862,
+        "mtime": 1750076862,
+        "user_nickname": "夏",
+        "link_id": "ct0Nnt5UeFwo"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/410971154642/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 410971154642,
+        "groupid": 382050174,
+        "parentid": 395960071679,
+        "fname": "拍照扫描",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1748915760,
+        "mtime": 1748915760,
+        "user_nickname": "夏",
+        "link_id": "cqWG6l7XSubI"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/395960071685/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 395960071685,
+        "groupid": 382050174,
+        "parentid": 395960071679,
+        "fname": "金山收藏助手",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1745676898,
+        "mtime": 1794494782,
+        "user_nickname": "夏",
+        "link_id": "ckbKTfRJelFf"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/395960071679/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 395960071679,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "应用",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1745676898,
+        "mtime": 1794494813,
+        "user_nickname": "夏",
+        "link_id": "cnB0XldKR8jo"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/501958519996/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 501958519996,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "My_Research_Library",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1773650263,
+        "mtime": 1790574742,
+        "user_nickname": "夏",
+        "link_id": "ccs5ytm3E0bA"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/418980340927/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 418980340927,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "企划工作",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1750343033,
+        "mtime": 1791799332,
+        "user_nickname": "夏",
+        "link_id": "caPcZNsVbF5W"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/370913208769/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 370913208769,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "cc的云文档",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1739970671,
+        "mtime": 1793405960,
+        "user_nickname": "夏",
+        "link_id": "cvcOuDI1rlPX"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/534587617606/metadata",
+    "body": {
+      "file_acl": {
+        "modify": "1"
+      },
+      "fileinfo": {
+        "fileid": 534587617606,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "个人知识库",
+        "fsize": 0,
+        "ftype": "linkfolder",
+        "fver": 1,
+        "ctime": 1782214079,
+        "mtime": 1794158300,
+        "user_nickname": "夏",
+        "linkgroupid": 3129718282,
+        "link_id": "crOGzo8ghD3R"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/354097485417/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 354097485417,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "xjt的云文档",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1733972979,
+        "mtime": 1793244432,
+        "user_nickname": "夏",
+        "link_id": "cdgPpVeQnV0b"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/500764078825/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 500764078825,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "子不语系统使用反馈搜集表",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1773294989,
+        "mtime": 1773298889,
+        "user_nickname": "夏",
+        "link_id": "caQCVESHZ53i"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/539662506297/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 539662506297,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "Clash.for.Windows-0.20.39-win-CN",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1783431492,
+        "mtime": 1783431509,
+        "user_nickname": "夏",
+        "link_id": "cleXIp3Q3i0H"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/461790613990/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 461790613990,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "vba宏表格模板",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1761787242,
+        "mtime": 1780275663,
+        "user_nickname": "夏",
+        "link_id": "cs0k4egfzWm9"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/499752437999/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 499752437999,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "数智化规划工作",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1773051184,
+        "mtime": 1778514231,
+        "user_nickname": "夏",
+        "link_id": "cfAmDntGMfyi"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/501080206602/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 501080206602,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "obsidian",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1773371080,
+        "mtime": 1776691401,
+        "user_nickname": "夏",
+        "link_id": "cphmvyYvhVDn"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/492308617739/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 492308617739,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "wenxian",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1770133887,
+        "mtime": 1770133891,
+        "user_nickname": "夏",
+        "link_id": "csDHSlVkLyg9"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/files/499750552308/metadata",
+    "body": {
+      "fileinfo": {
+        "fileid": 499750552308,
+        "groupid": 382050174,
+        "parentid": 0,
+        "fname": "我的模板",
+        "fsize": 0,
+        "ftype": "folder",
+        "fver": 1,
+        "ctime": 1773050806,
+        "mtime": 1773051068,
+        "user_nickname": "夏",
+        "link_id": "ctfhIVGJT4ew"
+      },
+      "folderinfo": {
+        "modify": "1"
+      },
+      "result": "ok",
+      "user_acl": {
+        "comment": 1,
+        "copy": 1,
+        "copycontent": 1,
+        "delete": 1,
+        "download": 1,
+        "history": 1,
+        "manage_link": 1,
+        "manage_perm": 1,
+        "move": 1,
+        "new_empty": 1,
+        "print": 1,
+        "read": 1,
+        "rename": 1,
+        "saveas": 1,
+        "secret": 0,
+        "share": 1,
+        "update": 1,
+        "upload": 1
+      }
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/groups/382050174/files/395960071685/path",
+    "body": {
+      "group_type": "special",
+      "path": [
+        {
+          "fname": "应用",
+          "fileid": 395960071679,
+          "corpid": 0,
+          "groupid": 382050174,
+          "linkgroupid": 0,
+          "type": "folder"
+        },
+        {
+          "fname": "金山收藏助手",
+          "fileid": 395960071685,
+          "corpid": 0,
+          "groupid": 382050174,
+          "linkgroupid": 0,
+          "type": "folder"
+        }
+      ],
+      "result": "ok"
+    }
+  },
+  {
+    "url": "https://drive.kdocs.cn/api/v5/groups/382050174/files",
+    "body": {
+      "files": [
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "认知成长与职业",
+          "fsize": 0,
+          "ftype": "folder",
+          "ctime": 1776248734,
+          "mtime": 1794235215,
+          "store": 1,
+          "storeid": "",
+          "fver": 1,
+          "fsha": "",
+          "deleted": false,
+          "id": 512001221056,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "folder_acl": {
+            "modify": "1"
+          },
+          "link_id": "crQntBiditAt"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "AI",
+          "fsize": 0,
+          "ftype": "folder",
+          "ctime": 1776248391,
+          "mtime": 1794235138,
+          "store": 1,
+          "storeid": "",
+          "fver": 1,
+          "fsha": "",
+          "deleted": false,
+          "id": 511998021971,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "folder_acl": {
+            "modify": "1"
+          },
+          "link_id": "cfXxNHYxDQnY"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "运营",
+          "fsize": 0,
+          "ftype": "folder",
+          "ctime": 1746150679,
+          "mtime": 1794235107,
+          "store": 1,
+          "storeid": "",
+          "fver": 1,
+          "fsha": "",
+          "deleted": false,
+          "id": 398204922478,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "folder_acl": {
+            "modify": "1"
+          },
+          "link_id": "cbzXPlbw5rLz"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "服装设计与商品企划",
+          "fsize": 0,
+          "ftype": "folder",
+          "ctime": 1794234330,
+          "mtime": 1794235054,
+          "store": 1,
+          "storeid": "",
+          "fver": 1,
+          "fsha": "",
+          "deleted": false,
+          "id": 584332539974,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "folder_acl": {
+            "modify": "1"
+          },
+          "link_id": "caxreK1n9ASY"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "品牌策略与视觉设计",
+          "fsize": 0,
+          "ftype": "folder",
+          "ctime": 1794234341,
+          "mtime": 1794234706,
+          "store": 1,
+          "storeid": "",
+          "fver": 1,
+          "fsha": "",
+          "deleted": false,
+          "id": 584331297962,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "folder_acl": {
+            "modify": "1"
+          },
+          "link_id": "cqlBtXdv2GIi"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "占星",
+          "fsize": 0,
+          "ftype": "folder",
+          "ctime": 1746150666,
+          "mtime": 1794234706,
+          "store": 1,
+          "storeid": "",
+          "fver": 1,
+          "fsha": "",
+          "deleted": false,
+          "id": 398208067053,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "folder_acl": {
+            "modify": "1"
+          },
+          "link_id": "cmuQu7tjaTJw"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "爆款 =（流行元素 × 实穿性）÷（成本 × 生产难度）｜市场服装设计完整工作流.otl",
+          "fsize": 105430,
+          "ftype": "file",
+          "ctime": 1794494782,
+          "mtime": 1794494848,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "5a9c24e6ce3b15b065f9e44e243e2a866c016e06",
+          "deleted": false,
+          "id": 585824497875,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "cby8TRYjFqwf",
+          "link_url": "https://www.kdocs.cn/l/cby8TRYjFqwf"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "爆款廓形如何做延伸（公式+5维思路）.otl",
+          "fsize": 63376,
+          "ftype": "file",
+          "ctime": 1794494748,
+          "mtime": 1794494813,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "590535ce1537bdc4a638b85873f3e611d99b36f3",
+          "deleted": false,
+          "id": 585824487310,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "ct9npcpM3Yhl",
+          "link_url": "https://www.kdocs.cn/l/ct9npcpM3Yhl"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "衬衫爆款：从版型角度延伸的具体方法.otl",
+          "fsize": 87150,
+          "ftype": "file",
+          "ctime": 1794494737,
+          "mtime": 1794494803,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "dfe711f2d75a734bc25d8a07ccc3738f80cf048a",
+          "deleted": false,
+          "id": 585823482282,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "co2jFr7PtWKJ",
+          "link_url": "https://www.kdocs.cn/l/co2jFr7PtWKJ"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "款式设计延伸思路分析.otl",
+          "fsize": 56304,
+          "ftype": "file",
+          "ctime": 1794494724,
+          "mtime": 1794494790,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "f071dcf38a48379b12df10d241f742d229af55f9",
+          "deleted": false,
+          "id": 585823479156,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "ccIGS5dYQ4VP",
+          "link_url": "https://www.kdocs.cn/l/ccIGS5dYQ4VP"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "单品延伸，我踩过的八大坑.otl",
+          "fsize": 86842,
+          "ftype": "file",
+          "ctime": 1794494712,
+          "mtime": 1794494777,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "fa97d70c4ef3d41fe2d42bca28f44c6b10f645c2",
+          "deleted": false,
+          "id": 585823476115,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "cbU3foorC6BI",
+          "link_url": "https://www.kdocs.cn/l/cbU3foorC6BI"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "市场服装设计延伸公式与开发规划.otl",
+          "fsize": 33342,
+          "ftype": "file",
+          "ctime": 1794494767,
+          "mtime": 1794494767,
+          "store": 9,
+          "storeid": "",
+          "fver": 2,
+          "fsha": "a3efbcd6b890fabc02190570e172cc00a6b2de49",
+          "deleted": false,
+          "id": 585824493050,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "cogFvT9gwCfO",
+          "link_url": "https://www.kdocs.cn/l/cogFvT9gwCfO"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "服装款式延伸系统方法（七大品类）.otl",
+          "fsize": 16434,
+          "ftype": "file",
+          "ctime": 1794494695,
+          "mtime": 1794494760,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "8caa12883d0a21008e18ad748ac8354b3898e893",
+          "deleted": false,
+          "id": 585818000573,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "ctFdqDbRTazq",
+          "link_url": "https://www.kdocs.cn/l/ctFdqDbRTazq"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "如何做爆款设计延伸（款式、廓形、面料）.otl",
+          "fsize": 10936,
+          "ftype": "file",
+          "ctime": 1794494683,
+          "mtime": 1794494749,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "a2d87c2e83f9aa817d8636c182e75efd2a65b55c",
+          "deleted": false,
+          "id": 585824466434,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "cfNZcF64VfMV",
+          "link_url": "https://www.kdocs.cn/l/cfNZcF64VfMV"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "【精心整理】商业设计公式思维导图（延伸、改款、出款）.otl",
+          "fsize": 34864,
+          "ftype": "file",
+          "ctime": 1794494668,
+          "mtime": 1794494733,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "788a1e40fb458c1c9b8733a10ccd8fc9e11c6cd5",
+          "deleted": false,
+          "id": 585818292878,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "cdyqHkDw8Gn9",
+          "link_url": "https://www.kdocs.cn/l/cdyqHkDw8Gn9"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "女装系列延伸改款秀场实例.otl",
+          "fsize": 13573,
+          "ftype": "file",
+          "ctime": 1794494650,
+          "mtime": 1794494715,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "51d058d9402266ec71f5d7540d39086168b04550",
+          "deleted": false,
+          "id": 585823461686,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "cnZJRqJElpvr",
+          "link_url": "https://www.kdocs.cn/l/cnZJRqJElpvr"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "服装设计开发怎样有效改款.otl",
+          "fsize": 16701,
+          "ftype": "file",
+          "ctime": 1794494638,
+          "mtime": 1794494703,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "bc584950f413f1db28e81aebbd429150e52a5792",
+          "deleted": false,
+          "id": 585824451935,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "co4Os4dp08zq",
+          "link_url": "https://www.kdocs.cn/l/co4Os4dp08zq"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "服装延伸改款的7个设计思路.otl",
+          "fsize": 11626,
+          "ftype": "file",
+          "ctime": 1794494627,
+          "mtime": 1794494693,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "ecb118c260c25121058f625ee5b0a0685d5f080d",
+          "deleted": false,
+          "id": 585818286635,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "cpZrAznEMdLd",
+          "link_url": "https://www.kdocs.cn/l/cpZrAznEMdLd"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "我花了两周整理的改款延伸思路表格.otl",
+          "fsize": 10267,
+          "ftype": "file",
+          "ctime": 1794494611,
+          "mtime": 1794494677,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "25e0422cf0012aa1bab0645cdbab84e14bee30a6",
+          "deleted": false,
+          "id": 585817990902,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "cfx8NlYcUCN8",
+          "link_url": "https://www.kdocs.cn/l/cfx8NlYcUCN8"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "四类服装公司改款方式特征对比.otl",
+          "fsize": 14471,
+          "ftype": "file",
+          "ctime": 1794494597,
+          "mtime": 1794494663,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "1792c029e6f1baf20b6bab2271cdfc5867078139",
+          "deleted": false,
+          "id": 585824439271,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "cr7WeOmKUFTN",
+          "link_url": "https://www.kdocs.cn/l/cr7WeOmKUFTN"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "MiuMiu改款模式实例拆解.otl",
+          "fsize": 9886,
+          "ftype": "file",
+          "ctime": 1794494584,
+          "mtime": 1794494649,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "c57e87342088e3458ff3a9b0cf9f3d64ceac2d0d",
+          "deleted": false,
+          "id": 585823446275,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "cmROKQmpZOLB",
+          "link_url": "https://www.kdocs.cn/l/cmROKQmpZOLB"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "女装改款：方法、步骤与背后逻辑.otl",
+          "fsize": 134803,
+          "ftype": "file",
+          "ctime": 1794494571,
+          "mtime": 1794494636,
+          "store": 9,
+          "storeid": "",
+          "fver": 3,
+          "fsha": "9a667ab6bcb1e2182f9bcf617e60268a362214f3",
+          "deleted": false,
+          "id": 585815173288,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "cl4yFceiGH3H",
+          "link_url": "https://www.kdocs.cn/l/cl4yFceiGH3H"
+        },
+        {
+          "groupid": 382050174,
+          "parentid": 395960071685,
+          "fname": "女装改款文章20篇全收录｜建立可复用的商业款式延伸体系.otl",
+          "fsize": 33099,
+          "ftype": "file",
+          "ctime": 1794492181,
+          "mtime": 1794492182,
+          "store": 9,
+          "storeid": "",
+          "fver": 2,
+          "fsha": "95eef91a71ea4ab83bd364a7531c99ed8b6ed6ac",
+          "deleted": false,
+          "id": 585804964324,
+          "creator": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "modifier": {
+            "id": 2491101,
+            "name": "夏",
+            "avatar": "https://img.qwps.cn/2491101_fc3f5d725272faa51e685c12f2bee627?imageMogr2/thumbnail/180x180!",
+            "corpid": 0
+          },
+          "file_acl": {
+            "modify": "1"
+          },
+          "link_id": "ccxRaJFw7NLb",
+          "link_url": "https://www.kdocs.cn/l/ccxRaJFw7NLb"
+        }
+      ],
+      "next_filter": "file",
+      "next_offset": -1,
+      "result": "ok"
+    }
+  }
+]
