@@ -10,6 +10,7 @@ const DesignAssistant = lazy(() => import('@/features/ai/DesignAssistant').then(
 import { GenderSwitcher } from '@/features/right-panel/components/GenderSwitcher';
 import { DesignToolbar } from '@/features/design-sheet/DesignToolbar';
 import { TemplateManager } from '@/features/template-library/components/TemplateManager';
+import { useCompositionUiStore } from '@/store/compositionUiStore';
 const ElementLibraryPanel = lazy(() => import('@/features/element-library/ElementLibraryPanel').then(m => ({ default: m.ElementLibraryPanel })));
 
 export function LeftSidebar() {
@@ -19,6 +20,7 @@ export function LeftSidebar() {
   const openReferences = usePieceLibraryStore(s=>s.openReferenceCatalogue);
   const browse = usePieceLibraryStore(s=>s.referenceBrowse);
   const clearFilter = usePieceLibraryStore(s=>s.showCurrentPieces);
+  const compositionActive = useCompositionUiStore(s=>s.active);
 
   return (
     <aside className="left-panel" style={{ width: 220, display: 'flex', flexDirection: 'column', flexShrink: 0, overflowY: 'auto', overflowX: 'hidden' }}>
@@ -27,6 +29,14 @@ export function LeftSidebar() {
       <SidebarSection title="Gender" defaultExpanded={true}>
         <GenderSwitcher />
       </SidebarSection>
+
+      {compositionActive && <SidebarSection title="改款元素" defaultExpanded={true}>
+        <div
+          id="left-sidebar-element-host"
+          data-testid="left-sidebar-element-host"
+          aria-label="改款元素切换"
+        />
+      </SidebarSection>}
 
       {/* 模板管理库: 整合了模板/颜色/面料/部件切换 */}
       <SidebarSection title="模板管理库" defaultExpanded={true}>

@@ -53,6 +53,11 @@ it('draws a Polo as a separate knit collar stand, two pointed collar leaves and 
  const sideCollar=side.querySelector('[data-operation="side-polo-collar"]')!;
  const sideValues=sideCollar.getAttribute('d')!.match(/-?(?:\d+\.?\d*|\.\d+)/g)!.map(Number);
  expect(Math.max(...sideValues.filter((_,i)=>i%2===1))).toBeLessThan(.08);
+ const backStand=back.querySelector('[data-operation="polo-back-collar-stand"]')!,backStandValues=backStand.getAttribute('d')!.match(/-?(?:\d+\.?\d*|\.\d+)/g)!.map(Number),backXs=backStandValues.filter((_,i)=>i%2===0),backYs=backStandValues.filter((_,i)=>i%2===1);
+ // A Polo back stand is a continuous shoulder-to-shoulder band. A narrow
+ // central patch is visually indistinguishable from a crew-neck facing.
+ expect(Math.max(...backXs)-Math.min(...backXs)).toBeGreaterThan(d.provenance.landmarks.neck[0]*1.6);
+ expect(Math.min(...backYs)).toBeLessThan(0);
 });
 it('propagates length, fit, neckline, sleeve and pocket changes without stretching every component together',()=>{
  const c=baseline(),d=draw(c),long=draw({...c,measurements:{...c.measurements,totalLength:c.measurements.totalLength+40}}),wide=draw({...c,fit:'loose'});

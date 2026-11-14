@@ -17,12 +17,21 @@ export function teeCraftDrawing(input:{neckline:CompositionElements['neckline'];
    // into a Henley-like V at the browser scale.  Keep the upper stand edge
    // negative (above the HPS) and make the leaves end on either side of the
    // placket instead of meeting in one centre point.
-   const standHalf=Math.max(.075,n*.48),standHeight=Math.min(.028,Math.max(.024,h*.42)),standBottom=Math.min(.020,Math.max(.014,drop+h*.04)),standBottomCenter=Math.max(standBottom+.011,2*drop+.003),standTop=-standHeight,
+   // The back collar stand must cover the complete back neckline. A narrow
+   // central patch reads as a crew-neck facing in the fixed three-view, while
+   // a Polo stand is a continuous curved band from shoulder to shoulder.
+   const standHalf=Math.max(.095,n*.86),standHeight=Math.min(.062,Math.max(.045,h*.9)),standBottom=Math.min(.020,Math.max(.014,drop+h*.04)),standBottomCenter=Math.max(standBottom+.011,2*drop+.003),standTop=-standHeight,
      leafDepth=Math.max(.074,h*1.28),leafPointY=drop+leafDepth,
      wing=Math.min(n*.98,Math.max(.130,n*.88)),point=Math.max(.032,w*1.08),
      standPath=`M${-standHalf} ${p(standTop)}Q0 ${p(standTop-.009)} ${standHalf} ${p(standTop)}L${standHalf} ${p(standBottom)}Q0 ${p(standBottomCenter)} ${-standHalf} ${p(standBottom)}Z`;
    const standBand=standPath;
-   if(back)return path(standPath,'polo-back-collar-stand',neckColor)+path(`M0 ${p(standTop+.018)}V${p(standBottomCenter)}`,'polo-back-centre-seam','none','#354638',.00095);
+   if(back){
+    // Keep the lower edge on the back neck curve and raise the outer edge by
+    // the collar-stand height. This gives the back view the same collar-seat
+    // logic as the front view instead of a floating rounded rectangle.
+    const backStand=`M${-n} 0Q0 ${p(2*drop)} ${n} 0L${n} ${p(-standHeight)}Q0 ${p(2*drop-standHeight)} ${-n} ${p(-standHeight)}Z`;
+    return path(backStand,'polo-back-collar-stand',neckColor)+path(`M0 ${p(2*drop-standHeight+.006)}V${p(2*drop-.006)}`,'polo-back-centre-seam','none','#354638',.00095);
+   }
    // The company Polo references use a knit collar with a narrow stand and
    // two distinct pointed leaves. Keep each leaf as its own filled piece so
    // the fold, join and edge remain readable in the three-view drawing.
