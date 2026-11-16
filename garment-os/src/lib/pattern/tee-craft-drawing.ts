@@ -20,12 +20,13 @@ export function teeCraftDrawing(input:{neckline:CompositionElements['neckline'];
    // The back collar stand must cover the complete back neckline. A narrow
    // central patch reads as a crew-neck facing in the fixed three-view, while
    // a Polo stand is a continuous curved band from shoulder to shoulder.
-   const standHalf=Math.max(.095,n*.86),standHeight=Math.min(.036,Math.max(.026,h*.52)),standBottom=Math.min(.018,Math.max(.010,drop*.35)),standBottomCenter=Math.min(.055,Math.max(standBottom+.012,2*drop+.003)),standTop=-standHeight,
-     leafDepth=Math.max(.058,h*1.05),leafPointY=Math.min(.112,drop+leafDepth),
-     // The leaf reaches toward the shoulder and then turns down toward the
-     // placket. Keeping the point near CF gives a real spread collar instead
-     // of the square bib produced by using the whole stand as one fill.
-     wing=Math.min(.205,Math.max(.160,n*1.28)),point=Math.max(.036,w*1.25),
+   const standHalf=Math.max(.075,n*.60),standHeight=Math.min(.029,Math.max(.022,h*.48)),standBottom=Math.min(.016,Math.max(.009,drop*.26)),standBottomCenter=Math.min(.040,Math.max(standBottom+.008,drop*1.25)),standTop=-standHeight,
+     leafDepth=Math.min(.086,Math.max(.065,h*1.18)),leafPointY=Math.min(.112,drop+leafDepth),
+     // The company collar is a compact spread collar. Its outer shoulder
+     // points stay inside the neckline width, while each leaf turns inward
+     // to a clear point beside the placket. This keeps the stand visible as
+     // a narrow raised band instead of a broad bib or bow tie.
+     wing=Math.min(n*.94,Math.max(.105,n*.84)),point=Math.max(.028,w*.92),
      standPath=`M${-standHalf} ${p(standTop)}Q0 ${p(standTop-.009)} ${standHalf} ${p(standTop)}L${standHalf} ${p(standBottom)}Q0 ${p(standBottomCenter)} ${-standHalf} ${p(standBottom)}Z`;
    const standBand=standPath;
    if(back){
@@ -42,21 +43,24 @@ export function teeCraftDrawing(input:{neckline:CompositionElements['neckline'];
    // at the neck edge, runs almost to the shoulder side, then points inward
    // to the placket. The previous geometry pulled both leaves too far inward
    // and made a bow-tie shape in the flat view.
-   const outerY=standTop+.006,innerY=standBottom+.006,tipY=leafPointY,tipInset=Math.max(.010,point*.42);
-   const left=`M${-point} ${p(innerY)}L${-wing} ${p(outerY)}Q${-wing-.012} ${p(outerY+.014)} ${-wing-.006} ${p(outerY+.022)}Q${-point} ${p(tipY-.010)} ${-point} ${p(tipY)}L${-point+tipInset} ${p(tipY-.012)}Q${-point*.52} ${p(innerY+.010)} ${-point} ${p(innerY)}Z`;
-   const right=`M${point} ${p(innerY)}L${wing} ${p(outerY)}Q${wing+.012} ${p(outerY+.014)} ${wing+.006} ${p(outerY+.022)}Q${point} ${p(tipY-.010)} ${point} ${p(tipY)}L${point-tipInset} ${p(tipY-.012)}Q${point*.52} ${p(innerY+.010)} ${point} ${p(innerY)}Z`;
+   const outerY=standTop+.009,innerY=standBottom+.005,tipY=leafPointY,tipInset=Math.max(.008,point*.36);
+   const left=`M${-point} ${p(innerY)}L${-wing} ${p(outerY)}Q${-wing-.008} ${p(outerY+.012)} ${-wing+.006} ${p(outerY+.030)}Q${-point-.006} ${p(tipY-.008)} ${-point} ${p(tipY)}L${-point+tipInset} ${p(tipY-.012)}Q${-point*.52} ${p(innerY+.010)} ${-point} ${p(innerY)}Z`;
+   const right=`M${point} ${p(innerY)}L${wing} ${p(outerY)}Q${wing+.008} ${p(outerY+.012)} ${wing-.006} ${p(outerY+.030)}Q${point+.006} ${p(tipY-.008)} ${point} ${p(tipY)}L${point-tipInset} ${p(tipY-.012)}Q${point*.52} ${p(innerY+.010)} ${point} ${p(innerY)}Z`;
    const standEdge=path(`M${-standHalf} ${p(standTop)}Q0 ${p(standTop-.009)} ${standHalf} ${p(standTop)}M${-standHalf} ${p(standBottom)}Q0 ${p(standBottomCenter)} ${standHalf} ${p(standBottom)}`,'polo-front-collar-stand-edge','none','#354638',.0012);
    const bandTopEdge=path(`M${-standHalf} ${p(standTop+.015)}Q0 ${p(standTop+.006)} ${standHalf} ${p(standTop+.015)}`,'polo-collar-stand-rib','none','#354638',.0009);
+   const standRibs=path(Array.from({length:7},(_,i)=>{const x=-standHalf+.018+i*(2*standHalf-.036)/6;return `M${p(x)} ${p(standTop+.018)}L${p(x)} ${p(standBottom-.002)}`;}).join(''),'polo-collar-stand-ribs','none','#657064',.00055);
    // Keep the stable catalogue marker for older tag combinations while the
    // visible geometry is now split into the stand and two leaf pieces.
    const legacyMarker=path(standPath,'polo-fold-collar','none','none',0);
-   return path(standPath,'polo-front-collar-stand',c.trimColor)+legacyMarker+path(standBand,'polo-collar-stand-band','none','#354638',.0009)+bandTopEdge+path(left,'polo-collar-left',neckColor)+path(right,'polo-collar-right',neckColor)+standEdge+path(`M${-wing} ${p(outerY+.010)}Q${-point} ${p(tipY-.006)} ${-point} ${p(tipY)}`,'polo-collar-left-edge','none','#354638',.00105)+path(`M${wing} ${p(outerY+.010)}Q${point} ${p(tipY-.006)} ${point} ${p(tipY)}`,'polo-collar-right-edge','none','#354638',.00105)+path(`M${-point+tipInset} ${p(tipY-.012)}L${-point*.50} ${p(innerY)}M${point-tipInset} ${p(tipY-.012)}L${point*.50} ${p(innerY)}`,'polo-collar-centre-fold','none','#354638',.0009);
+   return path(standPath,'polo-front-collar-stand',c.trimColor)+legacyMarker+path(standBand,'polo-collar-stand-band','none','#354638',.0009)+bandTopEdge+standRibs+path(left,'polo-collar-left',neckColor)+path(right,'polo-collar-right',neckColor)+standEdge+path(`M${-wing} ${p(outerY+.010)}Q${-point} ${p(tipY-.006)} ${-point} ${p(tipY)}`,'polo-collar-left-edge','none','#354638',.00105)+path(`M${wing} ${p(outerY+.010)}Q${point} ${p(tipY-.006)} ${point} ${p(tipY)}`,'polo-collar-right-edge','none','#354638',.00105)+path(`M${-point+tipInset} ${p(tipY-.012)}L${-point*.50} ${p(innerY)}M${point-tipInset} ${p(tipY-.012)}L${point*.50} ${p(innerY)}`,'polo-collar-centre-fold','none','#354638',.0009);
   }
   return '';
  }
  function opening(){
   if(c.opening==='none')return '';
-  const start=neckline==='stand'?fd-h:neckline==='polo'?fd+Math.max(.080,h*1.25):fd-.006,end=c.opening==='full-zip'?H-.006:Math.max(fd+.06,start+c.openingLengthMm/mm),half=w/2;
+  // On a Polo the placket begins immediately below the collar points. A long
+  // hidden gap makes the front read as a Henley with a detached collar.
+  const start=neckline==='stand'?fd-h:neckline==='polo'?fd+Math.max(.045,h*.72):fd-.006,end=c.opening==='full-zip'?H-.006:Math.max(fd+.06,start+c.openingLengthMm/mm),half=w/2;
   let result=path(`M${-half} ${start}H${half}V${end}H${-half}Z`,'placket-facing',trim);
   if(c.opening==='buttons'){
    result+=path(`M${-half+.003} ${start}V${end-.003}H${half-.003}V${start}`,'placket-topstitch');
