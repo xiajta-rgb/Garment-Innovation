@@ -20,9 +20,12 @@ export function teeCraftDrawing(input:{neckline:CompositionElements['neckline'];
    // The back collar stand must cover the complete back neckline. A narrow
    // central patch reads as a crew-neck facing in the fixed three-view, while
    // a Polo stand is a continuous curved band from shoulder to shoulder.
-   const standHalf=Math.max(.095,n*.86),standHeight=Math.min(.062,Math.max(.045,h*.9)),standBottom=Math.min(.020,Math.max(.014,drop+h*.04)),standBottomCenter=Math.max(standBottom+.011,2*drop+.003),standTop=-standHeight,
-     leafDepth=Math.max(.074,h*1.28),leafPointY=drop+leafDepth,
-     wing=Math.min(n*.98,Math.max(.130,n*.88)),point=Math.max(.032,w*1.08),
+   const standHalf=Math.max(.095,n*.86),standHeight=Math.min(.036,Math.max(.026,h*.52)),standBottom=Math.min(.018,Math.max(.010,drop*.35)),standBottomCenter=Math.min(.055,Math.max(standBottom+.012,2*drop+.003)),standTop=-standHeight,
+     leafDepth=Math.max(.058,h*1.05),leafPointY=Math.min(.112,drop+leafDepth),
+     // The leaf reaches toward the shoulder and then turns down toward the
+     // placket. Keeping the point near CF gives a real spread collar instead
+     // of the square bib produced by using the whole stand as one fill.
+     wing=Math.min(.205,Math.max(.160,n*1.28)),point=Math.max(.036,w*1.25),
      standPath=`M${-standHalf} ${p(standTop)}Q0 ${p(standTop-.009)} ${standHalf} ${p(standTop)}L${standHalf} ${p(standBottom)}Q0 ${p(standBottomCenter)} ${-standHalf} ${p(standBottom)}Z`;
    const standBand=standPath;
    if(back){
@@ -39,9 +42,9 @@ export function teeCraftDrawing(input:{neckline:CompositionElements['neckline'];
    // at the neck edge, runs almost to the shoulder side, then points inward
    // to the placket. The previous geometry pulled both leaves too far inward
    // and made a bow-tie shape in the flat view.
-   const outerY=standTop+.009,innerY=standBottom+.008,tipY=leafPointY,tipInset=Math.max(.010,point*.42);
-   const left=`M${-standHalf} ${p(standTop+.010)}Q${-wing} ${p(outerY)} ${-wing} ${p(outerY+.020)}Q${-point} ${p(tipY-.012)} ${-point} ${p(tipY)}L${-point+tipInset} ${p(tipY-.012)}Q${-point*.50} ${p(innerY)} ${-standHalf} ${p(standBottom)}Z`;
-   const right=`M${standHalf} ${p(standTop+.010)}Q${wing} ${p(outerY)} ${wing} ${p(outerY+.020)}Q${point} ${p(tipY-.012)} ${point} ${p(tipY)}L${point-tipInset} ${p(tipY-.012)}Q${point*.50} ${p(innerY)} ${standHalf} ${p(standBottom)}Z`;
+   const outerY=standTop+.006,innerY=standBottom+.006,tipY=leafPointY,tipInset=Math.max(.010,point*.42);
+   const left=`M${-point} ${p(innerY)}L${-wing} ${p(outerY)}Q${-wing-.012} ${p(outerY+.014)} ${-wing-.006} ${p(outerY+.022)}Q${-point} ${p(tipY-.010)} ${-point} ${p(tipY)}L${-point+tipInset} ${p(tipY-.012)}Q${-point*.52} ${p(innerY+.010)} ${-point} ${p(innerY)}Z`;
+   const right=`M${point} ${p(innerY)}L${wing} ${p(outerY)}Q${wing+.012} ${p(outerY+.014)} ${wing+.006} ${p(outerY+.022)}Q${point} ${p(tipY-.010)} ${point} ${p(tipY)}L${point-tipInset} ${p(tipY-.012)}Q${point*.52} ${p(innerY+.010)} ${point} ${p(innerY)}Z`;
    const standEdge=path(`M${-standHalf} ${p(standTop)}Q0 ${p(standTop-.009)} ${standHalf} ${p(standTop)}M${-standHalf} ${p(standBottom)}Q0 ${p(standBottomCenter)} ${standHalf} ${p(standBottom)}`,'polo-front-collar-stand-edge','none','#354638',.0012);
    const bandTopEdge=path(`M${-standHalf} ${p(standTop+.015)}Q0 ${p(standTop+.006)} ${standHalf} ${p(standTop+.015)}`,'polo-collar-stand-rib','none','#354638',.0009);
    // Keep the stable catalogue marker for older tag combinations while the
